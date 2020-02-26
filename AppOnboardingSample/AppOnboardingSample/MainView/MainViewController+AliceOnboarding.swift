@@ -9,16 +9,16 @@ extension MainViewController {
     func printOnboardingInfo() {
         print(Onboarding.info())
     }
-    func aliceOnboarding(userToken: String, selectCountry: Bool) {
-        
+    
+    func getConfig(userToken: String, selectCountry: Bool) -> OnboardingConfig{
         var config: OnboardingConfig
         let appearanceConfig = AppearanceConfig()
-        
+       
         config = OnboardingConfig.builder()
             .withUserToken(userToken)
             .withAppearanceConfig(appearanceConfig: appearanceConfig)
             //.withCustomLocalization(inBundle: Bundle.main, language: "en")
-        
+       
         if addSelfie {
             config = try! config.withAddSelfieStage()
         }
@@ -37,7 +37,7 @@ extension MainViewController {
             }
         } else {
             if addDocumentSpanishIdcard {
-                config = try! config.withAddDocumentStage(ofType: .idcard, issuingCountry: "ESP")
+               config = try! config.withAddDocumentStage(ofType: .idcard, issuingCountry: "ESP")
             }
             if addDocumentSpanishDriverLicense {
                 config = try! config.withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
@@ -49,6 +49,10 @@ extension MainViewController {
                 config = try! config.withAddDocumentStage(ofType: .passport)
             }
         }
+        return config
+    }
+    func aliceOnboarding(userToken: String, selectCountry: Bool) {
+        let config = getConfig(userToken: userToken, selectCountry: selectCountry)
         let onboarding = Onboarding(self, config: config)
         onboarding.run { result in
             switch result {

@@ -33,6 +33,7 @@ class MainViewController: UIViewController {
     var typeLastName: Bool = false
     var randomName: Bool = false
     var isStart: Bool = true
+    var userInfo: UserInfo?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,31 +59,37 @@ class MainViewController: UIViewController {
             let qualityOfServiceClass = DispatchQoS.QoSClass.background
             let backgroundQueue = DispatchQueue.global(qos: qualityOfServiceClass)
             backgroundQueue.async(execute: {
-                self.logInWithSandbox(email: email,
-                                      firstName: firstName,
-                                      lastName: lastName
-                                      ) { result in
-                    DispatchQueue.main.async(execute: { () -> Void in
-                        switch result {
-                        case .success(let userToken):
-                            button.stopAnimation(animationStyle: .normal, completion: {
-                                if self.useOnboardingCommands {
-                                    self.aliceOnboardingCommand(userToken: userToken)
-                                } else {
-                                    self.aliceOnboarding(userToken: userToken,
-                                                         selectCountry: self.selectCountry)
-                                }
-                                self.actionButton.layer.cornerRadius = 20
-                            })
-                        case .failure(let error):
-                            button.stopAnimation(animationStyle: .shake, completion: {
-                                showAlert(viewController: self,
-                                          title: "Sandbox Error",
-                                          message: "\(error):")
-                                self.actionButton.layer.cornerRadius = 20
-                            })
-                        }
-                    })
+                
+                self.userInfo = UserInfo(email: email,
+                                        firstName: firstName,
+                                        lastName: lastName)
+                
+                let authenticator = self.getAuthenticator(.trial)
+                
+                // Please, for production environments use .production authentication mode
+                // Find in MainViewController+Auth an example
+                // let authenticator = self.getAuthenticator(.production)
+                
+                authenticator.execute { result in
+                    switch result {
+                    case .success(let userToken):
+                        button.stopAnimation(animationStyle: .normal, completion: {
+                            if self.useOnboardingCommands {
+                                self.aliceOnboardingCommand(userToken: userToken)
+                            } else {
+                                self.aliceOnboarding(userToken: userToken,
+                                                     selectCountry: self.selectCountry)
+                            }
+                            self.actionButton.layer.cornerRadius = 20
+                        })
+                    case .failure(let error):
+                        button.stopAnimation(animationStyle: .shake, completion: {
+                            showAlert(viewController: self,
+                                      title: "Authenticator Error",
+                                      message: "\(error):")
+                            self.actionButton.layer.cornerRadius = 20
+                        })
+                    }
                 }
             })
         }
