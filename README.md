@@ -71,16 +71,16 @@ onboarding.run { result in
 
 How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
-`AliceOnboarding` can be used with two differnet modes of authentication:
+`AliceOnboarding` can be used with two differnet authentication modes:
 
-* Using ALiCE Onboarding Sandbox: Recommended only in the early stages of integration.
+* Trial (Using ALiCE Onboarding Sandbox): Recommended only in the early stages of integration.
     - Pros: This mode do not need backend integration.
     - Cons: Security.
-* Using your Backend: In a production deployment we strongly recommend to use your backend to obtain required TOKENS.
+* Production (Using your Backend): In a production deployment we strongly recommend to use your backend to obtain required TOKENS.
     - Pros: Security. Only your backend is able to do critical operations.
     - Cons: Needs some integration in your backend.
 
-##### Trial (Sandbox)
+#### Trial (Sandbox)
 
 If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create an user and obtain its `USER_TOKEN` already linked with the email.
 
@@ -111,7 +111,7 @@ An `email` parameter in `UserInfo` is required to associate it to an ALiCE Onboa
 
 For more information about the Sandbox, please check the following [doc](https://docs.alicebiometrics.com/onboarding/access.html#using-alice-onboarding-sandbox).
 
-##### Production (Your Backend)
+#### Production (Your Backend)
 
 On the other hand, for a production environments we strongly recommend to use your backend to obtain required `USER_TOKEN`.
 
