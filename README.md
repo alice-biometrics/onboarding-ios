@@ -49,7 +49,7 @@ let config = OnboardingConfig.builder()
 Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
 
 
-### Using ALiCE Onboarding on Production
+### Start ALiCE Onboarding Flow
 
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
@@ -67,48 +67,86 @@ onboarding.run { result in
 }
 ```
 
-### Using ALiCE Onboarding on Trial
+### Authentication
 
-On the other hand, if you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create an user and obtain its `USER_TOKEN` already linked with the email.
+How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
-For more information about the Sandbox, please check the following [doc](https://docs.alicebiometrics.com/onboarding/access.html#using-alice-onboarding-sandbox).
+`AliceOnboarding` can be used with two differnet modes of authentication:
 
-Use the `SandboxManager` class to ease the integration.
+* Using ALiCE Onboarding Sandbox: Recommended only in the early stages of integration.
+    - Pros: This mode do not need backend integration.
+    - Cons: Security.
+* Using your Backend: In a production deployment we strongly recommend to use your backend to obtain required TOKENS.
+    - Pros: Security. Only your backend is able to do critical operations.
+    - Cons: Needs some integration in your backend.
+
+##### Trial (Sandbox)
+
+If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create an user and obtain its `USER_TOKEN` already linked with the email.
+
+Use the `SandboxAuthenticator` class to ease the integration.
 
 ```swift
 let sandboxToken = "<ADD-YOUR-SANDBOX-TOKEN-HERE>"
-let sandboxManager = SandboxManager(sandboxToken: sandboxToken)
-let userInfo = UserInfo(email: emailText.text!, firstName: "Alice", lastName: "Biometrics")
-sandboxManager.createUserAndGetUserToken(userInfo: userInfo) { result in
-   print("createUserAndGetUserToken:")
-   switch result {
-   case .success(let userToken):
-      print("\tsuccess: \(userToken)")
-   case .failure(.connectionError):
-      print("\tconnectionError")
-   case  .failure(.clientError(let statusCode, let message)):
-      print("\tclientError: \(statusCode) | \(message)")
-   case  .failure(.serverError(let statusCode, let message)):
-      print("\tserverError: \(statusCode) | \(message)")
-   case  .failure(.invalidSandboxToken(let statusCode, let message)):
-      print("\tinvalidSandboxToken: \(statusCode) | \(message)")
-   case  .failure(.encodingError):
-      print("\tencodingError")
-   case  .failure(.unknownError):
-      print("\tunknownError")
-   }
+let userInfo = UserInfo(email: email, // required
+                        firstName: firstName, // optional 
+                        lastName: lastName)  // optional 
+                        
+let authenticator = SandboxAuthenticator(sandboxToken: sandboxToken, userInfo: userInfo)
+
+authenticator.execute { result in
+    switch result {
+    case .success(let userToken):
+       // Configure ALiCE Onboarding with the OnboardingConfig
+       // Then Run the ALiCE Onboarding Flow
+    case .failure(let error):
+       // Inform the user about Authentication Errors
+    }
 }
 ```
 
 Where `sandboxToken` is a temporal token for testing the technology in a development/testing environment. 
 
-An `email` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user.
+An `email` parameter in `UserInfo` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user as `firstName` and `lastName`.
+
+For more information about the Sandbox, please check the following [doc](https://docs.alicebiometrics.com/onboarding/access.html#using-alice-onboarding-sandbox).
+
+##### Production (Your Backend)
+
+On the other hand, for a production environments we strongly recommend to use your backend to obtain required `USER_TOKEN`.
+
+You can implement the `Authenticator` protocol available in the `AliceOnboarding` framework.
 
 ```swift
-let userInfo = UserInfo(email: email,
-                        firstName: firstName,
-                        lastName: lastName)
+class MyBackendAuthenticator : Authenticator {
+    
+    func execute(completion: @escaping Response<String, AuthenticationError>){
+        
+        // Add here your code to retrieve the user token from your backend
+        
+        let userToken = "fakeUserToken"
+        completion(.success(userToken))
+    }
+}
 ```
+
+In a very similar way to the authentication available with the sandbox:
+
+```swift
+                        
+let authenticator = MyBackendAuthenticator()
+
+authenticator.execute { result in
+    switch result {
+    case .success(let userToken):
+       // Configure ALiCE Onboarding with the OnboardingConfig
+       // Then Run the ALiCE Onboarding Flow
+    case .failure(let error):
+       // Inform the user about Authentication Errors
+    }
+}
+```
+
 
 ## Demo
 
@@ -128,6 +166,8 @@ open AppOnboardingSample.xcworkspace
 ```
 
 Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
+
+See the authentication options [here](AppOnboardingSample/MainView/MainViewController+Auth.swift)
 
 ## Customisation
 
