@@ -36,30 +36,36 @@ import AliceOnboarding
 
 You can configure the onboarding flow with the following code:
 
-```js
+```swift
 let userToken = "<ADD-YOUR-USER-TOKEN-HERE>"
 
-let config = new aliceonboarding.OnboardingConfig()
+let config = OnboardingConfig.builder()
   .withUserToken(userToken)
   .withAddSelfieStage()
-  .withAddDocumentStage(onboarding.DocumentType.IDCARD, "ESP")
-  .withAddDocumentStage(onboarding.DocumentType.DRIVERLICENSE, "ESP")
+  .withAddDocumentStage(ofType: .idcard, issuingCountry: "ESP")
+  .withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
 ```
+
+Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
+
 
 ### Using ALiCE Onboarding on Production
 
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
-```js
-function onSuccess(userInfo) {console.log("onSuccess: " + userInfo)}
-function onFailure(error) {console.log("onFailure: " + error)}
-function onCancel() { console.log("onCancel")}
-
-new aliceonboarding.Onboarding("#alice-onboarding-mount", config).run(onSuccess, onFailure, onCancel);
+```swift
+let onboarding = Onboarding(self, config: config)
+onboarding.run { result in
+    switch result {
+    case let .success(userStatus):
+        print("userStatus: \(String(describing: userStatus))")
+    case let .failure(error):
+        print("failure: \(error.localizedDescription)")
+    case .cancel:
+        print("User has cancelled the onboarding")
+    }
+}
 ```
-
-Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
-
 
 ### Using ALiCE Onboarding on Trial
 
@@ -93,8 +99,8 @@ Where `sandboxToken` is a temporal token for testing the technology in a develop
 
 An `email` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user.
 
-```js
-userInfo = new onboarding.UserInfo(
+```swift
+let userInfo = new UserInfo(
   email,
   firstName,
   lastName
@@ -103,31 +109,29 @@ userInfo = new onboarding.UserInfo(
 
 ## Demo
 
-Check our JSFiddle demo [here](https://jsfiddle.net/alicebiometrics/nskyhfou/embedded/). Remember you must add your `SANDBOX_TOKEN` credentials. If you have already integrated ALiCE Onboarding in your backend, remove the `aliceonboarding.logInWithSandbox` function and use your retrieved `USER_TOKEN`. 
+Check our iOS demo in this repo (`AppOnboardingSample` folder). 
 
-## Customize
+Intall cocoapods dependencies with:
 
-##### Localization
-
-```js
-let userToken = "<ADD-YOUR-USER-TOKEN-HERE>"
-let language = "en" (default)
-
-let config = new aliceonboarding.OnboardingConfig()
-  .withUserToken(userToken)
-  .withAddSelfieStage()
-  .withAddDocumentStage(onboarding.DocumentType.IDCARD, "ESP")
-  .withAddDocumentStage(onboarding.DocumentType.DRIVERLICENSE, "ESP")
-  .withCustomLocalization(language)
+```console
+cd AppOnboardingSample
+pod install
 ```
 
-##### Appearance
+Open the Xcode workspace
 
-Modify the CSS styles:
-
-```html
-<link rel='stylesheet' href='dist/style.css>
+```console
+open AppOnboardingSample.xcworkspace
 ```
+
+Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
+
+## Customisation
+
+
+Please, visit the doc.
+
+https://docs.alicebiometrics.com/onboarding/sdk/ios/customisation.html
 
 
 ## Documentation :page_facing_up:
