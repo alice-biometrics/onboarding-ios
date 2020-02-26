@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OA5-vT-bEI">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FYV-A8-L6e">
+            <objects>
+                <viewController id="OA5-vT-bEI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y4w-ft-ZF5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="2we-Xr-Wsd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AjZ-LG-tBf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.1215686275" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1N-Qi-XNF" userLabel="Action Button View">
+                                <rect key="frame" x="0.0" y="725.5" width="414" height="89.5"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h8b-Ym-zdP" userLabel="Settings View">
+                                <rect key="frame" x="0.0" y="815.5" width="414" height="80.5"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JtS-eF-kNb" userLabel="Text Fields View">
+                                <rect key="frame" x="0.0" y="456.5" width="414" height="269"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DoW-gX-zMG" userLabel="Image Logo View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="456"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alice_blanco.png" translatesAutoresizingMaskIntoConstraints="NO" id="xjT-m6-l4H">
+                                        <rect key="frame" x="16" y="60.5" width="382" height="335"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="xjT-m6-l4H" secondAttribute="height" multiplier="382:335" id="1NL-PZ-rpI"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xjT-m6-l4H" firstAttribute="leading" secondItem="DoW-gX-zMG" secondAttribute="leading" constant="16" id="5eu-ge-KvL"/>
+                                    <constraint firstAttribute="trailing" secondItem="xjT-m6-l4H" secondAttribute="trailing" constant="16" id="9jF-D0-VFU"/>
+                                    <constraint firstItem="xjT-m6-l4H" firstAttribute="centerX" secondItem="DoW-gX-zMG" secondAttribute="centerX" id="JKf-Rb-LoE"/>
+                                    <constraint firstItem="xjT-m6-l4H" firstAttribute="centerY" secondItem="DoW-gX-zMG" secondAttribute="centerY" id="iie-jP-Q1k"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AjZ-LG-tBf" firstAttribute="top" secondItem="Y4w-ft-ZF5" secondAttribute="top" id="63z-CQ-UHG"/>
+                            <constraint firstItem="DoW-gX-zMG" firstAttribute="leading" secondItem="5gy-HO-P2D" secondAttribute="leading" id="6dN-Qv-kjU"/>
+                            <constraint firstItem="DoW-gX-zMG" firstAttribute="top" secondItem="Y4w-ft-ZF5" secondAttribute="top" id="8WB-FK-hXq"/>
+                            <constraint firstItem="h8b-Ym-zdP" firstAttribute="top" secondItem="B1N-Qi-XNF" secondAttribute="bottom" constant="0.5" id="Cme-TK-6j4"/>
+                            <constraint firstItem="B1N-Qi-XNF" firstAttribute="trailing" secondItem="5gy-HO-P2D" secondAttribute="trailing" id="EA3-D9-EOc"/>
+                            <constraint firstItem="2we-Xr-Wsd" firstAttribute="top" secondItem="Y4w-ft-ZF5" secondAttribute="top" id="HXG-Oz-6R2"/>
+                            <constraint firstItem="JtS-eF-kNb" firstAttribute="height" secondItem="Y4w-ft-ZF5" secondAttribute="height" multiplier="0.3" id="I5m-qA-juZ"/>
+                            <constraint firstItem="h8b-Ym-zdP" firstAttribute="height" secondItem="Y4w-ft-ZF5" secondAttribute="height" multiplier="0.09" id="Jqw-Mq-vJQ"/>
+                            <constraint firstItem="B1N-Qi-XNF" firstAttribute="height" secondItem="Y4w-ft-ZF5" secondAttribute="height" multiplier="0.1" id="Nf9-kb-Wzr"/>
+                            <constraint firstAttribute="bottom" secondItem="AjZ-LG-tBf" secondAttribute="bottom" id="OHK-cy-1aV"/>
+                            <constraint firstItem="h8b-Ym-zdP" firstAttribute="trailing" secondItem="5gy-HO-P2D" secondAttribute="trailing" id="QMk-id-Tlx"/>
+                            <constraint firstItem="JtS-eF-kNb" firstAttribute="leading" secondItem="5gy-HO-P2D" secondAttribute="leading" id="RfE-Wx-2cx"/>
+                            <constraint firstItem="DoW-gX-zMG" firstAttribute="trailing" secondItem="5gy-HO-P2D" secondAttribute="trailing" id="TQ1-4K-441"/>
+                            <constraint firstAttribute="bottom" secondItem="h8b-Ym-zdP" secondAttribute="bottom" id="cu3-H1-Wdp"/>
+                            <constraint firstItem="JtS-eF-kNb" firstAttribute="top" secondItem="DoW-gX-zMG" secondAttribute="bottom" constant="0.5" id="dug-U2-LKW"/>
+                            <constraint firstItem="h8b-Ym-zdP" firstAttribute="leading" secondItem="5gy-HO-P2D" secondAttribute="leading" id="gNb-wY-Gku"/>
+                            <constraint firstItem="B1N-Qi-XNF" firstAttribute="leading" secondItem="5gy-HO-P2D" secondAttribute="leading" id="npq-dj-KQ5"/>
+                            <constraint firstItem="B1N-Qi-XNF" firstAttribute="top" secondItem="JtS-eF-kNb" secondAttribute="bottom" id="omC-lL-1zB"/>
+                            <constraint firstAttribute="bottom" secondItem="2we-Xr-Wsd" secondAttribute="bottom" id="p8f-aE-iog"/>
+                            <constraint firstItem="2we-Xr-Wsd" firstAttribute="trailing" secondItem="5gy-HO-P2D" secondAttribute="trailing" id="pf7-Up-lsK"/>
+                            <constraint firstItem="2we-Xr-Wsd" firstAttribute="leading" secondItem="5gy-HO-P2D" secondAttribute="leading" id="pr3-H2-Co7"/>
+                            <constraint firstItem="JtS-eF-kNb" firstAttribute="trailing" secondItem="5gy-HO-P2D" secondAttribute="trailing" id="ubd-SD-Hfy"/>
+                            <constraint firstItem="AjZ-LG-tBf" firstAttribute="leading" secondItem="5gy-HO-P2D" secondAttribute="leading" id="vFZ-pe-jlM"/>
+                            <constraint firstItem="AjZ-LG-tBf" firstAttribute="trailing" secondItem="2we-Xr-Wsd" secondAttribute="trailing" id="zlG-Oj-qpQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5gy-HO-P2D"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hWb-aw-kyW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="351"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alice_blanco.png" width="1780" height="1583"/>
+        <image name="background_image.png" width="341" height="704"/>
+    </resources>
+</document>

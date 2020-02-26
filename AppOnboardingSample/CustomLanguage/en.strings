@@ -1,0 +1,100 @@
+/*
+ Localizable.strings
+ AppOnboardingSample
+ 
+ Copyright © 2019 ALiCE. All rights reserved.
+ */
+
+"onboarding_alert"= "Alert";
+"onboarding_subtitle_document_supported_error"= "Impossible to retrieve document supported. Please, check your connexion";
+
+"onboarding_title_connection_error"= "Connection error";
+"onboarding_subtitle_connection_error"= "Please, check your internet connection";
+
+"onboarding_title_technical_error"= "An error occurred.";
+"onboarding_subtitle_technical_error"= "Please, try again.";
+
+//onboarding stages
+"onboarding_stage_completed"= "Completed";
+"onboarding_stage_selfie" = "Selfie";
+"onboarding_stage_id_card" = "ID Card";
+"onboarding_stage_driver_license" = "Driver license";
+"onboarding_stage_residence_permit"= "Residence permit";
+"onboarding_stage_passport" = "Passport";
+"onboarding_stage_select_document" = "Select country";
+
+"onboarding_stage_already_completed" = "Stage already completed";
+
+"onboarding_finish_succesfully"= "Congrats! You have successfully completed the onboarding process.";
+"onboarding_onboarding_config_error"= "Please, review your OnboardingConfig. You should select at least one Onboarding Stage";
+
+"onboarding_description_stages"= "Please, complete the following steps for a successful onboarding!";
+"onboarding_cancel_button"= "Cancel";
+"onboarding_stages_done_button"="DONE";
+"onboarding_stages_start_button"="START";
+"onboarding_next_step"="NEXT STEP";
+
+"onboarding_status_stage_title"="Onboarding";
+
+"onboarding_capture_document_done_button"="DONE";
+"onboarding_intermediate_document_subtitle"="Please, proceed with document capture";
+
+"onboarding_select_document_subtitle_issuing_country"="Select the issuing country";
+"onboarding_country_no_selected"="Please, select the issuing country";
+
+"onboarding_stage_canceled"="The stage has been canceled.";
+"onboarding_loading_resources"="The stage has been canceled.";
+
+"onboarding_loading_resources"="Slow connection, try again later";
+
+
+//onboarding capturers
+"onboarding_id_card_capture" = "ID CARD";
+"onboarding_driver_license_capture"= "DRIVER'S LICENSE";
+"onboarding_passport_capture"= "PASSPORT";
+"onboarding_residence_permit_capture"= "RESIDENCE PERMIT";
+
+
+"onboarding_side_front"= "(FRONT)";
+"onboarding_side_back"= "(BACK)";
+
+"onboarding_retry_photo"= "Retry photo";
+"onboarding_send_photo"= "Send photo";
+
+"onboarding_manual_capture"= "Manual capture";
+"onboarding_retry"= "Retry";
+
+"onboarding_title_document_not_recognised"= "The document could not be read.";
+"onboarding_subtitle_document_not_recognised"= "Please, try again.";
+
+"onboarding_authenticating"="Authenticating...";
+"onboarding_adding_selfie"="Adding Selfie...";
+
+"onboarding_label_country"="Country";
+
+"onboarding_front_side"="FRONT SIDE";
+"onboarding_back_side"="BACK SIDE";
+"onboarding_info_page"="INFO PAGE";
+"onboarding_tap_here"="TAP HERE";
+
+
+"onboarding_other_country_list" = "Other";
+"onboarding_start" = "Start";
+"onboarding_cancel" = "Cancel";
+
+
+//User feedback
+"onboarding_check_document_position" =  "Please, check that you have the document adjusted to the guides";
+"onboarding_check_document_type" =  "Please, check that you are showing the correct document.";
+"onboarding_check_document_visibility" =  "Please, check that you are not covering any piece of document.";
+"onboarding_check_document_focus_and_visibility" =  "Please, check that the document is focused and readable.";
+
+"onboarding_get_farther" =  "Please, get the device farther";
+"onboarding_get_close" =  "Please, come closer";
+"onboarding_center_face_on_image" =  "Please, center your face on the mask";
+"onboarding_look_camera" = "Please look at the camera";
+"onboarding_device_elevation" = "Please, hold your device to eye level";
+"onboarding_no_face" = "No face detected.";
+"onboarding_center_document_on_guides" = "Please, center your document in the guides";
+"onboarding_center_your_front_document" = "Please, show the front of the document";
+

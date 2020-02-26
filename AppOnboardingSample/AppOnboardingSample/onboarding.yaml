@@ -1,0 +1,30 @@
+authentication:
+  userToken: idahfpahppidahfipa
+
+stages:
+  - stage: AddSelfie
+  - stage: AddDocument
+    type: idcard
+  - stage: AddDocument
+    type: idcard
+    issuing_country: ESP
+
+appearence:
+  primaryColor:
+    red: 1
+    green: 1
+    blue: 1
+    alpha: 1
+  secondaryColor:
+    red: 1
+    green: 1
+    blue: 1
+    alpha: 1
+  uncheckedItemsColor:
+    red: 1
+    green: 1
+    blue: 1
+    alpha: 1
+  fontRegular: System Thin
+  fontBold: System Light
+ 
