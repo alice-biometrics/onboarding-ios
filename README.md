@@ -73,26 +73,31 @@ On the other hand, if you want to test the technology without integrate it with 
 
 For more information about the Sandbox, please check the following [doc](https://docs.alicebiometrics.com/onboarding/access.html#using-alice-onboarding-sandbox).
 
-Use the `aliceonboarding.logInWithSandbox` function to ease the integration.
+Use the `SandboxManager` class to ease the integration.
 
-```js
+```swift
 let sandboxToken = "<ADD-YOUR-SANDBOX-TOKEN-HERE>"
-let userInfo = new onboarding.UserInfo(email)
-
-aliceonboarding.logInWithSandbox(sandboxToken, userInfo)
-  .then(userToken => {
-    // Obtain previously configured OnboardingConfig object
-    let config = getOnboardingConfig(userToken, appSettings);
-    
-    function onSuccess(userInfo) {console.log("onSuccess: " + userInfo)}
-    function onFailure(error) {console.log("onFailure: " + error)}
-    function onCancel() { console.log("onCancel")}
-        
-    new aliceonboarding.Onboarding("#alice-onboarding-mount", config).run(onSuccess, onFailure, onCancel);
-  })
-  .catch(err => {
-    console.error(err);
-  });
+let sandboxManager = SandboxManager(sandboxToken: sandboxToken)
+let userInfo = UserInfo(email: emailText.text!, firstName: "Alice", lastName: "Biometrics")
+sandboxManager.createUserAndGetUserToken(userInfo: userInfo) { result in
+   print("createUserAndGetUserToken:")
+   switch result {
+   case .success(let userToken):
+      print("\tsuccess: \(userToken)")
+   case .failure(.connectionError):
+      print("\tconnectionError")
+   case  .failure(.clientError(let statusCode, let message)):
+      print("\tclientError: \(statusCode) | \(message)")
+   case  .failure(.serverError(let statusCode, let message)):
+      print("\tserverError: \(statusCode) | \(message)")
+   case  .failure(.invalidSandboxToken(let statusCode, let message)):
+      print("\tinvalidSandboxToken: \(statusCode) | \(message)")
+   case  .failure(.encodingError):
+      print("\tencodingError")
+   case  .failure(.unknownError):
+      print("\tunknownError")
+   }
+}
 ```
 
 Where `sandboxToken` is a temporal token for testing the technology in a development/testing environment. 
@@ -100,11 +105,9 @@ Where `sandboxToken` is a temporal token for testing the technology in a develop
 An `email` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user.
 
 ```swift
-let userInfo = new UserInfo(
-  email,
-  firstName,
-  lastName
-)
+let userInfo = new UserInfo(email: email,
+                            firstName: firstName,
+                            lastName: lastName)
 ```
 
 ## Demo
