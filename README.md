@@ -105,9 +105,9 @@ Where `sandboxToken` is a temporal token for testing the technology in a develop
 An `email` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user.
 
 ```swift
-let userInfo = new UserInfo(email: email,
-                            firstName: firstName,
-                            lastName: lastName)
+let userInfo = UserInfo(email: email,
+                        firstName: firstName,
+                        lastName: lastName)
 ```
 
 ## Demo
