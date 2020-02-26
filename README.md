@@ -15,7 +15,7 @@ The main features are:
 
 ## Table of Contents
 - [Installation :computer:](#installation-computer)
-- [Usage :wave:](#usage-wave)
+- [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
   * [Import the library](#import-the-library)
   * [Configuration](#configuration)
   * [Run ALiCE Onboarding](#run-alice-onboarding)
@@ -38,7 +38,7 @@ The AliceOnboarding component is available on Cocoapods. Add AliceOnboarding to 
 pod 'AliceOnboarding'
 ```
 
-## Usage :wave:
+## Getting Started :chart_with_upwards_trend:
 
 ### Import the library
 
