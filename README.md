@@ -22,6 +22,7 @@ The main features are:
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
   * [Trial](#trial)
   * [Production](#production)
+- [Demo :rocket:](#demo-rocket)
 - [Customisation :gear:](#customisation-gear)
 - [Documentation :page_facing_up:](#documentation-page_facing_up)
 - [Contact :mailbox_with_mail:](#contact-mailbox_with_mail)
@@ -162,7 +163,7 @@ authenticator.execute { result in
 ```
 
 
-## Demo
+## Demo :rocket:
 
 Check our iOS demo in this repo (`AppOnboardingSample` folder). 
 
