@@ -13,6 +13,18 @@ The main features are:
 - Communication with the onboarding API to facilitate rapid integration and development.
 - Manage the onboarding flow configuration: requested documents and order.
 
+## Table of Contents
+- [Installation :computer:](#installation-computer)
+- [Usage :wave:](#usage-wave)
+  * [Import the library](#import-the-library)
+  * [Configuration](#configuration)
+  * [Run ALiCE Onboarding](#run-alice-onboarding)
+- [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
+- [Customisation :gear:](#customisation-gear)
+- [Documentation :page_facing_up:](#documentation-page_facing_up)
+- [Contact :mailbox_with_mail:](#contact-mailbox_with_mail)
+
+
 ## Installation :computer:
 
 **Using Cocoapods**
@@ -49,7 +61,7 @@ let config = OnboardingConfig.builder()
 Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
 
 
-### Start ALiCE Onboarding Flow
+### Run ALiCE Onboarding
 
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
@@ -67,7 +79,7 @@ onboarding.run { result in
 }
 ```
 
-### Authentication
+## Authentication :closed_lock_with_key:
 
 How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
@@ -80,7 +92,7 @@ How can we get the `userToken` to start testing ALiCE Onboarding technology?
     - Pros: Security. Only your backend is able to do critical operations.
     - Cons: Needs some integration in your backend.
 
-#### Trial (Sandbox)
+### Trial (Sandbox)
 
 If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create an user and obtain its `USER_TOKEN` already linked with the email.
 
@@ -111,7 +123,7 @@ An `email` parameter in `UserInfo` is required to associate it to an ALiCE Onboa
 
 For more information about the Sandbox, please check the following [doc](https://docs.alicebiometrics.com/onboarding/access.html#using-alice-onboarding-sandbox).
 
-#### Production (Your Backend)
+### Production (Your Backend)
 
 On the other hand, for a production environments we strongly recommend to use your backend to obtain required `USER_TOKEN`.
 
@@ -169,7 +181,7 @@ Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Toke
 
 See the authentication options [here](AppOnboardingSample/MainView/MainViewController+Auth.swift)
 
-## Customisation
+## Customisation :gear:
 
 
 Please, visit the doc.
