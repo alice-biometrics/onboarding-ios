@@ -10,6 +10,7 @@ build
 !*.xcworkspace/contents.xcworkspacedata
 
 AppOnboardingSample/AppOnboardingSample.xcodeproj/project.pbxproj
+AppOnboardingSample/AppOnboardingSample.xcworkspace/
 
 # Xcode
 *.pbxuser
