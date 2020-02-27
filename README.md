@@ -35,13 +35,13 @@ The main features are:
 The AliceOnboarding component is available on Cocoapods. Add AliceOnboarding to your projects adding to your Podfile the following code:
 
 ```
+pod repo update
 pod 'AliceOnboarding'
 ```
 
 ## Getting Started :chart_with_upwards_trend:
 
 ### Import the library
-
 
 ```swift
 import AliceOnboarding
@@ -61,7 +61,7 @@ let config = OnboardingConfig.builder()
   .withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
 ```
 
-Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see Authentication).
+Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)).
 
 
 ### Run ALiCE Onboarding
@@ -124,6 +124,8 @@ The `sandboxToken` is a temporal token for testing the technology in a developme
 
 An `email` parameter in `UserInfo` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user as `firstName` and `lastName`.
 
+See the authentication options [here](AppOnboardingSample/AppOnboardingSample/MainView/MainViewController+Auth.swift)
+
 For more information about the Sandbox, please check the following [doc](https://docs.alicebiometrics.com/onboarding/access.html#using-alice-onboarding-sandbox).
 
 ### Production
@@ -180,9 +182,13 @@ Open the Xcode workspace
 open AppOnboardingSample.xcworkspace
 ```
 
+#### App
+
 Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
 
-See the authentication options [here](AppOnboardingSample/AppOnboardingSample/MainView/MainViewController+Auth.swift)
+<img src="images/app_settings.jpg" width="200">
+
+
 
 ## Customisation :gear:
 
