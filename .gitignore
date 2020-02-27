@@ -5,11 +5,8 @@
 ## User settings
 xcuserdata/
 build
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 
-AppOnboardingSample/AppOnboardingSample.xcodeproj/project.pbxproj
 AppOnboardingSample/AppOnboardingSample.xcworkspace/
 
 # Xcode
