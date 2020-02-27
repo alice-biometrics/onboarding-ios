@@ -61,7 +61,7 @@ let config = OnboardingConfig.builder()
   .withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
 ```
 
-Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend and send it to the client.
+Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see Authentication).
 
 
 ### Run ALiCE Onboarding
@@ -90,9 +90,9 @@ How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
 * Trial (Using ALiCE Onboarding Sandbox): Recommended only in the early stages of integration.
     - Pros: This mode do not need backend integration.
-    - Cons: Security.
+    - Cons: Security compromises. It must be used only for develpment and testing.
 * Production (Using your Backend): In a production deployment we strongly recommend to use your backend to obtain required TOKENS.
-    - Pros: Security. Only your backend is able to do critical operations.
+    - Pros: Full security level. Only your backend is able to do critical operations.
     - Cons: Needs some integration in your backend.
 
 ### Trial
