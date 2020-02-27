@@ -97,7 +97,7 @@ How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
 ### Trial
 
-If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create an user and obtain its `USER_TOKEN` already linked with the email.
+If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create a user and obtain its `USER_TOKEN` already linked with the email.
 
 Use the `SandboxAuthenticator` class to ease the integration.
 
@@ -120,7 +120,7 @@ authenticator.execute { result in
 }
 ```
 
-Where `sandboxToken` is a temporal token for testing the technology in a development/testing environment. 
+The `sandboxToken` is a temporal token for testing the technology in a development/testing environment. 
 
 An `email` parameter in `UserInfo` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user as `firstName` and `lastName`.
 
@@ -128,7 +128,7 @@ For more information about the Sandbox, please check the following [doc](https:/
 
 ### Production
 
-On the other hand, for a production environments we strongly recommend to use your backend to obtain required `USER_TOKEN`.
+On the other hand, for a production environments we strongly recommend to use your backend to obtain the required `USER_TOKEN`.
 
 You can implement the `Authenticator` protocol available in the `AliceOnboarding` framework.
 
