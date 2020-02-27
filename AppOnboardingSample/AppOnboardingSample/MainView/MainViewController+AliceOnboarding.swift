@@ -9,7 +9,6 @@ extension MainViewController {
     func printOnboardingInfo() {
         print(Onboarding.info())
     }
-    
     func getConfig(userToken: String, selectCountry: Bool) -> OnboardingConfig{
         var config: OnboardingConfig
         let appearanceConfig = AppearanceConfig()

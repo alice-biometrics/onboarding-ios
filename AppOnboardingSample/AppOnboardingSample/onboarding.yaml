@@ -1,5 +1,5 @@
 authentication:
-  userToken: idahfpahppidahfipa
+  userToken: fakeUserToken
 
 stages:
   - stage: AddSelfie
