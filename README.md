@@ -61,7 +61,7 @@ let config = OnboardingConfig.builder()
   .withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
 ```
 
-Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
+Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend and send it to the client.
 
 
 ### Run ALiCE Onboarding
