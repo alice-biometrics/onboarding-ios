@@ -32,11 +32,17 @@ The main features are:
 
 **Using Cocoapods**
 
-The AliceOnboarding component is available on Cocoapods. Add AliceOnboarding to your projects adding to your Podfile the following code:
+The AliceOnboarding component is available on Cocoapods. Add AliceOnboarding to your projects adding to your `Podfile` the following code:
 
 ```
-pod repo update
 pod 'AliceOnboarding'
+```
+
+Install with:
+
+```console
+pod repo update
+pod install
 ```
 
 ## Getting Started :chart_with_upwards_trend:
