@@ -1,4 +1,5 @@
-# onboarding-ios 
+# onboarding-ios <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/ios.png" width="30">
+
 [![pods](https://cocoapod-badges.herokuapp.com/v/AliceOnboarding/badge.png)](https://github.com/alice-biometrics/onboarding-ios)
 [![platform](https://cocoapod-badges.herokuapp.com/p/AliceOnboarding/badge.png)](https://github.com/alice-biometrics/onboarding-ios)
 [![license](https://cocoapod-badges.herokuapp.com/l/AliceOnboarding/badge.png)](https://github.com/alice-biometrics/onboarding-ios)
