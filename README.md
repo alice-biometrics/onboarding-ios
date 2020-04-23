@@ -98,6 +98,8 @@ This mode allows you to use the following commands:
 * `getDocumentsSupported`: Returns a map with information about supported documents in ALiCE Onboarding
 
 
+First of all, you have to configure an `OnboardingCommand` instance:
+
 ```swift
 let onboardingCommands = OnboardingCommands(self, userToken: userToken!) { error in
     showAlert(viewController: self,
