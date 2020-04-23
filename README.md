@@ -16,6 +16,7 @@ The main features are:
   * [Import the library](#import-the-library)
   * [Configuration](#configuration)
   * [Run ALiCE Onboarding](#run-alice-onboarding)
+  * [Run ALiCE Onboarding with Commands](#run-alice-onboarding-with-commands)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
   * [Trial](#trial)
   * [Production](#production)
@@ -84,6 +85,102 @@ onboarding.run { result in
     }
 }
 ```
+
+### Run ALiCE Onboarding with Commands
+
+You can configure and run specific actions with the class `OnboardingCommands`. 
+This mode allows you to use the following commands:
+* `addSelfie`: Presents a Selfie Capturer and upload this info to ALiCE Onboarding.
+* `createDocument`: Creates a document (`DocumentType`, `DocumentIssuingCountry`). It returns a `DocumentId`.
+* `addDocument`: Add document Side. It requires as input a valid `DocumentId` and `DocumentSide`.
+* `getUserStatus`: Returns information about the User.
+* `authenticate`: Presents a Selfie Capturer and verify the identity of the enrolled user. User must be authorized to use this command.
+* `getDocumentsSupported`: Returns a map with information about supported documents in ALiCE Onboarding
+
+
+```swift
+let onboardingCommands = OnboardingCommands(self, userToken: userToken!) { error in
+    showAlert(viewController: self,
+              title: "OnboardingCommand",
+              message: "Error with language config (\(error))")
+}
+```
+
+Once you configured the `OnboardingCommands`, you can run the selected process with:
+
+##### Selfie
+
+```swift
+onboardingCommands!.addSelfie { result in
+  switch result {
+  case .success:
+      showAlert(viewController: self,
+                title: "OnboardingCommand",
+                message: "Added the selfie successfully to ALiCE Onboarding")
+  case .failure(let error):
+      showAlert(viewController: self,
+                title: "OnboardingCommand",
+                message: "Error adding the selfie (\(error))")
+  case .cancel:
+      showAlert(viewController: self,
+                title: "OnboardingCommand",
+                message: "User has cancelled the command")
+  }
+}
+```
+
+##### Document
+
+```swift
+let documentType = DocumentType.driverlicense
+let documentIssuingCountry = "ESP"
+let documentSide = DocumentSide.front
+onboardingCommands!.createDocument(
+    type: documentType,
+    issuingCountry: documentIssuingCountry) { resultCreateDocument in
+        switch resultCreateDocument {
+        case .success(let onboardingResponse):
+            let documentId = onboardingResponse.content as? String
+            onboardingCommands!.addDocument(
+                documentId: documentId!,
+                type: documentType,
+                issuingCountry: documentIssuingCountry,
+                side: documentSide) { resultAddDocument in
+                    switch resultAddDocument {
+                    case .success:
+                        let message =
+                        """
+                        Added a document (\(documentType) - \(documentIssuingCountry) - \(documentSide))
+                        successfully to ALiCE Onboarding"
+                        """
+                        showAlert(viewController: self,
+                                  title: "OnboardingCommand",
+                                  message: message)
+                    case .failure(let error):
+                        showAlert(viewController: self,
+                                  title: "OnboardingCommand",
+                                  message: "Error adding the document (\(error))")
+                    case .cancel:
+                        showAlert(viewController: self,
+                                  title: "OnboardingCommand",
+                                  message: "User has cancelled the command")
+                    }
+            }
+        case .failure(let error):
+            showAlert(viewController: self,
+                      title: "OnboardingCommand",
+                      message: "Error creating the document (\(error))")
+        case .cancel:
+            showAlert(viewController: self,
+                      title: "OnboardingCommand",
+                      message: "User has cancelled the command")
+        }
+}
+```
+
+Check an example of this in the [AppOnboardingSample](https://github.com/alice-biometrics/onboarding-ios/blob/master/AppOnboardingSample/AppOnboardingSample/OnboardingCommandViewController.swift) application.
+
+
 
 ## Authentication :closed_lock_with_key:
 
