@@ -14,9 +14,8 @@ The main features are:
 - [Installation :computer:](#installation-computer)
 - [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
   * [Import the library](#import-the-library)
-  * [Configuration](#configuration)
-  * [Run ALiCE Onboarding](#run-alice-onboarding)
-  * [Run ALiCE Onboarding with Commands](#run-alice-onboarding-with-commands)
+  * [Onboarding](#onboarding)
+  * [Onboarding with Commands](#onboarding-with-commands)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
   * [Trial](#trial)
   * [Production](#production)
@@ -45,13 +44,23 @@ pod install
 
 ## Getting Started :chart_with_upwards_trend:
 
+ou can integrate the onboarding process in two different ways: using a pre-configured flow, through the `Onboarding` class, or creating a manual flow, through the `OnboardingCommands` class.
+
+In the first case, you simply need to indicate to the SDK the flow you want: number and type of documents, order, etc. From this configuration, the SDK takes control and allows you to perform the entire onboarding process autonomously without having to worry about managing ALiCE Onboarding API calls. This is the fastest and easiest way to integrate the onboarding process in your application.
+
+In the second case, no flow is specified. The onboarding process is completely free, allowing your application to manage the beginning and end of it, as well as the capture and upload of the different documents to the API. This case is indicated for an expert level of configuration, allowing you to split the onboarding process into different stages and add other tasks related to your customer flow (e.g. a form to be filled in by the user).
+
 ### Import the library
 
 ```swift
 import AliceOnboarding
 ```
 
-### Configuration
+### Onboarding
+
+[![doc-onboarding](https://img.shields.io/badge/doc-commands-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/Onboarding.html) 
+
+##### Configuration
 
 You can configure the onboarding flow with the following code:
 
@@ -68,7 +77,7 @@ let config = OnboardingConfig.builder()
 Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)).
 
 
-### Run ALiCE Onboarding
+##### Run ALiCE Onboarding
 
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
@@ -86,8 +95,9 @@ onboarding.run { result in
 }
 ```
 
-### Run ALiCE Onboarding with Commands
-
+### Onboarding with Commands
+[![doc-commands](https://img.shields.io/badge/doc-commands-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/OnboardingCommands.html) 
+ 
 You can configure and run specific actions with the class `OnboardingCommands`. 
 This mode allows you to use the following commands:
 * `addSelfie`: Presents a Selfie Capturer and upload this info to ALiCE Onboarding.
@@ -98,19 +108,16 @@ This mode allows you to use the following commands:
 * `getDocumentsSupported`: Returns a map with information about supported documents in ALiCE Onboarding
 
 
+
 First of all, you have to configure an `OnboardingCommand` instance:
 
 ```swift
-let onboardingCommands = OnboardingCommands(self, userToken: userToken!) { error in
-    showAlert(viewController: self,
-              title: "OnboardingCommand",
-              message: "Error with language config (\(error))")
-}
+let onboardingCommands = OnboardingCommands(self, userToken: userToken!)
 ```
 
 Once you configured the `OnboardingCommands`, you can run the selected process with:
 
-##### Selfie
+##### Run Selfie Capturer
 
 ```swift
 onboardingCommands!.addSelfie { result in
@@ -131,7 +138,7 @@ onboardingCommands!.addSelfie { result in
 }
 ```
 
-##### Document
+##### Run Document Capturer
 
 ```swift
 let documentType = DocumentType.driverlicense
@@ -181,7 +188,6 @@ onboardingCommands!.createDocument(
 ```
 
 Check an example of this in the [AppOnboardingSample](https://github.com/alice-biometrics/onboarding-ios/blob/master/AppOnboardingSample/AppOnboardingSample/OnboardingCommandViewController.swift) application.
-
 
 
 ## Authentication :closed_lock_with_key:
