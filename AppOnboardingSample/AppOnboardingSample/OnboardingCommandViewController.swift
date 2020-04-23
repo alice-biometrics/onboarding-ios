@@ -23,15 +23,7 @@ class OnboardingCommandViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let appearanceConfig = AppearanceConfig()
-        //onboardingCommands = OnboardingCommands(self, userToken: userToken!)
-        onboardingCommands = OnboardingCommands(self, userToken: userToken!,
-                                                appearanceConfig: appearanceConfig,
-                                                bundle: Bundle.main, language: "en") { error in
-                                                    showAlert(viewController: self,
-                                                              title: "OnboardingCommand",
-                                                              message: "Error with language config (\(error))")
-        }
+        onboardingCommands = OnboardingCommands(self, userToken: userToken!)
     }
     @IBAction func commandAddSelfie(_ sender: Any) {
         self.onboardingCommands!.addSelfie { result in

@@ -14,8 +14,9 @@ The main features are:
 - [Installation :computer:](#installation-computer)
 - [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
   * [Import the library](#import-the-library)
-  * [Configuration](#configuration)
-  * [Run ALiCE Onboarding](#run-alice-onboarding)
+  * [Permissions](#permissions)
+  * [Onboarding](#onboarding)
+  * [Onboarding with Commands](#onboarding-with-commands)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
   * [Trial](#trial)
   * [Production](#production)
@@ -44,13 +45,29 @@ pod install
 
 ## Getting Started :chart_with_upwards_trend:
 
+You can integrate the onboarding process in two different ways: using a pre-configured flow, through the `Onboarding` class, or creating a manual flow, through the `OnboardingCommands` class.
+
+In the first case, you simply need to indicate to the SDK the flow you want: number and type of documents, order, etc. From this configuration, the SDK takes control and allows you to perform the entire onboarding process autonomously without having to worry about managing ALiCE Onboarding API calls. This is the fastest and easiest way to integrate the onboarding process in your application.
+
+In the second case, no flow is specified. The onboarding process is completely free, allowing your application to manage the beginning and end of it, as well as the capture and upload of the different documents to the API. This case is indicated for an expert level of configuration, allowing you to split the onboarding process into different stages and add other tasks related to your customer flow (e.g. a form to be filled in by the user).
+
 ### Import the library
 
 ```swift
 import AliceOnboarding
 ```
 
-### Configuration
+### Permissions 
+
+* Camera Permission is required. 
+
+For more info, please check Apple [Documentation]( https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_ios).
+
+### Onboarding
+
+Check detailed doc about `Onboarding` class [here](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/Onboarding.html).
+
+##### Configuration
 
 You can configure the onboarding flow with the following code:
 
@@ -67,7 +84,7 @@ let config = OnboardingConfig.builder()
 Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)).
 
 
-### Run ALiCE Onboarding
+##### Run ALiCE Onboarding
 
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
@@ -84,6 +101,102 @@ onboarding.run { result in
     }
 }
 ```
+
+### Onboarding with Commands
+
+Check detailed doc about `OnboardingCommands` class [here](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/OnboardingCommands.html).
+ 
+You can configure and run specific actions with the class `OnboardingCommands`. 
+This mode allows you to use the following commands:
+* `addSelfie`: Presents a Selfie Capturer and upload this info to ALiCE Onboarding.
+* `createDocument`: Creates a document (`DocumentType`, `DocumentIssuingCountry`). It returns a `DocumentId`.
+* `addDocument`: Add document Side. It requires as input a valid `DocumentId` and `DocumentSide`.
+* `getUserStatus`: Returns information about the User.
+* `authenticate`: Presents a Selfie Capturer and verify the identity of the enrolled user. User must be authorized to use this command.
+* `getDocumentsSupported`: Returns a map with information about supported documents in ALiCE Onboarding
+
+
+
+First of all, you have to configure an `OnboardingCommand` instance:
+
+```swift
+let onboardingCommands = OnboardingCommands(self, userToken: userToken!)
+```
+
+Once you configured the `OnboardingCommands`, you can run the selected process with:
+
+##### Run Selfie Capturer
+
+```swift
+onboardingCommands!.addSelfie { result in
+  switch result {
+  case .success:
+      showAlert(viewController: self,
+                title: "OnboardingCommand",
+                message: "Added the selfie successfully to ALiCE Onboarding")
+  case .failure(let error):
+      showAlert(viewController: self,
+                title: "OnboardingCommand",
+                message: "Error adding the selfie (\(error))")
+  case .cancel:
+      showAlert(viewController: self,
+                title: "OnboardingCommand",
+                message: "User has cancelled the command")
+  }
+}
+```
+
+##### Run Document Capturer
+
+```swift
+let documentType = DocumentType.driverlicense
+let documentIssuingCountry = "ESP"
+let documentSide = DocumentSide.front
+onboardingCommands!.createDocument(
+    type: documentType,
+    issuingCountry: documentIssuingCountry) { resultCreateDocument in
+        switch resultCreateDocument {
+        case .success(let onboardingResponse):
+            let documentId = onboardingResponse.content as? String
+            onboardingCommands!.addDocument(
+                documentId: documentId!,
+                type: documentType,
+                issuingCountry: documentIssuingCountry,
+                side: documentSide) { resultAddDocument in
+                    switch resultAddDocument {
+                    case .success:
+                        let message =
+                        """
+                        Added a document (\(documentType) - \(documentIssuingCountry) - \(documentSide))
+                        successfully to ALiCE Onboarding"
+                        """
+                        showAlert(viewController: self,
+                                  title: "OnboardingCommand",
+                                  message: message)
+                    case .failure(let error):
+                        showAlert(viewController: self,
+                                  title: "OnboardingCommand",
+                                  message: "Error adding the document (\(error))")
+                    case .cancel:
+                        showAlert(viewController: self,
+                                  title: "OnboardingCommand",
+                                  message: "User has cancelled the command")
+                    }
+            }
+        case .failure(let error):
+            showAlert(viewController: self,
+                      title: "OnboardingCommand",
+                      message: "Error creating the document (\(error))")
+        case .cancel:
+            showAlert(viewController: self,
+                      title: "OnboardingCommand",
+                      message: "User has cancelled the command")
+        }
+}
+```
+
+Check an example of this in the [AppOnboardingSample](https://github.com/alice-biometrics/onboarding-ios/blob/master/AppOnboardingSample/AppOnboardingSample/OnboardingCommandViewController.swift) application.
+
 
 ## Authentication :closed_lock_with_key:
 
