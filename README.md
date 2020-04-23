@@ -58,7 +58,7 @@ import AliceOnboarding
 
 ### Onboarding
 
-[![doc-onboarding](https://img.shields.io/badge/doc-commands-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/Onboarding.html) 
+Check detailed doc about `Onboarding` class [here](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/Onboarding.html).
 
 ##### Configuration
 
@@ -96,7 +96,8 @@ onboarding.run { result in
 ```
 
 ### Onboarding with Commands
-[![doc-commands](https://img.shields.io/badge/doc-commands-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/OnboardingCommands.html) 
+
+Check detailed doc about `OnboardingCommands` class [here](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/OnboardingCommands.html).
  
 You can configure and run specific actions with the class `OnboardingCommands`. 
 This mode allows you to use the following commands:
