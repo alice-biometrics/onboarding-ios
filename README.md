@@ -14,6 +14,7 @@ The main features are:
 - [Installation :computer:](#installation-computer)
 - [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
   * [Import the library](#import-the-library)
+  * [Permissions](#permissions)
   * [Onboarding](#onboarding)
   * [Onboarding with Commands](#onboarding-with-commands)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
@@ -55,6 +56,12 @@ In the second case, no flow is specified. The onboarding process is completely f
 ```swift
 import AliceOnboarding
 ```
+
+### Permissions 
+
+* Camera Permission is required. 
+
+For more info, please check Apple [Documentation]( https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_ios).
 
 ### Onboarding
 
