@@ -44,7 +44,7 @@ pod install
 
 ## Getting Started :chart_with_upwards_trend:
 
-ou can integrate the onboarding process in two different ways: using a pre-configured flow, through the `Onboarding` class, or creating a manual flow, through the `OnboardingCommands` class.
+You can integrate the onboarding process in two different ways: using a pre-configured flow, through the `Onboarding` class, or creating a manual flow, through the `OnboardingCommands` class.
 
 In the first case, you simply need to indicate to the SDK the flow you want: number and type of documents, order, etc. From this configuration, the SDK takes control and allows you to perform the entire onboarding process autonomously without having to worry about managing ALiCE Onboarding API calls. This is the fastest and easiest way to integrate the onboarding process in your application.
 
