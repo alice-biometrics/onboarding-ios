@@ -16,7 +16,7 @@ extension MainViewController {
         config = OnboardingConfig.builder()
             .withUserToken(userToken)
             .withAppearanceConfig(appearanceConfig: appearanceConfig)
-            //.withCustomLocalization(inBundle: Bundle.main, language: "en")
+            .withCustomLocalization(inBundle: Bundle.main)
        
         if addSelfie {
             config = try! config.withAddSelfieStage()
@@ -70,6 +70,8 @@ extension MainViewController {
             case let .failure(error):
                 showAlert(viewController: self, title: "Onboarding", message: "Error: \(error.localizedDescription)")
             case .cancel:
+                return
+            case .dismissButton:
                 return
             }
         }

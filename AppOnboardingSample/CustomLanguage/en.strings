@@ -1,100 +1,106 @@
-/*
- Localizable.strings
- AppOnboardingSample
- 
- Copyright © 2019 ALiCE. All rights reserved.
- */
+"onboarding_ios_native_cancel" = "Cancel";
+"onboarding_click_or_drop" = "Click or drop image here";
+"onboarding_close" = "Close";
+"onboarding_rotate" = "Rotate";
 
-"onboarding_alert"= "Alert";
-"onboarding_subtitle_document_supported_error"= "Impossible to retrieve document supported. Please, check your connexion";
+//Errors
+"onboarding_error_config" = "Please, review your OnboardingConfig. You should select at least one Onboarding Stage.";
+"onboarding_error_loading_resources" = "Slow connection, try again later.";
+"onboarding_error_title_technical" = "An error occurred.";
+"onboarding_error_subtitle_technical" = "Please, try again.";
+"onboarding_error_title_connection" = "Connection error.";
+"onboarding_error_subtitle_connection" = "Please, check your internet connection.";
+"ongoarding_error_title_camera" = "Camera error.";
+"onboarding_error_subtitle_camera" = "Please, try again.";
+"onboarding_error_title_selfie" = "The selfie could not be sent.";
+"onboarding_error_subtitle_selfie" = "Please, try again.";
+"onboarding_error_title_authentication" = "Authentication error.";
+"onboarding_error_subtitle_authentication" = "Please, try again.";
+"onboarding_error_subtitle_camera_not_available" = "Please, check your camera.";
+"onboarding_error_user_not_found" = "User not found";
 
-"onboarding_title_connection_error"= "Connection error";
-"onboarding_subtitle_connection_error"= "Please, check your internet connection";
+//Stages
+"onboarding_stages_title" = "Onboarding process";
+"onboarding_stages_description" = "Please, complete the following steps for a successful onboarding!";
+"onboarding_stages_finished" = "Congrats! You have successfully completed the onboarding process.";
+"onboarding_stages_selfie" = "Selfie";
+"onboarding_stages_id_card" = "ID Card";
+"onboarding_stages_driver_license" = "Driver license";
+"onboarding_stages_passport" = "Passport";
+"onboarding_stages_residence_permit" = "Residence permit";
+"onboarding_stages_already_completed" = "Stage already completed";
+"onboarding_stages_completed" = "Completed";
+"onboarding_stages_start_button" = "START";
+"onboarding_stages_done_button" = "DONE";
 
-"onboarding_title_technical_error"= "An error occurred.";
-"onboarding_subtitle_technical_error"= "Please, try again.";
+//Doc sides screen
+"onboarding_sides_title_id_card" = "ID CARD";
+"onboarding_sides_title_driver_license" = "DRIVER LICENSE";
+"onboarding_sides_title_passport" = "PASSPORT";
+"onboarding_sides_title_residence_permit" = "RESIDENCE PERMIT";
+"onboarding_sides_subtitle" = "Please, proceed with document capture.";
+"onboarding_sides_front" = "FRONT";
+"onboarding_sides_back" = "BACK";
+"onboarding_sides_info_page" = "INFO PAGE";
+"onboarding_sides_tap_here" = "TAP HERE";
+"onboarding_sides_done_button" = "DONE";
+"onboarding_sides_issuing_country" = "Issuing country:";
 
-//onboarding stages
-"onboarding_stage_completed"= "Completed";
-"onboarding_stage_selfie" = "Selfie";
-"onboarding_stage_id_card" = "ID Card";
-"onboarding_stage_driver_license" = "Driver license";
-"onboarding_stage_residence_permit"= "Residence permit";
-"onboarding_stage_passport" = "Passport";
-"onboarding_stage_select_document" = "Select country";
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "Select the issuing country";
+"onboarding_country_selector_other" = "Other";
+"onboarding_country_selector_not_selected" = "Please select the issuing country";
+"onboarding_country_selector_start" = "Start";
+"onboarding_country_selector_cancel" = "Cancel";
 
-"onboarding_stage_already_completed" = "Stage already completed";
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "Retry photo";
+"onboarding_doc_capturer_send_photo" = "Send photo";
+"onboarding_doc_capturer_manual" = "Manual capture";
+"onboarding_doc_capturer_retry" = "Retry";
+"onboarding_doc_capturer_dismiss" = "Cancel";
+"onboarding_doc_capturer_check_position" = "Adjust document to rectangle";
+"onboarding_doc_capturer_processing_stay_still" = "Capturing… Stay still";
+"onboarding_doc_capturer_alert_title_timeout" = "Problem reading your document";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "Make sure your document is adjusted to the rectangle";
+"onboarding_doc_capturer_alert_title_missing_mrz" = "Problem reading your document";
+"onboarding_doc_capturer_alert_subtitle_missing_mrz" = "Make sure you’re showing the right document (%@ from %@) without occlusions, glare or shadows";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Make sure you’re showing your passport without occlusions, glare or shadows";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "Wrong document";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Make sure you’re showing the right document (%@ from %@)";
+"onboarding_doc_capturer_alert_title_wrong_side" = "Wrong document side";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Make sure you’re showing the right side (%@)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "Problem reading your document";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "Make sure you're showing your document without occlusions, glare or shadows";
+"onboarding_doc_capturer_front" = "FRONT";
+"onboarding_doc_capturer_back" = "BACK";
+"onboarding_doc_capturer_choose_source" = "Choose source";
+"onboarding_doc_capturer_review_back" = "Use another photo";
+"onboarding_doc_capturer_subtitle" = "Please, proceed with the capture";
+"onboarding_doc_capturer_subtitle_review" = "Please, make sure that the image only contains a document and it's not rotated";
+"onboarding_doc_capturer_title_review" = "Image review";
+"onboarding_doc_capturer_review_ok" = "It's ok";
+"onboarding_doc_capturer_source_camera" = "Camera";
+"onboarding_doc_capturer_source_file" = "File";
+"onboarding_doc_capturer_adding" = "Uploading file";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "The document couldn't be captured, please try manual capture";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "The document couldn't be captured. Please, try again or use manual capture";
 
-"onboarding_finish_succesfully"= "Congrats! You have successfully completed the onboarding process.";
-"onboarding_onboarding_config_error"= "Please, review your OnboardingConfig. You should select at least one Onboarding Stage";
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "Adding Selfie…";
+"onboarding_selfie_capturer_authenticating" = "Authenticating…";
+"onboarding_selfie_capturer_move_farther" = "Please, move your device farther.";
+"onboarding_selfie_capturer_get_closer" = "Please, come closer.";
+"onboarding_selfie_capturer_no_face" = "No face detected.";
+"onboarding_selfie_capturer_look_camera" = "Please, look at the camera.";
+"onboarding_selife_capturer_center_face" = "Please, center your face in the oval";
+"onboarding_selfie_capturer_device_elevation" = "Please, hold your device to eye level.";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Please, center your face in the oval.";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Facial processing could not be completed";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Try to keep the face in the oval throughout the capture process.";
+"onboarding_selfie_capturer_face_detected_tooltip" = "Click here to take a photo!";
+"onboarding_selfie_capturer_subtitle" = "Please, proceed with the capture";
+"onboarding_selfie_capturer_subtitle_file" = "Please, upload a selfie of yourself";
+"onboarding_selfie_capturer_subtitle_review" = "Please, make sure that your picture is good";
 
-"onboarding_description_stages"= "Please, complete the following steps for a successful onboarding!";
-"onboarding_cancel_button"= "Cancel";
-"onboarding_stages_done_button"="DONE";
-"onboarding_stages_start_button"="START";
-"onboarding_next_step"="NEXT STEP";
-
-"onboarding_status_stage_title"="Onboarding";
-
-"onboarding_capture_document_done_button"="DONE";
-"onboarding_intermediate_document_subtitle"="Please, proceed with document capture";
-
-"onboarding_select_document_subtitle_issuing_country"="Select the issuing country";
-"onboarding_country_no_selected"="Please, select the issuing country";
-
-"onboarding_stage_canceled"="The stage has been canceled.";
-"onboarding_loading_resources"="The stage has been canceled.";
-
-"onboarding_loading_resources"="Slow connection, try again later";
-
-
-//onboarding capturers
-"onboarding_id_card_capture" = "ID CARD";
-"onboarding_driver_license_capture"= "DRIVER'S LICENSE";
-"onboarding_passport_capture"= "PASSPORT";
-"onboarding_residence_permit_capture"= "RESIDENCE PERMIT";
-
-
-"onboarding_side_front"= "(FRONT)";
-"onboarding_side_back"= "(BACK)";
-
-"onboarding_retry_photo"= "Retry photo";
-"onboarding_send_photo"= "Send photo";
-
-"onboarding_manual_capture"= "Manual capture";
-"onboarding_retry"= "Retry";
-
-"onboarding_title_document_not_recognised"= "The document could not be read.";
-"onboarding_subtitle_document_not_recognised"= "Please, try again.";
-
-"onboarding_authenticating"="Authenticating...";
-"onboarding_adding_selfie"="Adding Selfie...";
-
-"onboarding_label_country"="Country";
-
-"onboarding_front_side"="FRONT SIDE";
-"onboarding_back_side"="BACK SIDE";
-"onboarding_info_page"="INFO PAGE";
-"onboarding_tap_here"="TAP HERE";
-
-
-"onboarding_other_country_list" = "Other";
-"onboarding_start" = "Start";
-"onboarding_cancel" = "Cancel";
-
-
-//User feedback
-"onboarding_check_document_position" =  "Please, check that you have the document adjusted to the guides";
-"onboarding_check_document_type" =  "Please, check that you are showing the correct document.";
-"onboarding_check_document_visibility" =  "Please, check that you are not covering any piece of document.";
-"onboarding_check_document_focus_and_visibility" =  "Please, check that the document is focused and readable.";
-
-"onboarding_get_farther" =  "Please, get the device farther";
-"onboarding_get_close" =  "Please, come closer";
-"onboarding_center_face_on_image" =  "Please, center your face on the mask";
-"onboarding_look_camera" = "Please look at the camera";
-"onboarding_device_elevation" = "Please, hold your device to eye level";
-"onboarding_no_face" = "No face detected.";
-"onboarding_center_document_on_guides" = "Please, center your document in the guides";
-"onboarding_center_your_front_document" = "Please, show the front of the document";
-
+//Welcome

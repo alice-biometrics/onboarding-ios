@@ -40,6 +40,8 @@ class OnboardingCommandViewController: UIViewController {
                 showAlert(viewController: self,
                           title: "OnboardingCommand",
                           message: "User has cancelled the command")
+            case .dismissButton:
+                break
             }
         }
     }
@@ -76,6 +78,8 @@ class OnboardingCommandViewController: UIViewController {
                                 showAlert(viewController: self,
                                           title: "OnboardingCommand",
                                           message: "User has cancelled the command")
+                            case .dismissButton:
+                                break
                             }
                     }
                 case .failure(let error):
@@ -86,6 +90,8 @@ class OnboardingCommandViewController: UIViewController {
                     showAlert(viewController: self,
                               title: "OnboardingCommand",
                               message: "User has cancelled the command")
+                case .dismissButton:
+                    break
                 }
         }
     }
@@ -104,6 +110,8 @@ class OnboardingCommandViewController: UIViewController {
                 showAlert(viewController: self,
                           title: "OnboardingCommand",
                           message: "User has cancelled the command")
+            case .dismissButton:
+                break
             }
         }
     }
@@ -138,6 +146,8 @@ class OnboardingCommandViewController: UIViewController {
                                 showAlert(viewController: self,
                                           title: "OnboardingCommand",
                                           message: "User has cancelled the command")
+                            case .dismissButton:
+                                break
                             }
                         }
                     } else {
@@ -163,6 +173,8 @@ class OnboardingCommandViewController: UIViewController {
                 showAlert(viewController: self,
                           title: "OnboardingCommand",
                           message: "User has cancelled the command")
+            case .dismissButton:
+                break
             }
         }
     }
@@ -181,6 +193,8 @@ class OnboardingCommandViewController: UIViewController {
                 showAlert(viewController: self,
                           title: "OnboardingCommand",
                           message: "User has cancelled the command")
+            case .dismissButton:
+                break
             }
         }
     }

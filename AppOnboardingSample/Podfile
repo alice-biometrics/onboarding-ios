@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'AppOnboardingSample' do
     project 'AppOnboardingSample.xcodeproj'
-    pod 'AliceOnboarding'
+    pod 'AliceOnboarding', '~> 1.4.0'
     pod 'TransitionButton'
 end
 
