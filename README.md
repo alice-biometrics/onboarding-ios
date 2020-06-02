@@ -108,13 +108,12 @@ Check detailed doc about `OnboardingCommands` class [here](https://docs.alicebio
  
 You can configure and run specific actions with the class `OnboardingCommands`. 
 This mode allows you to use the following commands:
-* `addSelfie`: Presents a Selfie Capturer and upload this info to ALiCE Onboarding.
+* `addSelfie`: Presents a Selfie Capturer and uploads captured media to ALiCE Onboarding.
 * `createDocument`: Creates a document (`DocumentType`, `DocumentIssuingCountry`). It returns a `DocumentId`.
 * `addDocument`: Add document Side. It requires as input a valid `DocumentId` and `DocumentSide`.
 * `getUserStatus`: Returns information about the User.
-* `authenticate`: Presents a Selfie Capturer and verify the identity of the enrolled user. User must be authorized to use this command.
+* `authenticate`: Presents a Selfie Capturer and verifies the identity of the enrolled user. User must be authorized to use this command.
 * `getDocumentsSupported`: Returns a map with information about supported documents in ALiCE Onboarding
-
 
 
 First of all, you have to configure an `OnboardingCommand` instance:
