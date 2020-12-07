@@ -1,0 +1,20 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Pod install
+      working-directory: AppOnboardingSample/
+      run: |
+         pod install
+    - name: Tests [UI Test]
+      working-directory: AppOnboardingSample/
+      run: |
+         xcodebuild -workspace AppOnboardingSample.xcworkspace  -scheme AppOnboardingSample  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=14.2'  test
