@@ -43,6 +43,10 @@ pod repo update
 pod install
 ```
 
+If your Podfile post_install does not set the `BUILD_LIBRARY_FOR_DISTRIBUTION` flag to `YES`, you need to set it for both `Alamofire` and `Yams` pods at its `Build Options` settings:
+
+
+
 ## Getting Started :chart_with_upwards_trend:
 
 You can integrate the onboarding process in two different ways: using a pre-configured flow, through the `Onboarding` class, or creating a manual flow, through the `OnboardingCommands` class.
