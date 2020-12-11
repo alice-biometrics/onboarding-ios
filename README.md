@@ -43,8 +43,8 @@ pod repo update
 pod install
 ```
 
-If your Podfile post_install does not set the `BUILD_LIBRARY_FOR_DISTRIBUTION` flag to `YES`, you need to set it for both `Alamofire` and `Yams` pods at its `Build Options` settings:
-
+If your Podfile `post_install` does not set the `BUILD_LIBRARY_FOR_DISTRIBUTION` flag to `YES`, you need to set it for both `Alamofire` and `Yams` pods at their `Build Options` settings.
+<img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/ios_sdk_yams_build_options_settings.png" width=auto>
 
 
 ## Getting Started :chart_with_upwards_trend:
