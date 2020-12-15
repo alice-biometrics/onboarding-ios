@@ -1,8 +1,8 @@
 name: ci
 
 on:
-  schedule:
-  - cron:  '0 24 * * 6'
+  release:
+    types: [published]
 
 jobs:
   test:
