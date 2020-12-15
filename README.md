@@ -52,9 +52,9 @@ or add the following lines in your Podfile:
 ```
 post_install do |installer|
     installer.pods_project.targets.each do |target|
-	if target.name == "Alamofire" || "Yams"
+	if target.name == "Alamofire" || target.name ==  "Yams"
 		target.build_configurations.each do |config|
-        		config.build_settings[‘BUILD_LIBRARY_FOR_DISTRIBUTION’] = ‘YES’
+        		config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
         	end
 	end
     end
