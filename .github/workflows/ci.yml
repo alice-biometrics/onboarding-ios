@@ -5,8 +5,8 @@ on:
     types: [published]
 
 jobs:
-  test:
-    runs-on: macOS-latest
+  ci:
+    runs-on: macos-10.15
     steps:
     - uses: actions/checkout@v1
     - name: Pod install
