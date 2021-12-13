@@ -11,11 +11,9 @@ extension MainViewController {
     }
     func getConfig(userToken: String, selectCountry: Bool) -> OnboardingConfig{
         var config: OnboardingConfig
-        let appearanceConfig = AppearanceConfig()
        
         config = OnboardingConfig.builder()
             .withUserToken(userToken)
-            .withAppearanceConfig(appearanceConfig: appearanceConfig)
             .withCustomLocalization(inBundle: Bundle.main)
        
         if addSelfie {
