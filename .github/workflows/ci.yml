@@ -19,4 +19,4 @@ jobs:
     - name: Tests [UI Test]
       working-directory: AliceOnboardingSampleApp/
       run: |
-         xcodebuild -workspace AliceOnboardingSampleApp.xcworkspace  -scheme AliceOnboardingSampleApp  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=14.4'  test
+         xcodebuild -workspace AliceOnboardingSampleApp.xcworkspace  -scheme AliceOnboardingSampleApp  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=15.2'  test
