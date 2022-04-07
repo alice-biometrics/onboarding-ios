@@ -9,7 +9,7 @@ on:
 
 jobs:
   ci:
-    runs-on: macos-10.15
+    runs-on: macOS-11
     steps:
     - uses: actions/checkout@v1
     - name: Pod install
