@@ -12,7 +12,7 @@ jobs:
     - name: Pod install
       working-directory: AliceOnboardingSampleApp/
       run: |
-         pod install
+         pod install --repo-update
     - name: Tests [UI Test]
       working-directory: AliceOnboardingSampleApp/
       run: |
