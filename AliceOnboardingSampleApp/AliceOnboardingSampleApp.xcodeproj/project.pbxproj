@@ -20,7 +20,6 @@
 		40C75A1E22D68064000950E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1C22D68064000950E2 /* Main.storyboard */; };
 		40C75A2022D68065000950E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1F22D68065000950E2 /* Assets.xcassets */; };
 		40C75A2322D68065000950E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A2122D68065000950E2 /* LaunchScreen.storyboard */; };
-		AA8F0035D85B4E74276EF4BB /* Pods_AliceOnboardingSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4728B0D7595AC8CE4EEEB488 /* Pods_AliceOnboardingSampleApp.framework */; };
 		CA30F7A1234CCB9400A68B10 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA30F7A0234CCB9400A68B10 /* en.strings */; };
 		CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA423191B9700B969BA /* ShowResultViewController.swift */; };
 		CA37CAAA231940E500B969BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA9231940E500B969BA /* MainViewController.swift */; };
@@ -29,6 +28,7 @@
 		CAB13DBB2334E89B0076FFBB /* alice_color_no_text.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB13DBA2334E89A0076FFBB /* alice_color_no_text.png */; };
 		CAE37F0922FAE3680026FFA1 /* OnboardingCommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE37F0822FAE3680026FFA1 /* OnboardingCommandViewController.swift */; };
 		F64C7C61257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C7C60257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift */; };
+		FC7D639D8407CC246DA04020 /* libPods-AliceOnboardingSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D227801A9D2A6FCDBFAC6BCE /* libPods-AliceOnboardingSampleApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,6 @@
 		40C75A1822D68064000950E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C75A1F22D68065000950E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C75A2422D68065000950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4728B0D7595AC8CE4EEEB488 /* Pods_AliceOnboardingSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliceOnboardingSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4432CF8E0DCF655D3E6AEBD /* Pods-AliceOnboardingSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		CA30F7A0234CCB9400A68B10 /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
 		CA37CAA423191B9700B969BA /* ShowResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		CAB13DBA2334E89A0076FFBB /* alice_color_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alice_color_no_text.png; sourceTree = "<group>"; };
 		CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AliceOnboarding.xcodeproj; path = ../Onboarding/AliceOnboarding.xcodeproj; sourceTree = "<group>"; };
 		CAE37F0822FAE3680026FFA1 /* OnboardingCommandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCommandViewController.swift; sourceTree = "<group>"; };
+		D227801A9D2A6FCDBFAC6BCE /* libPods-AliceOnboardingSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliceOnboardingSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD42AD6BA3B1DA2F2CCBEE1 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F64C7C5E257E3F15004492B3 /* AliceOnboardingSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceOnboardingSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64C7C60257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceOnboardingSampleAppUITests.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8F0035D85B4E74276EF4BB /* Pods_AliceOnboardingSampleApp.framework in Frameworks */,
+				FC7D639D8407CC246DA04020 /* libPods-AliceOnboardingSampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */,
-				4728B0D7595AC8CE4EEEB488 /* Pods_AliceOnboardingSampleApp.framework */,
+				D227801A9D2A6FCDBFAC6BCE /* libPods-AliceOnboardingSampleApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
