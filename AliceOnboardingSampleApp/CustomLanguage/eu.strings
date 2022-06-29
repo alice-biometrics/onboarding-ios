@@ -1,0 +1,239 @@
+"onboarding_click_or_drop" = "Egin klik edo arrastatu irudia hemen";
+"onboarding_close" = "Itxi";
+"onboarding_rotate" = "Buelta emateko";
+"onboarding_yes" = "Bai";
+"onboarding_no" = "Ez egin	";
+"onboarding_alert_title_really_sure_to_exit" = "Prozesu osatu gabea";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Ziur zaude kalera atera nahi duzula?";
+"onboarding_ask_for_permissions_title" = "Funtzionalitate honek kamerarako sarbidea behar du";
+"onboarding_ask_for_permissions_subtitle" = "Gailuaren ezarpenetan, ireki aplikazioaren ezarpenak eta aktibatu kamera.";
+"onboarding_ask_for_permissions_ok_button" = "Ireki Ezarpenak";
+"onboarding_ask_for_permissions_cancel_button" = "Utzi";
+"onboarding_not_supported_browser_modal_message" = "Ez dugu nabigatzaile hau erabiltzea gomendatzen. Mesedez, saiatu prozesua Chrome edo Firefox bezalako arakatzaile ezagunagoa erabiliz.";
+"onboarding_not_supported_browser_modal_title" = "Onartu gabeko arakatzailea";
+
+//Errors
+"onboarding_error_config" = "Mesedez, egiaztatu zure OnboardingConfig. Onboarding Etapa bat hautatu behar duzu gutxienez.";
+"onboarding_error_loading_resources" = "Konexio motela, saiatu berriro geroago";
+"onboarding_error_title_technical" = "Akats batzuk gertatu dira.";
+"onboarding_error_subtitle_technical" = "Saiatu berriro mesedez.";
+"onboarding_error_title_connection" = "Konexioaren errorea";
+"onboarding_error_subtitle_connection" = "Egiaztatu Interneteko konexioa";
+"onboarding_error_storage_is_full_title" = "Akatsa espazio faltagatik";
+"onboarding_error_storage_is_full_subtitle" = "Jarraitzeko, ezabatu fitxategi bat.";
+"onboarding_error_title_camera" = "Bideoak grabatzeak huts egin du";
+"onboarding_error_subtitle_camera" = "Saiatu berriro mesedez.";
+"onboarding_error_title_selfie" = "Ezin izan da selfie-lana bidali.";
+"onboarding_error_subtitle_selfie" = "Saiatu berriro mesedez.";
+"onboarding_error_title_authentication" = "Autentifikazio-errorea.";
+"onboarding_error_subtitle_authentication" = "Saiatu berriro mesedez.";
+"onboarding_error_subtitle_camera_not_available" = "Egiaztatu ingurune seguru batean zaudela eta egiaztatu kamera";
+"onboarding_browser_no_compatible" = "Funtzionalitate hau ez dago eskuragarri arakatzaile honetan, mesedez, probatu Safarian";
+"onboarding_error_user_not_found" = "Erabiltzailea ez da aurkitu";
+"onboarding_error_title_file_too_big" = "Fitxategia handiegia da";
+"onboarding_error_subtitle_file_too_big" = "Onartutako gehieneko tamaina {size} MB da";
+"onboarding_error_title_file_type_not_supported" = "Onartzen ez den fitxategia";
+"onboarding_error_subtitle_file_type_not_supported" = "Onartutako .jpg, png, .bmp fitxategi motak";
+"onboarding_error_doc_country_not_supported" = "Sentitzen dugu, dokumentu mota hau ez da onartzen hautatutako herrialdean";
+"onboarding_error_title_challenge_timeout" = "Denboraz kanpo";
+"onboarding_error_subtitle_challenge_timeout" = "Erronka ez da bete. Saiatu berriro mesedez";
+
+//Stages
+"onboarding_stages_title" = "identitate egiaztatzea";
+"onboarding_stages_description" = "Mesedez, bete urrats hauek egiaztapena arrakasta izateko";
+"onboarding_stages_selfie" = "Selfie";
+"onboarding_stages_selfie_with_challenge" = "Selfie erronkarekin";
+"onboarding_stages_selfie_with_document" = "Selfie dokumentuarekin";
+"onboarding_stages_id_card" = "Nortasun agiria";
+"onboarding_stages_driver_license" = "Gidabaimena";
+"onboarding_stages_passport" = "Pasaportea";
+"onboarding_stages_residence_permit" = "Egoitza baimena";
+"onboarding_stages_credit_card" = "Kreditu / zordunketa txartela";
+"onboarding_stages_health_insurance_card" = "Osasun txartela";
+"onboarding_stages_already_completed" = "Urratsa dagoeneko burututa";
+"onboarding_stages_completed" = "Osatuta";
+"onboarding_stages_inactive" = "Mesedez, bete aurreko urratsa";
+"onboarding_stages_start_button" = "HASI";
+"onboarding_stages_done_button" = "JARRAITU";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "Nortasun agiria";
+"onboarding_sides_title_driver_license" = "Gidabaimena";
+"onboarding_sides_title_passport" = "Pasaportea";
+"onboarding_sides_title_residence_permit" = "Egoitza baimena";
+"onboarding_sides_title_health_insurance_card" = "Osasun txartela";
+"onboarding_sides_subtitle" = "Mesedez, jarraitu dokumentua ateratzen";
+"onboarding_sides_front" = "AURREKO ZATIA";
+"onboarding_sides_back" = "ATZEKO";
+"onboarding_sides_info_page" = "INFORMAZIO ORRIA";
+"onboarding_sides_tap_here" = "Ukitu hemen";
+"onboarding_sides_done_button" = "JARRAITU";
+"onboarding_sides_issuing_country" = "Jaulkitzailea:";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "Aukeratu igorlearen herrialdea";
+"onboarding_country_selector_other" = "Beste";
+"onboarding_country_selector_not_selected" = "Mesedez, aukeratu alea herrialdean";
+"onboarding_country_selector_start" = "Hasi";
+"onboarding_country_selector_cancel" = "Utzi";
+"onboarding_country_selector_reload" = "Berriro kargatu";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "Berriro saiatzen harrapatzea";
+"onboarding_doc_capturer_send_photo" = "Bidali argazkia ateratzeko";
+"onboarding_doc_capturer_manual" = "Eskuliburu harrapatzea";
+"onboarding_doc_capturer_retry" = "Berriro saiatzen";
+"onboarding_doc_capturer_dismiss" = "Utzi";
+"onboarding_doc_capturer_add_sheet" = "Gehitu fitxa";
+"onboarding_doc_capturer_send" = "Bidali";
+"onboarding_doc_capturer_info_text" = "%@ zure %@ %@ markoak it eskaneatu arte automatikoki";
+"onboarding_doc_capturer_info_text_passport" = "Frames informazio pasaportea orria automatikoki eskaneatu arte";
+"onboarding_doc_capturer_alert_title_timeout" = "Arazoa zure dokumentua irakurtzeko";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "Ziurtatu zure dokumentua da laukizuzena ezarri";
+"onboarding_doc_capturer_alert_title_generic_problem" = "Arazoa zure dokumentua irakurtzeko";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Ziurtatu dokumentu zuzena (%@ %@) ez occlusions edo itzalak hausnarketak erakusteko";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Ziurtatu zure pasaportea occlusions, hausnarketak edo itzalak gabe erakusteko";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "Dokumentu okerra";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Ziurtatu dokumentu zuzena erakusteko (%1$ %@)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Ziurtatu baliozko argazki-dokumentu bat erakusteko";
+"onboarding_doc_capturer_alert_title_wrong_side" = "Okerreko aldean";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Ziurtatu zuzena albo erakusteko (%@)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "Arazoa zure dokumentua irakurtzeko";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "Ziurtatu dokumentua erakusteko occlusions, hausnarketak edo itzalak gabe";
+"onboarding_doc_capturer_front" = "AURREKO ZATIA";
+"onboarding_doc_capturer_back" = "ATZEKO";
+"onboarding_doc_capturer_choose_source" = "Aukeratu iturburua";
+"onboarding_doc_capturer_review_back" = "Erabili beste argazki";
+"onboarding_doc_capturer_subtitle" = "Mesedez, jarraitu harrapatzea batera";
+"onboarding_doc_capturer_subtitle_review" = "Ziurtatu irudia duen dokumentu bakarra dauka eta ez dela biratu";
+"onboarding_doc_capturer_title_review" = "Image berrikuspena";
+"onboarding_doc_capturer_review_ok" = "Ederki";
+"onboarding_doc_capturer_source_camera" = "Kamara";
+"onboarding_doc_capturer_source_file" = "Artxiboa";
+"onboarding_doc_capturer_adding" = "Kargatzen fitxategia";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "Dokumentua ez da harrapatu, saiatu eskuzko harrapatzea";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "Dokumentua ezin da harrapatu. Saiatu berriro edo eskuzko harrapatzea erabili";
+"onboarding_doc_capturer_qr_message" = "Ez kezkatu, zure telefonoan prozesua jarraitu ahal izango duzu. QR eskaneatu dezakezu!";
+"onboarding_doc_capturer_qr_or_you_can" = "edo bestela";
+"onboarding_doc_capturer_check_position" = "Dokumentuan ezartzen kutxa";
+"onboarding_doc_capturer_processing_stay_still" = "Harrapaketak ... Ez dokumentua mugitu";
+
+//Credit card general
+"onboarding_credit_card_supported_cards" = "Onartutako txartelak:";
+"onboarding_credit_card_alert_title_generic_problem" = "Arazoa zure txartela irakurtzen";
+"onboarding_credit_card_alert_subtitle_generic_problem" = "Automatikoan arazoak duzun zure txartela eskaneatzen bada, datuak eskuz sar dezakezu";
+"onboarding_credit_card_alert_title_unsupported_card" = "Txartela ez da onartzen";
+"onboarding_credit_card_alert_subtitle_unsupported_card" = "Onartutako txartelak, besteak beste:";
+"onboarding_credit_card_alert_retry" = "Berriro saiatzen";
+"onboarding_credit_card_alert_enter_manually" = "Sar eskuz";
+
+//Credit card mode selector
+"onboarding_credit_card_mode_selector_title" = "Kreditu / zor txartela";
+"onboarding_credit_card_mode_selector_subtitle" = "Mesedez aukeratu bat zure txartelaren informazioa emateko";
+"onboarding_credit_card_mode_selector_nfc" = "Automatikoki eskaneatu NFC (zure txartela Ikur hori badu)";
+"onboarding_credit_card_mode_selector_camera" = "Automatikoki atzeko kamera eskaneatu";
+"onboarding_credit_card_mode_selector_form" = "Sar eskuz";
+
+//Credit card capturer from camera
+"onboarding_credit_card_camera_capturer_info_text" = "Albo-txartela kopuru erakutsiz Enkoadraketa automatikoki eskaneatu arte";
+
+//Credit card capturer from NFC
+"onboarding_credit_card_nfc_capturer_title" = "Eskaneatu txartela";
+"onboarding_credit_card_nfc_capturer_error_not_available" = "Ez dago NFC modulua erabilgarri gailu honetan";
+"onboarding_credit_card_nfc_capturer_error_generic" = "Mesedez, ez zure txartela eraman. Saiatu berriro.";
+"onboarding_credit_card_nfc_capturer_error_unknown_card" = "Txartel ezezagun";
+"onboarding_credit_card_nfc_capturer_error_contactless_locked" = "Blokeatuta txartela";
+"onboarding_credit_card_nfc_capturer_tap_your_card" = "Mesedez, zure txartela zure telefonoa atzealdean";
+"onboarding_credit_card_nfc_info_title_scanning" = "Irakurtzen ...";
+"onboarding_credit_card_nfc_info_subtitle_scanning" = "Mesedez, ez da txartela mugitu bitartean irakurtzen.";
+"onboarding_credit_card_nfc_alert_title_is_off" = "NFC desgaituta";
+"onboarding_credit_card_nfc_alert_subtitle_is_off" = "NFC gaituta modulu irakurtzeko izan behar duzu. orain gaitu nahi duzu?";
+"onboarding_credit_card_nfc_alert_positive_is_off" = "Aktibatu";
+"onboarding_credit_card_nfc_alert_title_expired_card" = "Iraungitako txartela";
+"onboarding_credit_card_nfc_alert_subtitle_expired_card" = "Zure txartela iraungi";
+
+//Credit card form
+"onboarding_credit_card_form_title" = "Txartela datuak";
+"onboarding_credit_card_form_subtitle_check_data" = "Mesedez, berrikusi eta osoa datuak";
+"onboarding_credit_card_form_add_card" = "Gehitu txartela";
+"onboarding_credit_card_form_hint_card_number" = "Txartel zenbakia";
+"onboarding_credit_card_form_hint_expiration" = "Epea";
+"onboarding_credit_card_form_hint_cvv" = "CVV";
+"onboarding_credit_card_form_hint_cardholder_name" = "Txartelaren titularraren izena";
+"onboarding_credit_card_form_hint_postal_code" = "Posta kodea";
+"onboarding_credit_card_form_hint_country_code" = "Herrialde kodea";
+"onboarding_credit_card_form_hint_mobile_number" = "Mobile kopurua";
+"onboarding_credit_card_form_cvv" = "CVV";
+"onboarding_credit_card_form_cvc" = "CVC";
+"onboarding_credit_card_form_cid" = "CID";
+"onboarding_credit_card_form_cvn" = "CVN";
+"onboarding_credit_card_form_month" = "Hilabetea";
+"onboarding_credit_card_form_year" = "Urtea";
+"onboarding_credit_card_form_card_number_required" = "Txartelaren zenbakia eman behar da";
+"onboarding_credit_card_form_card_number_invalid" = "Yxartel zenbakia baliogabea";
+"onboarding_credit_card_form_card_number_unsupported" = "Txartela ez da onartzen";
+"onboarding_credit_card_form_cvv_required" = "% S derrigorrezkoa da";
+"onboarding_credit_card_form_cvv_invalid" = "% S da baliogabe";
+"onboarding_credit_card_form_expiration_required" = "Iraungitze data derrigorrezkoa da";
+"onboarding_credit_card_form_expiration_invalid" = "Iraungitze-data baliogabea";
+"onboarding_credit_card_form_cardholder_name_required" = "Titularrak izena eman behar da";
+"onboarding_credit_card_form_postal_code_required" = "Posta kodea derrigorrezkoa da";
+"onboarding_credit_card_form_country_code_required" = "Herrialdeentzako derrigorrezkoa da";
+"onboarding_credit_card_form_mobile_number_required" = "Telefono zenbakia eman behar da";
+"onboarding_credit_card_form_save_card_checkbox_name" = "Save txartela";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Mantendu zure iPhone zure dokumentua itsatsita eta ziur irtengo partzialki gainetik egin";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "Jarri dokumentu zure telefonoa atzealdean";
+"onboarding_nfc_doc_capturer_finding_antenna" = "NFC antena telefonoan rekin dokumentua Lerrokatu. Ez baduzu, badakizu non dagoen, zure dokumentua irristatu duzu astiro telefonoak dardara edo eraztunak arte.";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "Irristatu poliki-poliki zure dokumentua telefonoak dardara edo jotzen duen arte.";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Jarrai dokumentu oraindik irakurketa";
+"onboarding_nfc_doc_capturer_tutorial" = "Tutoriala";
+"onboarding_nfc_doc_capturer_start_reading" = "BEGIN";
+"onboarding_nfc_doc_capturer_expiry" = "Iraungitze";
+"onboarding_nfc_doc_capturer_authenticating" = "Dokumentuaren autentifikatzen ...";
+"onboarding_nfc_doc_capturer_reading" = "Irakurtzen ... ez dokumentuan mugitu";
+"onboarding_nfc_doc_capturer_success" = "Dokumentu behar bezala irakurri.";
+"onboarding_nfc_doc_capturer_error_connection_title" = "Connection error";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "Ez zure dokumentua mugitu irakurtzen prozesuan";
+"onboarding_nfc_doc_capturer_error_generic_title" = "Arazoa zure dokumentua irakurtzeko";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Saiatu berriro mesedez.";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "bateraezina dokumentu";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Sentitzen dut, oraingoz ezin stand zure dokumentua";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Dokumentu okerra";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Ziurtatu dokumentu egokian duzu";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "Selfie gehitzen ...";
+"onboarding_selfie_capturer_adding_with_challenge" = "Selfie erronkarekin gehitzen...";
+"onboarding_selfie_capturer_adding_with_document" = "Selfie dokumentuarekin gehitzen…";
+"onboarding_selfie_capturer_authenticating" = "Autentifikatzen ...";
+"onboarding_selfie_capturer_move_farther" = "Mesedez, kanpoan gailua";
+"onboarding_selfie_capturer_get_closer" = "Mesedez, gailuak joan";
+"onboarding_selfie_capturer_no_face" = "Ez detektatu aurpegia";
+"onboarding_selfie_capturer_look_camera" = "Mesedez begiratu kamera";
+"onboarding_selfie_capturer_center_face" = "Mesedez dutelakoan zure aurpegia obalatua hasi";
+"onboarding_selfie_capturer_device_elevation" = "Mesedez, jar begi mailan gailua";
+"onboarding_selfie_cancel" = "Utzi";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Mesedez dutelakoan zure aurpegia obalatua hasi";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Ezin izan da aurpegiko informazioa kentzeko";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Ziurtatu oraindik egoteko, prozesu osoan zehar zure aurpegia mantenduz obalo eta ona argiztapen baldintza";
+"onboarding_selfie_capturer_face_detected_tooltip" = "Egin klik hemen argazki bat hartu!";
+"onboarding_selfie_capturer_subtitle" = "Mesedez, jarraitu harrapatzea batera";
+"onboarding_selfie_capturer_subtitle_review" = "Mesedez begiratu argazkian ona dela";
+"onboarding_selfie_with_document_capturer_center_face" = "Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat";
+"onboarding_other_trusted_docs_capturer_subtitle" = "Mesedez, atera zure dokumentua";
+"onboarding_other_trusted_docs_click_or_drop" = "Egin klik edo jaregin fitxategia hemen";
+"onboarding_other_trusted_docs_capturer_accept" = "Onartzeko";
+"onboarding_other_trusted_docs_capturer_cancel" = "Utzi";
+"onboarding_other_trusted_docs_capturer_continue" = "Jarraitu";
+"onboarding_other_trusted_docs_capturer_camera" = "Kamara";
+"onboarding_other_trusted_docs_capturer_images_limit" = "Gehienezko irudi kopurura iritsi da";
+"onboarding_other_trusted_docs_capturer_documents" = "Dokumentuak";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDF handiegia";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Fitxategiak ezin du 5 MB baino gehiago izan";
+
+//Welcome
