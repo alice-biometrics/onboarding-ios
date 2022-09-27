@@ -42,13 +42,12 @@
 "onboarding_stages_title" = "Проверка личности";
 "onboarding_stages_description" = "Пожалуйста, выполните следующие шаги для успешной проверки";
 "onboarding_stages_selfie" = "Селфи";
-"onboarding_stages_selfie_with_challenge" = "Селфи с вызовом";
 "onboarding_stages_selfie_with_document" = "Селфи с документом";
+"onboarding_stages_selfie_with_document_challenge" = "Селфи с документом";
 "onboarding_stages_id_card" = "Удостоверение личности";
 "onboarding_stages_driver_license" = "Водительские права";
 "onboarding_stages_passport" = "Паспорт";
 "onboarding_stages_residence_permit" = "Вид на жительство";
-"onboarding_stages_credit_card" = "Кредитная/дебетовая карта";
 "onboarding_stages_health_insurance_card" = "Карточка медицинского страхования";
 "onboarding_stages_already_completed" = "Этап уже завершен";
 "onboarding_stages_completed" = "Завершенный";
@@ -117,70 +116,6 @@
 "onboarding_doc_capturer_qr_or_you_can" = "или вы можете";
 "onboarding_doc_capturer_check_position" = "Отрегулируйте документ по прямоугольнику";
 "onboarding_doc_capturer_processing_stay_still" = "Захват... Не перемещайте документ";
-
-//Credit card general
-"onboarding_credit_card_supported_cards" = "Принимаемые карты:";
-"onboarding_credit_card_alert_title_generic_problem" = "Проблема при чтении вашей карты";
-"onboarding_credit_card_alert_subtitle_generic_problem" = "Если вы столкнулись с проблемами сканирования вашей карты, вы можете ввести данные вручную";
-"onboarding_credit_card_alert_title_unsupported_card" = "неподдерживаемые карты";
-"onboarding_credit_card_alert_subtitle_unsupported_card" = "Поддерживаемые карты: ";
-"onboarding_credit_card_alert_retry" = "Попытаться заново";
-"onboarding_credit_card_alert_enter_manually" = "введите вручную";
-
-//Credit card mode selector
-"onboarding_credit_card_mode_selector_title" = "Кредитная/дебетовая карта";
-"onboarding_credit_card_mode_selector_subtitle" = "Пожалуйста, выберите способ для предоставления информации о кредитной карте";
-"onboarding_credit_card_mode_selector_nfc" = "Сканирование автоматически с помощью NFC (только если карта имеет этот символ)";
-"onboarding_credit_card_mode_selector_camera" = "Сканирование автоматически с камерой заднего вида";
-"onboarding_credit_card_mode_selector_form" = "введите вручную";
-
-//Credit card capturer from camera
-"onboarding_credit_card_camera_capturer_info_text" = "Вставьте сторону, на которой указан номер карты, до автоматического сканирования.";
-
-//Credit card capturer from NFC
-"onboarding_credit_card_nfc_capturer_title" = "Сканировать карту";
-"onboarding_credit_card_nfc_capturer_error_not_available" = "Там нет модуля NFC доступны в этом устройстве";
-"onboarding_credit_card_nfc_capturer_error_generic" = "Пожалуйста, не перемещать карту, попробуйте еще раз";
-"onboarding_credit_card_nfc_capturer_error_unknown_card" = "Неизвестная карта";
-"onboarding_credit_card_nfc_capturer_error_contactless_locked" = "Закрытая карта";
-"onboarding_credit_card_nfc_capturer_tap_your_card" = "Пожалуйста, введите свои карты на задней панели телефона";
-"onboarding_credit_card_nfc_info_title_scanning" = "Чтение ...";
-"onboarding_credit_card_nfc_info_subtitle_scanning" = "Пожалуйста, не перемещать карту во время чтения.";
-"onboarding_credit_card_nfc_alert_title_is_off" = "NFC выключен";
-"onboarding_credit_card_nfc_alert_subtitle_is_off" = "Вам нужно включить модуль NFC для чтения. Хотите включить его сейчас?";
-"onboarding_credit_card_nfc_alert_positive_is_off" = "Включить";
-"onboarding_credit_card_nfc_alert_title_expired_card" = "Истек срок действия карты";
-"onboarding_credit_card_nfc_alert_subtitle_expired_card" = "Ваша карта истекла";
-
-//Credit card form
-"onboarding_credit_card_form_title" = "Данные карты";
-"onboarding_credit_card_form_subtitle_check_data" = "Пожалуйста, проверьте и заполните данные";
-"onboarding_credit_card_form_add_card" = "Добавить карту";
-"onboarding_credit_card_form_hint_card_number" = "Номер карты";
-"onboarding_credit_card_form_hint_expiration" = "Срок годности";
-"onboarding_credit_card_form_hint_cvv" = "CVV";
-"onboarding_credit_card_form_hint_cardholder_name" = "Имя владельца карты";
-"onboarding_credit_card_form_hint_postal_code" = "Почтовый Код";
-"onboarding_credit_card_form_hint_country_code" = "Код страны";
-"onboarding_credit_card_form_hint_mobile_number" = "Мобильный номер";
-"onboarding_credit_card_form_cvv" = "CVV";
-"onboarding_credit_card_form_cvc" = "CVC";
-"onboarding_credit_card_form_cid" = "ИДС";
-"onboarding_credit_card_form_cvn" = "CVN";
-"onboarding_credit_card_form_month" = "Месяц";
-"onboarding_credit_card_form_year" = "Год";
-"onboarding_credit_card_form_card_number_required" = "Номер карты требуется";
-"onboarding_credit_card_form_card_number_invalid" = "Номер карты недействителен";
-"onboarding_credit_card_form_card_number_unsupported" = "неподдерживаемые карты";
-"onboarding_credit_card_form_cvv_required" = "%s требуется";
-"onboarding_credit_card_form_cvv_invalid" = "%s является недействительным";
-"onboarding_credit_card_form_expiration_required" = "Действительно требуется";
-"onboarding_credit_card_form_expiration_invalid" = "Срок годности является недействительным";
-"onboarding_credit_card_form_cardholder_name_required" = "Имя владельца карты требуется";
-"onboarding_credit_card_form_postal_code_required" = "Почтовый индекс требуется";
-"onboarding_credit_card_form_country_code_required" = "Код страны требуется";
-"onboarding_credit_card_form_mobile_number_required" = "Номер телефона требуется";
-"onboarding_credit_card_form_save_card_checkbox_name" = "Сохранить карту";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Держите iPhone рядом с документом и убедитесь, что он частично торчит сверху";

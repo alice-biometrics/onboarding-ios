@@ -42,13 +42,12 @@
 "onboarding_stages_title" = "Identitätsprüfung";
 "onboarding_stages_description" = "Bitte führen Sie die folgenden Schritte für eine erfolgreiche Verifizierung durch";
 "onboarding_stages_selfie" = "Selfie";
-"onboarding_stages_selfie_with_challenge" = "Selfie mit Herausforderung";
 "onboarding_stages_selfie_with_document" = "Selfie mit Dokument";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie mit Dokumentenherausforderung";
 "onboarding_stages_id_card" = "Personalausweis";
 "onboarding_stages_driver_license" = "Führerschein";
 "onboarding_stages_passport" = "Reisepass";
 "onboarding_stages_residence_permit" = "Aufenthaltsgenehmigung";
-"onboarding_stages_credit_card" = "Kreditkarte/Debitkarte";
 "onboarding_stages_health_insurance_card" = "Gesundheitskarte";
 "onboarding_stages_already_completed" = "Phase bereits abgeschlossen.";
 "onboarding_stages_completed" = "Abgeschlossen";
@@ -117,70 +116,6 @@
 "onboarding_doc_capturer_qr_or_you_can" = "oder du kannst";
 "onboarding_doc_capturer_check_position" = "Passen Sie das Dokument an das Rechteck an";
 "onboarding_doc_capturer_processing_stay_still" = "Erfassen... Verschieben Sie das Dokument nicht";
-
-//Credit card general
-"onboarding_credit_card_supported_cards" = "Akzeptierte Karten:";
-"onboarding_credit_card_alert_title_generic_problem" = "Problem beim Lesen Ihrer Karte";
-"onboarding_credit_card_alert_subtitle_generic_problem" = "Wenn Sie Probleme beim Scannen Ihrer Karte haben, können Sie die Daten manuell eingeben";
-"onboarding_credit_card_alert_title_unsupported_card" = "Nicht unterstützte Karte";
-"onboarding_credit_card_alert_subtitle_unsupported_card" = "Die akzeptierten Karten sind: ";
-"onboarding_credit_card_alert_retry" = "Wiederholen";
-"onboarding_credit_card_alert_enter_manually" = "Manuell eingeben";
-
-//Credit card mode selector
-"onboarding_credit_card_mode_selector_title" = "Kreditkarte/Debitkarte";
-"onboarding_credit_card_mode_selector_subtitle" = "Bitte wählen Sie eine Methode, um Ihre Karteninformationen zur Verfügung zu stellen";
-"onboarding_credit_card_mode_selector_nfc" = "Scannen automatisch mit NFC (nur, wenn Sie Ihre Karte hat dieses Symbol)";
-"onboarding_credit_card_mode_selector_camera" = "Scannen automatisch mit Rückfahrkamera";
-"onboarding_credit_card_mode_selector_form" = "Manuell eingeben";
-
-//Credit card capturer from camera
-"onboarding_credit_card_camera_capturer_info_text" = "Passen Sie die Seite an, auf der die Kartennummer angezeigt wird, bis sie automatisch gescannt wird";
-
-//Credit card capturer from NFC
-"onboarding_credit_card_nfc_capturer_title" = "Karte scannen";
-"onboarding_credit_card_nfc_capturer_error_not_available" = "Es gibt kein NFC-Modul in diesem Gerät";
-"onboarding_credit_card_nfc_capturer_error_generic" = "Bitte nicht bewegen Sie Ihre Karte, versuchen Sie es erneut";
-"onboarding_credit_card_nfc_capturer_error_unknown_card" = "Unbekannte Karte";
-"onboarding_credit_card_nfc_capturer_error_contactless_locked" = "Locked-Karte";
-"onboarding_credit_card_nfc_capturer_tap_your_card" = "Bitte legen Sie Ihre Karte auf der Rückseite des Telefons";
-"onboarding_credit_card_nfc_info_title_scanning" = "Lesen...";
-"onboarding_credit_card_nfc_info_subtitle_scanning" = "Bitte, bewegen sich nicht Ihre Karte beim Lesen.";
-"onboarding_credit_card_nfc_alert_title_is_off" = "NFC wird ausgeschaltet";
-"onboarding_credit_card_nfc_alert_subtitle_is_off" = "Sie müssen sich für das Lesen auf dem NFC-Modul einzuschalten. Ich wünschte es nun an drehen?";
-"onboarding_credit_card_nfc_alert_positive_is_off" = "Schalte ein";
-"onboarding_credit_card_nfc_alert_title_expired_card" = "Abgelaufene Karte";
-"onboarding_credit_card_nfc_alert_subtitle_expired_card" = "Ihre Karte abgelaufen auf";
-
-//Credit card form
-"onboarding_credit_card_form_title" = "Kartendaten";
-"onboarding_credit_card_form_subtitle_check_data" = "Bitte überprüfen und vervollständigen Sie die Daten";
-"onboarding_credit_card_form_add_card" = "Karte hinzufügen";
-"onboarding_credit_card_form_hint_card_number" = "Kartennummer";
-"onboarding_credit_card_form_hint_expiration" = "Haltbarkeitsdatum";
-"onboarding_credit_card_form_hint_cvv" = "CVV";
-"onboarding_credit_card_form_hint_cardholder_name" = "Name des Karteninhabers";
-"onboarding_credit_card_form_hint_postal_code" = "Postleitzahl";
-"onboarding_credit_card_form_hint_country_code" = "Landesvorwahl";
-"onboarding_credit_card_form_hint_mobile_number" = "Handynummer";
-"onboarding_credit_card_form_cvv" = "CVV";
-"onboarding_credit_card_form_cvc" = "CVC";
-"onboarding_credit_card_form_cid" = "CID";
-"onboarding_credit_card_form_cvn" = "CVN";
-"onboarding_credit_card_form_month" = "Monat";
-"onboarding_credit_card_form_year" = "Jahr";
-"onboarding_credit_card_form_card_number_required" = "Kartennummer erforderlich";
-"onboarding_credit_card_form_card_number_invalid" = "Kartennummer ist ungültig";
-"onboarding_credit_card_form_card_number_unsupported" = "Nicht unterstützte Karte";
-"onboarding_credit_card_form_cvv_required" = "%s ist erforderlich";
-"onboarding_credit_card_form_cvv_invalid" = "%s ist ungültig";
-"onboarding_credit_card_form_expiration_required" = "Das Ablaufdatum ist erforderlich";
-"onboarding_credit_card_form_expiration_invalid" = "Das Ablaufdatum ist ungültig";
-"onboarding_credit_card_form_cardholder_name_required" = "Name des Karteninhabers erforderlich";
-"onboarding_credit_card_form_postal_code_required" = "Postleitzahl ist erforderlich";
-"onboarding_credit_card_form_country_code_required" = "Ländercode erforderlich";
-"onboarding_credit_card_form_mobile_number_required" = "Die Telefonnummer ist erforderlich";
-"onboarding_credit_card_form_save_card_checkbox_name" = "Speichern Karte";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Halten Sie Ihr iPhone in die Nähe Ihres Dokuments und stellen Sie sicher, dass es teilweise oben herausragt";
