@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "Si us plau, completeu els passos següents per a una verificació correcta";
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie amb document";
-"onboarding_stages_selfie_with_document_challenge" = "Selfie amb repte de document";
+"onboarding_stages_selfie_with_challenge" = "Selfie amb repte";
 "onboarding_stages_id_card" = "Carnet d'identitat";
 "onboarding_stages_driver_license" = "Carnet de conduir";
 "onboarding_stages_passport" = "Passaport";

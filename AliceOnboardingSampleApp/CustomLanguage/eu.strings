@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "Mesedez, bete urrats hauek egiaztapena arrakasta izateko";
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie dokumentuarekin";
-"onboarding_stages_selfie_with_document_challenge" = "Selfie dokumentuen erronkarekin";
+"onboarding_stages_selfie_with_challenge" = "Selfie erronkarekin";
 "onboarding_stages_id_card" = "Nortasun agiria";
 "onboarding_stages_driver_license" = "Gidabaimena";
 "onboarding_stages_passport" = "Pasaportea";

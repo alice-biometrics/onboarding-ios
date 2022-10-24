@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "请完成以下步骤以成功验证";
 "onboarding_stages_selfie" = "自拍";
 "onboarding_stages_selfie_with_document" = "带文件的自拍";
-"onboarding_stages_selfie_with_document_challenge" = "带有文件挑战的自拍照";
+"onboarding_stages_selfie_with_challenge" = "挑战自拍";
 "onboarding_stages_id_card" = "身份证";
 "onboarding_stages_driver_license" = "驾照";
 "onboarding_stages_passport" = "护照";

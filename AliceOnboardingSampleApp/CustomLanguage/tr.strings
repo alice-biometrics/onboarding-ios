@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "Başarılı bir doğrulama için lütfen aşağıdaki adımları tamamlayın";
 "onboarding_stages_selfie" = "Selfi";
 "onboarding_stages_selfie_with_document" = "Belgeli özçekim";
-"onboarding_stages_selfie_with_document_challenge" = "Belge meydan okumalı selfie";
+"onboarding_stages_selfie_with_challenge" = "Meydan okuma ile selfie";
 "onboarding_stages_id_card" = "Nüfus Cüzdanı";
 "onboarding_stages_driver_license" = "Ehliyet";
 "onboarding_stages_passport" = "Pasaport";

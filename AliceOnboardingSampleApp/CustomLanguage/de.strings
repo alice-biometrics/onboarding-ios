@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "Bitte führen Sie die folgenden Schritte für eine erfolgreiche Verifizierung durch";
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie mit Dokument";
-"onboarding_stages_selfie_with_document_challenge" = "Selfie mit Dokumentenherausforderung";
+"onboarding_stages_selfie_with_challenge" = "Selfie mit Herausforderung";
 "onboarding_stages_id_card" = "Personalausweis";
 "onboarding_stages_driver_license" = "Führerschein";
 "onboarding_stages_passport" = "Reisepass";

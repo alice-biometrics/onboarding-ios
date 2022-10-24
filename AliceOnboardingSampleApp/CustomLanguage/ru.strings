@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "Пожалуйста, выполните следующие шаги для успешной проверки";
 "onboarding_stages_selfie" = "Селфи";
 "onboarding_stages_selfie_with_document" = "Селфи с документом";
-"onboarding_stages_selfie_with_document_challenge" = "Селфи с документом";
+"onboarding_stages_selfie_with_challenge" = "Селфи с вызовом";
 "onboarding_stages_id_card" = "Удостоверение личности";
 "onboarding_stages_driver_license" = "Водительские права";
 "onboarding_stages_passport" = "Паспорт";
