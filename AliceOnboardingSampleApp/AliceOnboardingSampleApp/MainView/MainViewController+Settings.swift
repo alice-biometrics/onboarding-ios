@@ -40,7 +40,7 @@ extension MainViewController {
         self.experimentalEnvironment = UserDefaults.standard.bool(
             forKey: SettingsBundleHelper.Keys.ExoerimentalEnvironment)
         if self.experimentalEnvironment {
-            Onboarding.setEnvironment(.preproduction)
+            Onboarding.setEnvironment(.staging)
             self.sandboxToken = UserDefaults.standard.string(
                 forKey: SettingsBundleHelper.Keys.SandboxTokenExperimentalEnvironment) ?? ""
         } else {

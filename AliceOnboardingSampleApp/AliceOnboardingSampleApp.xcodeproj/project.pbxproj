@@ -20,6 +20,7 @@
 		40C75A1E22D68064000950E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1C22D68064000950E2 /* Main.storyboard */; };
 		40C75A2022D68065000950E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1F22D68065000950E2 /* Assets.xcassets */; };
 		40C75A2322D68065000950E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A2122D68065000950E2 /* LaunchScreen.storyboard */; };
+		B16820A52906E5BE00189D69 /* AleretView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16820A42906E5BE00189D69 /* AleretView.swift */; };
 		CA30F7A1234CCB9400A68B10 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA30F7A0234CCB9400A68B10 /* en.strings */; };
 		CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA423191B9700B969BA /* ShowResultViewController.swift */; };
 		CA37CAAA231940E500B969BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA9231940E500B969BA /* MainViewController.swift */; };
@@ -28,7 +29,7 @@
 		CAB13DBB2334E89B0076FFBB /* alice_color_no_text.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB13DBA2334E89A0076FFBB /* alice_color_no_text.png */; };
 		CAE37F0922FAE3680026FFA1 /* OnboardingCommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE37F0822FAE3680026FFA1 /* OnboardingCommandViewController.swift */; };
 		F64C7C61257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C7C60257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift */; };
-		FC7D639D8407CC246DA04020 /* libPods-AliceOnboardingSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D227801A9D2A6FCDBFAC6BCE /* libPods-AliceOnboardingSampleApp.a */; };
+		F7351D039A76E22F48A139D5 /* Pods_AliceOnboardingSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACDE6A3BE8A556A3D8572CB /* Pods_AliceOnboardingSampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +74,9 @@
 		40C75A1822D68064000950E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C75A1F22D68065000950E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C75A2422D68065000950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4432CF8E0DCF655D3E6AEBD /* Pods-AliceOnboardingSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A4BD3B7C8C6059F2A1E8A89 /* Pods-AliceOnboardingSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		7ACDE6A3BE8A556A3D8572CB /* Pods_AliceOnboardingSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliceOnboardingSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16820A42906E5BE00189D69 /* AleretView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleretView.swift; sourceTree = "<group>"; };
 		CA30F7A0234CCB9400A68B10 /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
 		CA37CAA423191B9700B969BA /* ShowResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultViewController.swift; sourceTree = "<group>"; };
 		CA37CAA9231940E500B969BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -82,11 +85,10 @@
 		CAB13DBA2334E89A0076FFBB /* alice_color_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alice_color_no_text.png; sourceTree = "<group>"; };
 		CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AliceOnboarding.xcodeproj; path = ../Onboarding/AliceOnboarding.xcodeproj; sourceTree = "<group>"; };
 		CAE37F0822FAE3680026FFA1 /* OnboardingCommandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCommandViewController.swift; sourceTree = "<group>"; };
-		D227801A9D2A6FCDBFAC6BCE /* libPods-AliceOnboardingSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliceOnboardingSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCD42AD6BA3B1DA2F2CCBEE1 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F64C7C5E257E3F15004492B3 /* AliceOnboardingSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceOnboardingSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64C7C60257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceOnboardingSampleAppUITests.swift; sourceTree = "<group>"; };
 		F64C7C62257E3F15004492B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7B052699191AAEFDB50346 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7D639D8407CC246DA04020 /* libPods-AliceOnboardingSampleApp.a in Frameworks */,
+				F7351D039A76E22F48A139D5 /* Pods_AliceOnboardingSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +130,7 @@
 				40B7D0BD23334E300081E128 /* MainViewController+AliceOnboarding.swift */,
 				40B7D0BF23334F330081E128 /* MainViewController+Auth.swift */,
 				40B7D0C123334F970081E128 /* MainViewController+Settings.swift */,
+				B16820A42906E5BE00189D69 /* AleretView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -193,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */,
-				D227801A9D2A6FCDBFAC6BCE /* libPods-AliceOnboardingSampleApp.a */,
+				7ACDE6A3BE8A556A3D8572CB /* Pods_AliceOnboardingSampleApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,8 +213,8 @@
 		F8E9941311B9621370938E0F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCD42AD6BA3B1DA2F2CCBEE1 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */,
-				C4432CF8E0DCF655D3E6AEBD /* Pods-AliceOnboardingSampleApp.release.xcconfig */,
+				FA7B052699191AAEFDB50346 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */,
+				5A4BD3B7C8C6059F2A1E8A89 /* Pods-AliceOnboardingSampleApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -223,11 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40C75A3222D68065000950E2 /* Build configuration list for PBXNativeTarget "AliceOnboardingSampleApp" */;
 			buildPhases = (
-				769C673A83B041007C0F3A2B /* [CP] Check Pods Manifest.lock */,
+				959B8C8233F12177AD5E7EE1 /* [CP] Check Pods Manifest.lock */,
 				40C75A1122D68064000950E2 /* Sources */,
 				40C75A1222D68064000950E2 /* Frameworks */,
 				40C75A1322D68064000950E2 /* Resources */,
-				0D8DF7BFE3D65DBC7C8BE31D /* [CP] Embed Pods Frameworks */,
+				CFA21A292F907D8134A6EE79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -346,24 +349,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D8DF7BFE3D65DBC7C8BE31D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		769C673A83B041007C0F3A2B /* [CP] Check Pods Manifest.lock */ = {
+		959B8C8233F12177AD5E7EE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,6 +371,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CFA21A292F907D8134A6EE79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -401,6 +404,7 @@
 				40B7D0C223334F970081E128 /* MainViewController+Settings.swift in Sources */,
 				CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */,
 				CA37CAAA231940E500B969BA /* MainViewController.swift in Sources */,
+				B16820A52906E5BE00189D69 /* AleretView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +572,7 @@
 		};
 		40C75A3322D68065000950E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCD42AD6BA3B1DA2F2CCBEE1 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */;
+			baseConfigurationReference = FA7B052699191AAEFDB50346 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -593,7 +597,7 @@
 		};
 		40C75A3422D68065000950E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4432CF8E0DCF655D3E6AEBD /* Pods-AliceOnboardingSampleApp.release.xcconfig */;
+			baseConfigurationReference = 5A4BD3B7C8C6059F2A1E8A89 /* Pods-AliceOnboardingSampleApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
