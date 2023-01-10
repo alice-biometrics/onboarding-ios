@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "edo bestela";
 "onboarding_doc_capturer_check_position" = "Dokumentuan ezartzen kutxa";
 "onboarding_doc_capturer_processing_stay_still" = "Harrapaketak ... Ez dokumentua mugitu";
+"onboarding_error_max_number_of_documents" = "Gehienezko saiakera kopurua gainditu duzu";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Mantendu zure iPhone zure dokumentua itsatsita eta ziur irtengo partzialki gainetik egin";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Sentitzen dut, oraingoz ezin stand zure dokumentua";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Dokumentu okerra";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Ziurtatu dokumentu egokian duzu";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC desgaituta";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "NFC gaituta modulu irakurtzeko izan behar duzu. orain gaitu nahi duzu?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Aktibatu";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Selfie gehitzen ...";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat";
+"onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat edo argazki bat";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Mesedez, atera zure dokumentua";
 "onboarding_other_trusted_docs_click_or_drop" = "Egin klik edo jaregin fitxategia hemen";
 "onboarding_other_trusted_docs_capturer_accept" = "Onartzeko";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Dokumentuak";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDF handiegia";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Fitxategiak ezin du 5 MB baino gehiago izan";
+"onboarding_other_trusted_docs_upload_another_image" = "Erantsi irudi gehiago";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "Kargatu den azken dokumentua irudi bat izan da, jarraitu irudiak igotzen";
+"onboarding_other_trusted_docs_error" = "Arazoa kargatutako fitxategiarekin";
 
 //Welcome

@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "ou você pode";
 "onboarding_doc_capturer_check_position" = "Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.";
 "onboarding_doc_capturer_processing_stay_still" = "Capturando... Não mova o documento";
+"onboarding_error_max_number_of_documents" = "Você excedeu o número máximo de tentativas";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Mantenha o seu iPhone próximo ao documento e certifique-se de que a metade fique para fora";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Desculpe, não oferecemos suporte ao seu documento no momento";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Documento errado";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Certifique-se de que está a usar o documento correto";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC desativada";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "Você precisa ter NFC habilitado para leitura. Você quer habilitá-lo agora?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Ativar";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Enviando selfie…";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Centralize seu rosto no oval e o documento no retângulo";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Por favor, escolha um arquivo PDF";
+"onboarding_other_trusted_docs_subtitle" = "Por favor, escolha um arquivo PDF ou uma imagem";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Por favor, capture o seu documento";
 "onboarding_other_trusted_docs_click_or_drop" = "Clique ou solte o arquivo aqui";
 "onboarding_other_trusted_docs_capturer_accept" = "Aceitar";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Documentos";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDF muito grande";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "O arquivo não pode exceder 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Anexar mais imagens";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "O último documento enviado foi uma imagem, continue enviando imagens";
+"onboarding_other_trusted_docs_error" = "Problema com arquivo enviado";
 
 //Welcome

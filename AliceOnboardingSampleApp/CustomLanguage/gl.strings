@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "ou podes";
 "onboarding_doc_capturer_check_position" = "Axusta o documento ó rectángulo";
 "onboarding_doc_capturer_processing_stay_still" = "Capturando... Non movas o documento";
+"onboarding_error_max_number_of_documents" = "Superou o número máximo de intentos";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Mantén o iPhone pegado ao documento e asegúrate de que sobresae en parte por riba";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Sentímolo, neste momento non soportamos o teu documento";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Documento incorrecto";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Asegúrese de que está a usar o documento correcto";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC apagado";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "A lectura precisa ter activo o módulo NFC. ¿Desexa activalo agora?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Activar";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Engadindo selfie…";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra a túa cara no óvalo e o documento no rectángulo";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Por favor, escolla un ficheiro PDF";
+"onboarding_other_trusted_docs_subtitle" = "Por favor, escolla un ficheiro PDF o unha imaxe";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Por favor, capture o seu documento";
 "onboarding_other_trusted_docs_click_or_drop" = "Fai clic ou solta o ficheiro aquí";
 "onboarding_other_trusted_docs_capturer_accept" = "Aceptar";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Documentos";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDF demasiado grande";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "O ficheiro non pode superar os 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Adxunta máis imaxes";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "O último documento subido foi unha imaxe, segue subindo imaxes";
+"onboarding_other_trusted_docs_error" = "Problema co ficheiro cargado";
 
 //Welcome

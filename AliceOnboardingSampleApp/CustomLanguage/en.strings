@@ -45,7 +45,7 @@
 "onboarding_stages_selfie_with_document" = "Selfie with document";
 "onboarding_stages_selfie_with_challenge" = "Selfie with challenge";
 "onboarding_stages_id_card" = "National ID Card";
-"onboarding_stages_driver_license" = "Driver license";
+"onboarding_stages_driver_license" = "Driving licence";
 "onboarding_stages_passport" = "Passport";
 "onboarding_stages_residence_permit" = "Residence permit";
 "onboarding_stages_health_insurance_card" = "Health insurance card";
@@ -57,7 +57,7 @@
 
 //Doc sides screen
 "onboarding_sides_title_id_card" = "National ID Card";
-"onboarding_sides_title_driver_license" = "Driver license";
+"onboarding_sides_title_driver_license" = "Driving licence";
 "onboarding_sides_title_passport" = "Passport";
 "onboarding_sides_title_residence_permit" = "Residence permit";
 "onboarding_sides_title_health_insurance_card" = "Health insurance card";
@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "or you can";
 "onboarding_doc_capturer_check_position" = "Adjust document to rectangle";
 "onboarding_doc_capturer_processing_stay_still" = "Capturing… Stay still";
+"onboarding_error_max_number_of_documents" = "You have exceeded the maximum number of attempts";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Hold your iPhone nearby your document and make sure it partially sticks out on top";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Sorry, we don't support your document at the moment";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Wrong document";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Make sure you are scanning the right document";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC is turned off";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "You need turn on the NFC module for reading. Wish to turn it on now?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Turn on";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Adding selfie…";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Please, center your face on the oval and the document on the rectangle";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Please, choose a PDF file";
+"onboarding_other_trusted_docs_subtitle" = "Please choose a PDF or an image";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Please, capture your document";
 "onboarding_other_trusted_docs_click_or_drop" = "Click or drop file here";
 "onboarding_other_trusted_docs_capturer_accept" = "Accept";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Documents";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "Too large PDF";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "The file cannot exceed 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Attach more images";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "The last uploaded document was an image, keep uploading images";
+"onboarding_other_trusted_docs_error" = "Problem with uploaded file";
 
 //Welcome

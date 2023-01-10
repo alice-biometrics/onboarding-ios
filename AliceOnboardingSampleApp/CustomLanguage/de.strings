@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "oder du kannst";
 "onboarding_doc_capturer_check_position" = "Passen Sie das Dokument an das Rechteck an";
 "onboarding_doc_capturer_processing_stay_still" = "Erfassen... Verschieben Sie das Dokument nicht";
+"onboarding_error_max_number_of_documents" = "Sie haben die maximale Anzahl an Versuchen überschritten";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Halten Sie Ihr iPhone in die Nähe Ihres Dokuments und stellen Sie sicher, dass es teilweise oben herausragt";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Leider unterstützen wir Ihr Dokument derzeit nicht";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Falsches Dokument";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Stellen Sie sicher, dass Sie das Scannen des rigth Dokument";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC wird ausgeschaltet";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "Sie müssen sich für das Lesen auf dem NFC-Modul einzuschalten. Ich wünschte es nun an drehen?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Schalte ein";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Selfie hinzufügen…";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Bitte zentrieren Sie Ihr Gesicht auf dem Oval und das Dokument auf dem Rechteck";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Bitte wählen Sie eine PDF-Datei";
+"onboarding_other_trusted_docs_subtitle" = "Bitte wählen Sie eine PDF-Datei oder ein Bild aus";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Bitte erfassen Sie Ihr Dokument";
 "onboarding_other_trusted_docs_click_or_drop" = "Datei hier anklicken oder ablegen";
 "onboarding_other_trusted_docs_capturer_accept" = "Akzeptieren";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Unterlagen";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "Zu großes PDF";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Die Datei darf 5 MB nicht überschreiten";
+"onboarding_other_trusted_docs_upload_another_image" = "Weitere Bilder anhängen";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "Das letzte hochgeladene Dokument war ein Bild, laden Sie weitere Bilder hoch";
+"onboarding_other_trusted_docs_error" = "Problem mit hochgeladener Datei";
 
 //Welcome

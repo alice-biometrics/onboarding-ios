@@ -43,7 +43,7 @@
 "onboarding_stages_description" = "Por favor, completa los siguientes pasos para una verificación correcta";
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie con documento";
-"onboarding_stages_selfie_with_challenge" = "Selfie con retos";
+"onboarding_stages_selfie_with_challenge" = "Selfie con reto";
 "onboarding_stages_id_card" = "Carnet de identidad";
 "onboarding_stages_driver_license" = "Carnet de conducir";
 "onboarding_stages_passport" = "Pasaporte";
@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "o puedes";
 "onboarding_doc_capturer_check_position" = "Ajusta el documento al rectángulo";
 "onboarding_doc_capturer_processing_stay_still" = "Capturando… No muevas el documento";
+"onboarding_error_max_number_of_documents" = "Ha superado el número máximo de intentos";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Mantén tu iPhone pegado a tu documento y asegúrate de que sobresalga en parte por arriba";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Lo sentimos, de momento no soportamos tu documento";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Documento incorrecto";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Asegúrate de estar usando el documento correcto";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC desactivado";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "Es necesario tener activado el módulo NFC para la lectura. ¿Deseas activarlo ahora?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Activar";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Añadiendo selfie…";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra tu cara en el óvalo y el documento en el rectángulo";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Por favor, elija un PDF";
+"onboarding_other_trusted_docs_subtitle" = "Por favor, elija un PDF o una imagen";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Por favor, capture su documento";
 "onboarding_other_trusted_docs_click_or_drop" = "Pulse o arrastre el archivo aquí";
 "onboarding_other_trusted_docs_capturer_accept" = "Aceptar";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Documentos";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDF demasiado grande";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "El archivo no puede exceder los 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Adjuntar más imágenes";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "El último documento subido fue una imagen, sigue subiendo imágenes";
+"onboarding_other_trusted_docs_error" = "Problema con el archivo subido";
 
 //Welcome

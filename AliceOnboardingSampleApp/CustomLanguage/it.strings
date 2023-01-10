@@ -116,6 +116,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "o puó";
 "onboarding_doc_capturer_check_position" = "Adattare il documento al rettangolo";
 "onboarding_doc_capturer_processing_stay_still" = "Cattura... Non spostare il documento";
+"onboarding_error_max_number_of_documents" = "Hai superato il numero massimo di tentativi";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Tieni il tuo Iphone vicino al tuo documento e assicurati che sporga parzialmente dalla parte superiore";
@@ -137,6 +138,9 @@
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Spiacenti, al momento non supportiamo il tuo documento";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Documento incorretto";
 "onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Assicurarsi di utilizzare il documento corretto";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC disattivato";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "È necessario avere il modulo NFC abilitato per la lettura. Si desidera abilitare ora?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Attivare";
 
 //Selfie capturer
 "onboarding_selfie_capturer_adding" = "Aggiungendo del selfie...";
@@ -159,7 +163,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Per favore, centra il viso sull'ovale e il documento sul rettangolo";
 
 //OTD capturer
-"onboarding_other_trusted_docs_subtitle" = "Per favore, scegli un file PDF";
+"onboarding_other_trusted_docs_subtitle" = "Per favore, scegli un file PDF o un'immagine";
 "onboarding_other_trusted_docs_capturer_subtitle" = "Per favore, cattura il tuo documento";
 "onboarding_other_trusted_docs_click_or_drop" = "Fare clic o rilasciare il file qui";
 "onboarding_other_trusted_docs_capturer_accept" = "Accettare";
@@ -170,5 +174,8 @@
 "onboarding_other_trusted_docs_capturer_documents" = "Documenti";
 "onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDF troppo grande";
 "onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Il file non può superare i 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Allega altre immagini";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "L'ultimo documento caricato era un'immagine, continua a caricare immagini";
+"onboarding_other_trusted_docs_error" = "Problema con il file caricato";
 
 //Welcome
