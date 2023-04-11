@@ -24,6 +24,11 @@ class OnboardingCommandViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         onboardingCommands = OnboardingCommands(self, userToken: userToken!)
+        { result in
+            showAlert(viewController: self,
+                      title: "OnboardingCommand",
+                      message: "Commands init result (\(result))")
+        }
     }
     @IBAction func commandAddSelfie(_ sender: Any) {
         self.onboardingCommands!.addSelfie { result in
