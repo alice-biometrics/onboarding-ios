@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "Plik jest za duży";
 "onboarding_error_subtitle_file_too_big" = "Maksymalny dozwolony rozmiar pliku to {size} MB";
 "onboarding_error_title_file_type_not_supported" = "Plik nie jest obsługiwany";
+"onboarding_error_title_image_type_not_supported" = "Obraz nieobsługiwany";
 "onboarding_error_subtitle_file_type_not_supported" = "Obsługiwane typy plików to .jpg, .png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Przepraszamy, ten typ dokumentu nie jest obsługiwany w wybranym kraju";
 "onboarding_error_title_challenge_timeout" = "Koniec czasu";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie z dokumentem";
 "onboarding_stages_selfie_with_challenge" = "Selfie z wyzwaniem";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie z wyzwaniem";
+"onboarding_stages_document" = "Dokument";
 "onboarding_stages_id_card" = "Dowód osobisty";
 "onboarding_stages_driver_license" = "Prawo jazdy";
 "onboarding_stages_passport" = "Paszport";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "ZACZYNAMY";
 "onboarding_country_selector_cancel" = "ANULUJ";
 "onboarding_country_selector_reload" = "Przeładować";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Wybór dokumentu";
+"onboarding_doc_country_selector_issuing_country" = "Kraj dokumentu";
+"onboarding_doc_country_selector_allowed_documents" = "Akceptowane dokumenty";
+"onboarding_doc_country_selector_document_type" = "Typ dokumentu";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Wykonaj zdjęcie ponownie";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Proszę kontynuować przechwytywanie";
 "onboarding_selfie_capturer_subtitle_review" = "Upewnij się, że Twoje zdjęcie jest dobre";
 "onboarding_selfie_with_document_capturer_center_face" = "Proszę wyśrodkować twarz na owalu, a dokument na prostokącie";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Proszę wybrać plik PDF lub zdjęcie";

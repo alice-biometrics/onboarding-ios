@@ -15,7 +15,7 @@
 //Errors
 "onboarding_error_config" = "Please, review your OnboardingConfig. You should select at least one Onboarding Stage.";
 "onboarding_error_loading_resources" = "Slow connection, try again later.";
-"onboarding_error_title_technical" = "An error occurred.";
+"onboarding_error_title_technical" = "An error occurred";
 "onboarding_error_subtitle_technical" = "Please, try again.";
 "onboarding_error_title_connection" = "Connection error";
 "onboarding_error_subtitle_connection" = "Please, check your internet connection.";
@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "File is too big";
 "onboarding_error_subtitle_file_too_big" = "Max allowed file size is {size} MB";
 "onboarding_error_title_file_type_not_supported" = "File not supported";
+"onboarding_error_title_image_type_not_supported" = "Image not supported";
 "onboarding_error_subtitle_file_type_not_supported" = "Supported file types are .jpg, .png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Sorry, this type of document is not supported for the selected country";
 "onboarding_error_title_challenge_timeout" = "Timeout";
@@ -44,8 +45,10 @@
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie with document";
 "onboarding_stages_selfie_with_challenge" = "Selfie with challenge";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie with challenge";
+"onboarding_stages_document" = "Document";
 "onboarding_stages_id_card" = "National ID Card";
-"onboarding_stages_driver_license" = "Driving licence";
+"onboarding_stages_driver_license" = "Driver license";
 "onboarding_stages_passport" = "Passport";
 "onboarding_stages_residence_permit" = "Residence permit";
 "onboarding_stages_health_insurance_card" = "Health insurance card";
@@ -57,7 +60,7 @@
 
 //Doc sides screen
 "onboarding_sides_title_id_card" = "National ID Card";
-"onboarding_sides_title_driver_license" = "Driving licence";
+"onboarding_sides_title_driver_license" = "Driver license";
 "onboarding_sides_title_passport" = "Passport";
 "onboarding_sides_title_residence_permit" = "Residence permit";
 "onboarding_sides_title_health_insurance_card" = "Health insurance card";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "Start";
 "onboarding_country_selector_cancel" = "Cancel";
 "onboarding_country_selector_reload" = "Reload";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Document selection";
+"onboarding_doc_country_selector_issuing_country" = "Country of the document";
+"onboarding_doc_country_selector_allowed_documents" = "Accepted documents";
+"onboarding_doc_country_selector_document_type" = "Document type";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Retry photo";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Please, proceed with the capture";
 "onboarding_selfie_capturer_subtitle_review" = "Please, make sure that your picture is good";
 "onboarding_selfie_with_document_capturer_center_face" = "Please, center your face on the oval and the document on the rectangle";
+"onboarding_selfie_capturer_button_tutorial" = "Ok, got it!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Now you have to take a selfie. Follow these instructions";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Please choose a PDF or an image";

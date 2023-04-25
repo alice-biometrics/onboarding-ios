@@ -1,0 +1,192 @@
+"onboarding_click_or_drop" = "ここで画像をクリックまたはドロップします";
+"onboarding_close" = "閉じる";
+"onboarding_rotate" = "回転";
+"onboarding_yes" = "はい";
+"onboarding_no" = "いいえ";
+"onboarding_alert_title_really_sure_to_exit" = "不完全なプロセス";
+"onboarding_alert_subtitle_really_sure_to_exit" = "本当に終了しますか？";
+"onboarding_ask_for_permissions_title" = "この機能は、カメラアクセスが必要としています";
+"onboarding_ask_for_permissions_subtitle" = "デバイス設定で、アプリケーション設定を開き、カメラをアクティブにしてください。";
+"onboarding_ask_for_permissions_ok_button" = "設定を開く";
+"onboarding_ask_for_permissions_cancel_button" = "キャンセル";
+"onboarding_not_supported_browser_modal_message" = "このブラウザの使用をお勧めしません。 ChromeやFirefoxなどのブラウザを使用して試してください。";
+"onboarding_not_supported_browser_modal_title" = "サポートされていないブラウザ";
+
+//Errors
+"onboarding_error_config" = "オンボーディング設定を確認してください。少なくとも1つのオンボーディングのステップを選択する必要があります。";
+"onboarding_error_loading_resources" = "接続が遅いです、後でもう一度やり直してください。";
+"onboarding_error_title_technical" = "エラーが発生しました";
+"onboarding_error_subtitle_technical" = "もう一度やり直してください。";
+"onboarding_error_title_connection" = "接続エラー";
+"onboarding_error_subtitle_connection" = "インターネット接続を確認してください。";
+"onboarding_error_storage_is_full_title" = "ディスクスペースがありません";
+"onboarding_error_storage_is_full_subtitle" = "続行するには、いくつかのファイルを削除してください。";
+"onboarding_error_title_camera" = "カメラエラー。";
+"onboarding_error_subtitle_camera" = "もう一度やり直してください。";
+"onboarding_error_title_selfie" = "フロントカメラ画像を送ることができませんでした。";
+"onboarding_error_subtitle_selfie" = "もう一度やり直してください。";
+"onboarding_error_title_authentication" = "認証エラー。";
+"onboarding_error_subtitle_authentication" = "もう一度やり直してください。";
+"onboarding_error_subtitle_camera_not_available" = "コンテキストが安全であることを確認し、カメラを確認してください";
+"onboarding_browser_no_compatible" = "この機能はこのブラウザでは利用できません。Safariをお試しください";
+"onboarding_error_user_not_found" = "ユーザーが見つかりません";
+"onboarding_error_title_file_too_big" = "ファイルが大きすぎます";
+"onboarding_error_subtitle_file_too_big" = "最大許可ファイルサイズは{size} mbです";
+"onboarding_error_title_file_type_not_supported" = "サポートされていないファイル";
+"onboarding_error_title_image_type_not_supported" = "画像はサポートされていません";
+"onboarding_error_subtitle_file_type_not_supported" = "サポートされているファイルタイプは、.jpg、.png、.bmpです";
+"onboarding_error_doc_country_not_supported" = "申し訳ありませんが、このタイプのドキュメントは選択された国ではサポートされていません";
+"onboarding_error_title_challenge_timeout" = "タイムアウト";
+"onboarding_error_subtitle_challenge_timeout" = "課題は完了していません。もう一度やり直してください";
+
+//Stages
+"onboarding_stages_title" = "ID検証";
+"onboarding_stages_description" = "検証を成功させるために、次の手順を完了してください";
+"onboarding_stages_selfie" = "セルフィー";
+"onboarding_stages_selfie_with_document" = "ドキュメント付きのセルフィー";
+"onboarding_stages_selfie_with_challenge" = "チャレンジ付きのセルフィー";
+"onboarding_stages_selfie_with_document_challenge" = "チャレンジ付きのセルフィー";
+"onboarding_stages_document" = "書類";
+"onboarding_stages_id_card" = "全国IDカード";
+"onboarding_stages_driver_license" = "運転免許証";
+"onboarding_stages_passport" = "パスポート";
+"onboarding_stages_residence_permit" = "居住許可";
+"onboarding_stages_health_insurance_card" = "健康保険カード";
+"onboarding_stages_already_completed" = "ステージはすでに完了しました";
+"onboarding_stages_completed" = "完了しました";
+"onboarding_stages_inactive" = "前のステップを完了してください";
+"onboarding_stages_start_button" = "始める";
+"onboarding_stages_done_button" = "続く";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "全国IDカード";
+"onboarding_sides_title_driver_license" = "運転免許証";
+"onboarding_sides_title_passport" = "パスポート";
+"onboarding_sides_title_residence_permit" = "居住許可証";
+"onboarding_sides_title_health_insurance_card" = "健康保険カード";
+"onboarding_sides_subtitle" = "ドキュメントキャプチャを続行してください。";
+"onboarding_sides_front" = "表側";
+"onboarding_sides_back" = "裏側";
+"onboarding_sides_info_page" = "情報ページ";
+"onboarding_sides_tap_here" = "ここをタップ";
+"onboarding_sides_done_button" = "続く";
+"onboarding_sides_issuing_country" = "発行国：";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "発行国を選択します";
+"onboarding_country_selector_other" = "他の";
+"onboarding_country_selector_not_selected" = "発行国を選択してください";
+"onboarding_country_selector_start" = "始める";
+"onboarding_country_selector_cancel" = "キャンセル";
+"onboarding_country_selector_reload" = "リロード";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "ドキュメントの選択";
+"onboarding_doc_country_selector_issuing_country" = "ドキュメントの国";
+"onboarding_doc_country_selector_allowed_documents" = "受理書類";
+"onboarding_doc_country_selector_document_type" = "ドキュメントタイプ";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "再試行写真";
+"onboarding_doc_capturer_send_photo" = "写真を送る";
+"onboarding_doc_capturer_manual" = "手動キャプチャ";
+"onboarding_doc_capturer_retry" = "リトライ";
+"onboarding_doc_capturer_dismiss" = "キャンセル";
+"onboarding_doc_capturer_add_sheet" = "シートを追加します";
+"onboarding_doc_capturer_send" = "送信";
+"onboarding_doc_capturer_info_text" = "％3 $ sからの％2 $ sの％1 $ sを自動的にスキャンするまで適合します";
+"onboarding_doc_capturer_info_text_passport" = "パスポート情報ページが自動的にスキャンされるまで適合します";
+"onboarding_doc_capturer_alert_title_timeout" = "あなたのドキュメントを読むのに問題";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "ドキュメントが長方形に調整されていることを確認してください";
+"onboarding_doc_capturer_alert_title_generic_problem" = "あなたのドキュメントを読むのに問題";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "閉塞、まぶしさ、影なしで適切なドキュメント（％2 $ sからの％1 $ s）を表示していることを確認してください";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "閉塞、まぶしさ、影なしでパスポートを表示していることを確認してください";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "間違ったドキュメント";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "適切なドキュメントを表示していることを確認してください（％2 $ sからの％1 $ s）";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "有効なドキュメントを写真で表示していることを確認してください";
+"onboarding_doc_capturer_alert_title_wrong_side" = "間違ったドキュメント側";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "右側（％1 $ s）を表示していることを確認してください";
+"onboarding_doc_capturer_alert_title_poor_quality" = "あなたのドキュメントを読むのに問題";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "閉塞、まぶしさ、影なしでドキュメントを表示していることを確認してください";
+"onboarding_doc_capturer_front" = "表側";
+"onboarding_doc_capturer_back" = "裏側";
+"onboarding_doc_capturer_choose_source" = "ソースを選択します";
+"onboarding_doc_capturer_review_back" = "別の写真を使用してください";
+"onboarding_doc_capturer_subtitle" = "キャプチャを進めてください";
+"onboarding_doc_capturer_subtitle_review" = "画像にドキュメントのみが含まれていて、回転していないことを確認してください";
+"onboarding_doc_capturer_title_review" = "画像レビュー";
+"onboarding_doc_capturer_review_ok" = "大丈夫です";
+"onboarding_doc_capturer_source_camera" = "カメラ";
+"onboarding_doc_capturer_source_file" = "ファイル";
+"onboarding_doc_capturer_adding" = "ファイルのアップロード";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "ドキュメントをキャプチャできませんでした。手動キャプチャを試してみてください";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "ドキュメントをキャプチャできませんでした。再試行するか、手動キャプチャを使用してください";
+"onboarding_doc_capturer_qr_message" = "心配しないでください、あなたはあなたのスマートフォンからプロセスを続けることができます。 QRをスキャンします！";
+"onboarding_doc_capturer_qr_or_you_can" = "またはあなたはできます";
+"onboarding_doc_capturer_check_position" = "ドキュメントを長方形に調整します";
+"onboarding_doc_capturer_processing_stay_still" = "キャプチャ…じっとしてください";
+"onboarding_error_max_number_of_documents" = "最大試行回数を超えています";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "あなたのiPhoneをあなたのドキュメントの近くに保持し、それが部分的に上に突き出ていることを確認してください";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "携帯電話の背面にドキュメントを置きます";
+"onboarding_nfc_doc_capturer_finding_antenna" = "ドキュメントを携帯電話のNFCアンテナに合わせます。どこにあるかわからない場合は、電話が振動または音が鳴るまでゆっくりとドキュメントをスライドさせます。";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "電話が振動または音が鳴るまで、ドキュメントをゆっくりとスライドさせます。";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "読み取りが終了するまで、ドキュメントをまだ保管してください";
+"onboarding_nfc_doc_capturer_tutorial" = "チュートリアル";
+"onboarding_nfc_doc_capturer_start_reading" = "始める";
+"onboarding_nfc_doc_capturer_expiry" = "有効期限";
+"onboarding_nfc_doc_capturer_authenticating" = "ドキュメントで認証...";
+"onboarding_nfc_doc_capturer_reading" = "読書...ドキュメントを移動しないでください";
+"onboarding_nfc_doc_capturer_success" = "ドキュメントは正常に読み取られます。";
+"onboarding_nfc_doc_capturer_error_connection_title" = "接続エラー";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "読書プロセス中にドキュメントを移動しないでください";
+"onboarding_nfc_doc_capturer_error_generic_title" = "あなたのドキュメントを読むのに問題";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "もう一度やり直してください。";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "サポートされていないドキュメント";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "申し訳ありませんが、現時点ではあなたのドキュメントをサポートしていません";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "ドキュメントが違います";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "適切なドキュメントをスキャンしていることを確認してください";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFCはオフになります";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "読み取りのためにNFCモジュールをオンにする必要があります。今それをオンにしたいですか？";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "オンにする";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "セルフィーを追加…";
+"onboarding_selfie_capturer_adding_with_challenge" = "チャレンジでセルフィーを追加する…";
+"onboarding_selfie_capturer_adding_with_document" = "ドキュメントで自撮りを追加する…";
+"onboarding_selfie_capturer_authenticating" = "認証中…";
+"onboarding_selfie_capturer_move_farther" = "デバイスをさらに移動してください。";
+"onboarding_selfie_capturer_get_closer" = "近くに来てください。";
+"onboarding_selfie_capturer_no_face" = "顔は検出されません。";
+"onboarding_selfie_capturer_look_camera" = "カメラを見てください。";
+"onboarding_selfie_capturer_center_face" = "楕円形の顔を中心にしてください";
+"onboarding_selfie_capturer_device_elevation" = "デバイスを目の高さまで保持してください。";
+"onboarding_selfie_cancel" = "キャンセル";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "楕円形の顔を中心にしてください。";
+"onboarding_selfie_capturer_title_insufficient_faces" = "顔の処理は完了できませんでした";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "あなたがまだ残っていることを確認し、あなたの顔を楕円形と良好な照明条件に保ちますプロセス全体";
+"onboarding_selfie_capturer_face_detected_tooltip" = "写真を撮るにはここをクリックしてください！";
+"onboarding_selfie_capturer_subtitle" = "キャプチャを進めてください";
+"onboarding_selfie_capturer_subtitle_review" = "あなたの写真が良いことを確認してください";
+"onboarding_selfie_with_document_capturer_center_face" = "楕円形と長方形の文書に顔を集中してください";
+"onboarding_selfie_capturer_button_tutorial" = "わかりました！";
+"onboarding_selfie_capturer_subtitle_tutorial" = "自撮りをする必要があります。これらの指示に従ってください";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "PDFまたは画像を選択してください";
+"onboarding_other_trusted_docs_capturer_subtitle" = "ドキュメントをキャプチャしてください";
+"onboarding_other_trusted_docs_click_or_drop" = "こちらをクリックまたはドロップします";
+"onboarding_other_trusted_docs_capturer_accept" = "受け入れる";
+"onboarding_other_trusted_docs_capturer_cancel" = "キャンセル";
+"onboarding_other_trusted_docs_capturer_continue" = "続く";
+"onboarding_other_trusted_docs_capturer_camera" = "カメラ";
+"onboarding_other_trusted_docs_capturer_images_limit" = "到達した画像の最大数";
+"onboarding_other_trusted_docs_capturer_documents" = "ドキュメント";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "PDFが大きすぎる";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "ファイルは5 MBを超えることはできません";
+"onboarding_other_trusted_docs_upload_another_image" = "より多くの画像を添付します";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "最後にアップロードされたドキュメントは画像で、画像をアップロードし続けています";
+"onboarding_other_trusted_docs_error" = "アップロードされたファイルの問題";
+
+//Welcome
