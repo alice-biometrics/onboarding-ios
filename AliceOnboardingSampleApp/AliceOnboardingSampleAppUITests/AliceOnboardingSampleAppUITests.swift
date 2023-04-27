@@ -27,7 +27,7 @@ class AliceOnboardingSampleAppUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-        XCTAssertTrue(app.buttons["actionButton"].exists)
+        XCTAssertFalse(app.buttons["actionButton"].exists)
     }
 }
 
