@@ -6,7 +6,6 @@ on:
   push:
     paths:
       - '.github/workflows/ci.yml'
-  workflow_dispatch:
 
 jobs:
   ci:
