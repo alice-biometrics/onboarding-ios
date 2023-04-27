@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "文件变大";
 "onboarding_error_subtitle_file_too_big" = "允许的最大文件大小为 {size} MB";
 "onboarding_error_title_file_type_not_supported" = "文件不受支持";
+"onboarding_error_title_image_type_not_supported" = "图片不受支持";
 "onboarding_error_subtitle_file_type_not_supported" = "支持的文件类型为 .jpg、.png、.bmp";
 "onboarding_error_doc_country_not_supported" = "抱歉，所选国家/地区不支持此类文件";
 "onboarding_error_title_challenge_timeout" = "超时";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "自拍";
 "onboarding_stages_selfie_with_document" = "带文件的自拍";
 "onboarding_stages_selfie_with_challenge" = "挑战自拍";
+"onboarding_stages_selfie_with_document_challenge" = "挑战自拍";
+"onboarding_stages_document" = "文档";
 "onboarding_stages_id_card" = "身份证";
 "onboarding_stages_driver_license" = "驾照";
 "onboarding_stages_passport" = "护照";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "开始";
 "onboarding_country_selector_cancel" = "取消";
 "onboarding_country_selector_reload" = "重新加载";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "文档选择";
+"onboarding_doc_country_selector_issuing_country" = "文件国家";
+"onboarding_doc_country_selector_allowed_documents" = "接受的文件";
+"onboarding_doc_country_selector_document_type" = "文档类型";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "重拍照片";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "请继续进行捕获";
 "onboarding_selfie_capturer_subtitle_review" = "请确保您的图片好";
 "onboarding_selfie_with_document_capturer_center_face" = "请把你的脸放在椭圆上，把文件放在长方形上";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "请选择PDF文件或图片";

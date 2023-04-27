@@ -15,7 +15,7 @@
 //Errors
 "onboarding_error_config" = "Por favor, revisa tu OnboardingConfig. Debes seleccionar por lo menos un Onboarding Stage.";
 "onboarding_error_loading_resources" = "Conexión lenta, inténtalo de nuevo más tarde";
-"onboarding_error_title_technical" = "Ha ocurrido algún error.";
+"onboarding_error_title_technical" = "Ha ocurrido un error";
 "onboarding_error_subtitle_technical" = "Por favor, inténtalo de nuevo.";
 "onboarding_error_title_connection" = "Error de conexión";
 "onboarding_error_subtitle_connection" = "Comprueba tu conexión a Internet";
@@ -33,10 +33,11 @@
 "onboarding_error_title_file_too_big" = "Archivo demasiado grande";
 "onboarding_error_subtitle_file_too_big" = "El tamaño máximo soportado es {size} MB";
 "onboarding_error_title_file_type_not_supported" = "Archivo no soportado";
+"onboarding_error_title_image_type_not_supported" = "Imagen no soportada";
 "onboarding_error_subtitle_file_type_not_supported" = "Tipos de archivo soportados .jpg, png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Lo sentimos, este tipo de documento no es compatible con el país seleccionado";
 "onboarding_error_title_challenge_timeout" = "Tiempo agotado";
-"onboarding_error_subtitle_challenge_timeout" = "No se ha superado el reto. Por favor, inténtelo de nuevo";
+"onboarding_error_subtitle_challenge_timeout" = "No has superado el reto. Por favor, inténtalo de nuevo";
 
 //Stages
 "onboarding_stages_title" = "Verificación de identidad";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie con documento";
 "onboarding_stages_selfie_with_challenge" = "Selfie con reto";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie con reto";
+"onboarding_stages_document" = "Documento";
 "onboarding_stages_id_card" = "Carnet de identidad";
 "onboarding_stages_driver_license" = "Carnet de conducir";
 "onboarding_stages_passport" = "Pasaporte";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "Comenzar";
 "onboarding_country_selector_cancel" = "Cancelar";
 "onboarding_country_selector_reload" = "Recargar";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Selección de documento";
+"onboarding_doc_country_selector_issuing_country" = "País del documento";
+"onboarding_doc_country_selector_allowed_documents" = "Documentos aceptados";
+"onboarding_doc_country_selector_document_type" = "Tipo de documento";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Reintentar captura";
@@ -116,7 +125,7 @@
 "onboarding_doc_capturer_qr_or_you_can" = "o puedes";
 "onboarding_doc_capturer_check_position" = "Ajusta el documento al rectángulo";
 "onboarding_doc_capturer_processing_stay_still" = "Capturando… No muevas el documento";
-"onboarding_error_max_number_of_documents" = "Ha superado el número máximo de intentos";
+"onboarding_error_max_number_of_documents" = "Has superado el número máximo de intentos";
 
 //Document NFC capturer
 "onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Mantén tu iPhone pegado a tu documento y asegúrate de que sobresalga en parte por arriba";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Por favor, continúa con la captura";
 "onboarding_selfie_capturer_subtitle_review" = "Por favor, comprueba que la foto es buena";
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra tu cara en el óvalo y el documento en el rectángulo";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, elija un PDF o una imagen";

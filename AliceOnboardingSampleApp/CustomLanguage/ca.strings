@@ -15,7 +15,7 @@
 //Errors
 "onboarding_error_config" = "Si us plau, revisi el seu OnboardingConfig. Deu tenir seleccionada com a mínim un OnboardingStage.";
 "onboarding_error_loading_resources" = "Connexió lenta-ho a provar més tard";
-"onboarding_error_title_technical" = "Hi ha hagut algun error.";
+"onboarding_error_title_technical" = "Hi ha hagut algun error";
 "onboarding_error_subtitle_technical" = "Intenta-ho de nou.";
 "onboarding_error_title_connection" = "Error de connexió";
 "onboarding_error_subtitle_connection" = "Comprova la teva connexió a Internet";
@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "El fitxer és massa gran";
 "onboarding_error_subtitle_file_too_big" = "La mida màxima permesa del fitxer és de {size} MB";
 "onboarding_error_title_file_type_not_supported" = "El fitxer no és compatible";
+"onboarding_error_title_image_type_not_supported" = "Imatge no suportada";
 "onboarding_error_subtitle_file_type_not_supported" = "Els tipus de fitxers admesos són .jpg, .png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Ho sentim, aquest tipus de document no és compatible amb el país seleccionat";
 "onboarding_error_title_challenge_timeout" = "Temps esgotat";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie amb document";
 "onboarding_stages_selfie_with_challenge" = "Selfie amb repte";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie amb repte";
+"onboarding_stages_document" = "Docuemnt";
 "onboarding_stages_id_card" = "Carnet d'identitat";
 "onboarding_stages_driver_license" = "Carnet de conduir";
 "onboarding_stages_passport" = "Passaport";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "Començar";
 "onboarding_country_selector_cancel" = "Cancel·lar";
 "onboarding_country_selector_reload" = "Recarregar";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Selecció de documents";
+"onboarding_doc_country_selector_issuing_country" = "País del document";
+"onboarding_doc_country_selector_allowed_documents" = "Accepted documents";
+"onboarding_doc_country_selector_document_type" = "Tipus de document";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Reintenta captura";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Si us plau, continuï amb la captura";
 "onboarding_selfie_capturer_subtitle_review" = "Si us plau, comprova que la foto és bona";
 "onboarding_selfie_with_document_capturer_center_face" = "Si us plau, centreu la vostra cara a l'oval i el document al rectangle";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Si us plau, trieu un fitxer PDF o una imatge";

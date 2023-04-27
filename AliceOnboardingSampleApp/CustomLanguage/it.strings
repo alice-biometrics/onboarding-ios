@@ -15,7 +15,7 @@
 //Errors
 "onboarding_error_config" = "Per favore, controlli le tue impostazioni di Onboarding. Dovresti selezionare almeno una fase di Onboarding.";
 "onboarding_error_loading_resources" = "Connessione lenta, riprovare più tardi.";
-"onboarding_error_title_technical" = "C'è stato un errore.";
+"onboarding_error_title_technical" = "C'è stato un errore";
 "onboarding_error_subtitle_technical" = "Per favore, riprovi di nuovo.";
 "onboarding_error_title_connection" = "Errore di connessione";
 "onboarding_error_subtitle_connection" = "Per favore, controlli la sua connessione internet.";
@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "Il file è troppo grande";
 "onboarding_error_subtitle_file_too_big" = "La dimensione massima consentita del file è {size} MB";
 "onboarding_error_title_file_type_not_supported" = "File non supportato";
+"onboarding_error_title_image_type_not_supported" = "Immagine non supportata";
 "onboarding_error_subtitle_file_type_not_supported" = "I tipi di file supportati sono .jpg, .png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Spiacenti, questo tipo di documento non è supportato per il paese selezionato";
 "onboarding_error_title_challenge_timeout" = "Tempo scaduto";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie con documento";
 "onboarding_stages_selfie_with_challenge" = "Selfie con sfida";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie con sfida";
+"onboarding_stages_document" = "Documento";
 "onboarding_stages_id_card" = "Carta d'Identità";
 "onboarding_stages_driver_license" = "Patente di Guida";
 "onboarding_stages_passport" = "Passaporto";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "Iniziare";
 "onboarding_country_selector_cancel" = "Cancellare";
 "onboarding_country_selector_reload" = "Ricaricare";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Selezione del documento";
+"onboarding_doc_country_selector_issuing_country" = "Paese del documento";
+"onboarding_doc_country_selector_allowed_documents" = "Documenti accettati";
+"onboarding_doc_country_selector_document_type" = "Tipo di documento";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Riprovare a effettuare la foto";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Per favore, procedere con la cattura";
 "onboarding_selfie_capturer_subtitle_review" = "Per favore, assicurarsi che la foto sia buona";
 "onboarding_selfie_with_document_capturer_center_face" = "Per favore, centra il viso sull'ovale e il documento sul rettangolo";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Per favore, scegli un file PDF o un'immagine";

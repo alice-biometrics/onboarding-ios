@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "Файл слишком большой";
 "onboarding_error_subtitle_file_too_big" = "Максимально допустимый размер файла: {size} МБ.";
 "onboarding_error_title_file_type_not_supported" = "Файл не поддерживается";
+"onboarding_error_title_image_type_not_supported" = "Изображение не поддерживается";
 "onboarding_error_subtitle_file_type_not_supported" = "Поддерживаемые типы файлов: .jpg, .png, .bmp.";
 "onboarding_error_doc_country_not_supported" = "К сожалению, этот тип документа не поддерживается для выбранной страны";
 "onboarding_error_title_challenge_timeout" = "Таймаут";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "Селфи";
 "onboarding_stages_selfie_with_document" = "Селфи с документом";
 "onboarding_stages_selfie_with_challenge" = "Селфи с вызовом";
+"onboarding_stages_selfie_with_document_challenge" = "Селфи с вызовом";
+"onboarding_stages_document" = "Документ";
 "onboarding_stages_id_card" = "Удостоверение личности";
 "onboarding_stages_driver_license" = "Водительские права";
 "onboarding_stages_passport" = "Паспорт";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "Начать";
 "onboarding_country_selector_cancel" = "Отмена";
 "onboarding_country_selector_reload" = "перезагрузить";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Выбор документа";
+"onboarding_doc_country_selector_issuing_country" = "Страна документа";
+"onboarding_doc_country_selector_allowed_documents" = "Принятые документы";
+"onboarding_doc_country_selector_document_type" = "Тип документа";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Сделать снимок заново";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Пожалуйста, продолжайте захват";
 "onboarding_selfie_capturer_subtitle_review" = "Пожалуйста, убедитесь, что ваша фотография хорошая";
 "onboarding_selfie_with_document_capturer_center_face" = "Пожалуйста, отцентрируйте лицо на овале, а документ на прямоугольнике";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Пожалуйста, выберите файл PDF или изображение";

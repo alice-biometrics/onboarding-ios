@@ -15,7 +15,7 @@
 //Errors
 "onboarding_error_config" = "Lütfen kimlik doğrulama ayarlarınızı gözden geçirin. En azından bir kimlik doğrulama adımı seçilmiş olmalıdır.";
 "onboarding_error_loading_resources" = "Bağlantı hızı yavaş, lütfen tekrar deneyin.";
-"onboarding_error_title_technical" = "Bir hata oluştu.";
+"onboarding_error_title_technical" = "Bir hata oluştu";
 "onboarding_error_subtitle_technical" = "Lütfen tekrar deneyin.";
 "onboarding_error_title_connection" = "Bağlantı hatası";
 "onboarding_error_subtitle_connection" = "Lütfen internet bağlantınızı kontrol edin.";
@@ -33,6 +33,7 @@
 "onboarding_error_title_file_too_big" = "Büyük dosya";
 "onboarding_error_subtitle_file_too_big" = "İzin verilen maksimum dosya boyutu {size} MB'dir";
 "onboarding_error_title_file_type_not_supported" = "Dosya desteklenmiyor";
+"onboarding_error_title_image_type_not_supported" = "Resim desteklenmiyor";
 "onboarding_error_subtitle_file_type_not_supported" = "Desteklenen dosya türleri: .jpg, .png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Maalesef bu belge türü seçilen ülke için desteklenmiyor";
 "onboarding_error_title_challenge_timeout" = "Zaman aşımı";
@@ -44,6 +45,8 @@
 "onboarding_stages_selfie" = "Selfi";
 "onboarding_stages_selfie_with_document" = "Belgeli özçekim";
 "onboarding_stages_selfie_with_challenge" = "Meydan okuma ile selfie";
+"onboarding_stages_selfie_with_document_challenge" = "Meydan okuma ile selfie";
+"onboarding_stages_document" = "Belge";
 "onboarding_stages_id_card" = "Nüfus Cüzdanı";
 "onboarding_stages_driver_license" = "Ehliyet";
 "onboarding_stages_passport" = "Pasaport";
@@ -76,6 +79,12 @@
 "onboarding_country_selector_start" = "Başla";
 "onboarding_country_selector_cancel" = "İptal";
 "onboarding_country_selector_reload" = "Tekrar yükle";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Belge seçimi";
+"onboarding_doc_country_selector_issuing_country" = "Belgenin ülkesi";
+"onboarding_doc_country_selector_allowed_documents" = "Kabul edilen belgeler";
+"onboarding_doc_country_selector_document_type" = "Belge Türü";
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Yeniden çek";
@@ -161,6 +170,8 @@
 "onboarding_selfie_capturer_subtitle" = "Lütfen ele geçirmeye devam edin";
 "onboarding_selfie_capturer_subtitle_review" = "Lütfen resminizin iyi olduğundan emin olun";
 "onboarding_selfie_with_document_capturer_center_face" = "Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın";
+"onboarding_selfie_capturer_button_tutorial" = "";
+"onboarding_selfie_capturer_subtitle_tutorial" = "";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Lütfen bir PDF dosyası veya resim seçin";
