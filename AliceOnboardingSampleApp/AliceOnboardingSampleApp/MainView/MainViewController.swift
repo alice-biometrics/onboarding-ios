@@ -23,15 +23,14 @@ class MainViewController: UIViewController {
         
     var addSelfie: Bool = true
     var selectCountry: Bool = true
-    var addDocumentSpanishIdcard: Bool = true
-    var addDocumentSpanishDriverLicense: Bool = true
-    var addDocumentSpanishResidencePermit: Bool = false
+    var addDocumentIdcard: Bool = true
+    var addDocumentDriverLicense: Bool = true
+    var addDocumentResidencePermit: Bool = false
     var addDocumentPassport: Bool = true
-    var experimentalEnvironment: Bool = false
-    var sandboxToken: String = ""
-    var typeFirstName: Bool = false
-    var typeLastName: Bool = false
-    var randomName: Bool = false
+    var randomMail: Bool = false
+
+    var appEnvironment: Environment = .sandbox
+    var trialToken: String = ""
     var isStart: Bool = true
     var userInfo: UserInfo?
 
@@ -52,18 +51,13 @@ class MainViewController: UIViewController {
             configureActionButtonToLogIn()
         } else {
             let email = self.getEmail()
-            let firstName = self.getFirstName()
-            let lastName = self.getLastName()
             button.spinnerColor = UIColor(red: 123/255, green: 255/255, blue: 251/255, alpha: 1)
             button.startAnimation()
             let qualityOfServiceClass = DispatchQoS.QoSClass.background
             let backgroundQueue = DispatchQueue.global(qos: qualityOfServiceClass)
             backgroundQueue.async(execute: {
                 
-                self.userInfo = UserInfo(email: email,
-                                        firstName: firstName,
-                                        lastName: lastName)
-                
+                self.userInfo = UserInfo(email: email)
                 let authenticator = self.getAuthenticator(.trial)
                 
                 // Please, for production environments use .production authentication mode

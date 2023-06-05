@@ -32,28 +32,40 @@ extension MainViewController {
         self.addSelfie = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddSelfie)
         self.selectCountry = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.SelectCountry)
 
-        self.addDocumentSpanishIdcard = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentSpanishIdcard)
-        self.addDocumentSpanishDriverLicense = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentSpanishDriverLicense)
-        self.addDocumentSpanishResidencePermit = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentSpanishResidencePermit)
+        self.addDocumentIdcard = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentSpanishIdcard)
+        self.addDocumentDriverLicense = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentSpanishDriverLicense)
+        self.addDocumentResidencePermit = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentSpanishResidencePermit)
         self.addDocumentPassport = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.AddDocumentPassport)
 
-        self.experimentalEnvironment = UserDefaults.standard.bool(
-            forKey: SettingsBundleHelper.Keys.ExoerimentalEnvironment)
-        if self.experimentalEnvironment {
-            Onboarding.setEnvironment(.staging)
-            self.sandboxToken = UserDefaults.standard.string(
-                forKey: SettingsBundleHelper.Keys.SandboxTokenExperimentalEnvironment) ?? ""
+        
+        if let environment = UserDefaults.standard.string(forKey: SettingsBundleHelper.Keys.AppEnvironment) {
+            setEnvironment(environment: environment)
         } else {
-            Onboarding.setEnvironment(.production)
-            self.sandboxToken = UserDefaults.standard.string(forKey: SettingsBundleHelper.Keys.SandboxToken) ?? ""
+            UserDefaults.standard.set(Environment.sandbox.rawValue, forKey: SettingsBundleHelper.Keys.AppEnvironment)
+            setEnvironment(environment: Environment.sandbox.rawValue)
         }
-        self.typeFirstName = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.TypeFirstName)
-        self.typeLastName = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.TypeLastName)
-        self.randomName = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.RandomMail)
+        
+        
+        self.randomMail = UserDefaults.standard.bool(forKey: SettingsBundleHelper.Keys.RandomMail)
         if !isStart {
             configureActionButtonToLogIn()
         }
     }
+    
+    func setEnvironment(environment: String) {
+        appEnvironment = Environment(rawValue: environment) ?? .sandbox
+        Onboarding.setEnvironment(appEnvironment)
+        
+        switch (appEnvironment) {
+        case .sandbox:
+            trialToken = UserDefaults.standard.string(forKey: SettingsBundleHelper.Keys.TrialToken) ?? ""
+        case .production:
+            trialToken = UserDefaults.standard.string(forKey: SettingsBundleHelper.Keys.ProductionTrialToken) ?? ""
+        @unknown default:
+            trialToken = UserDefaults.standard.string(forKey: SettingsBundleHelper.Keys.TrialToken) ?? ""
+        }
+    }
+    
 }
 
 class SettingsBundleHelper {
@@ -69,11 +81,10 @@ class SettingsBundleHelper {
         static let AddDocumentPassport = "AddDocumentPassportKey"
         static let AddDocumentSpanishDriverLicense = "AddDocumentSpanishDriverLicenseKey"
         static let AddDocumentSpanishResidencePermit = "AddDocumentSpanishResidencePermitKey"
-        static let SandboxToken = "SandboxTokenKey"
-        static let ExoerimentalEnvironment = "ExoerimentalEnvironmentKey"
-        static let SandboxTokenExperimentalEnvironment = "SandboxTokenExperimentalEnvironmentKey"
-        static let TypeFirstName = "TypeFirstNameKey"
-        static let TypeLastName = "TypeLastNameKey"
+        static let AppEnvironment = "AppEnvironmentKey"
+
+        static let ProductionTrialToken = "ProductionTrialTokenKey"
+        static let TrialToken = "TrialTokenKey"
         static let RandomMail = "RandomMailKey"
     }
     class func checkAndExecuteSettings() {

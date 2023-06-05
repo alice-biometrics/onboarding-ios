@@ -20,26 +20,26 @@ extension MainViewController {
             config = try! config.withAddSelfieStage()
         }
         if(selectCountry) {
-            if addDocumentSpanishIdcard {
+            if addDocumentIdcard {
                 config = try! config.withAddDocumentStage(ofType: .idcard)
             }
-            if addDocumentSpanishDriverLicense {
+            if addDocumentDriverLicense {
                 config = try! config.withAddDocumentStage(ofType: .driverlicense)
             }
-            if addDocumentSpanishResidencePermit {
+            if addDocumentResidencePermit {
                 config = try! config.withAddDocumentStage(ofType: .residencepermit)
             }
             if addDocumentPassport {
                 config = try! config.withAddDocumentStage(ofType: .passport)
             }
         } else {
-            if addDocumentSpanishIdcard {
+            if addDocumentIdcard {
                config = try! config.withAddDocumentStage(ofType: .idcard, issuingCountry: "ESP")
             }
-            if addDocumentSpanishDriverLicense {
+            if addDocumentDriverLicense {
                 config = try! config.withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
             }
-            if addDocumentSpanishResidencePermit {
+            if addDocumentResidencePermit {
                 config = try! config.withAddDocumentStage(ofType: .residencepermit, issuingCountry: "ESP")
             }
             if addDocumentPassport {

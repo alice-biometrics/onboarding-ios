@@ -16,35 +16,19 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Sandbox Token</string>
+			<string>Trial Token</string>
 			<key>Key</key>
-			<string>SandboxTokenKey</string>
+			<string>TrialTokenKey</string>
 		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Experimental Enviroment</string>
-			<key>Key</key>
-			<string>ExoerimentalEnvironmentKey</string>
-			<key>DefaultValue</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>Experimental Sandbox Token</string>
-			<key>DefaultValue</key>
 			<string></string>
 			<key>Key</key>
-			<string>SandboxTokenExperimentalEnvironmentKey</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-			<key>Title</key>
-			<string>Onboarding Flow</string>
+			<string></string>
+			<key>DefaultValue</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -114,31 +98,31 @@
 		</dict>
 		<dict>
 			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Environment</string>
+			<key>Key</key>
+			<string>AppEnvironmentKey</string>
+			<key>DefaultValue</key>
+			<string>sandbox</string>
+			<key>Values</key>
+			<array>
+				<string>sandbox</string>
+				<string>production</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Sandbox</string>
+				<string>Production</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
 			<string>Use OnboardingCommands</string>
 			<key>Key</key>
 			<string>UseOnboardingCommandsKey</string>
-			<key>DefaultValue</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSToggleSwitchSpecifier</string>
-			<key>Title</key>
-			<string>Ask for First Name</string>
-			<key>Key</key>
-			<string>TypeFirstNameKey</string>
-			<key>DefaultValue</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSToggleSwitchSpecifier</string>
-			<key>Title</key>
-			<string>Ask for Last Name</string>
-			<key>Key</key>
-			<string>TypeLastNameKey</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
