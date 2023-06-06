@@ -26,7 +26,7 @@ extension MainViewController {
     func getAuthenticator(_ authenticationMode: AuthenticationMode) -> Authenticator{
         switch authenticationMode {
         case .trial:
-            return TrialAuthenticator(trialToken: self.sandboxToken, userInfo: self.userInfo!)
+            return TrialAuthenticator(trialToken: self.trialToken, userInfo: self.userInfo!)
         case .production:
             return MyBackendAuthenticator()
         }

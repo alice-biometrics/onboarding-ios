@@ -34,45 +34,19 @@ extension MainViewController: UITextFieldDelegate, UITextViewDelegate {
     func getEmail() -> String {
             return self.emailText.text!
     }
-    func getFirstName() -> String {
-        if self.typeFirstName && self.typeLastName {
-             return self.textFieldTop.text!
-        } else if self.typeFirstName && !self.typeLastName {
-            return self.textFieldMiddle.text!
-        }
-        return ""
-    }
-    func getLastName() -> String {
-        if self.typeLastName {
-            return self.textFieldMiddle.text ?? ""
-        } else {
-            return ""
-        }
-    }
     func configureActionButtonToLogIn() {
         isStart = false
         self.emailText.isHidden = false
         self.emailView.isHidden = false
         self.middleTextView.isHidden = true
         self.topTextView.isHidden = true
-        if self.typeFirstName && self.typeLastName {
-            self.middleTextView.isHidden = false
-            self.textFieldMiddle.placeholder = "Please, type your last name."
-            self.topTextView.isHidden = false
-            self.textFieldTop.placeholder = "Please, type your first name."
-        } else if self.typeFirstName {
-             self.middleTextView.isHidden = false
-             self.textFieldMiddle.placeholder = "Please, type your first name."
-        } else if self.typeLastName {
-            self.middleTextView.isHidden = false
-            self.textFieldMiddle.placeholder = "Please, type your last name."
-        }
+
         self.actionButton.setTitle("LOG IN", for: .normal)
         actionButton.layer.cornerRadius = 20
         updateMailTextField()
     }
     func updateMailTextField() {
-        if randomName {
+        if randomMail {
             let device = UIDevice.current.name.components(separatedBy: .whitespaces).joined().prefix(20)
             let username = "\(device)_\(String.random(length: 5))"
             self.emailText.text = "\(username)@alicebiometrics.com"
