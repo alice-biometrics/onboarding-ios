@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "Пожалуйста, попробуйте еще раз.";
 "onboarding_error_title_authentication" = "Ошибка аутентификации";
 "onboarding_error_subtitle_authentication" = "Пожалуйста, попробуйте еще раз.";
-"onboarding_error_subtitle_camera_not_available" = "Пожалуйста, проверьте свою камеру.";
+"onboarding_error_subtitle_camera_not_available" = "Пожалуйста, убедитесь, что камера доступна и что вы дали разрешение на доступ к ней.";
 "onboarding_browser_no_compatible" = "Эта функция недоступна в этом браузере, попробуйте Safari";
 "onboarding_error_user_not_found" = "Пользователь не найден";
 "onboarding_error_title_file_too_big" = "Файл слишком большой";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Неверный документ";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Убедитесь, что вы показываете правильный документ (%@ - %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Убедитесь, что вы показываете действительный документ с фотографией.";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Не разрешенный документ";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Убедитесь, что вы показываете один из следующих документов: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Неправильная сторона документа";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "Убедитесь, что вы показываете правую сторону (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Проблема с чтением вашего документа";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Убедитесь, что вы показываете свой документ без окклюзий, бликов или теней на правой стороне";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Выберите документ, который вы используете";
 "onboarding_doc_capturer_front" = "ПЕРЕДНЯЯ СТОРОНА";
 "onboarding_doc_capturer_back" = "ОБОРОТНАЯ СТОРОНА";
 "onboarding_doc_capturer_choose_source" = "Выберите источник";
@@ -170,8 +173,8 @@
 "onboarding_selfie_capturer_subtitle" = "Пожалуйста, продолжайте захват";
 "onboarding_selfie_capturer_subtitle_review" = "Пожалуйста, убедитесь, что ваша фотография хорошая";
 "onboarding_selfie_with_document_capturer_center_face" = "Пожалуйста, отцентрируйте лицо на овале, а документ на прямоугольнике";
-"onboarding_selfie_capturer_button_tutorial" = "";
-"onboarding_selfie_capturer_subtitle_tutorial" = "";
+"onboarding_selfie_capturer_button_tutorial" = "Хорошо понял!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Теперь вам нужно сделать селфи. Следуйте этим инструкциям";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Пожалуйста, выберите файл PDF или изображение";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "Проблема с загруженным файлом";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "Продолжить на этом устройстве";
+"onboarding_qr_info_text" = "Мы обнаружили, что вы используете ПК. Веб-камеры ПК часто имеют низкое качество. Чтобы упростить процесс, мы рекомендуем использовать мобильный телефон.";
+"onboarding_qr_info_text_extra" = "Вы хотите продолжить процесс регистрации на своем мобильном телефоне? Вам просто нужно отсканировать этот QR:";

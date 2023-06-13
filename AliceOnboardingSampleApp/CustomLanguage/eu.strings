@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "Saiatu berriro mesedez.";
 "onboarding_error_title_authentication" = "Autentifikazio-errorea.";
 "onboarding_error_subtitle_authentication" = "Saiatu berriro mesedez.";
-"onboarding_error_subtitle_camera_not_available" = "Egiaztatu ingurune seguru batean zaudela eta egiaztatu kamera";
+"onboarding_error_subtitle_camera_not_available" = "Mesedez, egiaztatu kamera bat konektatuta duzula eta sarbide-baimenak eman dituzula";
 "onboarding_browser_no_compatible" = "Funtzionalitate hau ez dago eskuragarri arakatzaile honetan, mesedez, probatu Safarian";
 "onboarding_error_user_not_found" = "Erabiltzailea ez da aurkitu";
 "onboarding_error_title_file_too_big" = "Fitxategia handiegia da";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Dokumentu okerra";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Ziurtatu dokumentu zuzena erakusteko (%1$ %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Ziurtatu baliozko argazki-dokumentu bat erakusteko";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Ez da dokumentua onartu";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Ziurtatu dokumentu hauetako bat erakusten duzula: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Okerreko aldean";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "Ziurtatu zuzena albo erakusteko (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Arazoa zure dokumentua irakurtzeko";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Ziurtatu dokumentua erakusteko occlusions, hausnarketak edo itzalak gabe";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Hautatu erabiltzen ari zaren dokumentua";
 "onboarding_doc_capturer_front" = "AURREKO ZATIA";
 "onboarding_doc_capturer_back" = "ATZEKO";
 "onboarding_doc_capturer_choose_source" = "Aukeratu iturburua";
@@ -170,8 +173,8 @@
 "onboarding_selfie_capturer_subtitle" = "Mesedez, jarraitu harrapatzea batera";
 "onboarding_selfie_capturer_subtitle_review" = "Mesedez begiratu argazkian ona dela";
 "onboarding_selfie_with_document_capturer_center_face" = "Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean";
-"onboarding_selfie_capturer_button_tutorial" = "";
-"onboarding_selfie_capturer_subtitle_tutorial" = "";
+"onboarding_selfie_capturer_button_tutorial" = "Ados, lortu!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Orain selfie bat egin behar duzu. Jarraitu argibide hauek";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat edo argazki bat";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "Arazoa kargatutako fitxategiarekin";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "Jarraitu gailu honetan";
+"onboarding_qr_info_text" = "Ordenagailu bat erabiltzen ari zarela detektatu dugu. Ordenagailuko kamerak kalitate txarrekoak izaten dira. Prozesua errazteko mugikorra erabiltzea gomendatzen dugu.";
+"onboarding_qr_info_text_extra" = "Sartze-prozesua mugikorrean jarraitu nahi duzu? QR hau eskaneatu besterik ez duzu egin behar:";

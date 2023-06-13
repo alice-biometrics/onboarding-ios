@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "Lütfen tekrar deneyin.";
 "onboarding_error_title_authentication" = "Kimlik doğrulaması hatası.";
 "onboarding_error_subtitle_authentication" = "Lütfen tekrar deneyin.";
-"onboarding_error_subtitle_camera_not_available" = "Lütfen kameranızı kontrol edin.";
+"onboarding_error_subtitle_camera_not_available" = "Lütfen bir kamera olup olmadığını ve ona erişim izni verdiğinizi kontrol edin.";
 "onboarding_browser_no_compatible" = "Bu işlev bu tarayıcıda mevcut değil, lütfen Safari'yi deneyin";
 "onboarding_error_user_not_found" = "Kullanıcı bulunamadı";
 "onboarding_error_title_file_too_big" = "Büyük dosya";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Yanlış belge";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Doğru belgeyi gösterdiğinizden emin olun (%@ - %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Fotoğraflı geçerli bir belge gösterdiğinizden emin olun";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "İzin verilmeyen belge";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Şu belgelerden birini gösterdiğinizden emin olun: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Yanlış belge tarafı";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "Doğru tarafı gösterdiğinizden emin olun (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Belgenizi okumada soru";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Belgenizi oklüzyon, parlama veya gölgeler olmadan gösterdiğinizden emin olun";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Kullanmakta olduğunuz belgeyi seçin";
 "onboarding_doc_capturer_front" = "ÖN TARAF";
 "onboarding_doc_capturer_back" = "ARKA TARAF";
 "onboarding_doc_capturer_choose_source" = "Kaynak Seç";
@@ -170,8 +173,8 @@
 "onboarding_selfie_capturer_subtitle" = "Lütfen ele geçirmeye devam edin";
 "onboarding_selfie_capturer_subtitle_review" = "Lütfen resminizin iyi olduğundan emin olun";
 "onboarding_selfie_with_document_capturer_center_face" = "Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın";
-"onboarding_selfie_capturer_button_tutorial" = "";
-"onboarding_selfie_capturer_subtitle_tutorial" = "";
+"onboarding_selfie_capturer_button_tutorial" = "Tamam anladım!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Şimdi bir selfie çekmelisin. Bu talimatları izleyin";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Lütfen bir PDF dosyası veya resim seçin";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "Yüklenen dosyayla ilgili sorun";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "Bu cihazda devam et";
+"onboarding_qr_info_text" = "PC kullandığınızı tespit ettik. PC web kameraları genellikle kalitesizdir. İşlemi kolaylaştırmak için bir cep telefonu kullanmanızı öneririz.";
+"onboarding_qr_info_text_extra" = "Katılım sürecine cep telefonunuzdan devam etmek istiyor musunuz? Bu QR'yi taramanız yeterlidir:";

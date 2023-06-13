@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "Intenta-ho de nou.";
 "onboarding_error_title_authentication" = "Error d'autenticació.";
 "onboarding_error_subtitle_authentication" = "Intenta-ho de nou.";
-"onboarding_error_subtitle_camera_not_available" = "Si us plau, comprovi la seva càmera";
+"onboarding_error_subtitle_camera_not_available" = "Si us plau, comproveu que teniu una càmera connectada i que heu donat permisos d'accés";
 "onboarding_browser_no_compatible" = "Aquesta funcionalitat no és compatible amb el navegad por utilitzat. Proveu amb Safari";
 "onboarding_error_user_not_found" = "Usuari no trobat";
 "onboarding_error_title_file_too_big" = "El fitxer és massa gran";
@@ -46,7 +46,7 @@
 "onboarding_stages_selfie_with_document" = "Selfie amb document";
 "onboarding_stages_selfie_with_challenge" = "Selfie amb repte";
 "onboarding_stages_selfie_with_document_challenge" = "Selfie amb repte";
-"onboarding_stages_document" = "Docuemnt";
+"onboarding_stages_document" = "Document";
 "onboarding_stages_id_card" = "Carnet d'identitat";
 "onboarding_stages_driver_license" = "Carnet de conduir";
 "onboarding_stages_passport" = "Passaport";
@@ -83,7 +83,7 @@
 //Doc and country selector
 "onboarding_doc_country_selector_title" = "Selecció de documents";
 "onboarding_doc_country_selector_issuing_country" = "País del document";
-"onboarding_doc_country_selector_allowed_documents" = "Accepted documents";
+"onboarding_doc_country_selector_allowed_documents" = "Documents acceptats";
 "onboarding_doc_country_selector_document_type" = "Tipus de document";
 
 //Doc capturer
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Document incorrecte";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Assegura't de mostrar el document correcte (%@ - %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Assegura't de mostrar un document vàlid amb fotografia";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Document no acceptat";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Assegura't de mostrar un document dels següents: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Costat incorrecte";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "Assegura't de mostrar el costat correcte (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Problema a l'llegir el teu document";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Assegura't de mostrar el document sense oclusions, reflexos o ombres";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Selecciona el document que utilitzeu";
 "onboarding_doc_capturer_front" = "PART FRONTAL";
 "onboarding_doc_capturer_back" = "PART POSTERIOR";
 "onboarding_doc_capturer_choose_source" = "Trieu origen";
@@ -170,8 +173,8 @@
 "onboarding_selfie_capturer_subtitle" = "Si us plau, continuï amb la captura";
 "onboarding_selfie_capturer_subtitle_review" = "Si us plau, comprova que la foto és bona";
 "onboarding_selfie_with_document_capturer_center_face" = "Si us plau, centreu la vostra cara a l'oval i el document al rectangle";
-"onboarding_selfie_capturer_button_tutorial" = "";
-"onboarding_selfie_capturer_subtitle_tutorial" = "";
+"onboarding_selfie_capturer_button_tutorial" = "D'acord ho tinc!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Ara t'has de fer una selfie. Seguiu aquestes instruccions";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Si us plau, trieu un fitxer PDF o una imatge";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "Problema amb el fitxer penjat";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "Continueu en aquest dispositiu";
+"onboarding_qr_info_text" = "Hem detectat que estàs utilitzant un ordinador. Les càmeres web de PC solen ser de mala qualitat. Per facilitar el procés us recomanem utilitzar un mòbil.";
+"onboarding_qr_info_text_extra" = "Vols continuar el procés d'incorporació al teu mòbil? Només has d'escanejar aquest QR:";

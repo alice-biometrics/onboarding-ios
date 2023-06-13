@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "Por favor, inténtalo de nuevo.";
 "onboarding_error_title_authentication" = "Error de autenticación.";
 "onboarding_error_subtitle_authentication" = "Por favor, inténtalo de nuevo.";
-"onboarding_error_subtitle_camera_not_available" = "Por favor, comprueba que estás en un entorno seguro y verifica tu cámara";
+"onboarding_error_subtitle_camera_not_available" = "Por favor, comprueba que tengas una cámara conectada y que has dado permisos de acceso";
 "onboarding_browser_no_compatible" = "Esta funcionalidad no está disponible en este navegador, por favor pruebe en Safari";
 "onboarding_error_user_not_found" = "Usuario no encontrado";
 "onboarding_error_title_file_too_big" = "Archivo demasiado grande";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Documento incorrecto";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Asegúrate de mostrar el documento correcto (%@ de %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Asegúrate de mostrar un documento válido con fotografía";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Documento no aceptado";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Asegúrate de mostrar uno de los siguientes documentos: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Lado incorrecto";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "Asegúrate de mostrar el lado correcto (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Problema al leer tu documento";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Asegurate de mostrar el documento sin oclusiones, reflejos o sombras";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Selecciona el documento que estás usando";
 "onboarding_doc_capturer_front" = "PARTE FRONTAL";
 "onboarding_doc_capturer_back" = "PARTE TRASERA";
 "onboarding_doc_capturer_choose_source" = "Elige origen";
@@ -170,8 +173,8 @@
 "onboarding_selfie_capturer_subtitle" = "Por favor, continúa con la captura";
 "onboarding_selfie_capturer_subtitle_review" = "Por favor, comprueba que la foto es buena";
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra tu cara en el óvalo y el documento en el rectángulo";
-"onboarding_selfie_capturer_button_tutorial" = "";
-"onboarding_selfie_capturer_subtitle_tutorial" = "";
+"onboarding_selfie_capturer_button_tutorial" = "Vale, ¡entendido!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Ahora tienes que hacerte un selfie. Sigue estas instrucciones";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, elija un PDF o una imagen";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "Problema con el archivo subido";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "Continuar en este dispositivo";
+"onboarding_qr_info_text" = "Hemos detectado que estás usando un PC. Las webcams de los PC suelen ser de mala calidad. Para que el proceso sea más fácil recomendamos usar un móvil.";
+"onboarding_qr_info_text_extra" = "¿Quieres continuar el proceso de onboarding en tu móvil? Sólo tienes que escanear este QR:";

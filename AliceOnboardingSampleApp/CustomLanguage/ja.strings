@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "もう一度やり直してください。";
 "onboarding_error_title_authentication" = "認証エラー。";
 "onboarding_error_subtitle_authentication" = "もう一度やり直してください。";
-"onboarding_error_subtitle_camera_not_available" = "コンテキストが安全であることを確認し、カメラを確認してください";
+"onboarding_error_subtitle_camera_not_available" = "カメラが利用可能であり、アクセス許可を与えていることを確認してください";
 "onboarding_browser_no_compatible" = "この機能はこのブラウザでは利用できません。Safariをお試しください";
 "onboarding_error_user_not_found" = "ユーザーが見つかりません";
 "onboarding_error_title_file_too_big" = "ファイルが大きすぎます";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "間違ったドキュメント";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "適切なドキュメントを表示していることを確認してください（％2 $ sからの％1 $ s）";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "有効なドキュメントを写真で表示していることを確認してください";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "許可されていないドキュメント";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "次のドキュメントのいずれかを表示していることを確認してください: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "間違ったドキュメント側";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "右側（％1 $ s）を表示していることを確認してください";
 "onboarding_doc_capturer_alert_title_poor_quality" = "あなたのドキュメントを読むのに問題";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "閉塞、まぶしさ、影なしでドキュメントを表示していることを確認してください";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "使用しているドキュメントを選択してください";
 "onboarding_doc_capturer_front" = "表側";
 "onboarding_doc_capturer_back" = "裏側";
 "onboarding_doc_capturer_choose_source" = "ソースを選択します";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "アップロードされたファイルの問題";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "このデバイスで続行";
+"onboarding_qr_info_text" = "PC を使用していることを検出しました。 PC の Web カメラの品質はよくありません。 プロセスを簡単にするために、モバイルを使用することをお勧めします。";
+"onboarding_qr_info_text_extra" = "モバイルでオンボーディング プロセスを続行しますか? この QR をスキャンするだけです。";

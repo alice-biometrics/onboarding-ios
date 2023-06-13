@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "Please, try again.";
 "onboarding_error_title_authentication" = "Authentication error.";
 "onboarding_error_subtitle_authentication" = "Please, try again.";
-"onboarding_error_subtitle_camera_not_available" = "Please, check that your context is secure and check your camera";
+"onboarding_error_subtitle_camera_not_available" = "Please, check that a camera is available and that you have given permission to access it";
 "onboarding_browser_no_compatible" = "This functionality is not available in this browser, please try Safari";
 "onboarding_error_user_not_found" = "User not found";
 "onboarding_error_title_file_too_big" = "File is too big";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Wrong document";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Make sure you’re showing the right document (%@ from %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Make sure you’re showing a valid document with photo";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Not allowed document";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Make sure you’re showing one of the following documents: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Wrong document side";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "Make sure you’re showing the right side (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Problem reading your document";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Make sure you're showing your document without occlusions, glare or shadows";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Select the document you are using";
 "onboarding_doc_capturer_front" = "FRONT SIDE";
 "onboarding_doc_capturer_back" = "BACK SIDE";
 "onboarding_doc_capturer_choose_source" = "Choose source";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "Problem with uploaded file";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "Continue on this device";
+"onboarding_qr_info_text" = "We have detected that you are using a PC. PC webcams are often of poor quality. To make the process easier we recommend using a mobile.";
+"onboarding_qr_info_text_extra" = "Do you want to continue the onboarding process on your mobile? You just have to scan this QR:";

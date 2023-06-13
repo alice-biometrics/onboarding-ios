@@ -27,7 +27,7 @@
 "onboarding_error_subtitle_selfie" = "请再试一遍";
 "onboarding_error_title_authentication" = "授权错误";
 "onboarding_error_subtitle_authentication" = "请再试一遍";
-"onboarding_error_subtitle_camera_not_available" = "请检查您的相机。";
+"onboarding_error_subtitle_camera_not_available" = "请检查相机是否可用以及您是否已授予访问权限";
 "onboarding_browser_no_compatible" = "此功能在此浏览器中不可用，请尝试使用Safari";
 "onboarding_error_user_not_found" = "找不到使用者";
 "onboarding_error_title_file_too_big" = "文件变大";
@@ -104,10 +104,13 @@
 "onboarding_doc_capturer_alert_title_wrong_doc" = "错误的文件";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc" = "确保显示正确的文档 (%@ - %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "确保显示带有照片的有效文档";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "不允许的文件";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "请确保您出示的是以下文件之一：%@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "文件面错误";
 "onboarding_doc_capturer_alert_subtitle_wrong_side" = "确保您显示的是右侧 (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "读取文件时出现问";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "确保显示的文档右侧没有遮挡，眩光或阴影";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "选择您正在使用的文件";
 "onboarding_doc_capturer_front" = "正面";
 "onboarding_doc_capturer_back" = "背面";
 "onboarding_doc_capturer_choose_source" = "选择来源";
@@ -170,8 +173,8 @@
 "onboarding_selfie_capturer_subtitle" = "请继续进行捕获";
 "onboarding_selfie_capturer_subtitle_review" = "请确保您的图片好";
 "onboarding_selfie_with_document_capturer_center_face" = "请把你的脸放在椭圆上，把文件放在长方形上";
-"onboarding_selfie_capturer_button_tutorial" = "";
-"onboarding_selfie_capturer_subtitle_tutorial" = "";
+"onboarding_selfie_capturer_button_tutorial" = "好的，我知道了！";
+"onboarding_selfie_capturer_subtitle_tutorial" = "现在你必须自拍。 按照这些说明";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "请选择PDF文件或图片";
@@ -190,3 +193,8 @@
 "onboarding_other_trusted_docs_error" = "上传文件有问题";
 
 //Welcome
+
+//QR view
+"onboarding_qr_button" = "在此设备上继续";
+"onboarding_qr_info_text" = "我们检测到您正在使用 PC。 PC 网络摄像头的质量通常很差。 为了使这个过程更容易，我们建议使用手机。";
+"onboarding_qr_info_text_extra" = "你想在你的手机上继续入职流程吗？ 你只需要扫描这个二维码：";
