@@ -10,14 +10,21 @@ on:
 
 jobs:
   ci:
-    runs-on: macOS-11
+    runs-on: macOS-12
     steps:
-    - uses: actions/checkout@v1
-    - name: Pod install
-      working-directory: AliceOnboardingSampleApp/
-      run: |
-         pod install --repo-update
-    - name: Tests [UI Test]
-      working-directory: AliceOnboardingSampleApp/
-      run: |
-         xcodebuild -workspace AliceOnboardingSampleApp.xcworkspace  -scheme AliceOnboardingSampleApp  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=15.2'  test
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Pod install
+        working-directory: AliceOnboardingSampleApp/
+        run: |
+           pod install --repo-update
+           
+      - name: Tests [UI Test]
+        working-directory: AliceOnboardingSampleApp/
+        run: |
+           xcodebuild -workspace AliceOnboardingSampleApp.xcworkspace  -scheme AliceOnboardingSampleApp  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=15.2'  test
