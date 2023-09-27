@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -59,8 +59,6 @@
 /* Begin PBXFileReference section */
 		1CCEB15E238D9542004E0A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CCEB161238D9542004E0A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CCEB162238D95AA004E0A2A /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CCEB163238D95AA004E0A2A /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4026841F23B9E2D60053AB33 /* onboarding.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = onboarding.yaml; sourceTree = "<group>"; };
 		402689EC2335263900A1AD8C /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		403C3F262327E51400670237 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
@@ -284,7 +282,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				es,
 			);
 			mainGroup = 40C75A0C22D68064000950E2;
 			productRefGroup = 40C75A1622D68064000950E2 /* Products */;
@@ -431,7 +428,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				1CCEB161238D9542004E0A2A /* en */,
-				1CCEB162238D95AA004E0A2A /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -440,7 +436,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				1CCEB15E238D9542004E0A2A /* en */,
-				1CCEB163238D95AA004E0A2A /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

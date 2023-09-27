@@ -9,12 +9,6 @@ class MainViewController: UIViewController {
     // Input properties
     @IBOutlet var actionButton: TransitionButton!
     @IBOutlet weak var emailText: UITextField!
-    @IBOutlet weak var textFieldMiddle: UITextField!
-    @IBOutlet weak var textFieldTop: UITextField!
-    @IBOutlet var iconViewTop: UIImageView!
-    @IBOutlet var iconViewMiddle: UIImageView!
-    @IBOutlet var topTextView: UIView!
-    @IBOutlet var middleTextView: UIView!
     @IBOutlet var emailView: UIView!
     // Settings properties
     // It determines if the app runs on Onboarding mode or using OnboardingCommand class.

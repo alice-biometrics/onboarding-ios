@@ -10,12 +10,8 @@ extension MainViewController: UITextFieldDelegate, UITextViewDelegate {
         actionButton.layer.cornerRadius = 20
         actionButton.titleLabel!.text = "START"
         self.emailText.isHidden = true
-        self.topTextView.isHidden = true
-        self.middleTextView.isHidden = true
         self.emailView.isHidden = true
         self.emailText.delegate = self
-        self.textFieldTop.delegate = self
-        self.textFieldMiddle.delegate = self
         self.view.bringSubviewToFront(self.emailText)
         self.view.bringSubviewToFront(self.emailView)
         self.emailText.keyboardType = UIKeyboardType.emailAddress
@@ -38,8 +34,6 @@ extension MainViewController: UITextFieldDelegate, UITextViewDelegate {
         isStart = false
         self.emailText.isHidden = false
         self.emailView.isHidden = false
-        self.middleTextView.isHidden = true
-        self.topTextView.isHidden = true
 
         self.actionButton.setTitle("LOG IN", for: .normal)
         actionButton.layer.cornerRadius = 20
