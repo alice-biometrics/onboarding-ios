@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zWY-kv-n2D">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zWY-kv-n2D">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -82,29 +82,17 @@
                                         <rect key="frame" x="0.0" y="162.99999999999994" width="375" height="80.666666666666686"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please, type your email." textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="eyL-PB-JW2">
-                                                <rect key="frame" x="96" y="22.333333333333371" width="232" height="36"/>
+                                                <rect key="frame" x="44" y="23.333333333333371" width="284" height="34"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="36" id="Dkr-Qd-soA"/>
-                                                </constraints>
                                                 <color key="textColor" red="0.0" green="0.25067710879999999" blue="0.64930015799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail.png" translatesAutoresizingMaskIntoConstraints="NO" id="tSU-iD-YjI">
-                                                <rect key="frame" x="33" y="22" width="49" height="33"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="tSU-iD-YjI" secondAttribute="height" multiplier="55:38" constant="1.2368421052631575" id="9ob-cc-gPl"/>
-                                                    <constraint firstAttribute="width" constant="49" id="i99-q0-SjJ"/>
-                                                </constraints>
-                                            </imageView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="tSU-iD-YjI" firstAttribute="leading" secondItem="NGa-fu-AUc" secondAttribute="leading" constant="33" id="FBx-td-dtE"/>
-                                            <constraint firstItem="eyL-PB-JW2" firstAttribute="centerY" secondItem="NGa-fu-AUc" secondAttribute="centerY" id="NPd-jQ-sIx"/>
-                                            <constraint firstItem="tSU-iD-YjI" firstAttribute="centerY" secondItem="NGa-fu-AUc" secondAttribute="centerY" constant="-2" id="YUM-xm-982"/>
-                                            <constraint firstAttribute="trailing" secondItem="eyL-PB-JW2" secondAttribute="trailing" constant="47" id="lpY-yK-3k1"/>
-                                            <constraint firstItem="eyL-PB-JW2" firstAttribute="leading" secondItem="tSU-iD-YjI" secondAttribute="trailing" constant="14" id="wZi-iN-E8e"/>
+                                            <constraint firstItem="eyL-PB-JW2" firstAttribute="leading" secondItem="NGa-fu-AUc" secondAttribute="leading" constant="44" id="4Ch-jg-ut3"/>
+                                            <constraint firstAttribute="trailing" secondItem="eyL-PB-JW2" secondAttribute="trailing" constant="47" id="gPF-oh-ueu"/>
+                                            <constraint firstItem="eyL-PB-JW2" firstAttribute="centerY" secondItem="NGa-fu-AUc" secondAttribute="centerY" id="q3n-S9-xRn"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -170,7 +158,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPK-pF-4B9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="86.956521739130437" y="56.25"/>
+            <point key="canvasLocation" x="85.599999999999994" y="56.157635467980299"/>
         </scene>
         <!--Onboarding Command View Controller-->
         <scene sceneID="UJV-rT-u3X">
@@ -304,7 +292,7 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alice_color_no_text.png" translatesAutoresizingMaskIntoConstraints="NO" id="jge-d3-xc4">
-                                <rect key="frame" x="37" y="61" width="301" height="238"/>
+                                <rect key="frame" x="37" y="64" width="301" height="238"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jge-d3-xc4" secondAttribute="height" multiplier="43:34" id="LFQ-UO-bsm"/>
                                 </constraints>
@@ -345,7 +333,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdI-Mg-Lew">
-                                <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="Dashboard" id="UgD-Z3-DaO">
                                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="sVe-pV-z8b">
@@ -362,11 +350,11 @@
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kto-aN-KZF">
-                                <rect key="frame" x="0.0" y="91" width="375" height="687"/>
+                                <rect key="frame" x="0.0" y="94" width="375" height="684"/>
                                 <color key="backgroundColor" red="0.0" green="0.25067710879999999" blue="0.64930015799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Yo-oX-DX8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -411,6 +399,5 @@
         <image name="alice_blanco.png" width="708.75" height="623.25"/>
         <image name="alice_color_no_text.png" width="358.25" height="407"/>
         <image name="background_image.png" width="341" height="704"/>
-        <image name="mail.png" width="36" height="36"/>
     </resources>
 </document>

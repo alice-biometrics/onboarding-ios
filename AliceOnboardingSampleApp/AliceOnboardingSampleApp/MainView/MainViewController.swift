@@ -30,10 +30,32 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        customize()
         printOnboardingInfo()
         configureInputs()
         configureSettings()
+        customize()
     }
+    
+    func customize() {
+        //To customize icons
+        //In the assets there are examples of the icons that we use in which you can see the size
+        OnboardingAppearence.statusView.selfieIcon = UIImage(named: "holding-cell")
+        OnboardingAppearence.statusView.idCardIcon = UIImage(named: "document")
+        
+        //To change the color of the icon background
+        OnboardingAppearence.statusView.iconBackgroundColorActive = UIColor.white
+        
+        
+        OnboardingAppearence.statusView.continueButtonColor = UIColor.green
+        OnboardingAppearence.statusView.contiueButtonTextColor = UIColor.red
+        
+        //To use the original color in the progressHUB use progressBlurEffectStyle with regular
+        OnboardingAppearence.selfieCaptureView.progressHUBBackgroundColor = UIColor.green
+        OnboardingAppearence.selfieCaptureView.progressBlurEffectStyle = .regular
+        OnboardingAppearence.selfieCaptureView.progressHUBTextColor = .white
+    }
+    
     @IBAction func settingsAction(_ sender: Any) {
         if let url = URL.init(string: UIApplication.openSettingsURLString) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)

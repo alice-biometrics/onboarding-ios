@@ -20,6 +20,11 @@
 		40C75A1E22D68064000950E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1C22D68064000950E2 /* Main.storyboard */; };
 		40C75A2022D68065000950E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1F22D68065000950E2 /* Assets.xcassets */; };
 		40C75A2322D68065000950E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A2122D68065000950E2 /* LaunchScreen.storyboard */; };
+		7896EF652ACEC4AE00519929 /* holding-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7896EF642ACEC4AE00519929 /* holding-cell.png */; };
+		7896EF692ACED7AE00519929 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 7896EF682ACED7AE00519929 /* document.png */; };
+		7896EF6D2ACED84900519929 /* driver_license.png in Resources */ = {isa = PBXBuildFile; fileRef = 7896EF6C2ACED84900519929 /* driver_license.png */; };
+		7896EF6F2ACED86B00519929 /* selfie_minimal_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7896EF6E2ACED86B00519929 /* selfie_minimal_circle.png */; };
+		7896EF712ACED89100519929 /* passport_modern_shape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7896EF702ACED89100519929 /* passport_modern_shape.png */; };
 		B16820A52906E5BE00189D69 /* AleretView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16820A42906E5BE00189D69 /* AleretView.swift */; };
 		CA30F7A1234CCB9400A68B10 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA30F7A0234CCB9400A68B10 /* en.strings */; };
 		CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA423191B9700B969BA /* ShowResultViewController.swift */; };
@@ -73,6 +78,11 @@
 		40C75A1F22D68065000950E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C75A2422D68065000950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574E269BD393A0254066E6C3 /* Pods-AliceOnboardingSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		7896EF642ACEC4AE00519929 /* holding-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "holding-cell.png"; sourceTree = "<group>"; };
+		7896EF682ACED7AE00519929 /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document.png; sourceTree = "<group>"; };
+		7896EF6C2ACED84900519929 /* driver_license.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = driver_license.png; sourceTree = "<group>"; };
+		7896EF6E2ACED86B00519929 /* selfie_minimal_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selfie_minimal_circle.png; sourceTree = "<group>"; };
+		7896EF702ACED89100519929 /* passport_modern_shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passport_modern_shape.png; sourceTree = "<group>"; };
 		997659ADE6DD1E39421FA70F /* Pods-AliceOnboardingSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A0EBC9E253C15C7697BE2926 /* Pods_AliceOnboardingSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliceOnboardingSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16820A42906E5BE00189D69 /* AleretView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleretView.swift; sourceTree = "<group>"; };
@@ -166,6 +176,11 @@
 		40C75A1722D68064000950E2 /* AliceOnboardingSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				7896EF702ACED89100519929 /* passport_modern_shape.png */,
+				7896EF6E2ACED86B00519929 /* selfie_minimal_circle.png */,
+				7896EF6C2ACED84900519929 /* driver_license.png */,
+				7896EF682ACED7AE00519929 /* document.png */,
+				7896EF642ACEC4AE00519929 /* holding-cell.png */,
 				4026841F23B9E2D60053AB33 /* onboarding.yaml */,
 				40C75A1822D68064000950E2 /* AppDelegate.swift */,
 				40C75A1C22D68064000950E2 /* Main.storyboard */,
@@ -323,16 +338,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B7D0B523325E200081E128 /* Settings.bundle in Resources */,
+				7896EF6F2ACED86B00519929 /* selfie_minimal_circle.png in Resources */,
 				403C3F292327E51400670237 /* mail.png in Resources */,
 				402689ED2335263A00A1AD8C /* user.png in Resources */,
 				CA37CAB423195F2200B969BA /* alice_blanco.png in Resources */,
+				7896EF692ACED7AE00519929 /* document.png in Resources */,
 				4026842223B9E2D60053AB33 /* onboarding.yaml in Resources */,
 				40C75A2322D68065000950E2 /* LaunchScreen.storyboard in Resources */,
 				40C75A2022D68065000950E2 /* Assets.xcassets in Resources */,
 				40C75A1E22D68064000950E2 /* Main.storyboard in Resources */,
 				CAB13DBB2334E89B0076FFBB /* alice_color_no_text.png in Resources */,
+				7896EF652ACEC4AE00519929 /* holding-cell.png in Resources */,
+				7896EF712ACED89100519929 /* passport_modern_shape.png in Resources */,
 				CA37CAB223195CD200B969BA /* background_image.png in Resources */,
 				CA30F7A1234CCB9400A68B10 /* en.strings in Resources */,
+				7896EF6D2ACED84900519929 /* driver_license.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
