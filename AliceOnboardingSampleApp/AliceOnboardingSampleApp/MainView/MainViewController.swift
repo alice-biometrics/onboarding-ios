@@ -39,14 +39,16 @@ class MainViewController: UIViewController {
     
     func customize() {
         //To customize icons
-        //In the assets there are examples of the icons that we use in which you can see the size
         OnboardingAppearence.statusView.selfieIcon = UIImage(named: "holding-cell")
         OnboardingAppearence.statusView.idCardIcon = UIImage(named: "document")
+        
+        //In the AliceOnboardingSampleApp folder there are examples of the alice icons in which you can see the icon size (driver_license, driver_license, passport_modern_shape)
         
         //To change the color of the icon background
         OnboardingAppearence.statusView.iconBackgroundColorActive = UIColor.white
         
-        
+        //To change the color of the icon use inverted icon design like this passport_modern_shape
+    
         OnboardingAppearence.statusView.continueButtonColor = UIColor.green
         OnboardingAppearence.statusView.contiueButtonTextColor = UIColor.red
         
