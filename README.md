@@ -15,7 +15,7 @@ This repository serves as an example of how to integrate Alice's SDK into an app
 
 ## Documentation :page_facing_up:
 
-Refer to https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios.html
+Refer to [https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios/](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios/)
 
 ## Contact :mailbox_with_mail:
 
