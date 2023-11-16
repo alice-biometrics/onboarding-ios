@@ -1,7 +1,7 @@
 # Alice Onboarding iOS SDK <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/ios.png" width="30"> 
 
 ![Version](https://img.shields.io/github/v/release/alice-biometrics/onboarding-ios?style=flat)
-[![API Doc](https://img.shields.io/github/v/release/Jumio/Mobile-SDK-IOS?label=API%20doc&color=green&style=flat)]([https://jumio.github.io/mobile-sdk-ios/Jumio](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios/))
+[![API Doc](https://img.shields.io/github/v/release/alice-biometrics/onboarding-ios?label=API%20doc&color=green&style=flat)](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios/)
 ![License](https://img.shields.io/cocoapods/l/AliceOnboarding.svg?style=flat)
 ![Platform](https://img.shields.io/cocoapods/p/AliceOnboarding.svg?style=flat)
 [![Pod Version](https://img.shields.io/cocoapods/v/Jumio.svg?style=flat)](https://cocoapods.org/pods/Jumio)
