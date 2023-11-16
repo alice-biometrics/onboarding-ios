@@ -9,12 +9,12 @@ let checksum = "0044d682534fd0227e8953ee3b009236c1b72b392bc2c532facd2a79253779ee
 let package = Package(
     name: "AliceOnboarding",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v11)
     ],
     products: [
         .library(
             name: "AliceOnboarding",
-            targets: ["AliceOnboarding"]),
+            targets: ["AliceOnboardingBundle"]),
     ],
     dependencies: [
             .package(
