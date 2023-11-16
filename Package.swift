@@ -25,7 +25,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "AliceOnboarding", 
-                      url: "https://storage.googleapis.com/releases/ios/AliceOnboarding-\(version).zip",
+                      url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
                       checksum: \(checksum)),
     ]
 )
