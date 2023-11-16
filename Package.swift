@@ -27,6 +27,7 @@ let package = Package(
       .target(name: "AliceOnboardingBundle",
             dependencies: [
                 "AliceOnboarding"
+                .product(name: "iProov", package: "iProov")
             ]
            )
         .binaryTarget(name: "AliceOnboarding", 
