@@ -9,7 +9,7 @@ let checksum = "0044d682534fd0227e8953ee3b009236c1b72b392bc2c532facd2a79253779ee
 let package = Package(
     name: "AliceOnboarding",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v9)
     ],
     products: [
         .library(
@@ -26,10 +26,10 @@ let package = Package(
     targets: [
       .target(name: "AliceOnboardingBundle",
             dependencies: [
-                "AliceOnboarding"
-                .product(name: "iProov", package: "iProov")
-            ]
-           )
+                "AliceOnboarding",
+                .product(name: "OpenSSL", package: "OpenSSL")
+              ]
+           ),
         .binaryTarget(name: "AliceOnboarding", 
                       url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
                       checksum: "\(checksum)"),
