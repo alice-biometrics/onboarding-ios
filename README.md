@@ -1,4 +1,13 @@
-# onboarding-ios <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/ios.png" width="30"> [![pods](https://cocoapod-badges.herokuapp.com/v/AliceOnboarding/badge.png)](https://github.com/alice-biometrics/onboarding-ios) [![license](https://cocoapod-badges.herokuapp.com/l/AliceOnboarding/badge.png)](https://github.com/alice-biometrics/onboarding-ios) [![ci](https://github.com/alice-biometrics/onboarding-ios/actions/workflows/ci.yml/badge.svg?branch=master&event=release)](https://github.com/alice-biometrics/onboarding-ios/actions/workflows/ci.yml) [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/)
+# Alice Onboarding iOS SDK <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/ios.png" width="30"> 
+
+![Version](https://img.shields.io/github/v/release/alice-biometrics/onboarding-ios?style=flat)
+[![API Doc](https://img.shields.io/github/v/release/Jumio/Mobile-SDK-IOS?label=API%20doc&color=green&style=flat)]([https://jumio.github.io/mobile-sdk-ios/Jumio](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios/))
+![License](https://img.shields.io/cocoapods/l/AliceOnboarding.svg?style=flat)
+![Platform](https://img.shields.io/cocoapods/p/AliceOnboarding.svg?style=flat)
+[![Pod Version](https://img.shields.io/cocoapods/v/Jumio.svg?style=flat)](https://cocoapods.org/pods/Jumio)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+[![Swift 3.0-5.x](http://img.shields.io/badge/Swift-3.x,%204.x%20&%205.x-orange.svg?style=flat)](https://swift.org/)
+
 
 <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/alice_header.png" width=auto>
 
