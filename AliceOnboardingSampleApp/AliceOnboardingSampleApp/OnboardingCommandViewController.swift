@@ -3,7 +3,6 @@
 
 import UIKit
 import AliceOnboarding
-import SwiftyJSON
 
 class OnboardingCommandViewController: UIViewController {
     var userToken: String?

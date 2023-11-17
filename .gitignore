@@ -17,6 +17,7 @@ AppOnboardingSample/AppOnboardingSample.xcworkspace/
 *.xcuserstate
 project.xcworkspace/
 xcuserdata/
+AliceOnboardingSampleApp.xcworkspace/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
@@ -39,3 +40,4 @@ Podfile.lock
 
 # Mac
 .DS_Store
+

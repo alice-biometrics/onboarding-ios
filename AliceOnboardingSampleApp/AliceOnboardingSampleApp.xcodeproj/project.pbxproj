@@ -17,10 +17,10 @@
 		40B7D0C023334F330081E128 /* MainViewController+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7D0BF23334F330081E128 /* MainViewController+Auth.swift */; };
 		40B7D0C223334F970081E128 /* MainViewController+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7D0C123334F970081E128 /* MainViewController+Settings.swift */; };
 		40C75A1922D68064000950E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C75A1822D68064000950E2 /* AppDelegate.swift */; };
-		40C75A1E22D68064000950E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1C22D68064000950E2 /* Main.storyboard */; };
 		40C75A2022D68065000950E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1F22D68065000950E2 /* Assets.xcassets */; };
-		40C75A2322D68065000950E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A2122D68065000950E2 /* LaunchScreen.storyboard */; };
 		61C29A05C67D6F13A88E2620 /* libPods-AliceOnboardingSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F3654B375EEB3C07FEBB8B /* libPods-AliceOnboardingSampleApp.a */; };
+		78D556502B07B92500F60B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D5564E2B07B92500F60B82 /* Main.storyboard */; };
+		78D556532B07BA3A00F60B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D556522B07BA3A00F60B82 /* LaunchScreen.storyboard */; };
 		B16820A52906E5BE00189D69 /* AleretView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16820A42906E5BE00189D69 /* AleretView.swift */; };
 		CA30F7A1234CCB9400A68B10 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA30F7A0234CCB9400A68B10 /* en.strings */; };
 		CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA423191B9700B969BA /* ShowResultViewController.swift */; };
@@ -58,8 +58,6 @@
 
 /* Begin PBXFileReference section */
 		16F3654B375EEB3C07FEBB8B /* libPods-AliceOnboardingSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliceOnboardingSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CCEB15E238D9542004E0A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1CCEB161238D9542004E0A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4026841F23B9E2D60053AB33 /* onboarding.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = onboarding.yaml; sourceTree = "<group>"; };
 		402689EC2335263900A1AD8C /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		403C3F262327E51400670237 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
@@ -74,6 +72,8 @@
 		40C75A1F22D68065000950E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C75A2422D68065000950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD0A5FE0D265A5CF4880824 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		78D5564E2B07B92500F60B82 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		78D556522B07BA3A00F60B82 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF99B1C3F35E8B62638EACCB /* Pods-AliceOnboardingSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		B16820A42906E5BE00189D69 /* AleretView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleretView.swift; sourceTree = "<group>"; };
 		CA30F7A0234CCB9400A68B10 /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
@@ -166,10 +166,10 @@
 		40C75A1722D68064000950E2 /* AliceOnboardingSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				78D556522B07BA3A00F60B82 /* LaunchScreen.storyboard */,
+				78D5564E2B07B92500F60B82 /* Main.storyboard */,
 				4026841F23B9E2D60053AB33 /* onboarding.yaml */,
 				40C75A1822D68064000950E2 /* AppDelegate.swift */,
-				40C75A1C22D68064000950E2 /* Main.storyboard */,
-				40C75A2122D68065000950E2 /* LaunchScreen.storyboard */,
 				40B7D0B323325E200081E128 /* Settings.bundle */,
 				40C75A1F22D68065000950E2 /* Assets.xcassets */,
 				40C75A2422D68065000950E2 /* Info.plist */,
@@ -282,6 +282,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 40C75A0C22D68064000950E2;
 			productRefGroup = 40C75A1622D68064000950E2 /* Products */;
@@ -326,12 +327,12 @@
 				403C3F292327E51400670237 /* mail.png in Resources */,
 				402689ED2335263A00A1AD8C /* user.png in Resources */,
 				CA37CAB423195F2200B969BA /* alice_blanco.png in Resources */,
+				78D556502B07B92500F60B82 /* Main.storyboard in Resources */,
 				4026842223B9E2D60053AB33 /* onboarding.yaml in Resources */,
-				40C75A2322D68065000950E2 /* LaunchScreen.storyboard in Resources */,
 				40C75A2022D68065000950E2 /* Assets.xcassets in Resources */,
-				40C75A1E22D68064000950E2 /* Main.storyboard in Resources */,
 				CAB13DBB2334E89B0076FFBB /* alice_color_no_text.png in Resources */,
 				CA37CAB223195CD200B969BA /* background_image.png in Resources */,
+				78D556532B07BA3A00F60B82 /* LaunchScreen.storyboard in Resources */,
 				CA30F7A1234CCB9400A68B10 /* en.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,25 +423,6 @@
 			targetProxy = F64C7C63257E3F15004492B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		40C75A1C22D68064000950E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CCEB161238D9542004E0A2A /* en */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		40C75A2122D68065000950E2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CCEB15E238D9542004E0A2A /* en */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		40C75A3022D68065000950E2 /* Debug */ = {
