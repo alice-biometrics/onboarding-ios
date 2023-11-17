@@ -40,7 +40,7 @@
 "onboarding_error_subtitle_challenge_timeout" = "La sfida non è stata completata. Per favore, riprova";
 
 //Stages
-"onboarding_stages_title" = "Vérification d'identité";
+"onboarding_stages_title" = "Verifica dell'identità";
 "onboarding_stages_description" = "Per favore, completi i seguenti passaggi per una verifica riuscita";
 "onboarding_stages_selfie" = "Selfie";
 "onboarding_stages_selfie_with_document" = "Selfie con documento";
