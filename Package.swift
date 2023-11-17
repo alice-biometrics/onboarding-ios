@@ -4,7 +4,7 @@
 import PackageDescription
 
 let version = "2.0.0"
-let checksum = "0044d682534fd0227e8953ee3b009236c1b72b392bc2c532facd2a79253779ee"
+let checksum = "7f4eb36c29d0a0d6cd774a88be08964f8e4023198a153094901dd6a0f8139729"
 
 let package = Package(
     name: "AliceOnboarding",
