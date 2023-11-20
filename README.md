@@ -37,7 +37,12 @@ open the newly created _AliceOnboardingSampleApp.xcworkspace_ and run the applic
 
 #### AliceOnboarding is also available with SPM:
 
-To use with SPM open the _AliceOnboardingSampleApp.xcodeproj_ and just press in Xcode File/Add Package Dependencies and add this [repository](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/ios/) as a dependency to your project.
+To use with SPM open the _AliceOnboardingSampleApp.xcodeproj_ and just press in Xcode File/Add Package Dependencies and add this two dependencies:
+
+1) [AliceOnboarding](https://github.com/alice-biometrics/onboarding-ios/) min version > v2.0.0
+2) [TransitionButton](https://github.com/AladinWay/TransitionButton) with Dependency Rule -> Branch with value master
+
+
 
 
 ## Documentation :page_facing_up:
