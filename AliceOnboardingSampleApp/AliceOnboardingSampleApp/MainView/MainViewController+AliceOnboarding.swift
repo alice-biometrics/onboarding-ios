@@ -56,15 +56,7 @@ extension MainViewController {
             case let .success(userStatus):
                 print("userStatus: \(String(describing: userStatus))")
                 let userId =  userStatus["user_id"]
-                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                guard let viewController =
-                    storyBoard.instantiateViewController(withIdentifier: "showResultViewController")
-                        as? ShowResultViewController else {
-                            return
-                }
-                viewController.userId = userId.stringValue
-                viewController.modalPresentationStyle = .fullScreen
-                self.present(viewController, animated: true, completion: nil)
+                showAlert(viewController: self, title: "Onboarding successfully", message: "User_id: \(userId)")
             case let .failure(error):
                 showAlert(viewController: self, title: "Onboarding", message: "Error: \(error.localizedDescription)")
             case .cancel:

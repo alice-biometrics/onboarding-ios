@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,12 +18,10 @@
 		40B7D0C223334F970081E128 /* MainViewController+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7D0C123334F970081E128 /* MainViewController+Settings.swift */; };
 		40C75A1922D68064000950E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C75A1822D68064000950E2 /* AppDelegate.swift */; };
 		40C75A2022D68065000950E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C75A1F22D68065000950E2 /* Assets.xcassets */; };
-		61C29A05C67D6F13A88E2620 /* libPods-AliceOnboardingSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F3654B375EEB3C07FEBB8B /* libPods-AliceOnboardingSampleApp.a */; };
 		78D556502B07B92500F60B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D5564E2B07B92500F60B82 /* Main.storyboard */; };
 		78D556532B07BA3A00F60B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D556522B07BA3A00F60B82 /* LaunchScreen.storyboard */; };
 		B16820A52906E5BE00189D69 /* AleretView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16820A42906E5BE00189D69 /* AleretView.swift */; };
 		CA30F7A1234CCB9400A68B10 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA30F7A0234CCB9400A68B10 /* en.strings */; };
-		CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA423191B9700B969BA /* ShowResultViewController.swift */; };
 		CA37CAAA231940E500B969BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37CAA9231940E500B969BA /* MainViewController.swift */; };
 		CA37CAB223195CD200B969BA /* background_image.png in Resources */ = {isa = PBXBuildFile; fileRef = CA37CAB123195CD200B969BA /* background_image.png */; };
 		CA37CAB423195F2200B969BA /* alice_blanco.png in Resources */ = {isa = PBXBuildFile; fileRef = CA37CAB323195F2200B969BA /* alice_blanco.png */; };
@@ -33,20 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40C2B51223FEEDA200E17C8E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 40C75A4222D680BA000950E2;
-			remoteInfo = AliceOnboarding;
-		};
-		40C2B51423FEEDA200E17C8E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 40C75A4B22D680BB000950E2;
-			remoteInfo = AliceOnboardingTests;
-		};
 		F64C7C63257E3F15004492B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 40C75A0D22D68064000950E2 /* Project object */;
@@ -57,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16F3654B375EEB3C07FEBB8B /* libPods-AliceOnboardingSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliceOnboardingSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4026841F23B9E2D60053AB33 /* onboarding.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = onboarding.yaml; sourceTree = "<group>"; };
 		402689EC2335263900A1AD8C /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		403C3F262327E51400670237 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
@@ -71,18 +54,14 @@
 		40C75A1822D68064000950E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C75A1F22D68065000950E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C75A2422D68065000950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CD0A5FE0D265A5CF4880824 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		78D5564E2B07B92500F60B82 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		78D556522B07BA3A00F60B82 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF99B1C3F35E8B62638EACCB /* Pods-AliceOnboardingSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliceOnboardingSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		B16820A42906E5BE00189D69 /* AleretView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleretView.swift; sourceTree = "<group>"; };
 		CA30F7A0234CCB9400A68B10 /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
-		CA37CAA423191B9700B969BA /* ShowResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultViewController.swift; sourceTree = "<group>"; };
 		CA37CAA9231940E500B969BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CA37CAB123195CD200B969BA /* background_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_image.png; sourceTree = "<group>"; };
 		CA37CAB323195F2200B969BA /* alice_blanco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alice_blanco.png; sourceTree = "<group>"; };
 		CAB13DBA2334E89A0076FFBB /* alice_color_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alice_color_no_text.png; sourceTree = "<group>"; };
-		CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AliceOnboarding.xcodeproj; path = ../Onboarding/AliceOnboarding.xcodeproj; sourceTree = "<group>"; };
 		CAE37F0822FAE3680026FFA1 /* OnboardingCommandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCommandViewController.swift; sourceTree = "<group>"; };
 		F64C7C5E257E3F15004492B3 /* AliceOnboardingSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceOnboardingSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64C7C60257E3F15004492B3 /* AliceOnboardingSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceOnboardingSampleAppUITests.swift; sourceTree = "<group>"; };
@@ -94,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61C29A05C67D6F13A88E2620 /* libPods-AliceOnboardingSampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,15 +111,6 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
-		40C2B50E23FEEDA100E17C8E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				40C2B51323FEEDA200E17C8E /* AliceOnboarding.framework */,
-				40C2B51523FEEDA200E17C8E /* AliceOnboardingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		40C75A0C22D68064000950E2 = {
 			isa = PBXGroup;
 			children = (
@@ -149,8 +118,6 @@
 				40C75A1722D68064000950E2 /* AliceOnboardingSampleApp */,
 				F64C7C5F257E3F15004492B3 /* AliceOnboardingSampleAppUITests */,
 				40C75A1622D68064000950E2 /* Products */,
-				DF71B1D60859A533D8B71327 /* Frameworks */,
-				F8E9941311B9621370938E0F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +141,6 @@
 				40C75A1F22D68065000950E2 /* Assets.xcassets */,
 				40C75A2422D68065000950E2 /* Info.plist */,
 				40B7D0B82332BE5A0081E128 /* MainView */,
-				CA37CAA423191B9700B969BA /* ShowResultViewController.swift */,
 				CAE37F0822FAE3680026FFA1 /* OnboardingCommandViewController.swift */,
 				40B563242327822C00246D98 /* Resources */,
 				409D025A23BF3D2B00651F2B /* OnboardingBindings.swift */,
@@ -190,15 +156,6 @@
 			path = CustomLanguage;
 			sourceTree = "<group>";
 		};
-		DF71B1D60859A533D8B71327 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */,
-				16F3654B375EEB3C07FEBB8B /* libPods-AliceOnboardingSampleApp.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F64C7C5F257E3F15004492B3 /* AliceOnboardingSampleAppUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,15 +165,6 @@
 			path = AliceOnboardingSampleAppUITests;
 			sourceTree = "<group>";
 		};
-		F8E9941311B9621370938E0F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6CD0A5FE0D265A5CF4880824 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */,
-				AF99B1C3F35E8B62638EACCB /* Pods-AliceOnboardingSampleApp.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,17 +172,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40C75A3222D68065000950E2 /* Build configuration list for PBXNativeTarget "AliceOnboardingSampleApp" */;
 			buildPhases = (
-				EDD08BF6FDE5950FB638E3B4 /* [CP] Check Pods Manifest.lock */,
 				40C75A1122D68064000950E2 /* Sources */,
 				40C75A1222D68064000950E2 /* Frameworks */,
 				40C75A1322D68064000950E2 /* Resources */,
-				BB52F9BB14BF0D00E223A085 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AliceOnboardingSampleApp;
+			packageProductDependencies = (
+			);
 			productName = AppOnboardingSample;
 			productReference = 40C75A1522D68064000950E2 /* AliceOnboardingSampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -285,14 +233,10 @@
 				Base,
 			);
 			mainGroup = 40C75A0C22D68064000950E2;
+			packageReferences = (
+			);
 			productRefGroup = 40C75A1622D68064000950E2 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 40C2B50E23FEEDA100E17C8E /* Products */;
-					ProjectRef = CAB6026722DCEAEE00A3FD43 /* AliceOnboarding.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				40C75A1422D68064000950E2 /* AliceOnboardingSampleApp */,
@@ -300,23 +244,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		40C2B51323FEEDA200E17C8E /* AliceOnboarding.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AliceOnboarding.framework;
-			remoteRef = 40C2B51223FEEDA200E17C8E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		40C2B51523FEEDA200E17C8E /* AliceOnboardingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AliceOnboardingTests.xctest;
-			remoteRef = 40C2B51423FEEDA200E17C8E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		40C75A1322D68064000950E2 /* Resources */ = {
@@ -346,48 +273,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BB52F9BB14BF0D00E223A085 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliceOnboardingSampleApp/Pods-AliceOnboardingSampleApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EDD08BF6FDE5950FB638E3B4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AliceOnboardingSampleApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		40C75A1122D68064000950E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -400,7 +285,6 @@
 				40B7D0BC2332BE8A0081E128 /* MainViewController+Input.swift in Sources */,
 				409D025B23BF3D2B00651F2B /* OnboardingBindings.swift in Sources */,
 				40B7D0C223334F970081E128 /* MainViewController+Settings.swift in Sources */,
-				CA37CAA523191B9700B969BA /* ShowResultViewController.swift in Sources */,
 				CA37CAAA231940E500B969BA /* MainViewController.swift in Sources */,
 				B16820A52906E5BE00189D69 /* AleretView.swift in Sources */,
 			);
@@ -549,7 +433,6 @@
 		};
 		40C75A3322D68065000950E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CD0A5FE0D265A5CF4880824 /* Pods-AliceOnboardingSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -574,7 +457,6 @@
 		};
 		40C75A3422D68065000950E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF99B1C3F35E8B62638EACCB /* Pods-AliceOnboardingSampleApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
