@@ -16,20 +16,7 @@ let package = Package(
             name: "AliceOnboarding",
             targets: ["AliceOnboardingBundle"]),
     ],
-    dependencies: [
-            .package(
-                name: "OpenSSL",
-                url: "https://github.com/krzyzanowskim/OpenSSL.git",
-                .exact("1.1.2000")
-            )
-    ],
     targets: [
-      .target(name: "AliceOnboardingBundle",
-            dependencies: [
-                "AliceOnboarding",
-                .product(name: "OpenSSL", package: "OpenSSL")
-              ]
-           ),
         .binaryTarget(name: "AliceOnboarding", 
                       url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
                       checksum: "\(checksum)"),
