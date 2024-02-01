@@ -17,6 +17,11 @@ let package = Package(
             targets: ["AliceOnboardingBundle"]),
     ],
     targets: [
+        .target(name: "AliceOnboardingBundle",
+            dependencies: [
+                "AliceOnboarding",
+              ]
+           ),
         .binaryTarget(name: "AliceOnboarding", 
                       url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
                       checksum: "\(checksum)"),
