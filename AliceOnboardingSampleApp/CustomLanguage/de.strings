@@ -26,7 +26,7 @@
 "onboarding_error_title_selfie" = "Das Selfie konnte nicht versandt werden.";
 "onboarding_error_subtitle_selfie" = "Versuche es bitte nochmals.";
 "onboarding_error_title_authentication" = "Authentifizierungsfehler.";
-"onboarding_error_subtitle_authentication" = "Versuche es bitte nochmals.";
+"onboarding_error_subtitle_authentication" = "Authentifizierungsfehler.";
 "onboarding_error_subtitle_camera_not_available" = "Bitte überprüfen Sie, ob eine Kamera verfügbar ist und dass Sie die Erlaubnis erteilt haben, darauf zuzugreifen";
 "onboarding_browser_no_compatible" = "Diese Funktionalität ist in diesem Browser nicht verfügbar. Versuchen Sie es mit Safari";
 "onboarding_error_user_not_found" = "Benutzer nicht gefunden";
@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "Keine Sorge, Sie können den Vorgang von Ihrem Smartphone aus fortsetzen. Scannen Sie den QR!";
 "onboarding_doc_capturer_qr_or_you_can" = "oder du kannst";
 "onboarding_doc_capturer_check_position" = "Passen Sie das Dokument an das Rechteck an";
+"onboarding_doc_capturer_front_check_position" = "Passen Sie das Dokument an das Rechteck an";
+"onboarding_doc_capturer_back_check_position" = "Passen Sie das Dokument an das Rechteck an";
 "onboarding_doc_capturer_processing_stay_still" = "Erfassen... Verschieben Sie das Dokument nicht";
 "onboarding_error_max_number_of_documents" = "Sie haben die maximale Anzahl an Versuchen überschritten";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Selfie mit Herausforderung hinzufügen…";
 "onboarding_selfie_capturer_adding_with_document" = "Selfie mit Dokument hinzufügen…";
 "onboarding_selfie_capturer_authenticating" = "Authentifizierung…";
-"onboarding_selfie_capturer_move_farther" = "Bitte bewegen Sie Ihr Gerät weiter.";
-"onboarding_selfie_capturer_get_closer" = "Bitte komm näher.";
+"onboarding_selfie_capturer_move_farther" = "Bitte bewegen Sie Ihr Gerät weiter";
+"onboarding_selfie_capturer_get_closer" = "Bitte komm näher";
 "onboarding_selfie_capturer_no_face" = "Kein Gesicht erkannt";
-"onboarding_selfie_capturer_look_camera" = "Bitte schauen Sie in die Kamera.";
-"onboarding_selfie_capturer_center_face" = "Bitte zentrieren Sie Ihr Gesicht im Oval";
-"onboarding_selfie_capturer_device_elevation" = "Bitte halten Sie Ihr Gerät auf Augenhöhe.";
+"onboarding_selfie_capturer_look_camera" = "Schau in die Kamera";
+"onboarding_selfie_capturer_center_face" = "Zentrieren Sie Ihr Gesicht im Oval";
+"onboarding_selfie_capturer_device_elevation" = "Halten Sie Ihr Gerät auf Augenhöhe";
 "onboarding_selfie_cancel" = "Stornieren";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Bitte zentrieren Sie Ihr Gesicht im Oval";
-"onboarding_selfie_capturer_title_insufficient_faces" = "Die Gesichtsbehandlung konnte nicht abgeschlossen werden";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Stellen Sie sicher, dass Sie ruhig bleiben und Ihr Gesicht während des gesamten Vorgangs im Oval und bei guten Lichtverhältnissen bleibt";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Zentrieren Sie Ihr Gesicht im Oval";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Kein Gesicht erkannt";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Achten Sie darauf, dass Ihr Gesicht während des gesamten Vorgangs bei guten Lichtverhältnissen im Oval bleibt";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Klicken Sie hier, um ein Foto zu machen!";
 "onboarding_selfie_capturer_subtitle" = "Bitte fahren Sie mit der Erfassung fort";
 "onboarding_selfie_capturer_subtitle_review" = "Bitte stellen Sie sicher, dass Ihr Bild gut ist";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Weitere Bilder anhängen";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "Das letzte hochgeladene Dokument war ein Bild, laden Sie weitere Bilder hoch";
 "onboarding_other_trusted_docs_error" = "Problem mit hochgeladener Datei";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Auf diesem Gerät fortfahren";

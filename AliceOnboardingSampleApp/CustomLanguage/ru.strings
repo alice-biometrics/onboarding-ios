@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "Не волнуйтесь, вы можете продолжить процесс со своего смартфона. Сканируйте QR!";
 "onboarding_doc_capturer_qr_or_you_can" = "или вы можете";
 "onboarding_doc_capturer_check_position" = "Отрегулируйте документ по прямоугольнику";
+"onboarding_doc_capturer_front_check_position" = "Отрегулируйте документ по прямоугольнику";
+"onboarding_doc_capturer_back_check_position" = "Отрегулируйте документ по прямоугольнику";
 "onboarding_doc_capturer_processing_stay_still" = "Захват... Не перемещайте документ";
 "onboarding_error_max_number_of_documents" = "Вы превысили максимальное количество попыток";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Добавление селфи с вызовом…";
 "onboarding_selfie_capturer_adding_with_document" = "Добавление селфи с документом…";
 "onboarding_selfie_capturer_authenticating" = "Осуществляем вход…";
-"onboarding_selfie_capturer_move_farther" = "Пожалуйста, переместите ваше устройство дальше";
-"onboarding_selfie_capturer_get_closer" = "Пожалуйста, подойдите ближе.";
-"onboarding_selfie_capturer_no_face" = "Лица не обнаружено.";
-"onboarding_selfie_capturer_look_camera" = "Пожалуйста, смотрите в камеру.";
-"onboarding_selfie_capturer_center_face" = "Пожалуйста, отцентрируйте свое лицо в овале";
-"onboarding_selfie_capturer_device_elevation" = "Пожалуйста, держите устройство на уровне глаз";
+"onboarding_selfie_capturer_move_farther" = "Переместите свое устройство дальше";
+"onboarding_selfie_capturer_get_closer" = "Подойти ближе";
+"onboarding_selfie_capturer_no_face" = "Не обнаружено лица";
+"onboarding_selfie_capturer_look_camera" = "Посмотрите на камеру";
+"onboarding_selfie_capturer_center_face" = "Центра вашего лица в овале";
+"onboarding_selfie_capturer_device_elevation" = "Держите устройство до уровня глаз";
 "onboarding_selfie_cancel" = "Отмена";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Пожалуйста, отцентрируйте свое лицо в овале";
-"onboarding_selfie_capturer_title_insufficient_faces" = "Обработка лица не была завершена";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Следите за тем, чтобы вы оставались неподвижными, держите лицо в овале и при хорошем освещении на протяжении всего процесса";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Центра вашего лица в овале";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Не обнаружено лица";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Обязательно держите лицо в овале при хорошем освещении на протяжении всего процесса";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Нажмите здесь, чтобы сделать фото!";
 "onboarding_selfie_capturer_subtitle" = "Пожалуйста, продолжайте захват";
 "onboarding_selfie_capturer_subtitle_review" = "Пожалуйста, убедитесь, что ваша фотография хорошая";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Прикрепите больше изображений";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "Последний загруженный документ был изображением, продолжайте загружать изображения";
 "onboarding_other_trusted_docs_error" = "Проблема с загруженным файлом";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Продолжить на этом устройстве";

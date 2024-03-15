@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "Ez kezkatu, zure telefonoan prozesua jarraitu ahal izango duzu. QR eskaneatu dezakezu!";
 "onboarding_doc_capturer_qr_or_you_can" = "edo bestela";
 "onboarding_doc_capturer_check_position" = "Dokumentuan ezartzen kutxa";
+"onboarding_doc_capturer_front_check_position" = "Dokumentuan ezartzen kutxa";
+"onboarding_doc_capturer_back_check_position" = "Dokumentuan ezartzen kutxa";
 "onboarding_doc_capturer_processing_stay_still" = "Harrapaketak ... Ez dokumentua mugitu";
 "onboarding_error_max_number_of_documents" = "Gehienezko saiakera kopurua gainditu duzu";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Selfie erronkarekin gehitzen...";
 "onboarding_selfie_capturer_adding_with_document" = "Selfie dokumentuarekin gehitzen…";
 "onboarding_selfie_capturer_authenticating" = "Autentifikatzen ...";
-"onboarding_selfie_capturer_move_farther" = "Mesedez, kanpoan gailua";
-"onboarding_selfie_capturer_get_closer" = "Mesedez, gailuak joan";
+"onboarding_selfie_capturer_move_farther" = "Handitu gailuan";
+"onboarding_selfie_capturer_get_closer" = "Hurbildu gailura";
 "onboarding_selfie_capturer_no_face" = "Ez detektatu aurpegia";
-"onboarding_selfie_capturer_look_camera" = "Mesedez begiratu kamera";
-"onboarding_selfie_capturer_center_face" = "Mesedez dutelakoan zure aurpegia obalatua hasi";
-"onboarding_selfie_capturer_device_elevation" = "Mesedez, jar begi mailan gailua";
+"onboarding_selfie_capturer_look_camera" = "Begiratu kamerari";
+"onboarding_selfie_capturer_center_face" = "Zentratu aurpegia obaloan";
+"onboarding_selfie_capturer_device_elevation" = "Jarri gailua begien parean";
 "onboarding_selfie_cancel" = "Utzi";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Mesedez dutelakoan zure aurpegia obalatua hasi";
-"onboarding_selfie_capturer_title_insufficient_faces" = "Ezin izan da aurpegiko informazioa kentzeko";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Ziurtatu oraindik egoteko, prozesu osoan zehar zure aurpegia mantenduz obalo eta ona argiztapen baldintza";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Zentratu aurpegia obaloan";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Ez detektatu aurpegia";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Ziurtatu aurpegia obaloan mantentzea argi-baldintza onetan prozesu osoan zehar";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Egin klik hemen argazki bat hartu!";
 "onboarding_selfie_capturer_subtitle" = "Mesedez, jarraitu harrapatzea batera";
 "onboarding_selfie_capturer_subtitle_review" = "Mesedez begiratu argazkian ona dela";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Erantsi irudi gehiago";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "Kargatu den azken dokumentua irudi bat izan da, jarraitu irudiak igotzen";
 "onboarding_other_trusted_docs_error" = "Arazoa kargatutako fitxategiarekin";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Jarraitu gailu honetan";

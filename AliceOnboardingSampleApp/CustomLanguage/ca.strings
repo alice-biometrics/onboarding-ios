@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "No us preocupeu, podeu continuar el procés des del vostre smartphone. Escaneja el QR!";
 "onboarding_doc_capturer_qr_or_you_can" = "o podeu";
 "onboarding_doc_capturer_check_position" = "Ajusta el document a l'rectangle";
+"onboarding_doc_capturer_front_check_position" = "Ajusta el document a l'rectangle";
+"onboarding_doc_capturer_back_check_position" = "Ajusta el document a l'rectangle";
 "onboarding_doc_capturer_processing_stay_still" = "Capturant... No mogui el document";
 "onboarding_error_max_number_of_documents" = "Heu superat el nombre màxim d'intents";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Afegint una selfie amb un repte...";
 "onboarding_selfie_capturer_adding_with_document" = "S'està afegint una selfie amb el document...";
 "onboarding_selfie_capturer_authenticating" = "Autenticant…";
-"onboarding_selfie_capturer_move_farther" = "Si us plau, allunyi el dispositiu";
-"onboarding_selfie_capturer_get_closer" = "Si us plau, acosta't al dispositiu";
-"onboarding_selfie_capturer_no_face" = "Cara no detectada.";
-"onboarding_selfie_capturer_look_camera" = "Si us plau, miri a la càmera";
-"onboarding_selfie_capturer_center_face" = "Si us plau, centri la seva cara a la oval";
-"onboarding_selfie_capturer_device_elevation" = "Si us plau, posa el dispositiu a l'alçada dels ulls";
+"onboarding_selfie_capturer_move_farther" = "Allunyi el dispositiu";
+"onboarding_selfie_capturer_get_closer" = "Acosta't al dispositiu";
+"onboarding_selfie_capturer_no_face" = "Cara no detectada";
+"onboarding_selfie_capturer_look_camera" = "Miri a la càmera";
+"onboarding_selfie_capturer_center_face" = "Centri la seva cara a la oval";
+"onboarding_selfie_capturer_device_elevation" = "Posa el dispositiu a l'alçada dels ulls";
 "onboarding_selfie_cancel" = "Cancel·lar";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Si us plau, centri la seva cara a la oval";
-"onboarding_selfie_capturer_title_insufficient_faces" = "No s'ha pogut extreure la informació facial";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Assegura't de romandre quiet, mantenint la teva cara a l'oval i en bones condicions d'il·luminació durante tot el procés";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Centri la seva cara a la oval";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Cara no detectada";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Assegureu-vos de mantenir el vostre rostre a l'oval en bones condicions d'il·luminació durant tot el procés";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Feu clic aquí per fer-vos una foto!";
 "onboarding_selfie_capturer_subtitle" = "Si us plau, continuï amb la captura";
 "onboarding_selfie_capturer_subtitle_review" = "Si us plau, comprova que la foto és bona";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Adjuntar més imatges";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "L'últim document penjat va ser una imatge, seguiu penjant imatges";
 "onboarding_other_trusted_docs_error" = "Problema amb el fitxer penjat";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Continueu en aquest dispositiu";

@@ -1,0 +1,200 @@
+"onboarding_click_or_drop" = "انقر أو إسقاط الصورة هنا";
+"onboarding_close" = "يغلق";
+"onboarding_rotate" = "استدارة";
+"onboarding_yes" = "نعم";
+"onboarding_no" = "لا";
+"onboarding_alert_title_really_sure_to_exit" = "عملية غير مكتملة";
+"onboarding_alert_subtitle_really_sure_to_exit" = "هل أنت متأكد حقًا من الخروج؟";
+"onboarding_ask_for_permissions_title" = "تتطلب هذه الوظيفة الوصول إلى الكاميرا";
+"onboarding_ask_for_permissions_subtitle" = "في إعدادات الجهاز ، افتح إعدادات التطبيق وقم بتنشيط الكاميرا.";
+"onboarding_ask_for_permissions_ok_button" = "أفتح الإعدادات";
+"onboarding_ask_for_permissions_cancel_button" = "يلغي";
+"onboarding_not_supported_browser_modal_message" = "لا نوصي باستخدام هذا المتصفح. يرجى تجربة العملية باستخدام متصفح أكثر شعبية مثل Chrome أو Firefox.";
+"onboarding_not_supported_browser_modal_title" = "متصفح غير مدعوم";
+
+//Errors
+"onboarding_error_config" = "من فضلك ، مراجعة OnboardingConfig الخاص بك. يجب عليك تحديد مرحلة واحدة على الأقل على متن الطائرة.";
+"onboarding_error_loading_resources" = "اتصال بطيء ، حاول مرة أخرى لاحقًا.";
+"onboarding_error_title_technical" = "حدث خطأ";
+"onboarding_error_subtitle_technical" = "حاول مرة اخرى.";
+"onboarding_error_title_connection" = "خطأ في الإتصال";
+"onboarding_error_subtitle_connection" = "الرجاء التحقق من اتصال الانترنت الخاص بك.";
+"onboarding_error_storage_is_full_title" = "مفقود مساحة القرص";
+"onboarding_error_storage_is_full_subtitle" = "من فضلك ، حذف بعض الملفات للمتابعة.";
+"onboarding_error_title_camera" = "خطأ الكاميرا.";
+"onboarding_error_subtitle_camera" = "حاول مرة اخرى.";
+"onboarding_error_title_selfie" = "لا يمكن إرسال صورة شخصية.";
+"onboarding_error_subtitle_selfie" = "حاول مرة اخرى.";
+"onboarding_error_title_authentication" = "خطأ مصادقة.";
+"onboarding_error_subtitle_authentication" = "حاول مرة اخرى.";
+"onboarding_error_subtitle_camera_not_available" = "من فضلك ، تأكد من توفر الكاميرا وأنك قد منحت إذنًا للوصول إليها";
+"onboarding_browser_no_compatible" = "هذه الوظيفة غير متوفرة في هذا المتصفح ، يرجى تجربة Safari";
+"onboarding_error_user_not_found" = "لم يتم العثور على المستخدم";
+"onboarding_error_title_file_too_big" = "الملف كبير جدا";
+"onboarding_error_subtitle_file_too_big" = "الحد الأقصى المسموح بحجم الملف هو {size} mb";
+"onboarding_error_title_file_type_not_supported" = "ملف غير مدعوم";
+"onboarding_error_title_image_type_not_supported" = "الصورة غير مدعومة";
+"onboarding_error_subtitle_file_type_not_supported" = "أنواع الملفات المدعومة هي .jpg ، .png ، .bmp";
+"onboarding_error_doc_country_not_supported" = "آسف ، هذا النوع من المستند غير مدعوم للبلد المحدد";
+"onboarding_error_title_challenge_timeout" = "نفذ الوقت";
+"onboarding_error_subtitle_challenge_timeout" = "لم يكتمل التحدي. حاول مرة اخرى";
+
+//Stages
+"onboarding_stages_title" = "التحقق من الهوية";
+"onboarding_stages_description" = "يرجى إكمال الخطوات التالية للتحقق الناجح";
+"onboarding_stages_selfie" = "صورة شخصية";
+"onboarding_stages_selfie_with_document" = "صورة شخصية مع وثيقة";
+"onboarding_stages_selfie_with_challenge" = "سيلفي مع التحدي";
+"onboarding_stages_selfie_with_document_challenge" = "سيلفي مع التحدي";
+"onboarding_stages_document" = "وثيقة";
+"onboarding_stages_id_card" = "بطاقة الهوية الوطنية";
+"onboarding_stages_driver_license" = "رخصة قيادة";
+"onboarding_stages_passport" = "جواز سفر";
+"onboarding_stages_residence_permit" = "تصريح الإقامة";
+"onboarding_stages_health_insurance_card" = "بطاقة التأمين الصحي";
+"onboarding_stages_already_completed" = "مرحلة الانتهاء بالفعل";
+"onboarding_stages_completed" = "مكتمل";
+"onboarding_stages_inactive" = "يرجى إكمال الخطوة السابقة";
+"onboarding_stages_start_button" = "يبدأ";
+"onboarding_stages_done_button" = "يكمل";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "بطاقة الهوية الوطنية";
+"onboarding_sides_title_driver_license" = "رخصة قيادة";
+"onboarding_sides_title_passport" = "جواز سفر";
+"onboarding_sides_title_residence_permit" = "تصريح الإقامة";
+"onboarding_sides_title_health_insurance_card" = "بطاقة التأمين الصحي";
+"onboarding_sides_subtitle" = "من فضلك ، متابعة مع القبض على المستندات.";
+"onboarding_sides_front" = "الجانب الامامي";
+"onboarding_sides_back" = "الجانب الخلفي";
+"onboarding_sides_info_page" = "صفحة المعلومات";
+"onboarding_sides_tap_here" = "أنقر هنا";
+"onboarding_sides_done_button" = "يكمل";
+"onboarding_sides_issuing_country" = "بلد الاصدار:";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "حدد البلد المصدر";
+"onboarding_country_selector_other" = "آخر";
+"onboarding_country_selector_not_selected" = "الرجاء تحديد البلد المصدر";
+"onboarding_country_selector_start" = "يبدأ";
+"onboarding_country_selector_cancel" = "يلغي";
+"onboarding_country_selector_reload" = "إعادة تحميل";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "اختيار المستند";
+"onboarding_doc_country_selector_issuing_country" = "بلد الوثيقة";
+"onboarding_doc_country_selector_allowed_documents" = "الوثائق المقبولة";
+"onboarding_doc_country_selector_document_type" = "نوع الوثيقة";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "صورة إعادة المحاولة";
+"onboarding_doc_capturer_send_photo" = "إرسال الصورة";
+"onboarding_doc_capturer_manual" = "التقاط يدوي";
+"onboarding_doc_capturer_retry" = "إعادة المحاولة";
+"onboarding_doc_capturer_dismiss" = "يلغي";
+"onboarding_doc_capturer_add_sheet" = "أضف ورقة";
+"onboarding_doc_capturer_send" = "يرسل";
+"onboarding_doc_capturer_info_text" = "احصل على ٪ 1 $ S من ٪ 2 $ S من ٪ 3 $ S حتى يتم مسحه تلقائيًا";
+"onboarding_doc_capturer_info_text_passport" = "احصل على صفحة معلومات جواز السفر الخاصة بك حتى يتم مسحها تلقائيًا";
+"onboarding_doc_capturer_alert_title_timeout" = "مشكلة في قراءة المستند الخاص بك";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "تأكد من ضبط المستند الخاص بك على المستطيل";
+"onboarding_doc_capturer_alert_title_generic_problem" = "مشكلة في قراءة المستند الخاص بك";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "تأكد من أنك تعرض المستند المناسب (٪ 1 $ S من ٪ 2 دولار) دون انسداد أو وهج أو ظلال";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "تأكد من أنك تعرض جواز سفرك دون انسداد أو وهج أو ظلال";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "وثيقة خاطئة";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "تأكد من أنك تعرض المستند المناسب (٪ 1 $ S من ٪ 2 $ s)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "تأكد من أنك تعرض وثيقة صالحة مع الصورة";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "غير مسموح به";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "تأكد من أنك تظهر إحدى المستندات التالية: ٪ 1 $ s";
+"onboarding_doc_capturer_alert_title_wrong_side" = "جانب وثيقة خاطئ";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "تأكد من أنك تعرض الجانب الأيمن (٪ 1 دولار)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "مشكلة في قراءة المستند الخاص بك";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "تأكد من أنك تعرض المستند الخاص بك دون انسداد أو وهج أو ظلال";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "حدد المستند الذي تستخدمه";
+"onboarding_doc_capturer_front" = "الجانب الامامي";
+"onboarding_doc_capturer_back" = "الجانب الخلفي";
+"onboarding_doc_capturer_choose_source" = "اختر المصدر";
+"onboarding_doc_capturer_review_back" = "استخدم صورة أخرى";
+"onboarding_doc_capturer_subtitle" = "من فضلك ، تابع القبض";
+"onboarding_doc_capturer_subtitle_review" = "من فضلك ، تأكد من أن الصورة تحتوي فقط على مستند ولا يتم تدويرها";
+"onboarding_doc_capturer_title_review" = "استعراض الصور";
+"onboarding_doc_capturer_review_ok" = "لا بأس";
+"onboarding_doc_capturer_source_camera" = "آلة تصوير";
+"onboarding_doc_capturer_source_file" = "ملف";
+"onboarding_doc_capturer_adding" = "ملف تحميل";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "لا يمكن التقاط المستند ، يرجى تجربة التقاط اليدوي";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "لا يمكن التقاط المستند. من فضلك ، حاول مرة أخرى أو استخدم التقاط اليدوي";
+"onboarding_doc_capturer_qr_message" = "لا تقلق ، يمكنك متابعة العملية من هاتفك الذكي. مسح QR!";
+"onboarding_doc_capturer_qr_or_you_can" = "أو يمكنك";
+"onboarding_doc_capturer_check_position" = "ضبط المستند إلى المستطيل";
+"onboarding_doc_capturer_front_check_position" = "ضبط المستند إلى المستطيل";
+"onboarding_doc_capturer_back_check_position" = "ضبط المستند إلى المستطيل";
+"onboarding_doc_capturer_processing_stay_still" = "التقاط ... البقاء ثابتا";
+"onboarding_error_max_number_of_documents" = "لقد تجاوزت الحد الأقصى لعدد المحاولات";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "امسك جهاز iPhone الخاص بك بالقرب من المستند وتأكد من أنه يتصاعد جزئيًا في الأعلى";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "ضع المستند الخاص بك على ظهر هاتفك";
+"onboarding_nfc_doc_capturer_finding_antenna" = "قم بمحاذاة المستند مع هوائي NFC لهاتفك. إذا كنت لا تعرف أين هو ، فقم بانزلاق المستند ببطء حتى يهتز الهاتف أو يرن.";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "حرك المستند ببطء حتى يهتز الهاتف أو يرن.";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "حافظ على الوثيقة ثابتة حتى تنتهي القراءة";
+"onboarding_nfc_doc_capturer_tutorial" = "درس تعليمي";
+"onboarding_nfc_doc_capturer_start_reading" = "يبدأ";
+"onboarding_nfc_doc_capturer_expiry" = "انقضاء";
+"onboarding_nfc_doc_capturer_authenticating" = "المصادقة مع المستند ...";
+"onboarding_nfc_doc_capturer_reading" = "القراءة ... لا تنقل المستند الخاص بك";
+"onboarding_nfc_doc_capturer_success" = "وثيقة قراءة بنجاح.";
+"onboarding_nfc_doc_capturer_error_connection_title" = "خطأ في الإتصال";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "لا تنقل المستند الخاص بك أثناء عملية القراءة";
+"onboarding_nfc_doc_capturer_error_generic_title" = "مشكلة في قراءة المستند الخاص بك";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "حاول مرة اخرى.";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "وثيقة غير مدعومة";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "آسف ، نحن لا ندعم مستندك في الوقت الحالي";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "وثيقة خاطئة";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "تأكد من أنك تقوم بمسح المستند المناسب";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "تم إيقاف تشغيل NFC";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "تحتاج إلى تشغيل وحدة NFC للقراءة. ترغب في تشغيله الآن؟";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "شغله";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "إضافة صورة شخصية ...";
+"onboarding_selfie_capturer_adding_with_challenge" = "إضافة صورة شخصية مع التحدي ...";
+"onboarding_selfie_capturer_adding_with_document" = "إضافة صورة شخصية مع الوثيقة ...";
+"onboarding_selfie_capturer_authenticating" = "المصادقة ...";
+"onboarding_selfie_capturer_move_farther" = "حرك جهازك أبعد";
+"onboarding_selfie_capturer_get_closer" = "اقترب";
+"onboarding_selfie_capturer_no_face" = "لم يتم اكتشاف وجه";
+"onboarding_selfie_capturer_look_camera" = "ينظر للكاميرا";
+"onboarding_selfie_capturer_center_face" = "مركز وجهك في البيضاوي";
+"onboarding_selfie_capturer_device_elevation" = "امسك جهازك إلى مستوى العين";
+"onboarding_selfie_cancel" = "يلغي";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "مركز وجهك في البيضاوي";
+"onboarding_selfie_capturer_title_insufficient_faces" = "لم يتم اكتشاف وجه";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "تأكد من إبقاء وجهك في الشكل البيضاوي في ظروف الإضاءة الجيدة طوال العملية";
+"onboarding_selfie_capturer_face_detected_tooltip" = "انقر هنا لالتقاط صورة!";
+"onboarding_selfie_capturer_subtitle" = "من فضلك ، تابع القبض";
+"onboarding_selfie_capturer_subtitle_review" = "من فضلك ، تأكد من أن صورتك جيدة";
+"onboarding_selfie_with_document_capturer_center_face" = "من فضلك ، تركز وجهك على البيضاوي والوثيقة الموجودة على المستطيل";
+"onboarding_selfie_capturer_button_tutorial" = "طيب ، حصلت عليه!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "الآن عليك أن تأخذ صورة شخصية. اتبع هذه التعليمات";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "الرجاء اختيار PDF أو صورة";
+"onboarding_other_trusted_docs_capturer_subtitle" = "من فضلك ، التقاط المستند الخاص بك";
+"onboarding_other_trusted_docs_click_or_drop" = "انقر أو إسقاط الملف هنا";
+"onboarding_other_trusted_docs_capturer_accept" = "يقبل";
+"onboarding_other_trusted_docs_capturer_cancel" = "يلغي";
+"onboarding_other_trusted_docs_capturer_continue" = "يكمل";
+"onboarding_other_trusted_docs_capturer_camera" = "آلة تصوير";
+"onboarding_other_trusted_docs_capturer_images_limit" = "تم الوصول إلى الحد الأقصى لعدد الصور";
+"onboarding_other_trusted_docs_capturer_documents" = "وثائق";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "كبيرة جدا PDF";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "لا يمكن أن يتجاوز الملف 5 ميغابايت";
+"onboarding_other_trusted_docs_upload_another_image" = "إرفاق المزيد من الصور";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "آخر مستند تم تحميله كان صورة ، استمر في تحميل الصور";
+"onboarding_other_trusted_docs_error" = "مشكلة في الملف الذي تم تحميله";
+
+//QR view
+"onboarding_qr_button" = "تابع على هذا الجهاز";
+"onboarding_qr_info_text" = "لقد اكتشفنا أنك تستخدم جهاز كمبيوتر. كاميرات الويب للكمبيوتر الشخصي غالبًا ما تكون ذات جودة رديئة. لجعل العملية أسهل نوصي باستخدام الهاتف المحمول.";
+"onboarding_qr_info_text_extra" = "هل تريد متابعة عملية التنقل على هاتفك المحمول؟ عليك فقط مسح هذا QR:";

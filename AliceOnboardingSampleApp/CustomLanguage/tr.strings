@@ -77,7 +77,7 @@
 "onboarding_country_selector_other" = "Diğer";
 "onboarding_country_selector_not_selected" = "Lütfen düzenleyen ülkeyi seçin";
 "onboarding_country_selector_start" = "Başla";
-"onboarding_country_selector_cancel" = "İptal";
+"onboarding_country_selector_cancel" = "İptal etmek";
 "onboarding_country_selector_reload" = "Tekrar yükle";
 
 //Doc and country selector
@@ -91,7 +91,7 @@
 "onboarding_doc_capturer_send_photo" = "Fotoğraf gönder";
 "onboarding_doc_capturer_manual" = "Elle ekleme";
 "onboarding_doc_capturer_retry" = "";
-"onboarding_doc_capturer_dismiss" = "İptal";
+"onboarding_doc_capturer_dismiss" = "İptal etmek";
 "onboarding_doc_capturer_add_sheet" = "Sayfa ekle";
 "onboarding_doc_capturer_send" = "Göndermek";
 "onboarding_doc_capturer_info_text" = "(%@) (%@) otomatik olarak taranana kadar (%@)'dan takın";
@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "Merak etmeyin, akıllı telefonunuzdan işleme devam edebilirsiniz. QR'yi tarayın!";
 "onboarding_doc_capturer_qr_or_you_can" = "ya da yapabilirsin";
 "onboarding_doc_capturer_check_position" = "Belgeyi dikdörtgene göre ayarla";
+"onboarding_doc_capturer_front_check_position" = "Belgeyi dikdörtgene göre ayarla";
+"onboarding_doc_capturer_back_check_position" = "Belgeyi dikdörtgene göre ayarla";
 "onboarding_doc_capturer_processing_stay_still" = "Yakalanıyor... Belgeyi hareket ettirmeyin";
 "onboarding_error_max_number_of_documents" = "Maksimum deneme sayısını aştınız";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Meydan okuma ile selfie ekleniyor…";
 "onboarding_selfie_capturer_adding_with_document" = "Belgeyle selfie ekleniyor…";
 "onboarding_selfie_capturer_authenticating" = "Kimlik doğrulanıyor...";
-"onboarding_selfie_capturer_move_farther" = "Lütfen telefonunuzu uzaklaştırın.";
-"onboarding_selfie_capturer_get_closer" = "Lütfen telefonunuzu yaklaştırın.";
-"onboarding_selfie_capturer_no_face" = "Yüz algılanamadı.";
-"onboarding_selfie_capturer_look_camera" = "Lütfen kameraya bakın.";
-"onboarding_selfie_capturer_center_face" = "Lütfen yüzünüzü çerçeveye yerleştiriniz.";
-"onboarding_selfie_capturer_device_elevation" = "Lütfen telefonunuzu göz hizasında tutun.";
-"onboarding_selfie_cancel" = "İptal";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Lütfen yüzünüzü çerçeveye yerleştiriniz.";
-"onboarding_selfie_capturer_title_insufficient_faces" = "Yüz tanımlaması tamamlanamadı.";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Tüm süreç boyunca yüzünüzü ovalde ve iyi ışık koşullarında tutarak hareketsiz kaldığınızdan emin olun";
+"onboarding_selfie_capturer_move_farther" = "Cihazınızı daha uzağa taşıyın";
+"onboarding_selfie_capturer_get_closer" = "Yaklaş";
+"onboarding_selfie_capturer_no_face" = "Yüz tespit edilmedi";
+"onboarding_selfie_capturer_look_camera" = "Kameraya bak";
+"onboarding_selfie_capturer_center_face" = "Yüzünüzü oval olarak ortalayın";
+"onboarding_selfie_capturer_device_elevation" = "Cihazınızı göz seviyesine taşıyın";
+"onboarding_selfie_cancel" = "İptal etmek";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Yüzünüzü oval olarak ortalayın";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Yüz tespit edilmedi";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "İşlem boyunca iyi ışık koşullarında yüzünüzü oval tutmaya dikkat edin";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Fotoğraf çekmek için buraya tıklayın!";
 "onboarding_selfie_capturer_subtitle" = "Lütfen ele geçirmeye devam edin";
 "onboarding_selfie_capturer_subtitle_review" = "Lütfen resminizin iyi olduğundan emin olun";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Daha fazla resim ekle";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "Son yüklenen belge bir resimdi, resim yüklemeye devam edin";
 "onboarding_other_trusted_docs_error" = "Yüklenen dosyayla ilgili sorun";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Bu cihazda devam et";

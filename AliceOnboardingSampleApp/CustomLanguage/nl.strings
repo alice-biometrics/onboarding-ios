@@ -1,0 +1,200 @@
+"onboarding_click_or_drop" = "Klik hier op de afbeelding";
+"onboarding_close" = "Dichtbij";
+"onboarding_rotate" = "Draaien";
+"onboarding_yes" = "Ja";
+"onboarding_no" = "Nee";
+"onboarding_alert_title_really_sure_to_exit" = "Onvolledig proces";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Weet je echt zeker dat je weggaat?";
+"onboarding_ask_for_permissions_title" = "Deze functionaliteit vereist cameratoegang";
+"onboarding_ask_for_permissions_subtitle" = "Open in de apparaatinstellingen de toepassingsinstellingen en activeer de camera.";
+"onboarding_ask_for_permissions_ok_button" = "Open instellingen";
+"onboarding_ask_for_permissions_cancel_button" = "Annuleren";
+"onboarding_not_supported_browser_modal_message" = "We raden het gebruik van deze browser niet aan. Probeer het proces met behulp van een meer populaire browser zoals Chrome of Firefox.";
+"onboarding_not_supported_browser_modal_title" = "Niet-ondersteunde browser";
+
+//Errors
+"onboarding_error_config" = "Bekijk uw onboardingconfig. U moet ten minste één onboarding -podium selecteren.";
+"onboarding_error_loading_resources" = "Langzame verbinding, probeer het later opnieuw.";
+"onboarding_error_title_technical" = "Er is een fout opgetreden";
+"onboarding_error_subtitle_technical" = "Probeer het opnieuw.";
+"onboarding_error_title_connection" = "Verbindingsfout";
+"onboarding_error_subtitle_connection" = "Controleer uw internetverbinding.";
+"onboarding_error_storage_is_full_title" = "Ontbrekende schijfruimte";
+"onboarding_error_storage_is_full_subtitle" = "Verwijder enkele bestanden om door te gaan.";
+"onboarding_error_title_camera" = "Camerafout.";
+"onboarding_error_subtitle_camera" = "Probeer het opnieuw.";
+"onboarding_error_title_selfie" = "De selfie kon niet worden gestuurd.";
+"onboarding_error_subtitle_selfie" = "Probeer het opnieuw.";
+"onboarding_error_title_authentication" = "Authenticatiefout.";
+"onboarding_error_subtitle_authentication" = "Probeer het opnieuw.";
+"onboarding_error_subtitle_camera_not_available" = "Controleer of een camera beschikbaar is en dat u toestemming hebt gegeven om er toegang toe te krijgen";
+"onboarding_browser_no_compatible" = "Deze functionaliteit is niet beschikbaar in deze browser, probeer safari";
+"onboarding_error_user_not_found" = "Gebruiker niet gevonden";
+"onboarding_error_title_file_too_big" = "Bestand is te groot";
+"onboarding_error_subtitle_file_too_big" = "Max toegestane bestandsgrootte is {size} mb";
+"onboarding_error_title_file_type_not_supported" = "Bestand niet ondersteund";
+"onboarding_error_title_image_type_not_supported" = "Afbeelding niet ondersteund";
+"onboarding_error_subtitle_file_type_not_supported" = "Ondersteunde bestandstypen zijn .jpg, .png, .bmp";
+"onboarding_error_doc_country_not_supported" = "Sorry, dit type document wordt niet ondersteund voor het geselecteerde land";
+"onboarding_error_title_challenge_timeout" = "Time-out";
+"onboarding_error_subtitle_challenge_timeout" = "De uitdaging is niet voltooid. Probeer het opnieuw";
+
+//Stages
+"onboarding_stages_title" = "Identiteit verificatie";
+"onboarding_stages_description" = "Vul de volgende stappen in voor een succesvolle verificatie";
+"onboarding_stages_selfie" = "Selfie";
+"onboarding_stages_selfie_with_document" = "Selfie met document";
+"onboarding_stages_selfie_with_challenge" = "Selfie met uitdaging";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie met uitdaging";
+"onboarding_stages_document" = "Document";
+"onboarding_stages_id_card" = "Nationale identiteitskaart";
+"onboarding_stages_driver_license" = "Rijbewijs";
+"onboarding_stages_passport" = "Paspoort";
+"onboarding_stages_residence_permit" = "Verblijfsvergunning";
+"onboarding_stages_health_insurance_card" = "Ziekte verzekeringskaart";
+"onboarding_stages_already_completed" = "Fase al voltooid";
+"onboarding_stages_completed" = "Voltooid";
+"onboarding_stages_inactive" = "Vul de vorige stap in";
+"onboarding_stages_start_button" = "BEGIN";
+"onboarding_stages_done_button" = "DOORGAAN";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "Nationale identiteitskaart";
+"onboarding_sides_title_driver_license" = "Rijbewijs";
+"onboarding_sides_title_passport" = "Paspoort";
+"onboarding_sides_title_residence_permit" = "Verblijfsvergunning";
+"onboarding_sides_title_health_insurance_card" = "Ziekte verzekeringskaart";
+"onboarding_sides_subtitle" = "Ga alsjeblieft verder met documentopvang.";
+"onboarding_sides_front" = "VOORKANT";
+"onboarding_sides_back" = "ACHTERKANT";
+"onboarding_sides_info_page" = "Info -pagina";
+"onboarding_sides_tap_here" = "KLIK HIER";
+"onboarding_sides_done_button" = "DOORGAAN";
+"onboarding_sides_issuing_country" = "Land van uitgifte:";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "Selecteer het uitgevende land";
+"onboarding_country_selector_other" = "Ander";
+"onboarding_country_selector_not_selected" = "Selecteer het uitgevende land";
+"onboarding_country_selector_start" = "Begin";
+"onboarding_country_selector_cancel" = "Annuleren";
+"onboarding_country_selector_reload" = "Herladen";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Documentselectie";
+"onboarding_doc_country_selector_issuing_country" = "Land van het document";
+"onboarding_doc_country_selector_allowed_documents" = "Geaccepteerde documenten";
+"onboarding_doc_country_selector_document_type" = "Type document";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "Probeer de foto opnieuw";
+"onboarding_doc_capturer_send_photo" = "Stuur foto";
+"onboarding_doc_capturer_manual" = "Handmatige opname";
+"onboarding_doc_capturer_retry" = "Opnieuw proberen";
+"onboarding_doc_capturer_dismiss" = "Annuleren";
+"onboarding_doc_capturer_add_sheet" = "Vel toevoegen";
+"onboarding_doc_capturer_send" = "Versturen";
+"onboarding_doc_capturer_info_text" = "Plaats de %1 $ s van uw %2 $ s van %3 $ s totdat deze automatisch wordt gescand";
+"onboarding_doc_capturer_info_text_passport" = "Plaats uw paspoortinformatiepagina totdat deze automatisch is gescand";
+"onboarding_doc_capturer_alert_title_timeout" = "Probleem met het lezen van uw document";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "Zorg ervoor dat uw document is aangepast aan de rechthoek";
+"onboarding_doc_capturer_alert_title_generic_problem" = "Probleem met het lezen van uw document";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Zorg ervoor dat u het juiste document ( %1 $ s van %2 $ s) laat zien zonder occlusies, verblinding of schaduwen";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Zorg ervoor dat u uw paspoort laat zien zonder occlusies, verblinding of schaduwen";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "Verkeerd document";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Zorg ervoor dat u het juiste document laat zien ( %1 $ s van %2 $ s)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Zorg ervoor dat u een geldig document met foto laat zien";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Niet toegestaan ​​document";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Zorg ervoor dat u een van de volgende documenten laat zien: %1 $ s";
+"onboarding_doc_capturer_alert_title_wrong_side" = "Verkeerde documentzijde";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Zorg ervoor dat u de rechterkant laat zien (%1 $ s)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "Probleem met het lezen van uw document";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "Zorg ervoor dat u uw document laat zien zonder occlusies, verblinding of schaduwen";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Selecteer het document dat u gebruikt";
+"onboarding_doc_capturer_front" = "VOORKANT";
+"onboarding_doc_capturer_back" = "ACHTERKANT";
+"onboarding_doc_capturer_choose_source" = "Kies Bron";
+"onboarding_doc_capturer_review_back" = "Gebruik een andere foto";
+"onboarding_doc_capturer_subtitle" = "Ga alsjeblieft verder met de opname";
+"onboarding_doc_capturer_subtitle_review" = "Zorg ervoor dat de afbeelding alleen een document bevat en het is niet gedraaid";
+"onboarding_doc_capturer_title_review" = "Afbeeldingsbeoordeling";
+"onboarding_doc_capturer_review_ok" = "Het is ok";
+"onboarding_doc_capturer_source_camera" = "Camera";
+"onboarding_doc_capturer_source_file" = "Bestand";
+"onboarding_doc_capturer_adding" = "Bestand uploaden";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "Het document kon niet worden vastgelegd, probeer de handmatige opname";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "Het document kon niet worden vastgelegd. Probeer het opnieuw of gebruik handmatige opname";
+"onboarding_doc_capturer_qr_message" = "Maak je geen zorgen, je kunt het proces voortzetten vanaf je smartphone. Scan de QR!";
+"onboarding_doc_capturer_qr_or_you_can" = "of je kan";
+"onboarding_doc_capturer_check_position" = "Pas het document aan op rechthoek";
+"onboarding_doc_capturer_front_check_position" = "Pas het document aan op rechthoek";
+"onboarding_doc_capturer_back_check_position" = "Pas het document aan op rechthoek";
+"onboarding_doc_capturer_processing_stay_still" = "Vastleggen ... blijf stil";
+"onboarding_error_max_number_of_documents" = "U hebt het maximale aantal pogingen overschreden";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Houd uw iPhone in de buurt van uw document en zorg ervoor dat deze gedeeltelijk bovenaan steekt";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "Plaats uw document op de achterkant van uw telefoon";
+"onboarding_nfc_doc_capturer_finding_antenna" = "Lijn het document uit met de NFC -antenne van uw telefoon. Als je niet weet waar het is, schuif je document langzaam totdat de telefoon trilt of gaat.";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "Schuif uw document langzaam totdat de telefoon trilt of gaat.";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Houd het document stil totdat de lezing is voltooid";
+"onboarding_nfc_doc_capturer_tutorial" = "Zelfstudie";
+"onboarding_nfc_doc_capturer_start_reading" = "BEGIN";
+"onboarding_nfc_doc_capturer_expiry" = "Aflopen";
+"onboarding_nfc_doc_capturer_authenticating" = "Authenticeren met document ...";
+"onboarding_nfc_doc_capturer_reading" = "Lezen ... Verplaats uw document niet";
+"onboarding_nfc_doc_capturer_success" = "Document met succes gelezen.";
+"onboarding_nfc_doc_capturer_error_connection_title" = "Verbindingsfout";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "Verplaats uw document niet tijdens het leesproces";
+"onboarding_nfc_doc_capturer_error_generic_title" = "Probleem met het lezen van uw document";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Probeer het opnieuw.";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Niet ondersteund document";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Sorry, we ondersteunen uw document op dit moment niet";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Verkeerd document";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Zorg ervoor dat u het juiste document scant";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC is uitgeschakeld";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "U moet de NFC -module inschakelen om te lezen. Wil je het nu inschakelen?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Aanzetten";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "Selfie toevoegen ...";
+"onboarding_selfie_capturer_adding_with_challenge" = "Selfie toevoegen met uitdaging ...";
+"onboarding_selfie_capturer_adding_with_document" = "Selfie toevoegen met document ...";
+"onboarding_selfie_capturer_authenticating" = "Authenticeren ...";
+"onboarding_selfie_capturer_move_farther" = "Verplaats uw apparaat verder";
+"onboarding_selfie_capturer_get_closer" = "Kom dichterbij";
+"onboarding_selfie_capturer_no_face" = "Geen gezicht gedetecteerd";
+"onboarding_selfie_capturer_look_camera" = "Kijk naar de camera";
+"onboarding_selfie_capturer_center_face" = "Centreer je gezicht in het ovaal";
+"onboarding_selfie_capturer_device_elevation" = "Houd uw apparaat op ooghoogte.";
+"onboarding_selfie_cancel" = "Annuleren";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Centreer je gezicht in het ovaal";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Geen gezicht gedetecteerd";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Zorg ervoor dat u tijdens het hele proces uw gezicht in het ovaal houdt onder goede lichtomstandigheden";
+"onboarding_selfie_capturer_face_detected_tooltip" = "Klik hier om een ​​foto te maken!";
+"onboarding_selfie_capturer_subtitle" = "Ga alsjeblieft verder met de opname";
+"onboarding_selfie_capturer_subtitle_review" = "Zorg ervoor dat uw foto goed is";
+"onboarding_selfie_with_document_capturer_center_face" = "Richt alstublieft uw gezicht op het ovaal en het document op de rechthoek";
+"onboarding_selfie_capturer_button_tutorial" = "OK ik snap het!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Nu moet je een selfie maken. Volg deze instructies";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "Kies een PDF of een afbeelding";
+"onboarding_other_trusted_docs_capturer_subtitle" = "Leg alstublieft uw document vast";
+"onboarding_other_trusted_docs_click_or_drop" = "Klik hier op of laat het bestand vallen";
+"onboarding_other_trusted_docs_capturer_accept" = "Aanvaarden";
+"onboarding_other_trusted_docs_capturer_cancel" = "Annuleren";
+"onboarding_other_trusted_docs_capturer_continue" = "Doorgaan";
+"onboarding_other_trusted_docs_capturer_camera" = "Camera";
+"onboarding_other_trusted_docs_capturer_images_limit" = "Maximaal aantal bereikte afbeeldingen";
+"onboarding_other_trusted_docs_capturer_documents" = "Documenten";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "Te grote PDF";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Het bestand mag niet hoger zijn dan 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Voeg meer afbeeldingen toe";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "Het laatste geüploade document was een afbeelding, blijf afbeeldingen uploaden";
+"onboarding_other_trusted_docs_error" = "Probleem met geüpload bestand";
+
+//QR view
+"onboarding_qr_button" = "Ga verder op dit apparaat";
+"onboarding_qr_info_text" = "We hebben gedetecteerd dat u een pc gebruikt. PC -webcams zijn vaak van slechte kwaliteit. Om het proces eenvoudiger te maken, raden we aan om een ​​mobiel te gebruiken.";
+"onboarding_qr_info_text_extra" = "Wilt u doorgaan met het onboarding -proces op uw mobiel? Je moet gewoon deze QR scannen:";

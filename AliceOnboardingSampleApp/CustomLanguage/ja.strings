@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "心配しないでください、あなたはあなたのスマートフォンからプロセスを続けることができます。 QRをスキャンします！";
 "onboarding_doc_capturer_qr_or_you_can" = "またはあなたはできます";
 "onboarding_doc_capturer_check_position" = "ドキュメントを長方形に調整します";
+"onboarding_doc_capturer_front_check_position" = "ドキュメントを長方形に調整します";
+"onboarding_doc_capturer_back_check_position" = "ドキュメントを長方形に調整します";
 "onboarding_doc_capturer_processing_stay_still" = "キャプチャ…じっとしてください";
 "onboarding_error_max_number_of_documents" = "最大試行回数を超えています";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "チャレンジでセルフィーを追加する…";
 "onboarding_selfie_capturer_adding_with_document" = "ドキュメントで自撮りを追加する…";
 "onboarding_selfie_capturer_authenticating" = "認証中…";
-"onboarding_selfie_capturer_move_farther" = "デバイスをさらに移動してください。";
-"onboarding_selfie_capturer_get_closer" = "近くに来てください。";
-"onboarding_selfie_capturer_no_face" = "顔は検出されません。";
-"onboarding_selfie_capturer_look_camera" = "カメラを見てください。";
-"onboarding_selfie_capturer_center_face" = "楕円形の顔を中心にしてください";
-"onboarding_selfie_capturer_device_elevation" = "デバイスを目の高さまで保持してください。";
+"onboarding_selfie_capturer_move_farther" = "デバイスをさらに移動します";
+"onboarding_selfie_capturer_get_closer" = "もっと近くに来て";
+"onboarding_selfie_capturer_no_face" = "顔は検出されません";
+"onboarding_selfie_capturer_look_camera" = "カメラを見てください";
+"onboarding_selfie_capturer_center_face" = "楕円形の顔を中央に置きます";
+"onboarding_selfie_capturer_device_elevation" = "デバイスを目の高さまで保持します";
 "onboarding_selfie_cancel" = "キャンセル";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "楕円形の顔を中心にしてください。";
-"onboarding_selfie_capturer_title_insufficient_faces" = "顔の処理は完了できませんでした";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "あなたがまだ残っていることを確認し、あなたの顔を楕円形と良好な照明条件に保ちますプロセス全体";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "楕円形の顔を中央に置きます";
+"onboarding_selfie_capturer_title_insufficient_faces" = "顔は検出されません";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "プロセス全体を通じて、良好な照明条件で顔を楕円形に保つようにしてください。";
 "onboarding_selfie_capturer_face_detected_tooltip" = "写真を撮るにはここをクリックしてください！";
 "onboarding_selfie_capturer_subtitle" = "キャプチャを進めてください";
 "onboarding_selfie_capturer_subtitle_review" = "あなたの写真が良いことを確認してください";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "より多くの画像を添付します";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "最後にアップロードされたドキュメントは画像で、画像をアップロードし続けています";
 "onboarding_other_trusted_docs_error" = "アップロードされたファイルの問題";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "このデバイスで続行";

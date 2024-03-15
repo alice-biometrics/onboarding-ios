@@ -91,7 +91,7 @@
 "onboarding_doc_capturer_send_photo" = "Wyślij zdjęcie ";
 "onboarding_doc_capturer_manual" = "Wykonaj zdjęcie manualnie";
 "onboarding_doc_capturer_retry" = "Spróbuj jeszcze raz";
-"onboarding_doc_capturer_dismiss" = "Anuluj";
+"onboarding_doc_capturer_dismiss" = "Anulować";
 "onboarding_doc_capturer_add_sheet" = "Dodaj arkusz";
 "onboarding_doc_capturer_send" = "Wysłać";
 "onboarding_doc_capturer_info_text" = "Dopasuj %@ %@ z %@, aż zostanie automatycznie zeskanowana";
@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "Nie martw się, możesz kontynuować proces ze swojego smartfona. Zeskanuj QR!";
 "onboarding_doc_capturer_qr_or_you_can" = "lub możesz";
 "onboarding_doc_capturer_check_position" = "Dopasuj dokument do prostokąta";
+"onboarding_doc_capturer_front_check_position" = "Dopasuj dokument do prostokąta";
+"onboarding_doc_capturer_back_check_position" = "Dopasuj dokument do prostokąta";
 "onboarding_doc_capturer_processing_stay_still" = "Przechwytywanie... Nie przenoś dokumentu";
 "onboarding_error_max_number_of_documents" = "Przekroczyłeś maksymalną liczbę prób";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Dodaję selfie z wyzwaniem…";
 "onboarding_selfie_capturer_adding_with_document" = "Dodaję selfie z dokumentem…";
 "onboarding_selfie_capturer_authenticating" = "Uwierzytelnianie ...";
-"onboarding_selfie_capturer_move_farther" = "Oddal Twoje urzadzenie";
-"onboarding_selfie_capturer_get_closer" = "Przybliż się";
-"onboarding_selfie_capturer_no_face" = "Nie wykryto twarzy";
-"onboarding_selfie_capturer_look_camera" = "Proszę patrzeć w kamerę";
-"onboarding_selfie_capturer_center_face" = "Ustaw twarz tak, aby zmieściła się w okręgu";
-"onboarding_selfie_capturer_device_elevation" = "Trzymaj urządzenie na wysokości oczu";
-"onboarding_selfie_cancel" = "Anuluj";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Ustaw twarz tak, aby zmieściła się w okręgu";
-"onboarding_selfie_capturer_title_insufficient_faces" = "Nie można było ukończyć weryfikacji twarzy";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Upewnij się, że pozostajesz nieruchomo, utrzymując twarz w owalu i w dobrych warunkach oświetleniowych podczas całego procesu";
+"onboarding_selfie_capturer_move_farther" = "Przesuń swoje urządzenie dalej";
+"onboarding_selfie_capturer_get_closer" = "Podejdź bliżej";
+"onboarding_selfie_capturer_no_face" = "Brak wykrycia twarzy";
+"onboarding_selfie_capturer_look_camera" = "Spójrz na aparat";
+"onboarding_selfie_capturer_center_face" = "Wyśrodkuj twarz w owalnym";
+"onboarding_selfie_capturer_device_elevation" = "Trzymaj urządzenie do poziomu oczu";
+"onboarding_selfie_cancel" = "Anulować";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Wyśrodkuj twarz w owalnym";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Brak wykrycia twarzy";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Upewnij się, że twarz jest w owalu, w dobrych warunkach oświetleniowych przez cały czas trwania zabiegu";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Kliknij tutaj, aby zrobić zdjęcie!";
 "onboarding_selfie_capturer_subtitle" = "Proszę kontynuować przechwytywanie";
 "onboarding_selfie_capturer_subtitle_review" = "Upewnij się, że Twoje zdjęcie jest dobre";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Dołącz więcej zdjęć";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "Ostatnim przesłanym dokumentem był obraz, przesyłaj dalej obrazy";
 "onboarding_other_trusted_docs_error" = "Problem z przesłanym plikiem";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Kontynuuj na tym urządzeniu";

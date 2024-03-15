@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "不用担心，您可以从智能手机继续该过程。 扫描QR！";
 "onboarding_doc_capturer_qr_or_you_can" = "或者你可以";
 "onboarding_doc_capturer_check_position" = "将文档调整为矩形";
+"onboarding_doc_capturer_front_check_position" = "将文档调整为矩形";
+"onboarding_doc_capturer_back_check_position" = "将文档调整为矩形";
 "onboarding_doc_capturer_processing_stay_still" = "正在捕获...请勿移动文档";
 "onboarding_error_max_number_of_documents" = "您已超过最大尝试次数";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "添加带有挑战的自拍......";
 "onboarding_selfie_capturer_adding_with_document" = "添加带有文档的自拍照…";
 "onboarding_selfie_capturer_authenticating" = "验证中…";
-"onboarding_selfie_capturer_move_farther" = "请将设备远离";
-"onboarding_selfie_capturer_get_closer" = "请靠近";
-"onboarding_selfie_capturer_no_face" = "未识别面部";
-"onboarding_selfie_capturer_look_camera" = "请看着摄像头";
-"onboarding_selfie_capturer_center_face" = "请将您的面部调整至框中";
-"onboarding_selfie_capturer_device_elevation" = "请将设备举至齐目";
+"onboarding_selfie_capturer_move_farther" = "将设备移动到更远的地方";
+"onboarding_selfie_capturer_get_closer" = "靠近点";
+"onboarding_selfie_capturer_no_face" = "没有检测到的脸";
+"onboarding_selfie_capturer_look_camera" = "看相机";
+"onboarding_selfie_capturer_center_face" = "将您的脸置于椭圆形";
+"onboarding_selfie_capturer_device_elevation" = "将您的设备保持在眼睛水平";
 "onboarding_selfie_cancel" = "取消";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "请将您的面部调整至框中";
-"onboarding_selfie_capturer_title_insufficient_faces" = "面部处理未能完成";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "在整个过程中，确保保持静止不动，使脸部保持椭圆形并保持良好的照明条件";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "将您的脸置于椭圆形";
+"onboarding_selfie_capturer_title_insufficient_faces" = "没有检测到的脸";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "确保整个过程中在良好的照明条件下保持脸部呈椭圆形";
 "onboarding_selfie_capturer_face_detected_tooltip" = "点击这里拍照！";
 "onboarding_selfie_capturer_subtitle" = "请继续进行捕获";
 "onboarding_selfie_capturer_subtitle_review" = "请确保您的图片好";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "附上更多图片";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "上次上传的文件是图片，继续上传图片";
 "onboarding_other_trusted_docs_error" = "上传文件有问题";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "在此设备上继续";

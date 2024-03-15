@@ -127,6 +127,8 @@
 "onboarding_doc_capturer_qr_message" = "Don't worry, you can continue the process from your smartphone. Scan the QR!";
 "onboarding_doc_capturer_qr_or_you_can" = "or you can";
 "onboarding_doc_capturer_check_position" = "Adjust document to rectangle";
+"onboarding_doc_capturer_front_check_position" = "Adjust document to rectangle";
+"onboarding_doc_capturer_back_check_position" = "Adjust document to rectangle";
 "onboarding_doc_capturer_processing_stay_still" = "Capturing… Stay still";
 "onboarding_error_max_number_of_documents" = "You have exceeded the maximum number of attempts";
 
@@ -159,16 +161,16 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Adding selfie with challenge…";
 "onboarding_selfie_capturer_adding_with_document" = "Adding selfie with document…";
 "onboarding_selfie_capturer_authenticating" = "Authenticating…";
-"onboarding_selfie_capturer_move_farther" = "Please, move your device farther.";
-"onboarding_selfie_capturer_get_closer" = "Please, come closer.";
-"onboarding_selfie_capturer_no_face" = "No face detected.";
-"onboarding_selfie_capturer_look_camera" = "Please, look at the camera.";
-"onboarding_selfie_capturer_center_face" = "Please, center your face in the oval";
-"onboarding_selfie_capturer_device_elevation" = "Please, hold your device to eye level.";
+"onboarding_selfie_capturer_move_farther" = "Move your device farther";
+"onboarding_selfie_capturer_get_closer" = "Come closer";
+"onboarding_selfie_capturer_no_face" = "No face detected";
+"onboarding_selfie_capturer_look_camera" = "Look at the camera";
+"onboarding_selfie_capturer_center_face" = "Center your face in the oval";
+"onboarding_selfie_capturer_device_elevation" = "Hold your device to eye level";
 "onboarding_selfie_cancel" = "Cancel";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Please, center your face in the oval.";
-"onboarding_selfie_capturer_title_insufficient_faces" = "Facial processing could not be completed";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Make sure your remain still, keeping your face in the oval and in good lighting conditions during the whole process";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Center your face in the oval";
+"onboarding_selfie_capturer_title_insufficient_faces" = "No face detected";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Make sure to keep your face in the oval in good lighting conditions throughout the process";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Click here to take a photo!";
 "onboarding_selfie_capturer_subtitle" = "Please, proceed with the capture";
 "onboarding_selfie_capturer_subtitle_review" = "Please, make sure that your picture is good";
@@ -191,8 +193,6 @@
 "onboarding_other_trusted_docs_upload_another_image" = "Attach more images";
 "onboarding_other_trusted_docs_pdf_not_allowed" = "The last uploaded document was an image, keep uploading images";
 "onboarding_other_trusted_docs_error" = "Problem with uploaded file";
-
-//Welcome
 
 //QR view
 "onboarding_qr_button" = "Continue on this device";
