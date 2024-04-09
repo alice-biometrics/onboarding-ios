@@ -16,15 +16,16 @@
 "onboarding_error_config" = "Mesedez, egiaztatu zure OnboardingConfig. Onboarding Etapa bat hautatu behar duzu gutxienez.";
 "onboarding_error_loading_resources" = "Konexio motela, saiatu berriro geroago";
 "onboarding_error_title_technical" = "Akats batzuk gertatu dira";
-"onboarding_error_subtitle_technical" = "Saiatu berriro mesedez.";
+"onboarding_error_subtitle_technical" = "Saiatu berriro mesedez";
 "onboarding_error_title_connection" = "Konexioaren errorea";
 "onboarding_error_subtitle_connection" = "Egiaztatu Interneteko konexioa";
 "onboarding_error_storage_is_full_title" = "Akatsa espazio faltagatik";
 "onboarding_error_storage_is_full_subtitle" = "Jarraitzeko, ezabatu fitxategi bat.";
 "onboarding_error_title_camera" = "Bideoak grabatzeak huts egin du";
 "onboarding_error_subtitle_camera" = "Saiatu berriro mesedez.";
-"onboarding_error_title_selfie" = "Ezin izan da selfie-lana bidali.";
+"onboarding_error_title_selfie" = "Errorea errorea bidaltzean";
 "onboarding_error_subtitle_selfie" = "Saiatu berriro mesedez.";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Selfie aktiboa duzu dagoeneko";
 "onboarding_error_title_authentication" = "Autentifikazio-errorea.";
 "onboarding_error_subtitle_authentication" = "Saiatu berriro mesedez.";
 "onboarding_error_subtitle_camera_not_available" = "Mesedez, egiaztatu kamera bat konektatuta duzula eta sarbide-baimenak eman dituzula";
@@ -74,7 +75,7 @@
 
 //Country selector
 "onboarding_country_selector_subtitle_issuing_country" = "Aukeratu igorlearen herrialdea";
-"onboarding_country_selector_other" = "Beste";
+"onboarding_country_selector_other" = "Bestela";
 "onboarding_country_selector_not_selected" = "Mesedez, aukeratu alea herrialdean";
 "onboarding_country_selector_start" = "Hasi";
 "onboarding_country_selector_cancel" = "Utzi";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean";
 "onboarding_selfie_capturer_button_tutorial" = "Ados, lortu!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Orain selfie bat egin behar duzu. Jarraitu argibide hauek";
+"onboarding_selfie_capturer_challenge_document_info" = "Jarri zure NANaren aurrealdea laukizuzenean";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat edo argazki bat";

@@ -16,15 +16,16 @@
 "onboarding_error_config" = "Bitte überprüfe Deine OnboardingConfig. Du solltest mindestens eine Onboarding Stage auswählen.";
 "onboarding_error_loading_resources" = "Verbindungsprobleme. Probiere es später nochmals.";
 "onboarding_error_title_technical" = "Ein Fehler ist aufgetreten";
-"onboarding_error_subtitle_technical" = "Versuche es bitte nochmals.";
+"onboarding_error_subtitle_technical" = "Versuche es bitte nochmals";
 "onboarding_error_title_connection" = "Verbindungsfehler";
 "onboarding_error_subtitle_connection" = "Bitte überprüfe Deine Internet-Verbindung.";
 "onboarding_error_storage_is_full_title" = "Fehlender Speicherplatz";
 "onboarding_error_storage_is_full_subtitle" = "Bitte löschen Sie einige Dateien, um fortzufahren.";
 "onboarding_error_title_camera" = "Kamera-Problem.";
-"onboarding_error_subtitle_camera" = "Versuche es bitte nochmals.";
-"onboarding_error_title_selfie" = "Das Selfie konnte nicht versandt werden.";
-"onboarding_error_subtitle_selfie" = "Versuche es bitte nochmals.";
+"onboarding_error_subtitle_camera" = "Versuche es bitte nochmals";
+"onboarding_error_title_selfie" = "Fehler beim Senden von Selfie";
+"onboarding_error_subtitle_selfie" = "Versuche es bitte nochmals";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Sie haben bereits ein aktives Selfie";
 "onboarding_error_title_authentication" = "Authentifizierungsfehler.";
 "onboarding_error_subtitle_authentication" = "Authentifizierungsfehler.";
 "onboarding_error_subtitle_camera_not_available" = "Bitte überprüfen Sie, ob eine Kamera verfügbar ist und dass Sie die Erlaubnis erteilt haben, darauf zuzugreifen";
@@ -147,7 +148,7 @@
 "onboarding_nfc_doc_capturer_error_connection_title" = "Verbindungsfehler";
 "onboarding_nfc_doc_capturer_error_connection_subtitle" = "Verschieben Sie Ihr Dokument nicht während des Lesevorgangs";
 "onboarding_nfc_doc_capturer_error_generic_title" = "Problem beim Lesen Ihres Dokuments";
-"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Versuche es bitte nochmals.";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Versuche es bitte nochmals";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Nicht unterstütztes Dokument";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Leider unterstützen wir Ihr Dokument derzeit nicht";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Falsches Dokument";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Bitte zentrieren Sie Ihr Gesicht auf dem Oval und das Dokument auf dem Rechteck";
 "onboarding_selfie_capturer_button_tutorial" = "OK habe es!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Jetzt musst du ein Selfie machen. Befolgen Sie diese Anweisungen";
+"onboarding_selfie_capturer_challenge_document_info" = "Passen Sie die Vorderseite Ihres Personalausweises in das Rechteck ein";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Bitte wählen Sie eine PDF-Datei oder ein Bild aus";

@@ -23,8 +23,9 @@
 "onboarding_error_storage_is_full_subtitle" = "请删除一些文件以继续。";
 "onboarding_error_title_camera" = "摄像头错误";
 "onboarding_error_subtitle_camera" = "请再试一遍";
-"onboarding_error_title_selfie" = "无法发送自拍";
+"onboarding_error_title_selfie" = "错误发送自拍照";
 "onboarding_error_subtitle_selfie" = "请再试一遍";
+"onboarding_error_subtitle_active_selfie_already_exists" = "您已经有一个积极的自拍照";
 "onboarding_error_title_authentication" = "授权错误";
 "onboarding_error_subtitle_authentication" = "请再试一遍";
 "onboarding_error_subtitle_camera_not_available" = "请检查相机是否可用以及您是否已授予访问权限";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "请把你的脸放在椭圆上，把文件放在长方形上";
 "onboarding_selfie_capturer_button_tutorial" = "好的，我知道了！";
 "onboarding_selfie_capturer_subtitle_tutorial" = "现在你必须自拍。 按照这些说明";
+"onboarding_selfie_capturer_challenge_document_info" = "将身份证正面放入矩形中";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "请选择PDF文件或图片";

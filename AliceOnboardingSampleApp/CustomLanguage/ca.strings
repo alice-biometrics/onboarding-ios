@@ -16,17 +16,18 @@
 "onboarding_error_config" = "Si us plau, revisi el seu OnboardingConfig. Deu tenir seleccionada com a mínim un OnboardingStage.";
 "onboarding_error_loading_resources" = "Connexió lenta-ho a provar més tard";
 "onboarding_error_title_technical" = "Hi ha hagut algun error";
-"onboarding_error_subtitle_technical" = "Intenta-ho de nou.";
+"onboarding_error_subtitle_technical" = "Intenta-ho de nou";
 "onboarding_error_title_connection" = "Error de connexió";
 "onboarding_error_subtitle_connection" = "Comprova la teva connexió a Internet";
 "onboarding_error_storage_is_full_title" = "Error per falta d'espai";
 "onboarding_error_storage_is_full_subtitle" = "Si us plau, elimina algun arxiu per poder continuar.";
 "onboarding_error_title_camera" = "Error a l'gravar el vídeo";
-"onboarding_error_subtitle_camera" = "Intenta-ho de nou.";
-"onboarding_error_title_selfie" = "No s'ha pogut completar l'enviament de l'selfie.";
-"onboarding_error_subtitle_selfie" = "Intenta-ho de nou.";
+"onboarding_error_subtitle_camera" = "Intenta-ho de nou";
+"onboarding_error_title_selfie" = "Error enviant selfie";
+"onboarding_error_subtitle_selfie" = "Intenta-ho de nou";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Ja teniu un selfie actiu";
 "onboarding_error_title_authentication" = "Error d'autenticació.";
-"onboarding_error_subtitle_authentication" = "Intenta-ho de nou.";
+"onboarding_error_subtitle_authentication" = "Intenta-ho de nou";
 "onboarding_error_subtitle_camera_not_available" = "Si us plau, comproveu que teniu una càmera connectada i que heu donat permisos d'accés";
 "onboarding_browser_no_compatible" = "Aquesta funcionalitat no és compatible amb el navegad por utilitzat. Proveu amb Safari";
 "onboarding_error_user_not_found" = "Usuari no trobat";
@@ -147,7 +148,7 @@
 "onboarding_nfc_doc_capturer_error_connection_title" = "Error de connexió";
 "onboarding_nfc_doc_capturer_error_connection_subtitle" = "No moguis el teu document durant el procés de lectura";
 "onboarding_nfc_doc_capturer_error_generic_title" = "Problema a l'llegir el teu document";
-"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Intenta-ho de nou.";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Intenta-ho de nou";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Document incompatible";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Ho sentim, de moment no suportem el teu document";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Document incorrecte";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Si us plau, centreu la vostra cara a l'oval i el document al rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "D'acord ho tinc!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Ara t'has de fer una selfie. Seguiu aquestes instruccions";
+"onboarding_selfie_capturer_challenge_document_info" = "Col·loca la part frontal de la teva targeta d'identificació al rectangle";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Si us plau, trieu un fitxer PDF o una imatge";

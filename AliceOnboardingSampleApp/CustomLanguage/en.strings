@@ -16,17 +16,18 @@
 "onboarding_error_config" = "Please, review your OnboardingConfig. You should select at least one Onboarding Stage.";
 "onboarding_error_loading_resources" = "Slow connection, try again later.";
 "onboarding_error_title_technical" = "An error occurred";
-"onboarding_error_subtitle_technical" = "Please, try again.";
+"onboarding_error_subtitle_technical" = "Please, try again";
 "onboarding_error_title_connection" = "Connection error";
 "onboarding_error_subtitle_connection" = "Please, check your internet connection.";
 "onboarding_error_storage_is_full_title" = "Missing disk space";
 "onboarding_error_storage_is_full_subtitle" = "Please, delete some files to continue.";
 "onboarding_error_title_camera" = "Camera error.";
-"onboarding_error_subtitle_camera" = "Please, try again.";
-"onboarding_error_title_selfie" = "The selfie could not be sent.";
-"onboarding_error_subtitle_selfie" = "Please, try again.";
+"onboarding_error_subtitle_camera" = "Please, try again";
+"onboarding_error_title_selfie" = "Error sending selfie";
+"onboarding_error_subtitle_selfie" = "Please, try again";
+"onboarding_error_subtitle_active_selfie_already_exists" = "You already have an active selfie";
 "onboarding_error_title_authentication" = "Authentication error.";
-"onboarding_error_subtitle_authentication" = "Please, try again.";
+"onboarding_error_subtitle_authentication" = "Please, try again";
 "onboarding_error_subtitle_camera_not_available" = "Please, check that a camera is available and that you have given permission to access it";
 "onboarding_browser_no_compatible" = "This functionality is not available in this browser, please try Safari";
 "onboarding_error_user_not_found" = "User not found";
@@ -147,7 +148,7 @@
 "onboarding_nfc_doc_capturer_error_connection_title" = "Connection error";
 "onboarding_nfc_doc_capturer_error_connection_subtitle" = "Don't move your document during the reading process";
 "onboarding_nfc_doc_capturer_error_generic_title" = "Problem reading your document";
-"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Please, try again.";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Please, try again";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Unsupported document";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Sorry, we don't support your document at the moment";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Wrong document";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Please, center your face on the oval and the document on the rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "Ok, got it!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Now you have to take a selfie. Follow these instructions";
+"onboarding_selfie_capturer_challenge_document_info" = "Fit the front side of your ID card in the rectangle";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Please choose a PDF or an image";

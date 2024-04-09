@@ -16,15 +16,16 @@
 "onboarding_error_config" = "オンボーディング設定を確認してください。少なくとも1つのオンボーディングのステップを選択する必要があります。";
 "onboarding_error_loading_resources" = "接続が遅いです、後でもう一度やり直してください。";
 "onboarding_error_title_technical" = "エラーが発生しました";
-"onboarding_error_subtitle_technical" = "もう一度やり直してください。";
+"onboarding_error_subtitle_technical" = "もう一度やり直してください";
 "onboarding_error_title_connection" = "接続エラー";
 "onboarding_error_subtitle_connection" = "インターネット接続を確認してください。";
 "onboarding_error_storage_is_full_title" = "ディスクスペースがありません";
 "onboarding_error_storage_is_full_subtitle" = "続行するには、いくつかのファイルを削除してください。";
 "onboarding_error_title_camera" = "カメラエラー。";
 "onboarding_error_subtitle_camera" = "もう一度やり直してください。";
-"onboarding_error_title_selfie" = "フロントカメラ画像を送ることができませんでした。";
+"onboarding_error_title_selfie" = "セルフィーの送信エラー";
 "onboarding_error_subtitle_selfie" = "もう一度やり直してください。";
+"onboarding_error_subtitle_active_selfie_already_exists" = "あなたはすでにアクティブなセルフィーを持っています";
 "onboarding_error_title_authentication" = "認証エラー。";
 "onboarding_error_subtitle_authentication" = "もう一度やり直してください。";
 "onboarding_error_subtitle_camera_not_available" = "カメラが利用可能であり、アクセス許可を与えていることを確認してください";
@@ -169,7 +170,7 @@
 "onboarding_selfie_capturer_device_elevation" = "デバイスを目の高さまで保持します";
 "onboarding_selfie_cancel" = "キャンセル";
 "onboarding_selfie_capturer_wrong_yaw_angle" = "楕円形の顔を中央に置きます";
-"onboarding_selfie_capturer_title_insufficient_faces" = "顔は検出されません";
+"onboarding_selfie_capturer_title_insufficient_faces" = "顔が検出されませんでした";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "プロセス全体を通じて、良好な照明条件で顔を楕円形に保つようにしてください。";
 "onboarding_selfie_capturer_face_detected_tooltip" = "写真を撮るにはここをクリックしてください！";
 "onboarding_selfie_capturer_subtitle" = "キャプチャを進めてください";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "楕円形と長方形の文書に顔を集中してください";
 "onboarding_selfie_capturer_button_tutorial" = "わかりました！";
 "onboarding_selfie_capturer_subtitle_tutorial" = "自撮りをする必要があります。これらの指示に従ってください";
+"onboarding_selfie_capturer_challenge_document_info" = "ID カードの表側を長方形に合わせます";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "PDFまたは画像を選択してください";

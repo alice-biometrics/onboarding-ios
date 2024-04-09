@@ -16,17 +16,18 @@
 "onboarding_error_config" = "Lütfen kimlik doğrulama ayarlarınızı gözden geçirin. En azından bir kimlik doğrulama adımı seçilmiş olmalıdır.";
 "onboarding_error_loading_resources" = "Bağlantı hızı yavaş, lütfen tekrar deneyin.";
 "onboarding_error_title_technical" = "Bir hata oluştu";
-"onboarding_error_subtitle_technical" = "Lütfen tekrar deneyin.";
+"onboarding_error_subtitle_technical" = "Lütfen tekrar deneyin";
 "onboarding_error_title_connection" = "Bağlantı hatası";
 "onboarding_error_subtitle_connection" = "Lütfen internet bağlantınızı kontrol edin.";
 "onboarding_error_storage_is_full_title" = "Disk alanı eksik";
 "onboarding_error_storage_is_full_subtitle" = "Lütfen devam etmek için bazı dosyaları silin.";
 "onboarding_error_title_camera" = "Kamera hatası.";
-"onboarding_error_subtitle_camera" = "Lütfen tekrar deneyin.";
-"onboarding_error_title_selfie" = "Selfi gönderilemedi.";
-"onboarding_error_subtitle_selfie" = "Lütfen tekrar deneyin.";
+"onboarding_error_subtitle_camera" = "Lütfen tekrar deneyin";
+"onboarding_error_title_selfie" = "Selfie gönderme hatası";
+"onboarding_error_subtitle_selfie" = "Lütfen tekrar deneyin";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Zaten aktif bir selfie var";
 "onboarding_error_title_authentication" = "Kimlik doğrulaması hatası.";
-"onboarding_error_subtitle_authentication" = "Lütfen tekrar deneyin.";
+"onboarding_error_subtitle_authentication" = "Lütfen tekrar deneyin";
 "onboarding_error_subtitle_camera_not_available" = "Lütfen bir kamera olup olmadığını ve ona erişim izni verdiğinizi kontrol edin.";
 "onboarding_browser_no_compatible" = "Bu işlev bu tarayıcıda mevcut değil, lütfen Safari'yi deneyin";
 "onboarding_error_user_not_found" = "Kullanıcı bulunamadı";
@@ -147,7 +148,7 @@
 "onboarding_nfc_doc_capturer_error_connection_title" = "Bağlantı hatası";
 "onboarding_nfc_doc_capturer_error_connection_subtitle" = "Okuma işlemi sırasında belgenizi hareket ettirmeyin";
 "onboarding_nfc_doc_capturer_error_generic_title" = "Belgenizi okumada soru";
-"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Lütfen tekrar deneyin.";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Lütfen tekrar deneyin";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Desteksiz belge";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Üzgünüz, şu anda belgenizi desteklemiyoruz";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Yanlış belge";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın";
 "onboarding_selfie_capturer_button_tutorial" = "Tamam anladım!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Şimdi bir selfie çekmelisin. Bu talimatları izleyin";
+"onboarding_selfie_capturer_challenge_document_info" = "Kimlik kartınızın ön tarafını dikdörtgene sığdırın";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Lütfen bir PDF dosyası veya resim seçin";

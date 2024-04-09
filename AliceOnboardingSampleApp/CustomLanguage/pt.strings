@@ -16,17 +16,18 @@
 "onboarding_error_config" = "Revise sua OnboardingConfig. Você deve selecionar pelo menos uma Onboarding Stage.";
 "onboarding_error_loading_resources" = "Conexão lenta, tente novamente mais tarde";
 "onboarding_error_title_technical" = "Ocorreu um erro";
-"onboarding_error_subtitle_technical" = "Por favor, tente de novo.";
+"onboarding_error_subtitle_technical" = "Por favor, tente de novo";
 "onboarding_error_title_connection" = "Erro de conexão";
 "onboarding_error_subtitle_connection" = "Por favor, verifique a súa conexão a internet";
 "onboarding_error_storage_is_full_title" = "Falta espaço em disco";
 "onboarding_error_storage_is_full_subtitle" = "Exclua um arquivo para continuar.";
 "onboarding_error_title_camera" = "Erro de câmera";
-"onboarding_error_subtitle_camera" = "Por favor, tente de novo.";
-"onboarding_error_title_selfie" = "O selfie não pudo ser enviado";
-"onboarding_error_subtitle_selfie" = "Por favor, tente de novo.";
+"onboarding_error_subtitle_camera" = "Por favor, tente de novo";
+"onboarding_error_title_selfie" = "Erro ao enviar selfie";
+"onboarding_error_subtitle_selfie" = "Por favor, tente de novo";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Você já tem uma selfie ativa";
 "onboarding_error_title_authentication" = "Erro de autenticação";
-"onboarding_error_subtitle_authentication" = "Por favor, tente de novo.";
+"onboarding_error_subtitle_authentication" = "Por favor, tente de novo";
 "onboarding_error_subtitle_camera_not_available" = "Por favor, verifique se você tem uma câmera conectada e se você deu permissões de acesso";
 "onboarding_browser_no_compatible" = "Esta funcionalidade nao está disponível neste navegador, por favor tente o Safari";
 "onboarding_error_user_not_found" = "Usuário não encontrado";
@@ -147,7 +148,7 @@
 "onboarding_nfc_doc_capturer_error_connection_title" = "Erro de conexão";
 "onboarding_nfc_doc_capturer_error_connection_subtitle" = "Não mova seu documento durante o processo de leitura";
 "onboarding_nfc_doc_capturer_error_generic_title" = "Problema ao ler seu documento";
-"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Por favor, tente de novo.";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Por favor, tente de novo";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Documento incompatível";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Desculpe, não oferecemos suporte ao seu documento no momento";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Documento errado";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Centralize seu rosto no oval e o documento no retângulo";
 "onboarding_selfie_capturer_button_tutorial" = "OK, entendi!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Agora você tem que tirar uma selfie. Siga estas instruções";
+"onboarding_selfie_capturer_challenge_document_info" = "Coloque a parte frontal do seu cartão de identificação no retângulo";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, escolha um arquivo PDF ou uma imagem";

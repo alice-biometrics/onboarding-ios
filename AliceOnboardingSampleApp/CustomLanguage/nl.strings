@@ -16,15 +16,16 @@
 "onboarding_error_config" = "Bekijk uw onboardingconfig. U moet ten minste één onboarding -podium selecteren.";
 "onboarding_error_loading_resources" = "Langzame verbinding, probeer het later opnieuw.";
 "onboarding_error_title_technical" = "Er is een fout opgetreden";
-"onboarding_error_subtitle_technical" = "Probeer het opnieuw.";
+"onboarding_error_subtitle_technical" = "Probeer het opnieuw";
 "onboarding_error_title_connection" = "Verbindingsfout";
 "onboarding_error_subtitle_connection" = "Controleer uw internetverbinding.";
 "onboarding_error_storage_is_full_title" = "Ontbrekende schijfruimte";
 "onboarding_error_storage_is_full_subtitle" = "Verwijder enkele bestanden om door te gaan.";
 "onboarding_error_title_camera" = "Camerafout.";
 "onboarding_error_subtitle_camera" = "Probeer het opnieuw.";
-"onboarding_error_title_selfie" = "De selfie kon niet worden gestuurd.";
+"onboarding_error_title_selfie" = "Fout het verzenden van selfie";
 "onboarding_error_subtitle_selfie" = "Probeer het opnieuw.";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Je hebt al een actieve selfie";
 "onboarding_error_title_authentication" = "Authenticatiefout.";
 "onboarding_error_subtitle_authentication" = "Probeer het opnieuw.";
 "onboarding_error_subtitle_camera_not_available" = "Controleer of een camera beschikbaar is en dat u toestemming hebt gegeven om er toegang toe te krijgen";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Richt alstublieft uw gezicht op het ovaal en het document op de rechthoek";
 "onboarding_selfie_capturer_button_tutorial" = "OK ik snap het!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Nu moet je een selfie maken. Volg deze instructies";
+"onboarding_selfie_capturer_challenge_document_info" = "Plaats de voorkant van uw identiteitskaart in de rechthoek";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Kies een PDF of een afbeelding";

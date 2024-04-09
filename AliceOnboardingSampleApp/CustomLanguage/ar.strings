@@ -23,8 +23,9 @@
 "onboarding_error_storage_is_full_subtitle" = "من فضلك ، حذف بعض الملفات للمتابعة.";
 "onboarding_error_title_camera" = "خطأ الكاميرا.";
 "onboarding_error_subtitle_camera" = "حاول مرة اخرى.";
-"onboarding_error_title_selfie" = "لا يمكن إرسال صورة شخصية.";
+"onboarding_error_title_selfie" = "خطأ إرسال صورة شخصية";
 "onboarding_error_subtitle_selfie" = "حاول مرة اخرى.";
+"onboarding_error_subtitle_active_selfie_already_exists" = "لديك بالفعل صورة شخصية نشطة";
 "onboarding_error_title_authentication" = "خطأ مصادقة.";
 "onboarding_error_subtitle_authentication" = "حاول مرة اخرى.";
 "onboarding_error_subtitle_camera_not_available" = "من فضلك ، تأكد من توفر الكاميرا وأنك قد منحت إذنًا للوصول إليها";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "من فضلك ، تركز وجهك على البيضاوي والوثيقة الموجودة على المستطيل";
 "onboarding_selfie_capturer_button_tutorial" = "طيب ، حصلت عليه!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "الآن عليك أن تأخذ صورة شخصية. اتبع هذه التعليمات";
+"onboarding_selfie_capturer_challenge_document_info" = "ضع الجانب الأمامي من بطاقة الهوية الخاصة بك في المستطيل";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "الرجاء اختيار PDF أو صورة";

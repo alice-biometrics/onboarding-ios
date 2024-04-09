@@ -23,8 +23,9 @@
 "onboarding_error_storage_is_full_subtitle" = "Usuń niektóre pliki, aby kontynuować.";
 "onboarding_error_title_camera" = "Błąd aparatu";
 "onboarding_error_subtitle_camera" = "Spróbuj ponownie";
-"onboarding_error_title_selfie" = "Nie można wysłać selfie";
+"onboarding_error_title_selfie" = "Błąd wysyłania selfie";
 "onboarding_error_subtitle_selfie" = "Spróbuj ponownie";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Masz już aktywne selfie";
 "onboarding_error_title_authentication" = "Błąd uwierzytelniania";
 "onboarding_error_subtitle_authentication" = "Spróbuj ponownie";
 "onboarding_error_subtitle_camera_not_available" = "Sprawdź, czy kamera jest dostępna i czy wyraziłeś zgodę na dostęp do niej";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Proszę wyśrodkować twarz na owalu, a dokument na prostokącie";
 "onboarding_selfie_capturer_button_tutorial" = "Ok, rozumiem!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Teraz musisz zrobić selfie. Postępuj zgodnie z tymi instrukcjami";
+"onboarding_selfie_capturer_challenge_document_info" = "Dopasuj przednią stronę swojego dowodu osobistego do prostokąta";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Proszę wybrać plik PDF lub zdjęcie";

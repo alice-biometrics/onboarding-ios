@@ -23,8 +23,9 @@
 "onboarding_error_storage_is_full_subtitle" = "Veuillez supprimer certains fichiers pour continuer.";
 "onboarding_error_title_camera" = "Erreur de caméra";
 "onboarding_error_subtitle_camera" = "Réessayez, SVP";
-"onboarding_error_title_selfie" = "Le selfie n'a pas pu être envoyé ";
+"onboarding_error_title_selfie" = "Erreur envoyant des selfies";
 "onboarding_error_subtitle_selfie" = "Réessayez, SVP";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Vous avez déjà un selfie actif";
 "onboarding_error_title_authentication" = "Erreur d’authentification";
 "onboarding_error_subtitle_authentication" = "Réessayez, SVP";
 "onboarding_error_subtitle_camera_not_available" = "Veuillez vérifier que vous avez une caméra connectée et que vous avez donné les autorisations d'accès";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "S'il vous plaît, centrez votre visage sur l'ovale et le document sur le rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "D'accord, j'ai compris !";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Maintenant, vous devez prendre un selfie. Suivez ces instructions";
+"onboarding_selfie_capturer_challenge_document_info" = "Placez le recto de votre carte d'identité dans le rectangle";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Veuillez choisir un fichier PDF ou une image";

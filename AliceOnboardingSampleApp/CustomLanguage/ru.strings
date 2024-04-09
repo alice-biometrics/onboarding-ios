@@ -16,17 +16,18 @@
 "onboarding_error_config" = "Пожалуйста, просмотрите ваш OnboardingConfig. Вы должны выбрать хотя бы один Onboarding Stage.";
 "onboarding_error_loading_resources" = "Медленное соединение, попробуйте позже";
 "onboarding_error_title_technical" = "Произошла ошибка";
-"onboarding_error_subtitle_technical" = "Пожалуйста, попробуйте еще раз.";
+"onboarding_error_subtitle_technical" = "Пожалуйста, попробуйте еще раз";
 "onboarding_error_title_connection" = "Ошибка подключения";
 "onboarding_error_subtitle_connection" = "Пожалуйста, проверьте свое подключение к интернету.";
 "onboarding_error_storage_is_full_title" = "Недостающее место на диске";
 "onboarding_error_storage_is_full_subtitle" = "Пожалуйста, удалите некоторые файлы, чтобы продолжить.";
 "onboarding_error_title_camera" = "Ошибка камеры";
-"onboarding_error_subtitle_camera" = "Пожалуйста, попробуйте еще раз.";
-"onboarding_error_title_selfie" = "Селф не может быть отправлен";
-"onboarding_error_subtitle_selfie" = "Пожалуйста, попробуйте еще раз.";
+"onboarding_error_subtitle_camera" = "Пожалуйста, попробуйте еще раз";
+"onboarding_error_title_selfie" = "Ошибка отправки селфи";
+"onboarding_error_subtitle_selfie" = "Пожалуйста, попробуйте еще раз";
+"onboarding_error_subtitle_active_selfie_already_exists" = "У вас уже есть активная селфи";
 "onboarding_error_title_authentication" = "Ошибка аутентификации";
-"onboarding_error_subtitle_authentication" = "Пожалуйста, попробуйте еще раз.";
+"onboarding_error_subtitle_authentication" = "Пожалуйста, попробуйте еще раз";
 "onboarding_error_subtitle_camera_not_available" = "Пожалуйста, убедитесь, что камера доступна и что вы дали разрешение на доступ к ней.";
 "onboarding_browser_no_compatible" = "Эта функция недоступна в этом браузере, попробуйте Safari";
 "onboarding_error_user_not_found" = "Пользователь не найден";
@@ -147,7 +148,7 @@
 "onboarding_nfc_doc_capturer_error_connection_title" = "Ошибка подключения";
 "onboarding_nfc_doc_capturer_error_connection_subtitle" = "Не перемещайте документ во время чтения";
 "onboarding_nfc_doc_capturer_error_generic_title" = "Проблема с чтением вашего документа";
-"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Пожалуйста, попробуйте еще раз.";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Пожалуйста, попробуйте еще раз";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Неподдерживаемый документ";
 "onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Извините, в настоящий момент мы не поддерживаем ваш документ";
 "onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Неверный документ";
@@ -177,6 +178,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Пожалуйста, отцентрируйте лицо на овале, а документ на прямоугольнике";
 "onboarding_selfie_capturer_button_tutorial" = "Хорошо понял!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Теперь вам нужно сделать селфи. Следуйте этим инструкциям";
+"onboarding_selfie_capturer_challenge_document_info" = "Поместите лицевую сторону удостоверения личности в прямоугольник";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Пожалуйста, выберите файл PDF или изображение";
