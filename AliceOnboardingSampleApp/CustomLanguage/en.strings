@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Ok, got it!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Now you have to take a selfie. Follow these instructions";
 "onboarding_selfie_capturer_challenge_document_info" = "Fit the front side of your ID card in the rectangle";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Too far";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Too close";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Wrong position";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Unnatural color";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Avoid colored lighting on your face";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Low brightness";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Make sure the lighting on your face is reasonable and uniform";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Too bright";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Make sure the lighting on your face is reasonable and even, without glare";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Blurred";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Make sure your face looks sharp and avoid getting dirt or protectors on the camera";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Please choose a PDF or an image";

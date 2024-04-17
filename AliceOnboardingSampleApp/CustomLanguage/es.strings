@@ -162,7 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Añadiendo selfie con retos…";
 "onboarding_selfie_capturer_adding_with_document" = "Añadiendo selfie con documento…";
 "onboarding_selfie_capturer_authenticating" = "Autenticando…";
-"onboarding_selfie_capturer_move_farther" = "Aleje el dispositivo";
+"onboarding_selfie_capturer_move_farther" = "Aleja el dispositivo";
 "onboarding_selfie_capturer_get_closer" = "Acércate al dispositivo";
 "onboarding_selfie_capturer_no_face" = "Cara no detectada";
 "onboarding_selfie_capturer_look_camera" = "Mira a la cámara";
@@ -178,7 +178,18 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra tu cara en el óvalo y el documento en el rectángulo";
 "onboarding_selfie_capturer_button_tutorial" = "Vale, ¡entendido!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Ahora tienes que hacerte un selfie. Sigue estas instrucciones";
-"onboarding_selfie_capturer_challenge_document_info" = "Coloque la parte frontal de su carnet de identidad en el rectángulo";
+"onboarding_selfie_capturer_challenge_document_info" = "Coloca la parte frontal de tu carnet de identidad en el rectángulo";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Demasiado lejos";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Demasiado cerca";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Color antinatural";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evita iluminaciones de colores sobre tu rostro";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Baja iluminación";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Asegúrate de que la iluminación de tu cara sea razonable y uniforme";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Sobreiluminación";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Asegúrate de que la iluminación de tu cara sea razonable y uniforme, sin brillos";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Asegúrate de que tu cara se ve nítida y evita suciedad o protectores sobre la cámara";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, elija un PDF o una imagen";

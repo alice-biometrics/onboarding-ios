@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Tamam anladım!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Şimdi bir selfie çekmelisin. Bu talimatları izleyin";
 "onboarding_selfie_capturer_challenge_document_info" = "Kimlik kartınızın ön tarafını dikdörtgene sığdırın";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Çok uzak";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Çok yakın";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Yanlış pozisyon";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Doğal olmayan renk";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Yüzünüzde renkli aydınlatmadan kaçının";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Düşük parlaklık";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve tekdüze olduğundan emin olun";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Çok parlak";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve eşit olduğundan, parlamadan emin olun";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Bulanık";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Yüzünüzün keskin göründüğünden emin olun ve kameranın üzerine kir veya koruyucu madde bulaşmasını önleyin";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Lütfen bir PDF dosyası veya resim seçin";

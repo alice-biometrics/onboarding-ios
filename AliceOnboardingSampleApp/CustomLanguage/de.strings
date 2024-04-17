@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "OK habe es!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Jetzt musst du ein Selfie machen. Befolgen Sie diese Anweisungen";
 "onboarding_selfie_capturer_challenge_document_info" = "Passen Sie die Vorderseite Ihres Personalausweises in das Rechteck ein";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Zu weit";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Zu nah";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Falsche Position";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Unnatürliche Farbe";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Vermeiden Sie farbiges Licht im Gesicht";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Geringe Helligkeit";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Stellen Sie sicher, dass die Beleuchtung Ihres Gesichts angemessen und gleichmäßig ist";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Zu hell";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Stellen Sie sicher, dass die Beleuchtung Ihres Gesichts angemessen und gleichmäßig ist, ohne zu blenden";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Verschwommen";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Stellen Sie sicher, dass Ihr Gesicht scharf aussieht und vermeiden Sie, dass Schmutz oder Schutzfolien auf die Kamera gelangen";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Bitte wählen Sie eine PDF-Datei oder ein Bild aus";

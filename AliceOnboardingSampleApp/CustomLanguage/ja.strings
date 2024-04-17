@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "わかりました！";
 "onboarding_selfie_capturer_subtitle_tutorial" = "自撮りをする必要があります。これらの指示に従ってください";
 "onboarding_selfie_capturer_challenge_document_info" = "ID カードの表側を長方形に合わせます";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "遠すぎる";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "近すぎる";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "間違った位置";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "不自然な色";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "色付きの照明が顔に当たらないようにする";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "低輝度";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "顔に当たる照明が適切かつ均一であることを確認してください";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "明るすぎる";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "顔に当たる照明が適度で均一で、ぎらつきのないことを確認してください。";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "ぼやけた";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "顔がシャープに見えるようにし、カメラに汚れやプロテクターが付かないようにしてください。";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "PDFまたは画像を選択してください";

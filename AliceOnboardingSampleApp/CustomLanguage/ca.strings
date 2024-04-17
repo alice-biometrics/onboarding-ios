@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "D'acord ho tinc!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Ara t'has de fer una selfie. Seguiu aquestes instruccions";
 "onboarding_selfie_capturer_challenge_document_info" = "Col·loca la part frontal de la teva targeta d'identificació al rectangle";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Massa lluny";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Massa a prop";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posició incorrecta";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Color antinatural";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Eviteu il·luminacions de colors sobre la cara";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Baixa il·luminació";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Assegureu-vos que la il·luminació de la cara sigui raonable i uniforme";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Sobreil·luminació";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Assegureu-vos que la il·luminació de la cara sigui raonable i uniforme, sense brillantors";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Manca de nitidesa";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Assegureu-vos que la cara es veu nítida i eviti brutícia o protectors sobre la càmera";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Si us plau, trieu un fitxer PDF o una imatge";

@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Ok, rozumiem!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Teraz musisz zrobić selfie. Postępuj zgodnie z tymi instrukcjami";
 "onboarding_selfie_capturer_challenge_document_info" = "Dopasuj przednią stronę swojego dowodu osobistego do prostokąta";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Za daleko";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Zbyt blisko";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Zła pozycja";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Nienaturalny kolor";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Unikaj kolorowego oświetlenia twarzy";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Niska jasność";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Upewnij się, że oświetlenie twarzy jest rozsądne i jednolite";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Za jasno";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Upewnij się, że oświetlenie twarzy jest rozsądne i równomierne, bez odblasków";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Zamazany";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Upewnij się, że Twoja twarz wygląda ostro i unikaj zabrudzeń lub ochraniaczy na aparacie";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Proszę wybrać plik PDF lub zdjęcie";

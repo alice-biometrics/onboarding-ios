@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Хорошо понял!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Теперь вам нужно сделать селфи. Следуйте этим инструкциям";
 "onboarding_selfie_capturer_challenge_document_info" = "Поместите лицевую сторону удостоверения личности в прямоугольник";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Очень далеко";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Слишком близко";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Неправильная позиция";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Неестественный цвет";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Избегайте цветного освещения на лице";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Низкая яркость";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Убедитесь, что освещение вашего лица разумное и равномерное.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Слишком яркий";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Размытый";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Пожалуйста, выберите файл PDF или изображение";

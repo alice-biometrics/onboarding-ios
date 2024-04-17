@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "好的，我知道了！";
 "onboarding_selfie_capturer_subtitle_tutorial" = "现在你必须自拍。 按照这些说明";
 "onboarding_selfie_capturer_challenge_document_info" = "将身份证正面放入矩形中";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "太远";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "太接近了";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "位置错误";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "颜色不自然";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "避免彩色灯光打在脸上";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "低亮度";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "确保脸上的光线合理、均匀";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "太亮了";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "确保脸上的光线合理、均匀、无眩光";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "模糊";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "确保您的脸部看起来清晰，并避免相机上沾上灰尘或保护膜";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "请选择PDF文件或图片";

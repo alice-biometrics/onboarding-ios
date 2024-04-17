@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Vale, entendido!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Agora tes que facer unha selfie. Siga estas instrucións";
 "onboarding_selfie_capturer_challenge_document_info" = "Coloca a parte frontal do teu carnet de identidade no rectángulo";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Moi lonxe";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Demasiado perto";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Cor non natural";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite a iluminación de cores no seu rostro";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Iluminación baixa";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Asegúrate de que a iluminación do teu rostro sexa razoable e uniforme";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Sobreiluminación";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Asegúrate de que a iluminación do teu rostro sexa razoable e uniforme, sen brillos";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Asegúrate de que o teu rostro estea nítido e evita que a cámara se ensucie ou teña protectores";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, escolla un ficheiro PDF o unha imaxe";

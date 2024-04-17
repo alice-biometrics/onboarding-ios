@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "طيب ، حصلت عليه!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "الآن عليك أن تأخذ صورة شخصية. اتبع هذه التعليمات";
 "onboarding_selfie_capturer_challenge_document_info" = "ضع الجانب الأمامي من بطاقة الهوية الخاصة بك في المستطيل";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "بعيد جدا";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "قريب جدا";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "وضعية خاطئة";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "لون غير طبيعي";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "تجنب الإضاءة الملونة على وجهك";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "سطوع منخفض";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "تأكد من أن الإضاءة على وجهك معقولة وموحدة";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "مشرق جدا";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "تأكد من أن الإضاءة على وجهك معقولة ومتساوية، دون وهج";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "غير واضح";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "تأكد من أن وجهك يبدو حادًا وتجنب تعرض الكاميرا للأوساخ أو الواقيات";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "الرجاء اختيار PDF أو صورة";

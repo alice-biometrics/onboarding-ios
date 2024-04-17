@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "OK ik snap het!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Nu moet je een selfie maken. Volg deze instructies";
 "onboarding_selfie_capturer_challenge_document_info" = "Plaats de voorkant van uw identiteitskaart in de rechthoek";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Te ver";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Te dichtbij";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Verkeerde positie";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Onnatuurlijke kleur";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Vermijd gekleurde verlichting op uw gezicht";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Lage helderheid";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Zorg ervoor dat de verlichting op uw gezicht redelijk en uniform is";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Te helder";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Zorg ervoor dat de verlichting op uw gezicht redelijk en gelijkmatig is, zonder verblinding";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Vervaagd";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Zorg ervoor dat uw gezicht er scherp uitziet en voorkom dat er vuil of beschermers op de camera komen";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Kies een PDF of een afbeelding";

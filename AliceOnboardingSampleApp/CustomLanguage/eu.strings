@@ -179,6 +179,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Ados, lortu!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Orain selfie bat egin behar duzu. Jarraitu argibide hauek";
 "onboarding_selfie_capturer_challenge_document_info" = "Jarri zure NANaren aurrealdea laukizuzenean";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Urrunegi";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Hurbilegi";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posizio okerra";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Kolore ez naturala";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Saihestu aurpegian koloretako argiztapena";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Argiztapen baxua";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ziurtatu aurpegiko argiztapena arrazoizkoa eta uniformea ​​dela";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Gehiegizko argiztapena";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Zorroztasun falta";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Ziurtatu aurpegia zorrotza dela eta saihestu kameran zikinkeriarik edo babeslerik ez sartzea";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat edo argazki bat";
