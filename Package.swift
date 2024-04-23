@@ -16,14 +16,19 @@ let package = Package(
             name: "AliceOnboarding",
             targets: ["AliceOnboardingBundle"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.4.3")
+    ],
     targets: [
-        .target(name: "AliceOnboardingBundle",
-            dependencies: [
-                "AliceOnboarding",
-              ]
-           ),
-        .binaryTarget(name: "AliceOnboarding", 
-                      url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
-                      checksum: "\(checksum)"),
+        .target(
+            name: "AliceOnboardingBundle",
+            dependencies: ["AliceOnboarding"]
+        ),
+        .binaryTarget(
+            name: "AliceOnboarding",
+            url: "https://storage.googleapis.com/alicebiometrics.com/releases/ios/AliceOnboarding-\(version).zip",
+            checksum: "\(checksum)"
+        ),
     ]
 )
+
