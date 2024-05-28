@@ -4,7 +4,7 @@
 "onboarding_yes" = "Yes";
 "onboarding_no" = "No";
 "onboarding_alert_title_really_sure_to_exit" = "Incomplete process";
-"onboarding_alert_subtitle_really_sure_to_exit" = "Are you really sure to exit?";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Are you sure you want to exit?";
 "onboarding_ask_for_permissions_title" = "This functionality requires camera access";
 "onboarding_ask_for_permissions_subtitle" = "In the device settings, open the application settings and activate the camera.";
 "onboarding_ask_for_permissions_ok_button" = "Open Settings";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Adding selfie with challenge…";
 "onboarding_selfie_capturer_adding_with_document" = "Adding selfie with document…";
 "onboarding_selfie_capturer_authenticating" = "Authenticating…";
+"onboarding_selfie_capturer_stay_still" = "Stay still";
 "onboarding_selfie_capturer_move_farther" = "Move your device farther";
 "onboarding_selfie_capturer_get_closer" = "Come closer";
 "onboarding_selfie_capturer_no_face" = "No face detected";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Continue on this device";
 "onboarding_qr_info_text" = "We have detected that you are using a PC. PC webcams are often of poor quality. To make the process easier we recommend using a mobile.";
 "onboarding_qr_info_text_extra" = "Do you want to continue the onboarding process on your mobile? You just have to scan this QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Let’s take a selfie";
+"onboarding_tutorial_first_subtitle" = "Don't worry, it'll take just a few seconds.";
+"onboarding_tutorial_second_subtitle" = "But before we start, make sure that:";
+"onboarding_tutorial_first_instruction" = "You are not wearing anything covering your face. You can keep your eyeglasses";
+"onboarding_tutorial_continue_button" = "I’m ready!";

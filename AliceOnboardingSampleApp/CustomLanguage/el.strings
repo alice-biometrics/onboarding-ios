@@ -1,0 +1,221 @@
+"onboarding_click_or_drop" = "Κάντε κλικ ή αποθέστε την εικόνα εδώ";
+"onboarding_close" = "Κλείστε";
+"onboarding_rotate" = "Γυρίστε";
+"onboarding_yes" = "Ναί";
+"onboarding_no" = "Οχι";
+"onboarding_alert_title_really_sure_to_exit" = "Ημιτελής διαδικασία";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Είστε βέβαιοι ότι θέλετε να αφήσετε τη σελίδα;";
+"onboarding_ask_for_permissions_title" = "Αυτή η λειτουργία απαιτεί πρόσβαση στην κάμερα";
+"onboarding_ask_for_permissions_subtitle" = "Στις ρυθμίσεις της συσκευής, ανοίξτε τις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την κάμερα.";
+"onboarding_ask_for_permissions_ok_button" = "Ανοίξτε τις Ρυθμίσεις";
+"onboarding_ask_for_permissions_cancel_button" = "Ματαίωση";
+"onboarding_not_supported_browser_modal_message" = "Δεν συνιστούμε τη χρήση αυτού του προγράμματος περιήγησης. Δοκιμάστε τη διαδικασία χρησιμοποιώντας ένα πιο δημοφιλές πρόγραμμα περιήγησης όπως το Chrome ή το Firefox.";
+"onboarding_not_supported_browser_modal_title" = "Μη υποστηριζόμενος περιηγητής";
+
+//Errors
+"onboarding_error_config" = "Ελέγξτε το OnboardingConfig. Θα πρέπει να επιλέξετε τουλάχιστον ένα Στάδιο Ενσωμάτωσης.";
+"onboarding_error_loading_resources" = "Αργή σύνδεση, δοκιμάστε ξανά αργότερα.";
+"onboarding_error_title_technical" = "Παρουσιάστηκε σφάλμα";
+"onboarding_error_subtitle_technical" = "Παρακαλώ προσπαθήστε ξανά";
+"onboarding_error_title_connection" = "Σφάλμα σύνδεσης";
+"onboarding_error_subtitle_connection" = "Ελέγξτε τη σύνδεσή σας στο Διαδίκτυο.";
+"onboarding_error_storage_is_full_title" = "Λείπει χώρος στο δίσκο";
+"onboarding_error_storage_is_full_subtitle" = "Διαγράψτε ορισμένα αρχεία για να συνεχίσετε.";
+"onboarding_error_title_camera" = "Σφάλμα κάμερας.";
+"onboarding_error_subtitle_camera" = "Παρακαλώ προσπαθήστε ξανά";
+"onboarding_error_title_selfie" = "Σφάλμα κατά την αποστολή selfie";
+"onboarding_error_subtitle_selfie" = "Παρακαλώ προσπαθήστε ξανά";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Έχετε ήδη μια ενεργή selfie";
+"onboarding_error_title_authentication" = "Σφάλμα ελέγχου ταυτότητας.";
+"onboarding_error_subtitle_authentication" = "Παρακαλώ προσπαθήστε ξανά";
+"onboarding_error_subtitle_camera_not_available" = "Βεβαιωθείτε ότι υπάρχει διαθέσιμη κάμερα και ότι έχετε δώσει άδεια πρόσβασης σε αυτήν";
+"onboarding_browser_no_compatible" = "Αυτή η λειτουργία δεν είναι διαθέσιμη σε αυτό το πρόγραμμα περιήγησης, δοκιμάστε το Safari";
+"onboarding_error_user_not_found" = "Ο χρήστης δεν βρέθηκε";
+"onboarding_error_title_file_too_big" = "Το αρχείο είναι πολύ μεγάλο";
+"onboarding_error_subtitle_file_too_big" = "Το μέγιστο επιτρεπόμενο μέγεθος αρχείου είναι {size} MB";
+"onboarding_error_title_file_type_not_supported" = "Το αρχείο δεν υποστηρίζεται";
+"onboarding_error_title_image_type_not_supported" = "Η εικόνα δεν υποστηρίζεται";
+"onboarding_error_subtitle_file_type_not_supported" = "Οι τύποι αρχείων που υποστηρίζονται είναι .jpg, .png, .bmp";
+"onboarding_error_doc_country_not_supported" = "Λυπούμαστε, αυτός ο τύπος εγγράφου δεν υποστηρίζεται για την επιλεγμένη χώρα";
+"onboarding_error_title_challenge_timeout" = "Τέλος χρόνου";
+"onboarding_error_subtitle_challenge_timeout" = "Η πρόκληση δεν έχει ολοκληρωθεί. Παρακαλώ προσπαθήστε ξανά";
+
+//Stages
+"onboarding_stages_title" = "Επαλήθευση ταυτότητας";
+"onboarding_stages_description" = "Ολοκληρώστε τα παρακάτω βήματα για επιτυχή επαλήθευση";
+"onboarding_stages_selfie" = "Selfie";
+"onboarding_stages_selfie_with_document" = "Selfie με έγγραφο";
+"onboarding_stages_selfie_with_challenge" = "Selfie με πρόκληση";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie με πρόκληση";
+"onboarding_stages_document" = "Éγγραφο";
+"onboarding_stages_id_card" = "Εθνική ταυτότητα";
+"onboarding_stages_driver_license" = "Αδεια οδήγησης";
+"onboarding_stages_passport" = "Διαβατήριο";
+"onboarding_stages_residence_permit" = "Αδεια παραμονής";
+"onboarding_stages_health_insurance_card" = "Κάρτα ασφάλισης υγείας";
+"onboarding_stages_already_completed" = "Το στάδιο έχει ήδη ολοκληρωθεί";
+"onboarding_stages_completed" = "Ολοκληρώθηκε";
+"onboarding_stages_inactive" = "Παρακαλώ ολοκληρώστε το προηγούμενο βήμα";
+"onboarding_stages_start_button" = "ΑΡΧΗ";
+"onboarding_stages_done_button" = "ΣΥΝΕΧΕΙΑ";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "Εθνική ταυτότητα";
+"onboarding_sides_title_driver_license" = "Αδεια οδήγησης";
+"onboarding_sides_title_passport" = "Διαβατήριο";
+"onboarding_sides_title_residence_permit" = "Αδεια παραμονής";
+"onboarding_sides_title_health_insurance_card" = "Κάρτα ασφάλισης υγείας";
+"onboarding_sides_subtitle" = "Παρακαλούμε, προχωρήστε στη λήψη εγγράφων.";
+"onboarding_sides_front" = "ΜΠΡΟΣΤΙΝΗ ΠΛΕΥΡΑ";
+"onboarding_sides_back" = "ΠΙΣΩ ΠΛΕΥΡΑ";
+"onboarding_sides_info_page" = "ΣΕΛΙΔΑ ΠΛΗΡΟΦΟΡΙΩΝ";
+"onboarding_sides_tap_here" = "ΠΑΤΗΣΤΕ ΕΔΩ";
+"onboarding_sides_done_button" = "ΣΥΝΕΧΕΙΑ";
+"onboarding_sides_issuing_country" = "Χώρας έκδοσης:";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "Επιλέξτε τη χώρα έκδοσης";
+"onboarding_country_selector_other" = "Λοιπά";
+"onboarding_country_selector_not_selected" = "Επιλέξτε τη χώρα έκδοσης";
+"onboarding_country_selector_start" = "Αρχή";
+"onboarding_country_selector_cancel" = "Ματαίωση";
+"onboarding_country_selector_reload" = "Ανανέωση";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Επιλογή εγγράφου";
+"onboarding_doc_country_selector_issuing_country" = "Χώρα του εγγράφου";
+"onboarding_doc_country_selector_allowed_documents" = "Αποδεκτά έγγραφα";
+"onboarding_doc_country_selector_document_type" = "Είδος αρχείου";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "Δοκιμάστε ξανά τη φωτογραφία";
+"onboarding_doc_capturer_send_photo" = "Στείλτε φωτογραφία";
+"onboarding_doc_capturer_manual" = "Χειροκίνητη λήψη";
+"onboarding_doc_capturer_retry" = "Ξαναδοκιμάσετε";
+"onboarding_doc_capturer_dismiss" = "Ματαίωση";
+"onboarding_doc_capturer_add_sheet" = "Προσθήκη σελίδας";
+"onboarding_doc_capturer_send" = "Αποστολή";
+"onboarding_doc_capturer_info_text" = "Τοποθετήστε το %@ του %@ σας από %@ μέχρι να σαρωθεί αυτόματα";
+"onboarding_doc_capturer_info_text_passport" = "Προσαρμόστε τη σελίδα πληροφοριών διαβατηρίου μέχρι να σαρωθεί αυτόματα";
+"onboarding_doc_capturer_alert_title_timeout" = "Πρόβλημα με την ανάγνωση του εγγράφου σας";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "Βεβαιωθείτε ότι το έγγραφό σας είναι προσαρμοσμένο στο ορθογώνιο";
+"onboarding_doc_capturer_alert_title_generic_problem" = "Πρόβλημα με την ανάγνωση του εγγράφου σας";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Βεβαιωθείτε ότι εμφανίζετε το σωστό έγγραφο (%@ από %@) χωρίς λάμψεις ή σκιές";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Βεβαιωθείτε ότι επιδεικνύετε το διαβατήριό σας χωρίς λάμψεις ή σκιές";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "Λάθος έγγραφο";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Βεβαιωθείτε ότι εμφανίζετε το σωστό έγγραφο (%@ από %@)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Βεβαιωθείτε ότι εμφανίζετε ένα έγκυρο έγγραφο με φωτογραφία";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Μη επιτρεπόμενο έγγραφο";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Βεβαιωθείτε ότι εμφανίζετε ένα από τα ακόλουθα έγγραφα: %@";
+"onboarding_doc_capturer_alert_title_wrong_side" = "Λάθος πλευρά εγγράφου";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Βεβαιωθείτε ότι εμφανίζετε τη δεξιά πλευρά (%@)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "Πρόβλημα με την ανάγνωση του εγγράφου σας";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "Βεβαιωθείτε ότι επιδεικνύετε το έγγραφο σας χωρίς εμφράξεις, λάμψεις ή σκιές";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Επιλέξτε το έγγραφο που χρησιμοποιείτε";
+"onboarding_doc_capturer_front" = "ΜΠΡΟΣΤΙΝΗ ΠΛΕΥΡΑ";
+"onboarding_doc_capturer_back" = "ΠΙΣΩ ΠΛΕΥΡΑ";
+"onboarding_doc_capturer_choose_source" = "Επιλέξτε πηγή";
+"onboarding_doc_capturer_review_back" = "Χρησιμοποιήστε άλλη φωτογραφία";
+"onboarding_doc_capturer_subtitle" = "Παρακαλώ, προχωρήστε στη λήψη";
+"onboarding_doc_capturer_subtitle_review" = "Βεβαιωθείτε ότι η εικόνα περιέχει μόνο ένα έγγραφο και δεν έχει περιστραφεί";
+"onboarding_doc_capturer_title_review" = "Ανασκόπηση εικόνας";
+"onboarding_doc_capturer_review_ok" = "Είναι εντάξει";
+"onboarding_doc_capturer_source_camera" = "ΚΑΜΕΡΑ";
+"onboarding_doc_capturer_source_file" = "Αρχείο";
+"onboarding_doc_capturer_adding" = "Ανέβασμα αρχείου";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "Δεν ήταν δυνατή η λήψη του εγγράφου, δοκιμάστε τη μη αυτόματη λήψη";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "Δεν ήταν δυνατή η καταγραφή του εγγράφου. Δοκιμάστε ξανά ή χρησιμοποιήστε τη μη αυτόματη λήψη";
+"onboarding_doc_capturer_qr_message" = "Μην ανησυχείτε, μπορείτε να συνεχίσετε τη διαδικασία από το smartphone σας. Σαρώστε το QR!";
+"onboarding_doc_capturer_qr_or_you_can" = "ή μπορείτε";
+"onboarding_doc_capturer_check_position" = "Προσαρμόστε το έγγραφο σε ορθογώνιο";
+"onboarding_doc_capturer_front_check_position" = "Προσαρμόστε το έγγραφο σε ορθογώνιο";
+"onboarding_doc_capturer_back_check_position" = "Προσαρμόστε το έγγραφο σε ορθογώνιο";
+"onboarding_doc_capturer_processing_stay_still" = "Λήψη… Μείνετε ακίνητοι";
+"onboarding_error_max_number_of_documents" = "Έχετε υπερβεί τον μέγιστο αριθμό προσπαθειών";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Κρατήστε το iPhone σας κοντά στο έγγραφό σας και βεβαιωθείτε ότι προεξέχει εν μέρει από πάνω";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "Τοποθετήστε το έγγραφό σας στο πίσω μέρος του τηλεφώνου σας";
+"onboarding_nfc_doc_capturer_finding_antenna" = "Ευθυγραμμίστε το έγγραφο με την κεραία NFC του τηλεφώνου σας. Εάν δεν ξέρετε πού βρίσκεται, σύρετε αργά το έγγραφό σας μέχρι να δονηθεί ή να χτυπήσει το τηλέφωνο.";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "Σύρετε αργά το έγγραφό σας μέχρι να δονηθεί ή να χτυπήσει το τηλέφωνο.";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Κρατήστε το έγγραφο ακίνητο μέχρι να ολοκληρωθεί η ανάγνωση";
+"onboarding_nfc_doc_capturer_tutorial" = "Φροντιστήριο";
+"onboarding_nfc_doc_capturer_start_reading" = "ΑΡΧΗ";
+"onboarding_nfc_doc_capturer_expiry" = "Λήξη";
+"onboarding_nfc_doc_capturer_authenticating" = "Έλεγχος ταυτότητας με έγγραφο...";
+"onboarding_nfc_doc_capturer_reading" = "Διαβάζεται... μην μετακινήσετε το έγγραφό σας";
+"onboarding_nfc_doc_capturer_success" = "Το έγγραφο διαβάστηκε με επιτυχία.";
+"onboarding_nfc_doc_capturer_error_connection_title" = "Σφάλμα σύνδεσης";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "Μην μετακινείτε το έγγραφό σας κατά τη διαδικασία ανάγνωσης";
+"onboarding_nfc_doc_capturer_error_generic_title" = "Πρόβλημα με την ανάγνωση του εγγράφου σας";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Παρακαλώ προσπαθήστε ξανά";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Μη υποστηριζόμενο έγγραφο";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Λυπούμαστε, δεν υποστηρίζουμε το έγγραφό σας αυτήν τη στιγμή";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Λάθος έγγραφο";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Βεβαιωθείτε ότι σαρώνετε το σωστό έγγραφο";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "Το NFC είναι απενεργοποιημένο";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "Πρέπει να ενεργοποιήσετε τη μονάδα NFC για ανάγνωση. Θέλετε να το ενεργοποιήσετε τώρα;";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Ενεργοποίηση";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "Προσθήκη selfie…";
+"onboarding_selfie_capturer_adding_with_challenge" = "Προσθήκη selfie με πρόκληση…";
+"onboarding_selfie_capturer_adding_with_document" = "Προσθήκη selfie με έγγραφο…";
+"onboarding_selfie_capturer_authenticating" = "Έλεγχος ταυτότητας…";
+"onboarding_selfie_capturer_stay_still" = "Μείνεται ακίνητοι";
+"onboarding_selfie_capturer_move_farther" = "Μετακινήστε τη συσκευή σας πιο μακριά";
+"onboarding_selfie_capturer_get_closer" = "Ελάτε πιο κοντά";
+"onboarding_selfie_capturer_no_face" = "Δεν εντοπίστηκε πρόσωπο";
+"onboarding_selfie_capturer_look_camera" = "Κοιτάξτε την κάμερα";
+"onboarding_selfie_capturer_center_face" = "Κεντράρετε το πρόσωπό σας στο οβάλ";
+"onboarding_selfie_capturer_device_elevation" = "Κρατήστε τη συσκευή σας στο ύψος των ματιών σας";
+"onboarding_selfie_cancel" = "Ματαίωση";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Κεντράρετε το πρόσωπό σας στο οβάλ";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Δεν εντοπίστηκε πρόσωπο";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Φροντίστε να διατηρείτε το πρόσωπό σας στο οβάλ σε καλές συνθήκες φωτισμού καθ' όλη τη διάρκεια της διαδικασίας";
+"onboarding_selfie_capturer_face_detected_tooltip" = "Κάντε κλικ εδώ για να τραβήξετε μια φωτογραφία!";
+"onboarding_selfie_capturer_subtitle" = "Παρακαλώ, προχωρήστε στη λήψη";
+"onboarding_selfie_capturer_subtitle_review" = "Παρακαλώ, βεβαιωθείτε ότι η εικόνα σας είναι καλή";
+"onboarding_selfie_with_document_capturer_center_face" = "Παρακαλούμε, κεντράρετε το πρόσωπό σας στο οβάλ και το έγγραφο στο ορθογώνιο";
+"onboarding_selfie_capturer_button_tutorial" = "Κατανοητό";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Τώρα πρέπει να βγάλετε μια selfie. Ακολουθήστε τις σχετικές οδηγίες";
+"onboarding_selfie_capturer_challenge_document_info" = "Τοποθετήστε την μπροστινή πλευρά της ταυτότητας σας στο ορθογώνιο";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Πολύ μακριά";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Πολύ κοντά";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Λάθος θέση";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Αφύσικο χρώμα";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Αποφύγετε τον έγχρωμο φωτισμό στο πρόσωπό σας";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Χαμηλή φωτεινότητα";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Βεβαιωθείτε ότι ο φωτισμός στο πρόσωπό σας είναι λογικός και ομοιόμορφος";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Υπεροβολικά φωτεινό";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Βεβαιωθείτε ότι ο φωτισμός στο πρόσωπό σας είναι λογικός και ομοιόμορφος, χωρίς λάμψη";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Θολή";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Βεβαιωθείτε ότι το πρόσωπό σας φαίνεται καθαρά και αποφύγετε τη βρωμιά ή τα προστατευτικά στην κάμερα";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "Επιλέξτε ένα PDF ή μια εικόνα";
+"onboarding_other_trusted_docs_capturer_subtitle" = "Παρακαλώ, καταγράψτε το έγγραφό σας";
+"onboarding_other_trusted_docs_click_or_drop" = "Κάντε κλικ ή αποθέστε το αρχείο εδώ";
+"onboarding_other_trusted_docs_capturer_accept" = "Αποδέχομαι";
+"onboarding_other_trusted_docs_capturer_cancel" = "Ματαίωση";
+"onboarding_other_trusted_docs_capturer_continue" = "Συνέχεια";
+"onboarding_other_trusted_docs_capturer_camera" = "Κάμερα";
+"onboarding_other_trusted_docs_capturer_images_limit" = "Συμπληρώθηκε ο μέγιστος αριθμός εικόνων";
+"onboarding_other_trusted_docs_capturer_documents" = "Εγγραφα";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "Πολύ μεγάλο PDF";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Το αρχείο δεν μπορεί να υπερβαίνει τα 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Επισυνάψτε περισσότερες εικόνες";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "Το τελευταίο έγγραφο που ανέβηκε ήταν μια εικόνα, συνεχίστε να ανεβάζετε εικόνες";
+"onboarding_other_trusted_docs_error" = "Πρόβλημα με το μεταφορτωμένο αρχείο";
+
+//QR view
+"onboarding_qr_button" = "Συνεχίστε σε αυτήν τη συσκευή";
+"onboarding_qr_info_text" = "Διαπιστώσαμε ότι χρησιμοποιείτε υπολογιστή. Οι κάμερες για υπολογιστή είναι συχνά κακής ποιότητας. Για να διευκολυνθεί η διαδικασία, συνιστούμε να χρησιμοποιήσετε ένα κινητό.";
+"onboarding_qr_info_text_extra" = "Θέλετε να συνεχίσετε τη διαδικασία ενσωμάτωσης στο κινητό σας; Απλώς πρέπει να σαρώσετε αυτό το QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Είμαι έτοιμος!";
+"onboarding_tutorial_first_subtitle" = "Μην ανησυχείτε, θα χρειαστούν μόνο λίγα δευτερόλεπτα.";
+"onboarding_tutorial_second_subtitle" = "Αλλά πριν ξεκινήσουμε, βεβαιωθείτε ότι:";
+"onboarding_tutorial_first_instruction" = "Δεν φοράς τίποτα που να καλύπτει το πρόσωπό σου. Μπορείτε να κρατήσετε τα γυαλιά σας";
+"onboarding_tutorial_continue_button" = "Είμαι έτοιμος!";

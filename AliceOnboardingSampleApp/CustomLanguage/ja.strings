@@ -4,7 +4,7 @@
 "onboarding_yes" = "はい";
 "onboarding_no" = "いいえ";
 "onboarding_alert_title_really_sure_to_exit" = "不完全なプロセス";
-"onboarding_alert_subtitle_really_sure_to_exit" = "本当に終了しますか？";
+"onboarding_alert_subtitle_really_sure_to_exit" = "本当に終了してもよろしいですか？";
 "onboarding_ask_for_permissions_title" = "この機能は、カメラアクセスが必要としています";
 "onboarding_ask_for_permissions_subtitle" = "デバイス設定で、アプリケーション設定を開き、カメラをアクティブにしてください。";
 "onboarding_ask_for_permissions_ok_button" = "設定を開く";
@@ -95,7 +95,7 @@
 "onboarding_doc_capturer_dismiss" = "キャンセル";
 "onboarding_doc_capturer_add_sheet" = "シートを追加します";
 "onboarding_doc_capturer_send" = "送信";
-"onboarding_doc_capturer_info_text" = "％3 $ sからの％2 $ sの％1 $ sを自動的にスキャンするまで適合します";
+"onboarding_doc_capturer_info_text" = "自動的にスキャンされるまで文書を調整します";
 "onboarding_doc_capturer_info_text_passport" = "パスポート情報ページが自動的にスキャンされるまで適合します";
 "onboarding_doc_capturer_alert_title_timeout" = "あなたのドキュメントを読むのに問題";
 "onboarding_doc_capturer_alert_subtitle_timeout" = "ドキュメントが長方形に調整されていることを確認してください";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "チャレンジでセルフィーを追加する…";
 "onboarding_selfie_capturer_adding_with_document" = "ドキュメントで自撮りを追加する…";
 "onboarding_selfie_capturer_authenticating" = "認証中…";
+"onboarding_selfie_capturer_stay_still" = "じっとしてて";
 "onboarding_selfie_capturer_move_farther" = "デバイスをさらに移動します";
 "onboarding_selfie_capturer_get_closer" = "もっと近くに来て";
 "onboarding_selfie_capturer_no_face" = "顔は検出されません";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "このデバイスで続行";
 "onboarding_qr_info_text" = "PC を使用していることを検出しました。 PC の Web カメラの品質はよくありません。 プロセスを簡単にするために、モバイルを使用することをお勧めします。";
 "onboarding_qr_info_text_extra" = "モバイルでオンボーディング プロセスを続行しますか? この QR をスキャンするだけです。";
+
+//Tutorial view
+"onboarding_tutorial_title" = "セルフィーを撮りましょう";
+"onboarding_tutorial_first_subtitle" = "心配しないでください。ほんの数秒で完了します。";
+"onboarding_tutorial_second_subtitle" = "ただし、始める前に次のことを確認してください。";
+"onboarding_tutorial_first_instruction" = "顔を覆うものは何も着ていません。 メガネを保管できる";
+"onboarding_tutorial_continue_button" = "準備できました！";

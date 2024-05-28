@@ -4,7 +4,7 @@
 "onboarding_yes" = "Tak";
 "onboarding_no" = "Nie";
 "onboarding_alert_title_really_sure_to_exit" = "Niekompletny proces";
-"onboarding_alert_subtitle_really_sure_to_exit" = "Czy na pewno chcesz wyjść?";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Czy jesteś pewny że chcesz wyjść?";
 "onboarding_ask_for_permissions_title" = "Ta funkcja wymaga dostępu do kamery";
 "onboarding_ask_for_permissions_subtitle" = "W ustawieniach urządzenia otwórz ustawienia aplikacji i włącz aparat.";
 "onboarding_ask_for_permissions_ok_button" = "Otwórz ustawienia";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Dodaję selfie z wyzwaniem…";
 "onboarding_selfie_capturer_adding_with_document" = "Dodaję selfie z dokumentem…";
 "onboarding_selfie_capturer_authenticating" = "Uwierzytelnianie ...";
+"onboarding_selfie_capturer_stay_still" = "Nie ruszaj się";
 "onboarding_selfie_capturer_move_farther" = "Przesuń swoje urządzenie dalej";
 "onboarding_selfie_capturer_get_closer" = "Podejdź bliżej";
 "onboarding_selfie_capturer_no_face" = "Brak wykrycia twarzy";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Kontynuuj na tym urządzeniu";
 "onboarding_qr_info_text" = "Wykryliśmy, że używasz komputera. Kamery komputerowe są często słabej jakości. Aby ułatwić ten proces, zalecamy korzystanie z telefonu komórkowego.";
 "onboarding_qr_info_text_extra" = "Czy chcesz kontynuować proces wdrażania na telefonie komórkowym? Wystarczy zeskanować ten kod QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Zróbmy sobie selfie";
+"onboarding_tutorial_first_subtitle" = "Nie martw się, zajmie to tylko kilka sekund.";
+"onboarding_tutorial_second_subtitle" = "Ale zanim zaczniemy, upewnij się, że:";
+"onboarding_tutorial_first_instruction" = "Nie masz na sobie niczego zakrywającego twarz. Możesz zatrzymać okulary";
+"onboarding_tutorial_continue_button" = "Jestem gotowy!";

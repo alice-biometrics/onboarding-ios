@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Adicionando selfie com desafio…";
 "onboarding_selfie_capturer_adding_with_document" = "Adicionando selfie com documento…";
 "onboarding_selfie_capturer_authenticating" = "Autenticando…";
+"onboarding_selfie_capturer_stay_still" = "Fique quieto";
 "onboarding_selfie_capturer_move_farther" = "Afaste o dispositivo";
 "onboarding_selfie_capturer_get_closer" = "Aproxime o dispositivo";
 "onboarding_selfie_capturer_no_face" = "Faz não detetada";
@@ -185,9 +186,9 @@
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Cor não natural";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite iluminação colorida em seu rosto";
 "onboarding_selfie_capturer_iqa_feedback_underexposed" = "Baixa iluminação";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Certifique-se de que a iluminação em seu rosto seja razoável e uniforme";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Iluminação excessiva";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem brilho";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem reflexos";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Certifique-se de que seu rosto esteja nítido e evite sujeira ou protetores na câmera";
 
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Continuar neste dispositivo";
 "onboarding_qr_info_text" = "Detectamos que você está usando um PC. As webcams de PC geralmente são de baixa qualidade. Para facilitar o processo, recomendamos o uso de um celular.";
 "onboarding_qr_info_text_extra" = "Deseja continuar o processo de integração no seu celular? Você só precisa escanear este QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Vamos tirar uma selfie";
+"onboarding_tutorial_first_subtitle" = "Não se preocupe, isso levará apenas alguns segundos.";
+"onboarding_tutorial_second_subtitle" = "Mas antes de começarmos, certifique-se de que:";
+"onboarding_tutorial_first_instruction" = "Você não está usando nada cobrindo seu rosto. Você pode manter seus óculos";
+"onboarding_tutorial_continue_button" = "Estou pronto!";

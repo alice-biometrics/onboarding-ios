@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Selfie erronkarekin gehitzen...";
 "onboarding_selfie_capturer_adding_with_document" = "Selfie dokumentuarekin gehitzen…";
 "onboarding_selfie_capturer_authenticating" = "Autentifikatzen ...";
+"onboarding_selfie_capturer_stay_still" = "Egon geldi";
 "onboarding_selfie_capturer_move_farther" = "Handitu gailuan";
 "onboarding_selfie_capturer_get_closer" = "Hurbildu gailura";
 "onboarding_selfie_capturer_no_face" = "Ez detektatu aurpegia";
@@ -185,7 +186,7 @@
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Kolore ez naturala";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Saihestu aurpegian koloretako argiztapena";
 "onboarding_selfie_capturer_iqa_feedback_underexposed" = "Argiztapen baxua";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ziurtatu aurpegiko argiztapena arrazoizkoa eta uniformea ​​dela";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ziurtatu aurpegiko argiztapena arrazoizkoa eta berdina dela";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Gehiegizko argiztapena";
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Zorroztasun falta";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Jarraitu gailu honetan";
 "onboarding_qr_info_text" = "Ordenagailu bat erabiltzen ari zarela detektatu dugu. Ordenagailuko kamerak kalitate txarrekoak izaten dira. Prozesua errazteko mugikorra erabiltzea gomendatzen dugu.";
 "onboarding_qr_info_text_extra" = "Sartze-prozesua mugikorrean jarraitu nahi duzu? QR hau eskaneatu besterik ez duzu egin behar:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Egin dezagun selfie bat";
+"onboarding_tutorial_first_subtitle" = "Ez kezkatu, segundo gutxi batzuk besterik ez dira izango.";
+"onboarding_tutorial_second_subtitle" = "Baina hasi baino lehen, ziurtatu hau:";
+"onboarding_tutorial_first_instruction" = "Ez duzu ezer jantzita aurpegia estaltzeko. Betaurrekoak gorde ditzakezu";
+"onboarding_tutorial_continue_button" = "Prest nago!";

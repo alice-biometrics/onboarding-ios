@@ -4,7 +4,7 @@
 "onboarding_yes" = "Evet";
 "onboarding_no" = "Hayır";
 "onboarding_alert_title_really_sure_to_exit" = "Eksik süreç";
-"onboarding_alert_subtitle_really_sure_to_exit" = "Çıkacağına gerçekten emin misin?";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Çıkmak istediğine emin misin?";
 "onboarding_ask_for_permissions_title" = "Bu işlevsellik kamera erişimi gerektirir";
 "onboarding_ask_for_permissions_subtitle" = "Cihaz ayarlarında, uygulama ayarlarını açın ve kamerayı etkinleştirin.";
 "onboarding_ask_for_permissions_ok_button" = "Ayarları aç";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Meydan okuma ile selfie ekleniyor…";
 "onboarding_selfie_capturer_adding_with_document" = "Belgeyle selfie ekleniyor…";
 "onboarding_selfie_capturer_authenticating" = "Kimlik doğrulanıyor...";
+"onboarding_selfie_capturer_stay_still" = "Sabit kal";
 "onboarding_selfie_capturer_move_farther" = "Cihazınızı daha uzağa taşıyın";
 "onboarding_selfie_capturer_get_closer" = "Yaklaş";
 "onboarding_selfie_capturer_no_face" = "Yüz tespit edilmedi";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Bu cihazda devam et";
 "onboarding_qr_info_text" = "PC kullandığınızı tespit ettik. PC web kameraları genellikle kalitesizdir. İşlemi kolaylaştırmak için bir cep telefonu kullanmanızı öneririz.";
 "onboarding_qr_info_text_extra" = "Katılım sürecine cep telefonunuzdan devam etmek istiyor musunuz? Bu QR'yi taramanız yeterlidir:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Haydi bir selfie çekelim";
+"onboarding_tutorial_first_subtitle" = "Endişelenmeyin, sadece birkaç saniye sürecektir.";
+"onboarding_tutorial_second_subtitle" = "Ancak başlamadan önce şunlardan emin olun:";
+"onboarding_tutorial_first_instruction" = "Yüzünüzü kapatan hiçbir şey giymiyorsunuz. Gözlüklerini saklayabilirsin";
+"onboarding_tutorial_continue_button" = "Ben hazırım!";

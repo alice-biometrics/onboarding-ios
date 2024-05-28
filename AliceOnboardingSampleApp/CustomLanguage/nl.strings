@@ -95,20 +95,20 @@
 "onboarding_doc_capturer_dismiss" = "Annuleren";
 "onboarding_doc_capturer_add_sheet" = "Vel toevoegen";
 "onboarding_doc_capturer_send" = "Versturen";
-"onboarding_doc_capturer_info_text" = "Plaats de %1 $ s van uw %2 $ s van %3 $ s totdat deze automatisch wordt gescand";
+"onboarding_doc_capturer_info_text" = "Plaats de %@ van uw %@ van %@ totdat deze automatisch wordt gescand";
 "onboarding_doc_capturer_info_text_passport" = "Plaats uw paspoortinformatiepagina totdat deze automatisch is gescand";
 "onboarding_doc_capturer_alert_title_timeout" = "Probleem met het lezen van uw document";
 "onboarding_doc_capturer_alert_subtitle_timeout" = "Zorg ervoor dat uw document is aangepast aan de rechthoek";
 "onboarding_doc_capturer_alert_title_generic_problem" = "Probleem met het lezen van uw document";
-"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Zorg ervoor dat u het juiste document ( %1 $ s van %2 $ s) laat zien zonder occlusies, verblinding of schaduwen";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Zorg ervoor dat u het juiste document ( %@ van %@) laat zien zonder occlusies, verblinding of schaduwen";
 "onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Zorg ervoor dat u uw paspoort laat zien zonder occlusies, verblinding of schaduwen";
 "onboarding_doc_capturer_alert_title_wrong_doc" = "Verkeerd document";
-"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Zorg ervoor dat u het juiste document laat zien ( %1 $ s van %2 $ s)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Zorg ervoor dat u het juiste document laat zien ( %@ van %@)";
 "onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Zorg ervoor dat u een geldig document met foto laat zien";
 "onboarding_doc_capturer_alert_title_not_allowed_doc" = "Niet toegestaan ​​document";
-"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Zorg ervoor dat u een van de volgende documenten laat zien: %1 $ s";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Zorg ervoor dat u een van de volgende documenten laat zien: %@";
 "onboarding_doc_capturer_alert_title_wrong_side" = "Verkeerde documentzijde";
-"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Zorg ervoor dat u de rechterkant laat zien (%1 $ s)";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Zorg ervoor dat u de rechterkant laat zien (%@)";
 "onboarding_doc_capturer_alert_title_poor_quality" = "Probleem met het lezen van uw document";
 "onboarding_doc_capturer_alert_subtitle_poor_quality" = "Zorg ervoor dat u uw document laat zien zonder occlusies, verblinding of schaduwen";
 "onboarding_doc_capturer_alert_subtitle_select_document" = "Selecteer het document dat u gebruikt";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Selfie toevoegen met uitdaging ...";
 "onboarding_selfie_capturer_adding_with_document" = "Selfie toevoegen met document ...";
 "onboarding_selfie_capturer_authenticating" = "Authenticeren ...";
+"onboarding_selfie_capturer_stay_still" = "Blijf stil";
 "onboarding_selfie_capturer_move_farther" = "Verplaats uw apparaat verder";
 "onboarding_selfie_capturer_get_closer" = "Kom dichterbij";
 "onboarding_selfie_capturer_no_face" = "Geen gezicht gedetecteerd";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Ga verder op dit apparaat";
 "onboarding_qr_info_text" = "We hebben gedetecteerd dat u een pc gebruikt. PC -webcams zijn vaak van slechte kwaliteit. Om het proces eenvoudiger te maken, raden we aan om een ​​mobiel te gebruiken.";
 "onboarding_qr_info_text_extra" = "Wilt u doorgaan met het onboarding -proces op uw mobiel? Je moet gewoon deze QR scannen:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Laten we een selfie maken";
+"onboarding_tutorial_first_subtitle" = "Maak je geen zorgen, het duurt maar een paar seconden.";
+"onboarding_tutorial_second_subtitle" = "Maar voordat we beginnen, zorg ervoor dat:";
+"onboarding_tutorial_first_instruction" = "Je draagt niets dat je gezicht bedekt. Je bril mag je houden";
+"onboarding_tutorial_continue_button" = "Ik ben klaar!";

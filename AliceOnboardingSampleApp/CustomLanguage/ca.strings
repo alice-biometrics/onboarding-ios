@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Afegint una selfie amb un repte...";
 "onboarding_selfie_capturer_adding_with_document" = "S'està afegint una selfie amb el document...";
 "onboarding_selfie_capturer_authenticating" = "Autenticant…";
+"onboarding_selfie_capturer_stay_still" = "Queda't quiet";
 "onboarding_selfie_capturer_move_farther" = "Allunyi el dispositiu";
 "onboarding_selfie_capturer_get_closer" = "Acosta't al dispositiu";
 "onboarding_selfie_capturer_no_face" = "Cara no detectada";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Continueu en aquest dispositiu";
 "onboarding_qr_info_text" = "Hem detectat que estàs utilitzant un ordinador. Les càmeres web de PC solen ser de mala qualitat. Per facilitar el procés us recomanem utilitzar un mòbil.";
 "onboarding_qr_info_text_extra" = "Vols continuar el procés d'incorporació al teu mòbil? Només has d'escanejar aquest QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Fem una selfie";
+"onboarding_tutorial_first_subtitle" = "No us preocupeu, només trigarà uns segons.";
+"onboarding_tutorial_second_subtitle" = "Però abans de començar, assegureu-vos que:";
+"onboarding_tutorial_first_instruction" = "No porteu res que us cobreixi la cara. Pots quedar-te amb les ulleres";
+"onboarding_tutorial_continue_button" = "Estic preparat!";

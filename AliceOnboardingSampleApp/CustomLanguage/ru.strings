@@ -4,7 +4,7 @@
 "onboarding_yes" = "да";
 "onboarding_no" = "Нет";
 "onboarding_alert_title_really_sure_to_exit" = "Незавершенный процесс";
-"onboarding_alert_subtitle_really_sure_to_exit" = "Вы действительно уверены, что выйдете?";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Вы уверены, что хотите выйти?";
 "onboarding_ask_for_permissions_title" = "Эта функция требует доступа к камере.";
 "onboarding_ask_for_permissions_subtitle" = "В настройках устройства откройте настройки приложения и активируйте камеру.";
 "onboarding_ask_for_permissions_ok_button" = "Открыть настройки";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Добавление селфи с вызовом…";
 "onboarding_selfie_capturer_adding_with_document" = "Добавление селфи с документом…";
 "onboarding_selfie_capturer_authenticating" = "Осуществляем вход…";
+"onboarding_selfie_capturer_stay_still" = "Оставайся на месте";
 "onboarding_selfie_capturer_move_farther" = "Переместите свое устройство дальше";
 "onboarding_selfie_capturer_get_closer" = "Подойти ближе";
 "onboarding_selfie_capturer_no_face" = "Не обнаружено лица";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Продолжить на этом устройстве";
 "onboarding_qr_info_text" = "Мы обнаружили, что вы используете ПК. Веб-камеры ПК часто имеют низкое качество. Чтобы упростить процесс, мы рекомендуем использовать мобильный телефон.";
 "onboarding_qr_info_text_extra" = "Вы хотите продолжить процесс регистрации на своем мобильном телефоне? Вам просто нужно отсканировать этот QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Давай сделаем селфи";
+"onboarding_tutorial_first_subtitle" = "Не волнуйтесь, это займет всего несколько секунд.";
+"onboarding_tutorial_second_subtitle" = "Но прежде чем мы начнем, убедитесь, что:";
+"onboarding_tutorial_first_instruction" = "На вас нет ничего, закрывающего лицо. Вы можете оставить свои очки";
+"onboarding_tutorial_continue_button" = "Я готов!";

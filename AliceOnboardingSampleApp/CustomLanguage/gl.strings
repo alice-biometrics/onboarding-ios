@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Engadindo selfie con desafío...";
 "onboarding_selfie_capturer_adding_with_document" = "Engadindo selfie con documento...";
 "onboarding_selfie_capturer_authenticating" = "Autenticando…";
+"onboarding_selfie_capturer_stay_still" = "Quede quieto";
 "onboarding_selfie_capturer_move_farther" = "Afasta o dispositivo";
 "onboarding_selfie_capturer_get_closer" = "Achéguegate ao dispositivo";
 "onboarding_selfie_capturer_no_face" = "Cara non detectada";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Continúa neste dispositivo";
 "onboarding_qr_info_text" = "Detectamos que estás a usar un PC. As cámaras web de PC adoitan ser de mala calidade. Para facilitar o proceso recomendamos utilizar un móbil.";
 "onboarding_qr_info_text_extra" = "Queres continuar co proceso de incorporación no teu móbil? Só tes que escanear este QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Imos facer un selfie";
+"onboarding_tutorial_first_subtitle" = "Non te preocupes, só levará uns segundos.";
+"onboarding_tutorial_second_subtitle" = "Pero antes de comezar, asegúrate de que:";
+"onboarding_tutorial_first_instruction" = "Non levas nada que cobre a cara. Podes gardar os teus lentes";
+"onboarding_tutorial_continue_button" = "Estou listo!";

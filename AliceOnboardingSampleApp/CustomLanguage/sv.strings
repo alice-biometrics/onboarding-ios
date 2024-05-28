@@ -1,0 +1,221 @@
+"onboarding_click_or_drop" = "Klicka eller släpp bilden här";
+"onboarding_close" = "Stänga";
+"onboarding_rotate" = "Rotera";
+"onboarding_yes" = "Ja";
+"onboarding_no" = "Nej";
+"onboarding_alert_title_really_sure_to_exit" = "Ofullständig process";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Är du verkligen säker på att du vill avsluta?";
+"onboarding_ask_for_permissions_title" = "Denna funktion kräver kameraåtkomst";
+"onboarding_ask_for_permissions_subtitle" = "Öppna applikationsinställningarna i enhetsinställningarna och aktivera kameran.";
+"onboarding_ask_for_permissions_ok_button" = "Öppna Inställningar";
+"onboarding_ask_for_permissions_cancel_button" = "Annullera";
+"onboarding_not_supported_browser_modal_message" = "Vi rekommenderar inte att du använder den här webbläsaren. Prova processen med en mer populär webbläsare som Chrome eller Firefox.";
+"onboarding_not_supported_browser_modal_title" = "Webbläsare som inte stöds";
+
+//Errors
+"onboarding_error_config" = "Vänligen granska din OnboardingConfig. Du bör välja minst en onboarding-scen.";
+"onboarding_error_loading_resources" = "Långsam anslutning, försök igen senare.";
+"onboarding_error_title_technical" = "Ett fel uppstod";
+"onboarding_error_subtitle_technical" = "Var god försök igen";
+"onboarding_error_title_connection" = "Anslutningsfel";
+"onboarding_error_subtitle_connection" = "Kontrollera din internetanslutning.";
+"onboarding_error_storage_is_full_title" = "Saknar diskutrymme";
+"onboarding_error_storage_is_full_subtitle" = "Vänligen radera några filer för att fortsätta.";
+"onboarding_error_title_camera" = "Kamerafel.";
+"onboarding_error_subtitle_camera" = "Var god försök igen";
+"onboarding_error_title_selfie" = "Det gick inte att skicka selfie";
+"onboarding_error_subtitle_selfie" = "Var god försök igen";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Du har redan en aktiv selfie";
+"onboarding_error_title_authentication" = "Verifieringsfel.";
+"onboarding_error_subtitle_authentication" = "Var god försök igen";
+"onboarding_error_subtitle_camera_not_available" = "Kontrollera att en kamera är tillgänglig och att du har gett tillstånd att komma åt den";
+"onboarding_browser_no_compatible" = "Denna funktion är inte tillgänglig i den här webbläsaren, försök med Safari";
+"onboarding_error_user_not_found" = "Användaren hittades inte";
+"onboarding_error_title_file_too_big" = "Filen är för stor";
+"onboarding_error_subtitle_file_too_big" = "Högsta tillåtna filstorlek är {size} MB";
+"onboarding_error_title_file_type_not_supported" = "Filen stöds inte";
+"onboarding_error_title_image_type_not_supported" = "Bilden stöds inte";
+"onboarding_error_subtitle_file_type_not_supported" = "Filtyper som stöds är .jpg, .png, .bmp";
+"onboarding_error_doc_country_not_supported" = "Tyvärr, den här typen av dokument stöds inte för det valda landet";
+"onboarding_error_title_challenge_timeout" = "Paus";
+"onboarding_error_subtitle_challenge_timeout" = "Utmaningen har inte slutförts. Var god försök igen";
+
+//Stages
+"onboarding_stages_title" = "Identitetsverifiering";
+"onboarding_stages_description" = "Vänligen slutför följande steg för en framgångsrik verifiering";
+"onboarding_stages_selfie" = "Selfie";
+"onboarding_stages_selfie_with_document" = "Selfie med dokument";
+"onboarding_stages_selfie_with_challenge" = "Selfie med utmaning";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie med utmaning";
+"onboarding_stages_document" = "Dokumentera";
+"onboarding_stages_id_card" = "Nationellt id-kort";
+"onboarding_stages_driver_license" = "Körkort";
+"onboarding_stages_passport" = "Pass";
+"onboarding_stages_residence_permit" = "Uppehållstillstånd";
+"onboarding_stages_health_insurance_card" = "Sjukförsäkringskort";
+"onboarding_stages_already_completed" = "Etappen redan avslutad";
+"onboarding_stages_completed" = "Avslutad";
+"onboarding_stages_inactive" = "Vänligen slutför föregående steg";
+"onboarding_stages_start_button" = "START";
+"onboarding_stages_done_button" = "FORTSÄTTA";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "Nationellt id-kort";
+"onboarding_sides_title_driver_license" = "Körkort";
+"onboarding_sides_title_passport" = "Pass";
+"onboarding_sides_title_residence_permit" = "Uppehållstillstånd";
+"onboarding_sides_title_health_insurance_card" = "Sjukförsäkringskort";
+"onboarding_sides_subtitle" = "Vänligen fortsätt med dokumentinsamling.";
+"onboarding_sides_front" = "FRAMSIDA";
+"onboarding_sides_back" = "BAKSIDA";
+"onboarding_sides_info_page" = "INFOSIDA";
+"onboarding_sides_tap_here" = "TRYCK HÄR";
+"onboarding_sides_done_button" = "FORTSÄTTA";
+"onboarding_sides_issuing_country" = "Utfärdande land:";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "Välj utfärdande land";
+"onboarding_country_selector_other" = "Övrig";
+"onboarding_country_selector_not_selected" = "Välj utfärdande land";
+"onboarding_country_selector_start" = "Start";
+"onboarding_country_selector_cancel" = "Annullera";
+"onboarding_country_selector_reload" = "Ladda om";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Val av dokument";
+"onboarding_doc_country_selector_issuing_country" = "Dokumentets land";
+"onboarding_doc_country_selector_allowed_documents" = "Godkända dokument";
+"onboarding_doc_country_selector_document_type" = "Dokumenttyp";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "Försök med foto igen";
+"onboarding_doc_capturer_send_photo" = "Skicka bild";
+"onboarding_doc_capturer_manual" = "Manuell infångning";
+"onboarding_doc_capturer_retry" = "Försök igen";
+"onboarding_doc_capturer_dismiss" = "Annullera";
+"onboarding_doc_capturer_add_sheet" = "Lägg till ark";
+"onboarding_doc_capturer_send" = "Skicka";
+"onboarding_doc_capturer_info_text" = "Passa %@ av dina %@ från %@ tills det skannas automatiskt";
+"onboarding_doc_capturer_info_text_passport" = "Passa in din passinfosida tills den automatiskt skannas";
+"onboarding_doc_capturer_alert_title_timeout" = "Problem med att läsa ditt dokument";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "Se till att ditt dokument är anpassat till rektangeln";
+"onboarding_doc_capturer_alert_title_generic_problem" = "Problem med att läsa ditt dokument";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Se till att du visar rätt dokument (%@ från %@) utan ocklusioner, bländning eller skuggor";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Se till att du visar ditt pass utan ocklusioner, bländning eller skuggor";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "Fel dokument";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Se till att du visar rätt dokument (%@ från %@)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Se till att du visar ett giltigt dokument med foto";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Ej tillåtet dokument";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Se till att du visar något av följande dokument: %@";
+"onboarding_doc_capturer_alert_title_wrong_side" = "Fel dokumentsida";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Se till att du visar höger sida (%@)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "Problem med att läsa ditt dokument";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "Se till att du visar ditt dokument utan ocklusioner, bländning eller skuggor";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Välj det dokument du använder";
+"onboarding_doc_capturer_front" = "FRAMSIDA";
+"onboarding_doc_capturer_back" = "BAKSIDA";
+"onboarding_doc_capturer_choose_source" = "Välj källa";
+"onboarding_doc_capturer_review_back" = "Använd ett annat foto";
+"onboarding_doc_capturer_subtitle" = "Snälla, fortsätt med fångsten";
+"onboarding_doc_capturer_subtitle_review" = "Se till att bilden bara innehåller ett dokument och att den inte är roterad";
+"onboarding_doc_capturer_title_review" = "Bildgranskning";
+"onboarding_doc_capturer_review_ok" = "Det är ok";
+"onboarding_doc_capturer_source_camera" = "Kamera";
+"onboarding_doc_capturer_source_file" = "Fil";
+"onboarding_doc_capturer_adding" = "Laddar upp fil";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "Dokumentet kunde inte fångas, försök manuellt fånga";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "Dokumentet kunde inte fångas. Försök igen eller använd manuell infångning";
+"onboarding_doc_capturer_qr_message" = "Oroa dig inte, du kan fortsätta processen från din smartphone. Skanna QR:en!";
+"onboarding_doc_capturer_qr_or_you_can" = "Eller kan du";
+"onboarding_doc_capturer_check_position" = "Justera dokumentet till rektangel";
+"onboarding_doc_capturer_front_check_position" = "Justera dokumentet till rektangel";
+"onboarding_doc_capturer_back_check_position" = "Justera dokumentet till rektangel";
+"onboarding_doc_capturer_processing_stay_still" = "Fångar... Håll dig stilla";
+"onboarding_error_max_number_of_documents" = "Du har överskridit det maximala antalet försök";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Håll din iPhone nära ditt dokument och se till att den delvis sticker ut ovanpå";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "Placera dokumentet på baksidan av telefonen";
+"onboarding_nfc_doc_capturer_finding_antenna" = "Rikta in dokumentet med telefonens NFC-antenn. Om du inte vet var det är, skjut sakta dokumentet tills telefonen vibrerar eller ringer.";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "Dra sakta över dokumentet tills telefonen vibrerar eller ringer.";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Håll dokumentet stilla tills läsningen är klar";
+"onboarding_nfc_doc_capturer_tutorial" = "Handledning";
+"onboarding_nfc_doc_capturer_start_reading" = "START";
+"onboarding_nfc_doc_capturer_expiry" = "Upphörande";
+"onboarding_nfc_doc_capturer_authenticating" = "Autentiserar med dokument...";
+"onboarding_nfc_doc_capturer_reading" = "Läser... flytta inte ditt dokument";
+"onboarding_nfc_doc_capturer_success" = "Dokument lästs framgångsrikt.";
+"onboarding_nfc_doc_capturer_error_connection_title" = "Anslutningsfel";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "Flytta inte ditt dokument under läsningsprocessen";
+"onboarding_nfc_doc_capturer_error_generic_title" = "Problem med att läsa ditt dokument";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Var god försök igen";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Dokument som inte stöds";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Tyvärr, vi stöder inte ditt dokument för tillfället";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Fel dokument";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Se till att du skannar rätt dokument";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC är avstängt";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "Du måste slå på NFC-modulen för att kunna läsa. Vill du slå på den nu?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Sätta på";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "Lägger till selfie...";
+"onboarding_selfie_capturer_adding_with_challenge" = "Lägger till selfie med utmaning...";
+"onboarding_selfie_capturer_adding_with_document" = "Lägger till selfie med dokument...";
+"onboarding_selfie_capturer_authenticating" = "Autentiserar...";
+"onboarding_selfie_capturer_stay_still" = "Stå still";
+"onboarding_selfie_capturer_move_farther" = "Flytta din enhet längre";
+"onboarding_selfie_capturer_get_closer" = "Kom närmare";
+"onboarding_selfie_capturer_no_face" = "Inget ansikte upptäckt";
+"onboarding_selfie_capturer_look_camera" = "Titta på kameran";
+"onboarding_selfie_capturer_center_face" = "Centrera ditt ansikte i det ovala";
+"onboarding_selfie_capturer_device_elevation" = "Håll enheten i ögonhöjd";
+"onboarding_selfie_cancel" = "Annullera";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Centrera ditt ansikte i det ovala";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Inget ansikte upptäckt";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Se till att hålla ditt ansikte i det ovala under bra ljusförhållanden under hela processen";
+"onboarding_selfie_capturer_face_detected_tooltip" = "Klicka här för att ta ett foto!";
+"onboarding_selfie_capturer_subtitle" = "Snälla, fortsätt med fångsten";
+"onboarding_selfie_capturer_subtitle_review" = "Se till att din bild är bra";
+"onboarding_selfie_with_document_capturer_center_face" = "Centrera ditt ansikte på ovalen och dokumentet på rektangeln";
+"onboarding_selfie_capturer_button_tutorial" = "Okej, förstår!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Nu måste du ta en selfie. Följ dessa instruktioner";
+"onboarding_selfie_capturer_challenge_document_info" = "Montera framsidan av ditt ID-kort i rektangeln";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "För långt";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "För nära";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Fel position";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Onaturlig färg";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Undvik färgad belysning i ansiktet";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Låg ljusstyrka";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Se till att belysningen i ditt ansikte är rimlig och enhetlig";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "För ljust";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Se till att belysningen i ditt ansikte är rimlig och jämn, utan bländning";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Suddig";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Se till att ditt ansikte ser skarpt ut och undvik att få smuts eller skydd på kameran";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "Välj en PDF eller en bild";
+"onboarding_other_trusted_docs_capturer_subtitle" = "Snälla, fånga ditt dokument";
+"onboarding_other_trusted_docs_click_or_drop" = "Klicka eller släpp filen här";
+"onboarding_other_trusted_docs_capturer_accept" = "Acceptera";
+"onboarding_other_trusted_docs_capturer_cancel" = "Annullera";
+"onboarding_other_trusted_docs_capturer_continue" = "Fortsätta";
+"onboarding_other_trusted_docs_capturer_camera" = "Kamera";
+"onboarding_other_trusted_docs_capturer_images_limit" = "Maximalt antal bilder har nåtts";
+"onboarding_other_trusted_docs_capturer_documents" = "Dokument";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "För stor PDF";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Filen får inte överstiga 5 MB";
+"onboarding_other_trusted_docs_upload_another_image" = "Bifogar fler bilder";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "Det senast uppladdade dokumentet var en bild, fortsätt ladda upp bilder";
+"onboarding_other_trusted_docs_error" = "Problem med uppladdad fil";
+
+//QR view
+"onboarding_qr_button" = "Fortsätt på den här enheten";
+"onboarding_qr_info_text" = "Vi har upptäckt att du använder en PC. PC-webbkameror är ofta av dålig kvalitet. För att göra processen enklare rekommenderar vi att du använder en mobil.";
+"onboarding_qr_info_text_extra" = "Vill du fortsätta introduktionsprocessen på din mobil? Du behöver bara skanna denna QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Låt oss ta en selfie";
+"onboarding_tutorial_first_subtitle" = "Oroa dig inte, det tar bara några sekunder.";
+"onboarding_tutorial_second_subtitle" = "Men innan vi börjar, se till att:";
+"onboarding_tutorial_first_instruction" = "Du har inte på dig något som täcker ditt ansikte. Du kan behålla dina glasögon";
+"onboarding_tutorial_continue_button" = "Jag är redo!";

@@ -4,7 +4,7 @@
 "onboarding_yes" = "Ja";
 "onboarding_no" = "Nein";
 "onboarding_alert_title_really_sure_to_exit" = "Unvollständiger Prozess";
-"onboarding_alert_subtitle_really_sure_to_exit" = "Sind Sie wirklich sicher zu beenden?";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Sie sind sicher, dass Sie beenden wollen?";
 "onboarding_ask_for_permissions_title" = "Diese Funktionalität erfordert Kamerazugriff";
 "onboarding_ask_for_permissions_subtitle" = "Öffnen Sie in den Geräteeinstellungen die Anwendungseinstellungen und aktivieren Sie die Kamera.";
 "onboarding_ask_for_permissions_ok_button" = "Einstellungen öffnen";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Selfie mit Herausforderung hinzufügen…";
 "onboarding_selfie_capturer_adding_with_document" = "Selfie mit Dokument hinzufügen…";
 "onboarding_selfie_capturer_authenticating" = "Authentifizierung…";
+"onboarding_selfie_capturer_stay_still" = "Bleib still";
 "onboarding_selfie_capturer_move_farther" = "Bitte bewegen Sie Ihr Gerät weiter";
 "onboarding_selfie_capturer_get_closer" = "Bitte komm näher";
 "onboarding_selfie_capturer_no_face" = "Kein Gesicht erkannt";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Auf diesem Gerät fortfahren";
 "onboarding_qr_info_text" = "Wir haben festgestellt, dass Sie einen PC verwenden. PC-Webcams sind oft von schlechter Qualität. Um den Vorgang zu vereinfachen, empfehlen wir die Verwendung eines Mobiltelefons.";
 "onboarding_qr_info_text_extra" = "Möchten Sie den Onboarding-Prozess auf Ihrem Handy fortsetzen? Sie müssen nur diesen QR scannen:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Lass uns ein Selfie machen";
+"onboarding_tutorial_first_subtitle" = "Keine Sorge, es dauert nur ein paar Sekunden.";
+"onboarding_tutorial_second_subtitle" = "Aber bevor wir beginnen, stellen Sie sicher, dass:";
+"onboarding_tutorial_first_instruction" = "Sie tragen nichts, was Ihr Gesicht bedeckt. Sie können Ihre Brille behalten";
+"onboarding_tutorial_continue_button" = "Ich bin bereit!";

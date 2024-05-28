@@ -4,7 +4,7 @@
 "onboarding_yes" = "نعم";
 "onboarding_no" = "لا";
 "onboarding_alert_title_really_sure_to_exit" = "عملية غير مكتملة";
-"onboarding_alert_subtitle_really_sure_to_exit" = "هل أنت متأكد حقًا من الخروج؟";
+"onboarding_alert_subtitle_really_sure_to_exit" = "هل أنت متأكد أنك تريد الخروج؟";
 "onboarding_ask_for_permissions_title" = "تتطلب هذه الوظيفة الوصول إلى الكاميرا";
 "onboarding_ask_for_permissions_subtitle" = "في إعدادات الجهاز ، افتح إعدادات التطبيق وقم بتنشيط الكاميرا.";
 "onboarding_ask_for_permissions_ok_button" = "أفتح الإعدادات";
@@ -95,7 +95,7 @@
 "onboarding_doc_capturer_dismiss" = "يلغي";
 "onboarding_doc_capturer_add_sheet" = "أضف ورقة";
 "onboarding_doc_capturer_send" = "يرسل";
-"onboarding_doc_capturer_info_text" = "احصل على ٪ 1 $ S من ٪ 2 $ S من ٪ 3 $ S حتى يتم مسحه تلقائيًا";
+"onboarding_doc_capturer_info_text" = "قم بتركيب المستند الخاص بك حتى يتم مسحه ضوئيًا تلقائيًا";
 "onboarding_doc_capturer_info_text_passport" = "احصل على صفحة معلومات جواز السفر الخاصة بك حتى يتم مسحها تلقائيًا";
 "onboarding_doc_capturer_alert_title_timeout" = "مشكلة في قراءة المستند الخاص بك";
 "onboarding_doc_capturer_alert_subtitle_timeout" = "تأكد من ضبط المستند الخاص بك على المستطيل";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "إضافة صورة شخصية مع التحدي ...";
 "onboarding_selfie_capturer_adding_with_document" = "إضافة صورة شخصية مع الوثيقة ...";
 "onboarding_selfie_capturer_authenticating" = "المصادقة ...";
+"onboarding_selfie_capturer_stay_still" = "اثبت مكانك";
 "onboarding_selfie_capturer_move_farther" = "حرك جهازك أبعد";
 "onboarding_selfie_capturer_get_closer" = "اقترب";
 "onboarding_selfie_capturer_no_face" = "لم يتم اكتشاف وجه";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "تابع على هذا الجهاز";
 "onboarding_qr_info_text" = "لقد اكتشفنا أنك تستخدم جهاز كمبيوتر. كاميرات الويب للكمبيوتر الشخصي غالبًا ما تكون ذات جودة رديئة. لجعل العملية أسهل نوصي باستخدام الهاتف المحمول.";
 "onboarding_qr_info_text_extra" = "هل تريد متابعة عملية التنقل على هاتفك المحمول؟ عليك فقط مسح هذا QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "دعونا نلتقط صورة شخصية";
+"onboarding_tutorial_first_subtitle" = "لا تقلق، سيستغرق الأمر بضع ثوانٍ فقط.";
+"onboarding_tutorial_second_subtitle" = "ولكن قبل أن نبدأ، تأكد من:";
+"onboarding_tutorial_first_instruction" = "أنت لا ترتدي أي شيء يغطي وجهك. يمكنك الاحتفاظ بنظاراتك";
+"onboarding_tutorial_continue_button" = "أنا مستعد!";

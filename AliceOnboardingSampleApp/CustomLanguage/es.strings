@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Añadiendo selfie con retos…";
 "onboarding_selfie_capturer_adding_with_document" = "Añadiendo selfie con documento…";
 "onboarding_selfie_capturer_authenticating" = "Autenticando…";
+"onboarding_selfie_capturer_stay_still" = "Quédate quieto";
 "onboarding_selfie_capturer_move_farther" = "Aleja el dispositivo";
 "onboarding_selfie_capturer_get_closer" = "Acércate al dispositivo";
 "onboarding_selfie_capturer_no_face" = "Cara no detectada";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "Continuar en este dispositivo";
 "onboarding_qr_info_text" = "Hemos detectado que estás usando un PC. Las webcams de los PC suelen ser de mala calidad. Para que el proceso sea más fácil recomendamos usar un móvil.";
 "onboarding_qr_info_text_extra" = "¿Quieres continuar el proceso de onboarding en tu móvil? Sólo tienes que escanear este QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Tomemos una selfie";
+"onboarding_tutorial_first_subtitle" = "No te preocupes, solo te llevará unos segundos.";
+"onboarding_tutorial_second_subtitle" = "Pero antes de comenzar, asegúrate de que: ";
+"onboarding_tutorial_first_instruction" = "No llevas nada que cubra tu cara. Puedes quedarte con tus anteojos";
+"onboarding_tutorial_continue_button" = "¡Estoy listo!";

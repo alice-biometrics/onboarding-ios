@@ -4,7 +4,7 @@
 "onboarding_yes" = "是";
 "onboarding_no" = "没有";
 "onboarding_alert_title_really_sure_to_exit" = "流程不完整";
-"onboarding_alert_subtitle_really_sure_to_exit" = "您确定要退出吗";
+"onboarding_alert_subtitle_really_sure_to_exit" = "你确定要离开？";
 "onboarding_ask_for_permissions_title" = "此功能需要使用摄像头";
 "onboarding_ask_for_permissions_subtitle" = "在设备设置中，打开应用程序设置并激活相机。";
 "onboarding_ask_for_permissions_ok_button" = "打开设置";
@@ -162,6 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "添加带有挑战的自拍......";
 "onboarding_selfie_capturer_adding_with_document" = "添加带有文档的自拍照…";
 "onboarding_selfie_capturer_authenticating" = "验证中…";
+"onboarding_selfie_capturer_stay_still" = "保持静止";
 "onboarding_selfie_capturer_move_farther" = "将设备移动到更远的地方";
 "onboarding_selfie_capturer_get_closer" = "靠近点";
 "onboarding_selfie_capturer_no_face" = "没有检测到的脸";
@@ -211,3 +212,10 @@
 "onboarding_qr_button" = "在此设备上继续";
 "onboarding_qr_info_text" = "我们检测到您正在使用 PC。 PC 网络摄像头的质量通常很差。 为了使这个过程更容易，我们建议使用手机。";
 "onboarding_qr_info_text_extra" = "你想在你的手机上继续入职流程吗？ 你只需要扫描这个二维码：";
+
+//Tutorial view
+"onboarding_tutorial_title" = "我们来张自拍照吧";
+"onboarding_tutorial_first_subtitle" = "别担心，只需几秒钟。";
+"onboarding_tutorial_second_subtitle" = "但在我们开始之前，请确保：";
+"onboarding_tutorial_first_instruction" = "您没有戴任何遮盖脸部的东西。 你可以保留你的眼镜";
+"onboarding_tutorial_continue_button" = "我准备好了！";

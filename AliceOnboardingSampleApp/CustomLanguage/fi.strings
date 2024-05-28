@@ -1,0 +1,221 @@
+"onboarding_click_or_drop" = "Napsauta tai pudota kuva tähän";
+"onboarding_close" = "kiinni";
+"onboarding_rotate" = "Kiertää";
+"onboarding_yes" = "Joo";
+"onboarding_no" = "Ei";
+"onboarding_alert_title_really_sure_to_exit" = "Epätäydellinen prosessi";
+"onboarding_alert_subtitle_really_sure_to_exit" = "Oletko todella varma, että poistut?";
+"onboarding_ask_for_permissions_title" = "Tämä toiminto vaatii pääsyn kameraan";
+"onboarding_ask_for_permissions_subtitle" = "Avaa laitteen asetuksista sovellusasetukset ja ota kamera käyttöön.";
+"onboarding_ask_for_permissions_ok_button" = "Avaa asetukset";
+"onboarding_ask_for_permissions_cancel_button" = "Peruuttaa";
+"onboarding_not_supported_browser_modal_message" = "Emme suosittele tämän selaimen käyttöä. Kokeile prosessia suositummalla selaimella, kuten Chromella tai Firefoxilla.";
+"onboarding_not_supported_browser_modal_title" = "Tukematon selain";
+
+//Errors
+"onboarding_error_config" = "Tarkista OnboardingConfig. Sinun tulee valita vähintään yksi aloitusvaihe.";
+"onboarding_error_loading_resources" = "Hidas yhteys, yritä myöhemmin uudelleen.";
+"onboarding_error_title_technical" = "Tapahtui virhe";
+"onboarding_error_subtitle_technical" = "Yritä uudelleen";
+"onboarding_error_title_connection" = "Yhteysvirhe";
+"onboarding_error_subtitle_connection" = "Ole hyvä ja tarkista Internet-yhteytesi.";
+"onboarding_error_storage_is_full_title" = "Levytila ​​puuttuu";
+"onboarding_error_storage_is_full_subtitle" = "Ole hyvä ja poista joitakin tiedostoja jatkaaksesi.";
+"onboarding_error_title_camera" = "Kameravirhe.";
+"onboarding_error_subtitle_camera" = "Yritä uudelleen";
+"onboarding_error_title_selfie" = "Virhe selfien lähettämisessä";
+"onboarding_error_subtitle_selfie" = "Yritä uudelleen";
+"onboarding_error_subtitle_active_selfie_already_exists" = "Sinulla on jo aktiivinen selfie";
+"onboarding_error_title_authentication" = "Todennusvirhe.";
+"onboarding_error_subtitle_authentication" = "Yritä uudelleen";
+"onboarding_error_subtitle_camera_not_available" = "Tarkista, että kamera on saatavilla ja että olet antanut luvan käyttää sitä";
+"onboarding_browser_no_compatible" = "Tämä toiminto ei ole käytettävissä tässä selaimessa, kokeile Safaria";
+"onboarding_error_user_not_found" = "Käyttäjää ei löydy";
+"onboarding_error_title_file_too_big" = "Tiedosto on liian suuri";
+"onboarding_error_subtitle_file_too_big" = "Suurin sallittu tiedostokoko on {size} Mt";
+"onboarding_error_title_file_type_not_supported" = "Tiedostoa ei tueta";
+"onboarding_error_title_image_type_not_supported" = "Kuvaa ei tueta";
+"onboarding_error_subtitle_file_type_not_supported" = "Tuetut tiedostotyypit ovat .jpg, .png, .bmp";
+"onboarding_error_doc_country_not_supported" = "Valitettavasti tämän tyyppistä asiakirjaa ei tueta valitussa maassa";
+"onboarding_error_title_challenge_timeout" = "Aikalisä";
+"onboarding_error_subtitle_challenge_timeout" = "Haastetta ei ole suoritettu. Yritä uudelleen";
+
+//Stages
+"onboarding_stages_title" = "Henkilöllisyyden vahvistaminen";
+"onboarding_stages_description" = "Suorita seuraavat vaiheet, jotta vahvistus onnistuu";
+"onboarding_stages_selfie" = "Selfie";
+"onboarding_stages_selfie_with_document" = "Selfie dokumentin kanssa";
+"onboarding_stages_selfie_with_challenge" = "Selfie haasteella";
+"onboarding_stages_selfie_with_document_challenge" = "Selfie haasteella";
+"onboarding_stages_document" = "Asiakirja";
+"onboarding_stages_id_card" = "Kansallinen henkilökortti";
+"onboarding_stages_driver_license" = "Ajokortti";
+"onboarding_stages_passport" = "Passi";
+"onboarding_stages_residence_permit" = "Oleskelulupa";
+"onboarding_stages_health_insurance_card" = "Sairausvakuutuskortti";
+"onboarding_stages_already_completed" = "Vaihe on jo valmis";
+"onboarding_stages_completed" = "Valmis";
+"onboarding_stages_inactive" = "Suorita edellinen vaihe";
+"onboarding_stages_start_button" = "ALKAA";
+"onboarding_stages_done_button" = "JATKAA";
+
+//Doc sides screen
+"onboarding_sides_title_id_card" = "Kansallinen henkilökortti";
+"onboarding_sides_title_driver_license" = "Ajokortti";
+"onboarding_sides_title_passport" = "Passi";
+"onboarding_sides_title_residence_permit" = "Oleskelulupa";
+"onboarding_sides_title_health_insurance_card" = "Sairausvakuutuskortti";
+"onboarding_sides_subtitle" = "Ole hyvä ja jatka asiakirjan sieppaamista.";
+"onboarding_sides_front" = "ETUPUOLI";
+"onboarding_sides_back" = "TAKAPUOLI";
+"onboarding_sides_info_page" = "INFO-SIVU";
+"onboarding_sides_tap_here" = "NAPAUTA TÄSTÄ";
+"onboarding_sides_done_button" = "JATKAA";
+"onboarding_sides_issuing_country" = "Myöntäjämaa:";
+
+//Country selector
+"onboarding_country_selector_subtitle_issuing_country" = "Valitse myöntämä maa";
+"onboarding_country_selector_other" = "Muut";
+"onboarding_country_selector_not_selected" = "Valitse myöntämä maa";
+"onboarding_country_selector_start" = "alkaa";
+"onboarding_country_selector_cancel" = "Peruuttaa";
+"onboarding_country_selector_reload" = "Lataa uudelleen";
+
+//Doc and country selector
+"onboarding_doc_country_selector_title" = "Asiakirjan valinta";
+"onboarding_doc_country_selector_issuing_country" = "Asiakirjan maa";
+"onboarding_doc_country_selector_allowed_documents" = "Hyväksytyt asiakirjat";
+"onboarding_doc_country_selector_document_type" = "Dokumentti tyyppi";
+
+//Doc capturer
+"onboarding_doc_capturer_retry_photo" = "Yritä valokuvaa uudelleen";
+"onboarding_doc_capturer_send_photo" = "Lähetä valokuva";
+"onboarding_doc_capturer_manual" = "Manuaalinen kaappaus";
+"onboarding_doc_capturer_retry" = "Yritä uudelleen";
+"onboarding_doc_capturer_dismiss" = "Peruuttaa";
+"onboarding_doc_capturer_add_sheet" = "Lisää arkki";
+"onboarding_doc_capturer_send" = "Lähettää";
+"onboarding_doc_capturer_info_text" = "Sovita %@ kohteesta %@ kohteesta %@, kunnes se skannataan automaattisesti";
+"onboarding_doc_capturer_info_text_passport" = "Sovita passitietosivu, kunnes se skannataan automaattisesti";
+"onboarding_doc_capturer_alert_title_timeout" = "Ongelma asiakirjan lukemisessa";
+"onboarding_doc_capturer_alert_subtitle_timeout" = "Varmista, että asiakirjasi on säädetty suorakulmioon";
+"onboarding_doc_capturer_alert_title_generic_problem" = "Ongelma asiakirjan lukemisessa";
+"onboarding_doc_capturer_alert_subtitle_generic_problem" = "Varmista, että näytät oikean asiakirjan (%@ kohteesta %@) ilman tukkeumia, häikäisyä tai varjoja";
+"onboarding_doc_capturer_alert_subtitle_passport_missing_mrz" = "Varmista, että näytät passisi ilman tukkeumia, häikäisyä tai varjoja";
+"onboarding_doc_capturer_alert_title_wrong_doc" = "Väärä asiakirja";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc" = "Varmista, että näytät oikean asiakirjan (%@ kohteesta %@)";
+"onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp" = "Varmista, että näytät voimassa olevan valokuvallisen asiakirjan";
+"onboarding_doc_capturer_alert_title_not_allowed_doc" = "Ei sallittu asiakirja";
+"onboarding_doc_capturer_alert_subtitle_not_allowed_doc" = "Varmista, että näytät jotakin seuraavista asiakirjoista: %@";
+"onboarding_doc_capturer_alert_title_wrong_side" = "Asiakirjan väärä puoli";
+"onboarding_doc_capturer_alert_subtitle_wrong_side" = "Varmista, että näytät oikean puolen (%@)";
+"onboarding_doc_capturer_alert_title_poor_quality" = "Ongelma asiakirjan lukemisessa";
+"onboarding_doc_capturer_alert_subtitle_poor_quality" = "Varmista, että näytät asiakirjasi ilman tukkeumia, häikäisyä tai varjoja";
+"onboarding_doc_capturer_alert_subtitle_select_document" = "Valitse käyttämäsi asiakirja";
+"onboarding_doc_capturer_front" = "ETUPUOLI";
+"onboarding_doc_capturer_back" = "TAKAPUOLI";
+"onboarding_doc_capturer_choose_source" = "Valitse lähde";
+"onboarding_doc_capturer_review_back" = "Käytä toista valokuvaa";
+"onboarding_doc_capturer_subtitle" = "Ole hyvä ja jatka sieppaamista";
+"onboarding_doc_capturer_subtitle_review" = "Varmista, että kuva sisältää vain asiakirjan, eikä sitä ole käännetty";
+"onboarding_doc_capturer_title_review" = "Kuvan tarkistus";
+"onboarding_doc_capturer_review_ok" = "Se on okei";
+"onboarding_doc_capturer_source_camera" = "Kamera";
+"onboarding_doc_capturer_source_file" = "Tiedosto";
+"onboarding_doc_capturer_adding" = "Ladataan tiedostoa";
+"onboarding_doc_capturer_subtitle_try_manual_capture" = "Asiakirjaa ei voitu kaapata. Kokeile manuaalista sieppausta";
+"onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "Asiakirjaa ei voitu kaapata. Ole hyvä ja yritä uudelleen tai käytä manuaalista sieppausta";
+"onboarding_doc_capturer_qr_message" = "Älä huoli, voit jatkaa prosessia älypuhelimellasi. Skannaa QR!";
+"onboarding_doc_capturer_qr_or_you_can" = "tai voit";
+"onboarding_doc_capturer_check_position" = "Säädä asiakirja suorakaiteen muotoiseksi";
+"onboarding_doc_capturer_front_check_position" = "Säädä asiakirja suorakaiteen muotoiseksi";
+"onboarding_doc_capturer_back_check_position" = "Säädä asiakirja suorakaiteen muotoiseksi";
+"onboarding_doc_capturer_processing_stay_still" = "Sieppaus… Pysy paikallaan";
+"onboarding_error_max_number_of_documents" = "Olet ylittänyt yritysten enimmäismäärän";
+
+//Document NFC capturer
+"onboarding_nfc_doc_capturer_hold_your_doc_iphone" = "Pidä iPhonea asiakirjan lähellä ja varmista, että se tulee osittain ulos ylhäältä";
+"onboarding_nfc_doc_capturer_hold_your_doc_android" = "Aseta asiakirja puhelimen takaosaan";
+"onboarding_nfc_doc_capturer_finding_antenna" = "Kohdista asiakirja puhelimen NFC-antennin kanssa. Jos et tiedä missä se on, liu'uta asiakirjaa hitaasti, kunnes puhelin värisee tai soi.";
+"onboarding_nfc_doc_capturer_finding_antenna_shortened" = "Liu'uta asiakirjaa hitaasti, kunnes puhelin värisee tai soi.";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Pidä asiakirja paikallaan, kunnes luku on valmis";
+"onboarding_nfc_doc_capturer_tutorial" = "Opetusohjelma";
+"onboarding_nfc_doc_capturer_start_reading" = "ALKAA";
+"onboarding_nfc_doc_capturer_expiry" = "Vanheneminen";
+"onboarding_nfc_doc_capturer_authenticating" = "Todennetaan asiakirjalla...";
+"onboarding_nfc_doc_capturer_reading" = "Luetaan... älä siirrä asiakirjaasi";
+"onboarding_nfc_doc_capturer_success" = "Asiakirjan lukeminen onnistui.";
+"onboarding_nfc_doc_capturer_error_connection_title" = "Yhteysvirhe";
+"onboarding_nfc_doc_capturer_error_connection_subtitle" = "Älä siirrä asiakirjaa lukuprosessin aikana";
+"onboarding_nfc_doc_capturer_error_generic_title" = "Ongelma asiakirjan lukemisessa";
+"onboarding_nfc_doc_capturer_error_generic_subtitle" = "Yritä uudelleen";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_title" = "Asiakirjaa ei tueta";
+"onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle" = "Valitettavasti emme tue asiakirjaasi tällä hetkellä";
+"onboarding_nfc_doc_capturer_error_wrong_doc_title" = "Väärä asiakirja";
+"onboarding_nfc_doc_capturer_error_wrong_doc_subtitle" = "Varmista, että skannaat oikean asiakirjan";
+"onboarding_nfc_doc_capturer_alert_title_is_off" = "NFC on pois päältä";
+"onboarding_nfc_doc_capturer_alert_subtitle_is_off" = "Sinun on kytkettävä NFC-moduuli päälle lukemista varten. Haluatko ottaa sen käyttöön nyt?";
+"onboarding_nfc_doc_capturer_alert_positive_is_off" = "Kiihottua";
+
+//Selfie capturer
+"onboarding_selfie_capturer_adding" = "Lisätään selfietä…";
+"onboarding_selfie_capturer_adding_with_challenge" = "Lisätään selfietä haasteella…";
+"onboarding_selfie_capturer_adding_with_document" = "Lisätään selfietä dokumentin kanssa…";
+"onboarding_selfie_capturer_authenticating" = "Todennetaan…";
+"onboarding_selfie_capturer_stay_still" = "Pysyä paikallaan";
+"onboarding_selfie_capturer_move_farther" = "Siirrä laitetta kauemmas";
+"onboarding_selfie_capturer_get_closer" = "Tule lähemmäs";
+"onboarding_selfie_capturer_no_face" = "Kasvoja ei havaittu";
+"onboarding_selfie_capturer_look_camera" = "Katso kameraa";
+"onboarding_selfie_capturer_center_face" = "Keskitä kasvosi soikeaan";
+"onboarding_selfie_capturer_device_elevation" = "Pidä laitetta silmien tasolla";
+"onboarding_selfie_cancel" = "Peruuttaa";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Keskitä kasvosi soikeaan";
+"onboarding_selfie_capturer_title_insufficient_faces" = "Kasvoja ei havaittu";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Pidä kasvosi soikeassa hyvässä valaistuksessa koko prosessin ajan";
+"onboarding_selfie_capturer_face_detected_tooltip" = "Napsauta tästä ottaaksesi valokuvan!";
+"onboarding_selfie_capturer_subtitle" = "Ole hyvä ja jatka sieppaamista";
+"onboarding_selfie_capturer_subtitle_review" = "Ole hyvä ja varmista, että kuvasi on hyvä";
+"onboarding_selfie_with_document_capturer_center_face" = "Keskitä kasvosi soikeaan ja asiakirja suorakulmioon";
+"onboarding_selfie_capturer_button_tutorial" = "OK tajusin!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Nyt sinun on otettava selfie. Noudata näitä ohjeita";
+"onboarding_selfie_capturer_challenge_document_info" = "Sovita henkilökorttisi etupuoli suorakulmioon";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Liian kaukana";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Liian lähellä";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Väärä asento";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Epäluonnollinen väri";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Vältä värillistä valaistusta kasvoillasi";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Matala kirkkaus";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Varmista, että kasvosi valaistus on kohtuullinen ja tasainen";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Liian kirkas";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Varmista, että kasvosi valaistus on kohtuullinen ja tasainen ilman häikäisyä";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Epäselvä";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Varmista, että kasvosi näyttävät teräviltä, ​​ja vältä likaa tai suojia pääsemästä kameraan";
+
+//OTD capturer
+"onboarding_other_trusted_docs_subtitle" = "Valitse PDF tai kuva";
+"onboarding_other_trusted_docs_capturer_subtitle" = "Ole hyvä ja ota asiakirjasi talteen";
+"onboarding_other_trusted_docs_click_or_drop" = "Napsauta tai pudota tiedosto tähän";
+"onboarding_other_trusted_docs_capturer_accept" = "Hyväksyä";
+"onboarding_other_trusted_docs_capturer_cancel" = "Peruuttaa";
+"onboarding_other_trusted_docs_capturer_continue" = "Jatkaa";
+"onboarding_other_trusted_docs_capturer_camera" = "Kamera";
+"onboarding_other_trusted_docs_capturer_images_limit" = "Kuvien enimmäismäärä saavutettu";
+"onboarding_other_trusted_docs_capturer_documents" = "Asiakirjat";
+"onboarding_other_trusted_docs_capturer_file_size_limit_title" = "Liian suuri PDF";
+"onboarding_other_trusted_docs_capturer_file_size_limit_subtitle" = "Tiedoston koko ei saa ylittää 5 Mt";
+"onboarding_other_trusted_docs_upload_another_image" = "Liitä lisää kuvia";
+"onboarding_other_trusted_docs_pdf_not_allowed" = "Viimeisin ladattu asiakirja oli kuva, jatka kuvien lataamista";
+"onboarding_other_trusted_docs_error" = "Ongelma ladatun tiedoston kanssa";
+
+//QR view
+"onboarding_qr_button" = "Jatka tällä laitteella";
+"onboarding_qr_info_text" = "Olemme havainneet, että käytät tietokonetta. PC-verkkokamerat ovat usein huonolaatuisia. Prosessin helpottamiseksi suosittelemme mobiililaitteen käyttöä.";
+"onboarding_qr_info_text_extra" = "Haluatko jatkaa liittymisprosessia matkapuhelimellasi? Sinun tarvitsee vain skannata tämä QR:";
+
+//Tutorial view
+"onboarding_tutorial_title" = "Otetaan selfie";
+"onboarding_tutorial_first_subtitle" = "Älä huoli, se kestää vain muutaman sekunnin.";
+"onboarding_tutorial_second_subtitle" = "Mutta ennen kuin aloitamme, varmista, että:";
+"onboarding_tutorial_first_instruction" = "Sinulla ei ole päälläsi mitään, mikä peittää kasvosi. Voit pitää silmälasit";
+"onboarding_tutorial_continue_button" = "Olen valmis!";
