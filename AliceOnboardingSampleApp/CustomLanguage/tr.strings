@@ -184,13 +184,15 @@
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Çok yakın";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Yanlış pozisyon";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Doğal olmayan renk";
-"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Yüzünüzde renkli aydınlatmadan kaçının";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Yüzünüzde renkli ışıklardan kaçının";
 "onboarding_selfie_capturer_iqa_feedback_underexposed" = "Düşük parlaklık";
 "onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve tekdüze olduğundan emin olun";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Çok parlak";
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve eşit olduğundan, parlamadan emin olun";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Bulanık";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Yüzünüzün keskin göründüğünden emin olun ve kameranın üzerine kir veya koruyucu madde bulaşmasını önleyin";
+"onboarding_selfie_capturer_uploading_selfie" = "Selfie yükleniyor";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie yüklendi";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Lütfen bir PDF dosyası veya resim seçin";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Haydi bir selfie çekelim";
 "onboarding_tutorial_first_subtitle" = "Endişelenmeyin, sadece birkaç saniye sürecektir.";
 "onboarding_tutorial_second_subtitle" = "Ancak başlamadan önce şunlardan emin olun:";
-"onboarding_tutorial_first_instruction" = "Yüzünüzü kapatan hiçbir şey giymiyorsunuz. Gözlüklerini saklayabilirsin";
+"onboarding_tutorial_first_instruction" = "İyi aydınlatılmış bir alandasınız";
+"onboarding_tutorial_second_instruction" = "Kameranız temiz ve üzeri örtülmemiş";
+"onboarding_tutorial_third_instruction" = "Yüzünüzü kapatan hiçbir şey giymiyorsunuz. Gözlüklerini saklayabilirsin";
 "onboarding_tutorial_continue_button" = "Ben hazırım!";
+"onboarding_tutorial_back_button" = "dışarı çıkmak";

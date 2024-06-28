@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "تأكد من أن الإضاءة على وجهك معقولة ومتساوية، دون وهج";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "غير واضح";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "تأكد من أن وجهك يبدو حادًا وتجنب تعرض الكاميرا للأوساخ أو الواقيات";
+"onboarding_selfie_capturer_uploading_selfie" = "تحميل صورة شخصية";
+"onboarding_selfie_capturer_selfie_uploaded" = "تم تحميل الصورة الذاتية";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "الرجاء اختيار PDF أو صورة";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "دعونا نلتقط صورة شخصية";
 "onboarding_tutorial_first_subtitle" = "لا تقلق، سيستغرق الأمر بضع ثوانٍ فقط.";
 "onboarding_tutorial_second_subtitle" = "ولكن قبل أن نبدأ، تأكد من:";
-"onboarding_tutorial_first_instruction" = "أنت لا ترتدي أي شيء يغطي وجهك. يمكنك الاحتفاظ بنظاراتك";
+"onboarding_tutorial_first_instruction" = "أنت في مكان مضاء جيدًا";
+"onboarding_tutorial_second_instruction" = "الكاميرا نظيفة وغير مغطاة";
+"onboarding_tutorial_third_instruction" = "أنت لا ترتدي أي شيء يغطي وجهك. يمكنك الاحتفاظ بنظاراتك";
 "onboarding_tutorial_continue_button" = "أنا مستعد!";
+"onboarding_tutorial_back_button" = "خلف";

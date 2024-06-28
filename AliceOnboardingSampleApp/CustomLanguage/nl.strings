@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Zorg ervoor dat de verlichting op uw gezicht redelijk en gelijkmatig is, zonder verblinding";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Vervaagd";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Zorg ervoor dat uw gezicht er scherp uitziet en voorkom dat er vuil of beschermers op de camera komen";
+"onboarding_selfie_capturer_uploading_selfie" = "Selfie uploaden";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie geüpload";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Kies een PDF of een afbeelding";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Laten we een selfie maken";
 "onboarding_tutorial_first_subtitle" = "Maak je geen zorgen, het duurt maar een paar seconden.";
 "onboarding_tutorial_second_subtitle" = "Maar voordat we beginnen, zorg ervoor dat:";
-"onboarding_tutorial_first_instruction" = "Je draagt niets dat je gezicht bedekt. Je bril mag je houden";
+"onboarding_tutorial_first_instruction" = "Je bevindt je in een goed verlichte ruimte";
+"onboarding_tutorial_second_instruction" = "Je camera is schoon en niet afgedekt";
+"onboarding_tutorial_third_instruction" = "Je draagt niets dat je gezicht bedekt. Je bril mag je houden";
 "onboarding_tutorial_continue_button" = "Ik ben klaar!";
+"onboarding_tutorial_back_button" = "Uitgaan";

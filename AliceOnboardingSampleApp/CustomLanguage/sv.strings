@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Se till att belysningen i ditt ansikte är rimlig och jämn, utan bländning";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Suddig";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Se till att ditt ansikte ser skarpt ut och undvik att få smuts eller skydd på kameran";
+"onboarding_selfie_capturer_uploading_selfie" = "Laddar upp selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Селфи загружено";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Välj en PDF eller en bild";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Låt oss ta en selfie";
 "onboarding_tutorial_first_subtitle" = "Oroa dig inte, det tar bara några sekunder.";
 "onboarding_tutorial_second_subtitle" = "Men innan vi börjar, se till att:";
-"onboarding_tutorial_first_instruction" = "Du har inte på dig något som täcker ditt ansikte. Du kan behålla dina glasögon";
+"onboarding_tutorial_first_instruction" = "Du befinner dig i ett väl upplyst utrymme";
+"onboarding_tutorial_second_instruction" = "Din kamera är ren och inte täckt";
+"onboarding_tutorial_third_instruction" = "Du har inte på dig något som täcker ditt ansikte. Du kan behålla dina glasögon";
 "onboarding_tutorial_continue_button" = "Jag är redo!";
+"onboarding_tutorial_back_button" = "Gå ut";

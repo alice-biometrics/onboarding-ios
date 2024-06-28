@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "顔に当たる照明が適度で均一で、ぎらつきのないことを確認してください。";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "ぼやけた";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "顔がシャープに見えるようにし、カメラに汚れやプロテクターが付かないようにしてください。";
+"onboarding_selfie_capturer_uploading_selfie" = "自撮り写真をアップロードしています";
+"onboarding_selfie_capturer_selfie_uploaded" = "自撮り写真をアップロードしました";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "PDFまたは画像を選択してください";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "セルフィーを撮りましょう";
 "onboarding_tutorial_first_subtitle" = "心配しないでください。ほんの数秒で完了します。";
 "onboarding_tutorial_second_subtitle" = "ただし、始める前に次のことを確認してください。";
-"onboarding_tutorial_first_instruction" = "顔を覆うものは何も着ていません。 メガネを保管できる";
+"onboarding_tutorial_first_instruction" = "あなたは明るい空間にいる";
+"onboarding_tutorial_second_instruction" = "カメラはきれいで、覆われていません";
+"onboarding_tutorial_third_instruction" = "顔を覆うものは何も着ていません。 メガネを保管できる";
 "onboarding_tutorial_continue_button" = "準備できました！";
+"onboarding_tutorial_back_button" = "外出";

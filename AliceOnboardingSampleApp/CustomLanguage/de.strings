@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Stellen Sie sicher, dass die Beleuchtung Ihres Gesichts angemessen und gleichmäßig ist, ohne zu blenden";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Verschwommen";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Stellen Sie sicher, dass Ihr Gesicht scharf aussieht und vermeiden Sie, dass Schmutz oder Schutzfolien auf die Kamera gelangen";
+"onboarding_selfie_capturer_uploading_selfie" = "Selfie hochladen";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie hochgeladen";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Bitte wählen Sie eine PDF-Datei oder ein Bild aus";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Lass uns ein Selfie machen";
 "onboarding_tutorial_first_subtitle" = "Keine Sorge, es dauert nur ein paar Sekunden.";
 "onboarding_tutorial_second_subtitle" = "Aber bevor wir beginnen, stellen Sie sicher, dass:";
-"onboarding_tutorial_first_instruction" = "Sie tragen nichts, was Ihr Gesicht bedeckt. Sie können Ihre Brille behalten";
+"onboarding_tutorial_first_instruction" = "Sie befinden sich in einem gut beleuchteten Raum";
+"onboarding_tutorial_second_instruction" = "Ihre Kamera ist sauber und nicht abgedeckt";
+"onboarding_tutorial_third_instruction" = "Sie tragen nichts, was Ihr Gesicht bedeckt. Sie können Ihre Brille behalten";
 "onboarding_tutorial_continue_button" = "Ich bin bereit!";
+"onboarding_tutorial_back_button" = "Zurück";

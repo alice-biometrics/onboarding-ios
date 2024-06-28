@@ -179,18 +179,20 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Centralize seu rosto no oval e o documento no retângulo";
 "onboarding_selfie_capturer_button_tutorial" = "OK, entendi!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Agora você tem que tirar uma selfie. Siga estas instruções";
-"onboarding_selfie_capturer_challenge_document_info" = "Coloque a parte frontal do seu cartão de identificação no retângulo";
+"onboarding_selfie_capturer_challenge_document_info" = "Coloque a parte frontal do seu documento no retângulo";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Longe demais";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Muito perto";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posição errada";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Cor não natural";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite iluminação colorida em seu rosto";
 "onboarding_selfie_capturer_iqa_feedback_underexposed" = "Baixa iluminação";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Certifique-se de que a iluminação em seu rosto seja razoável e uniforme";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Iluminação excessiva";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem reflexos";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem brilho";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Certifique-se de que seu rosto esteja nítido e evite sujeira ou protetores na câmera";
+"onboarding_selfie_capturer_uploading_selfie" = "Enviando selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie enviada";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, escolha um arquivo PDF ou uma imagem";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Vamos tirar uma selfie";
 "onboarding_tutorial_first_subtitle" = "Não se preocupe, isso levará apenas alguns segundos.";
 "onboarding_tutorial_second_subtitle" = "Mas antes de começarmos, certifique-se de que:";
-"onboarding_tutorial_first_instruction" = "Você não está usando nada cobrindo seu rosto. Você pode manter seus óculos";
+"onboarding_tutorial_first_instruction" = "Você está em um espaço bem iluminado";
+"onboarding_tutorial_second_instruction" = "Sua câmera está limpa e não coberta";
+"onboarding_tutorial_third_instruction" = "Você não está usando nada cobrindo seu rosto. Você pode ficar com seus óculos";
 "onboarding_tutorial_continue_button" = "Estou pronto!";
+"onboarding_tutorial_back_button" = "Voltar";

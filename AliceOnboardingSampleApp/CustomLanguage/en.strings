@@ -179,7 +179,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Please, center your face on the oval and the document on the rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "Ok, got it!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Now you have to take a selfie. Follow these instructions";
-"onboarding_selfie_capturer_challenge_document_info" = "Fit the front side of your ID card in the rectangle";
+"onboarding_selfie_capturer_challenge_document_info" = "Fit the front side of your ID in the rectangle";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Too far";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Too close";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Wrong position";
@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Make sure the lighting on your face is reasonable and even, without glare";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Blurred";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Make sure your face looks sharp and avoid getting dirt or protectors on the camera";
+"onboarding_selfie_capturer_uploading_selfie" = "Uploading selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie uploaded";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Please choose a PDF or an image";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Let’s take a selfie";
 "onboarding_tutorial_first_subtitle" = "Don't worry, it'll take just a few seconds.";
 "onboarding_tutorial_second_subtitle" = "But before we start, make sure that:";
-"onboarding_tutorial_first_instruction" = "You are not wearing anything covering your face. You can keep your eyeglasses";
+"onboarding_tutorial_first_instruction" = "You are in a well-lit space";
+"onboarding_tutorial_second_instruction" = "Your camera is clean and not covered";
+"onboarding_tutorial_third_instruction" = "You are not wearing anything covering your face. You can keep your eyeglasses";
 "onboarding_tutorial_continue_button" = "I’m ready!";
+"onboarding_tutorial_back_button" = "Back";

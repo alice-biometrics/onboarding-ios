@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Βεβαιωθείτε ότι ο φωτισμός στο πρόσωπό σας είναι λογικός και ομοιόμορφος, χωρίς λάμψη";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Θολή";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Βεβαιωθείτε ότι το πρόσωπό σας φαίνεται καθαρά και αποφύγετε τη βρωμιά ή τα προστατευτικά στην κάμερα";
+"onboarding_selfie_capturer_uploading_selfie" = "Ανέβασμα selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "ανέβηκε η selfie";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Επιλέξτε ένα PDF ή μια εικόνα";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Είμαι έτοιμος!";
 "onboarding_tutorial_first_subtitle" = "Μην ανησυχείτε, θα χρειαστούν μόνο λίγα δευτερόλεπτα.";
 "onboarding_tutorial_second_subtitle" = "Αλλά πριν ξεκινήσουμε, βεβαιωθείτε ότι:";
-"onboarding_tutorial_first_instruction" = "Δεν φοράς τίποτα που να καλύπτει το πρόσωπό σου. Μπορείτε να κρατήσετε τα γυαλιά σας";
+"onboarding_tutorial_first_instruction" = "Βρίσκεστε σε έναν καλά φωτισμένο χώρο";
+"onboarding_tutorial_second_instruction" = "Η κάμερά σας είναι καθαρή και δεν καλύπτεται";
+"onboarding_tutorial_third_instruction" = "Δεν φοράς τίποτα που να καλύπτει το πρόσωπό σου. Μπορείτε να κρατήσετε τα γυαλιά σας";
 "onboarding_tutorial_continue_button" = "Είμαι έτοιμος!";
+"onboarding_tutorial_back_button" = "πίσω";

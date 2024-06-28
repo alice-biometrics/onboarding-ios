@@ -179,7 +179,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra tu cara en el óvalo y el documento en el rectángulo";
 "onboarding_selfie_capturer_button_tutorial" = "Vale, ¡entendido!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Ahora tienes que hacerte un selfie. Sigue estas instrucciones";
-"onboarding_selfie_capturer_challenge_document_info" = "Coloca la parte frontal de tu carnet de identidad en el rectángulo";
+"onboarding_selfie_capturer_challenge_document_info" = "Coloca la parte frontal de tu documento en el rectángulo";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Demasiado lejos";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Demasiado cerca";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Asegúrate de que la iluminación de tu cara sea razonable y uniforme, sin brillos";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Asegúrate de que tu cara se ve nítida y evita suciedad o protectores sobre la cámara";
+"onboarding_selfie_capturer_uploading_selfie" = "Subiendo selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie subido";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, elija un PDF o una imagen";
@@ -214,8 +216,11 @@
 "onboarding_qr_info_text_extra" = "¿Quieres continuar el proceso de onboarding en tu móvil? Sólo tienes que escanear este QR:";
 
 //Tutorial view
-"onboarding_tutorial_title" = "Tomemos una selfie";
+"onboarding_tutorial_title" = "Vamos a hacer un selfie";
 "onboarding_tutorial_first_subtitle" = "No te preocupes, solo te llevará unos segundos.";
-"onboarding_tutorial_second_subtitle" = "Pero antes de comenzar, asegúrate de que: ";
-"onboarding_tutorial_first_instruction" = "No llevas nada que cubra tu cara. Puedes quedarte con tus anteojos";
+"onboarding_tutorial_second_subtitle" = "Pero antes de comenzar, asegúrate de que:";
+"onboarding_tutorial_first_instruction" = "Estás en un espacio bien iluminado.";
+"onboarding_tutorial_second_instruction" = "Tu cámara está limpia y no está cubierta.";
+"onboarding_tutorial_third_instruction" = "No llevas nada que cubra tu cara. Puedes mantener tus gafas.";
 "onboarding_tutorial_continue_button" = "¡Estoy listo!";
+"onboarding_tutorial_back_button" = "Volver";

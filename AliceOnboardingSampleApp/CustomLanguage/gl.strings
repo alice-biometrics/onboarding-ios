@@ -37,7 +37,7 @@
 "onboarding_error_title_image_type_not_supported" = "Imaxe non compatible";
 "onboarding_error_subtitle_file_type_not_supported" = "Os tipos de ficheiros admitidos son .jpg, .png e .bmp";
 "onboarding_error_doc_country_not_supported" = "Este tipo de documento non é compatible co país seleccionado";
-"onboarding_error_title_challenge_timeout" = "Tempo fóra";
+"onboarding_error_title_challenge_timeout" = "Tempo agotado";
 "onboarding_error_subtitle_challenge_timeout" = "O reto non se completou. Por favor, inténtao de novo";
 
 //Stages
@@ -179,7 +179,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra a túa cara no óvalo e o documento no rectángulo";
 "onboarding_selfie_capturer_button_tutorial" = "Vale, entendido!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Agora tes que facer unha selfie. Siga estas instrucións";
-"onboarding_selfie_capturer_challenge_document_info" = "Coloca a parte frontal do teu carnet de identidade no rectángulo";
+"onboarding_selfie_capturer_challenge_document_info" = "Coloca a parte frontal do teu documento no rectángulo";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Moi lonxe";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Demasiado perto";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Asegúrate de que a iluminación do teu rostro sexa razoable e uniforme, sen brillos";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Asegúrate de que o teu rostro estea nítido e evita que a cámara se ensucie ou teña protectores";
+"onboarding_selfie_capturer_uploading_selfie" = "Subindo selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie subido";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Por favor, escolla un ficheiro PDF o unha imaxe";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Imos facer un selfie";
 "onboarding_tutorial_first_subtitle" = "Non te preocupes, só levará uns segundos.";
 "onboarding_tutorial_second_subtitle" = "Pero antes de comezar, asegúrate de que:";
-"onboarding_tutorial_first_instruction" = "Non levas nada que cobre a cara. Podes gardar os teus lentes";
+"onboarding_tutorial_first_instruction" = "Estás nun espazo ben iluminado";
+"onboarding_tutorial_second_instruction" = "A túa cámara está limpa e non cuberta";
+"onboarding_tutorial_third_instruction" = "Non levas nada que cobre a cara. Podes manter os teus lentes";
 "onboarding_tutorial_continue_button" = "Estou listo!";
+"onboarding_tutorial_back_button" = "Voltar";

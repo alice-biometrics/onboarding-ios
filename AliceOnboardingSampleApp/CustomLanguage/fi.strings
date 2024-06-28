@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Varmista, että kasvosi valaistus on kohtuullinen ja tasainen ilman häikäisyä";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Epäselvä";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Varmista, että kasvosi näyttävät teräviltä, ​​ja vältä likaa tai suojia pääsemästä kameraan";
+"onboarding_selfie_capturer_uploading_selfie" = "Ladataan selfietä";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie ladattu";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Valitse PDF tai kuva";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Otetaan selfie";
 "onboarding_tutorial_first_subtitle" = "Älä huoli, se kestää vain muutaman sekunnin.";
 "onboarding_tutorial_second_subtitle" = "Mutta ennen kuin aloitamme, varmista, että:";
-"onboarding_tutorial_first_instruction" = "Sinulla ei ole päälläsi mitään, mikä peittää kasvosi. Voit pitää silmälasit";
+"onboarding_tutorial_first_instruction" = "Olet hyvin valaistussa tilassa";
+"onboarding_tutorial_second_instruction" = "Kamerasi on puhdas eikä peitetty";
+"onboarding_tutorial_third_instruction" = "Sinulla ei ole päälläsi mitään, mikä peittää kasvosi. Voit pitää silmälasit";
 "onboarding_tutorial_continue_button" = "Olen valmis!";
+"onboarding_tutorial_back_button" = "Takaisin";

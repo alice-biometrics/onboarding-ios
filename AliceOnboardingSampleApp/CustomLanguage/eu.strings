@@ -186,11 +186,13 @@
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Kolore ez naturala";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Saihestu aurpegian koloretako argiztapena";
 "onboarding_selfie_capturer_iqa_feedback_underexposed" = "Argiztapen baxua";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ziurtatu aurpegiko argiztapena arrazoizkoa eta berdina dela";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ziurtatu aurpegiko argiztapena arrazoizkoa eta uniformea ​​dela";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Gehiegizko argiztapena";
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Zorroztasun falta";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Ziurtatu aurpegia zorrotza dela eta saihestu kameran zikinkeriarik edo babeslerik ez sartzea";
+"onboarding_selfie_capturer_uploading_selfie" = "Selfie-a kargatzen";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie kargatu da";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Mesedez, aukeratu PDF fitxategi bat edo argazki bat";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Egin dezagun selfie bat";
 "onboarding_tutorial_first_subtitle" = "Ez kezkatu, segundo gutxi batzuk besterik ez dira izango.";
 "onboarding_tutorial_second_subtitle" = "Baina hasi baino lehen, ziurtatu hau:";
-"onboarding_tutorial_first_instruction" = "Ez duzu ezer jantzita aurpegia estaltzeko. Betaurrekoak gorde ditzakezu";
+"onboarding_tutorial_first_instruction" = "Ondo argiztatutako espazio batean zaude.";
+"onboarding_tutorial_second_instruction" = "Zure kamera garbi dago eta ez dago estalita.";
+"onboarding_tutorial_third_instruction" = "Ez duzu ezer jantzita aurpegia estaltzeko. Betaurrekoak gorde ditzakezu";
 "onboarding_tutorial_continue_button" = "Prest nago!";
+"onboarding_tutorial_back_button" = "Atera";

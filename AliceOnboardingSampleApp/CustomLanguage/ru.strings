@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Размытый";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.";
+"onboarding_selfie_capturer_uploading_selfie" = "Загрузка селфи";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie enviada";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Пожалуйста, выберите файл PDF или изображение";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Давай сделаем селфи";
 "onboarding_tutorial_first_subtitle" = "Не волнуйтесь, это займет всего несколько секунд.";
 "onboarding_tutorial_second_subtitle" = "Но прежде чем мы начнем, убедитесь, что:";
-"onboarding_tutorial_first_instruction" = "На вас нет ничего, закрывающего лицо. Вы можете оставить свои очки";
+"onboarding_tutorial_first_instruction" = "Вы находитесь в хорошо освещенном месте";
+"onboarding_tutorial_second_instruction" = "Ваша камера чистая и не накрыта";
+"onboarding_tutorial_third_instruction" = "На вас нет ничего, закрывающего лицо. Вы можете оставить свои очки";
 "onboarding_tutorial_continue_button" = "Я готов!";
+"onboarding_tutorial_back_button" = "выходить";

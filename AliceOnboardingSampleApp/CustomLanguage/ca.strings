@@ -179,7 +179,7 @@
 "onboarding_selfie_with_document_capturer_center_face" = "Si us plau, centreu la vostra cara a l'oval i el document al rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "D'acord ho tinc!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Ara t'has de fer una selfie. Seguiu aquestes instruccions";
-"onboarding_selfie_capturer_challenge_document_info" = "Col·loca la part frontal de la teva targeta d'identificació al rectangle";
+"onboarding_selfie_capturer_challenge_document_info" = "Col·loca la part frontal del teu document al rectangle";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Massa lluny";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Massa a prop";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posició incorrecta";
@@ -191,6 +191,8 @@
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Assegureu-vos que la il·luminació de la cara sigui raonable i uniforme, sense brillantors";
 "onboarding_selfie_capturer_iqa_feedback_blurry" = "Manca de nitidesa";
 "onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Assegureu-vos que la cara es veu nítida i eviti brutícia o protectors sobre la càmera";
+"onboarding_selfie_capturer_uploading_selfie" = "Pujant selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Selfie pujat";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Si us plau, trieu un fitxer PDF o una imatge";
@@ -217,5 +219,8 @@
 "onboarding_tutorial_title" = "Fem una selfie";
 "onboarding_tutorial_first_subtitle" = "No us preocupeu, només trigarà uns segons.";
 "onboarding_tutorial_second_subtitle" = "Però abans de començar, assegureu-vos que:";
-"onboarding_tutorial_first_instruction" = "No porteu res que us cobreixi la cara. Pots quedar-te amb les ulleres";
+"onboarding_tutorial_first_instruction" = "Esteu en un espai ben il·luminat";
+"onboarding_tutorial_second_instruction" = "La teva càmera està neta i no està coberta";
+"onboarding_tutorial_third_instruction" = "No porteu res que us cobreixi la cara. Pots mantenir les teves ulleres";
 "onboarding_tutorial_continue_button" = "Estic preparat!";
+"onboarding_tutorial_back_button" = "Esquena";
