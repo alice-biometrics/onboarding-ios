@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Inget ansikte upptäckt";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Se till att hålla ditt ansikte i det ovala under bra ljusförhållanden under hela processen";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Klicka här för att ta ett foto!";
-"onboarding_selfie_capturer_subtitle" = "Snälla, fortsätt med fångsten";
+"onboarding_selfie_capturer_subtitle" = "Centrera ditt ansikte i det ovala och placera kameran i nivå med dina ögon. När ovalen blir grön, rör dig inte förrän processen är klar. ";
 "onboarding_selfie_capturer_subtitle_review" = "Se till att din bild är bra";
 "onboarding_selfie_with_document_capturer_center_face" = "Centrera ditt ansikte på ovalen och dokumentet på rektangeln";
 "onboarding_selfie_capturer_button_tutorial" = "Okej, förstår!";

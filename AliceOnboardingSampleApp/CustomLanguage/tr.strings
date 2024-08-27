@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Yüz tespit edilmedi";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "İşlem boyunca iyi ışık koşullarında yüzünüzü oval tutmaya dikkat edin";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Fotoğraf çekmek için buraya tıklayın!";
-"onboarding_selfie_capturer_subtitle" = "Lütfen ele geçirmeye devam edin";
+"onboarding_selfie_capturer_subtitle" = "Yüzünüzü ovalin ortasına getirin ve kamerayı göz hizanıza getirin. Oval yeşile döndüğünde işlem tamamlanana kadar hareket etmeyin. ";
 "onboarding_selfie_capturer_subtitle_review" = "Lütfen resminizin iyi olduğundan emin olun";
 "onboarding_selfie_with_document_capturer_center_face" = "Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın";
 "onboarding_selfie_capturer_button_tutorial" = "Tamam anladım!";
@@ -182,9 +182,9 @@
 "onboarding_selfie_capturer_challenge_document_info" = "Kimlik kartınızın ön tarafını dikdörtgene sığdırın";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Çok uzak";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Çok yakın";
-"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Yanlış pozisyon";
+"onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Yanlış konum";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Doğal olmayan renk";
-"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Yüzünüzde renkli ışıklardan kaçının";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Yüzünüzde renkli aydınlatmadan kaçının";
 "onboarding_selfie_capturer_iqa_feedback_underexposed" = "Düşük parlaklık";
 "onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve tekdüze olduğundan emin olun";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Çok parlak";

@@ -174,14 +174,14 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Visage non détecté";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Assurez-vous de garder votre visage dans l'ovale dans de bonnes conditions d'éclairage tout au long du processus";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Cliquez ici pour prendre une photo!";
-"onboarding_selfie_capturer_subtitle" = "Veuillez procéder à la capture";
+"onboarding_selfie_capturer_subtitle" = "Centrez votre visage dans l'ovale et placez l'appareil photo au niveau de vos yeux. Lorsque l’ovale devient vert, ne bougez pas tant que le processus n’est pas terminé. ";
 "onboarding_selfie_capturer_subtitle_review" = "Veuillez vous assurer que votre photo est bonne";
 "onboarding_selfie_with_document_capturer_center_face" = "S'il vous plaît, centrez votre visage sur l'ovale et le document sur le rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "D'accord, j'ai compris !";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Maintenant, vous devez prendre un selfie. Suivez ces instructions";
 "onboarding_selfie_capturer_challenge_document_info" = "Placez le recto de votre carte d'identité dans le rectangle";
-"onboarding_selfie_capturer_iqa_feedback_too_far" = "Trop loin";
-"onboarding_selfie_capturer_iqa_feedback_too_close" = "Trop près";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "loin";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "trop près";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Mauvaise position";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Couleur non naturelle";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Évitez l’éclairage coloré sur votre visage";
@@ -218,7 +218,7 @@
 //Tutorial view
 "onboarding_tutorial_title" = "Prenons un selfie";
 "onboarding_tutorial_first_subtitle" = "Ne vous inquiétez pas, cela ne prendra que quelques secondes.";
-"onboarding_tutorial_second_subtitle" = "";
+"onboarding_tutorial_second_subtitle" = "Mais avant de commencer, assurez-vous que :";
 "onboarding_tutorial_first_instruction" = "Vous êtes dans un espace bien éclairé";
 "onboarding_tutorial_second_instruction" = "Votre caméra est propre et non couverte";
 "onboarding_tutorial_third_instruction" = "Vous ne portez rien qui couvre votre visage. Vous pouvez garder vos lunettes";

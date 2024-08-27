@@ -49,7 +49,7 @@
 "onboarding_stages_selfie_with_document_challenge" = "Selfie with challenge";
 "onboarding_stages_document" = "Document";
 "onboarding_stages_id_card" = "National ID Card";
-"onboarding_stages_driver_license" = "Driver license";
+"onboarding_stages_driver_license" = "Driving licence";
 "onboarding_stages_passport" = "Passport";
 "onboarding_stages_residence_permit" = "Residence permit";
 "onboarding_stages_health_insurance_card" = "Health insurance card";
@@ -61,7 +61,7 @@
 
 //Doc sides screen
 "onboarding_sides_title_id_card" = "National ID Card";
-"onboarding_sides_title_driver_license" = "Driver license";
+"onboarding_sides_title_driver_license" = "Driving licence";
 "onboarding_sides_title_passport" = "Passport";
 "onboarding_sides_title_residence_permit" = "Residence permit";
 "onboarding_sides_title_health_insurance_card" = "Health insurance card";

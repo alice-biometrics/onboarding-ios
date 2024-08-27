@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "顔が検出されませんでした";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "プロセス全体を通じて、良好な照明条件で顔を楕円形に保つようにしてください。";
 "onboarding_selfie_capturer_face_detected_tooltip" = "写真を撮るにはここをクリックしてください！";
-"onboarding_selfie_capturer_subtitle" = "キャプチャを進めてください";
+"onboarding_selfie_capturer_subtitle" = "顔を楕円形の中心に置き、カメラを目の高さに置きます。楕円形が緑色に変わったら、プロセスが完了するまで動かないでください。 ";
 "onboarding_selfie_capturer_subtitle_review" = "あなたの写真が良いことを確認してください";
 "onboarding_selfie_with_document_capturer_center_face" = "楕円形と長方形の文書に顔を集中してください";
 "onboarding_selfie_capturer_button_tutorial" = "わかりました！";

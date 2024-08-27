@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Kasvoja ei havaittu";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Pidä kasvosi soikeassa hyvässä valaistuksessa koko prosessin ajan";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Napsauta tästä ottaaksesi valokuvan!";
-"onboarding_selfie_capturer_subtitle" = "Ole hyvä ja jatka sieppaamista";
+"onboarding_selfie_capturer_subtitle" = "Keskitä kasvosi soikeaan ja aseta kamera silmiesi tasolle. Kun soikea muuttuu vihreäksi, älä liiku ennen kuin prosessi on valmis. ";
 "onboarding_selfie_capturer_subtitle_review" = "Ole hyvä ja varmista, että kuvasi on hyvä";
 "onboarding_selfie_with_document_capturer_center_face" = "Keskitä kasvosi soikeaan ja asiakirja suorakulmioon";
 "onboarding_selfie_capturer_button_tutorial" = "OK tajusin!";

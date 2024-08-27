@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Δεν εντοπίστηκε πρόσωπο";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Φροντίστε να διατηρείτε το πρόσωπό σας στο οβάλ σε καλές συνθήκες φωτισμού καθ' όλη τη διάρκεια της διαδικασίας";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Κάντε κλικ εδώ για να τραβήξετε μια φωτογραφία!";
-"onboarding_selfie_capturer_subtitle" = "Παρακαλώ, προχωρήστε στη λήψη";
+"onboarding_selfie_capturer_subtitle" = "Κεντράρετε το πρόσωπό σας στο οβάλ και τοποθετήστε την κάμερα στο ύψος των ματιών σας. Όταν το οβάλ γίνει πράσινο, μην μετακινηθείτε μέχρι να ολοκληρωθεί η διαδικασία. ";
 "onboarding_selfie_capturer_subtitle_review" = "Παρακαλώ, βεβαιωθείτε ότι η εικόνα σας είναι καλή";
 "onboarding_selfie_with_document_capturer_center_face" = "Παρακαλούμε, κεντράρετε το πρόσωπό σας στο οβάλ και το έγγραφο στο ορθογώνιο";
 "onboarding_selfie_capturer_button_tutorial" = "Κατανοητό";

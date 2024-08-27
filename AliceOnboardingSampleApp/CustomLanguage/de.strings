@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Kein Gesicht erkannt";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Achten Sie darauf, dass Ihr Gesicht während des gesamten Vorgangs bei guten Lichtverhältnissen im Oval bleibt";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Klicken Sie hier, um ein Foto zu machen!";
-"onboarding_selfie_capturer_subtitle" = "Bitte fahren Sie mit der Erfassung fort";
+"onboarding_selfie_capturer_subtitle" = "Zentrieren Sie Ihr Gesicht im Oval und platzieren Sie die Kamera auf Augenhöhe. Wenn das Oval grün wird, bewegen Sie sich nicht, bis der Vorgang abgeschlossen ist. ";
 "onboarding_selfie_capturer_subtitle_review" = "Bitte stellen Sie sicher, dass Ihr Bild gut ist";
 "onboarding_selfie_with_document_capturer_center_face" = "Bitte zentrieren Sie Ihr Gesicht auf dem Oval und das Dokument auf dem Rechteck";
 "onboarding_selfie_capturer_button_tutorial" = "OK habe es!";

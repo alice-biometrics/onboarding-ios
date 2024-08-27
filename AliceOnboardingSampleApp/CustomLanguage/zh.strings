@@ -174,14 +174,14 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "没有检测到的脸";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "确保整个过程中在良好的照明条件下保持脸部呈椭圆形";
 "onboarding_selfie_capturer_face_detected_tooltip" = "点击这里拍照！";
-"onboarding_selfie_capturer_subtitle" = "请继续进行捕获";
+"onboarding_selfie_capturer_subtitle" = "将您的脸置于椭圆形中心，并将相机放置在您眼睛的高度。当椭圆形变成绿色时，请勿移动，直至该过程完成。 ";
 "onboarding_selfie_capturer_subtitle_review" = "请确保您的图片好";
 "onboarding_selfie_with_document_capturer_center_face" = "请把你的脸放在椭圆上，把文件放在长方形上";
 "onboarding_selfie_capturer_button_tutorial" = "好的，我知道了！";
 "onboarding_selfie_capturer_subtitle_tutorial" = "现在你必须自拍。 按照这些说明";
 "onboarding_selfie_capturer_challenge_document_info" = "将身份证正面放入矩形中";
-"onboarding_selfie_capturer_iqa_feedback_too_far" = "太远";
-"onboarding_selfie_capturer_iqa_feedback_too_close" = "太接近了";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "太远了";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "太近了";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "位置错误";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "颜色不自然";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "避免彩色灯光打在脸上";

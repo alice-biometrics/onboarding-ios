@@ -174,14 +174,14 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Cara non detectada";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Asegúrate de manter a túa cara no óvalo en boas condicións de iluminación durante todo o proceso";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Fai clic aquí para facer unha foto!";
-"onboarding_selfie_capturer_subtitle" = "Por favor, continúa coa captura";
+"onboarding_selfie_capturer_subtitle" = "Centra a túa cara no óvalo e coloca a cámara ao nivel dos teus ollos. Cando o óvalo se pon verde, non te movas ata que se complete o proceso. ";
 "onboarding_selfie_capturer_subtitle_review" = "Por favor, comproba que a foto está ben";
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra a túa cara no óvalo e o documento no rectángulo";
 "onboarding_selfie_capturer_button_tutorial" = "Vale, entendido!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Agora tes que facer unha selfie. Siga estas instrucións";
 "onboarding_selfie_capturer_challenge_document_info" = "Coloca a parte frontal do teu documento no rectángulo";
-"onboarding_selfie_capturer_iqa_feedback_too_far" = "Moi lonxe";
-"onboarding_selfie_capturer_iqa_feedback_too_close" = "Demasiado perto";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "demasiado lonxe";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "moi preto";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Cor non natural";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite a iluminación de cores no seu rostro";

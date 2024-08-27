@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Cara no detectada";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Assegureu-vos de mantenir el vostre rostre a l'oval en bones condicions d'il·luminació durant tot el procés";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Feu clic aquí per fer-vos una foto!";
-"onboarding_selfie_capturer_subtitle" = "Si us plau, continuï amb la captura";
+"onboarding_selfie_capturer_subtitle" = "Centreu la cara a l'oval i col·loqueu la càmera al nivell dels vostres ulls. Quan l'oval es torna verd, no us moveu fins que s'hagi completat el procés. ";
 "onboarding_selfie_capturer_subtitle_review" = "Si us plau, comprova que la foto és bona";
 "onboarding_selfie_with_document_capturer_center_face" = "Si us plau, centreu la vostra cara a l'oval i el document al rectangle";
 "onboarding_selfie_capturer_button_tutorial" = "D'acord ho tinc!";

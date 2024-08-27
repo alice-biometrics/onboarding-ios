@@ -38,7 +38,7 @@
 "onboarding_error_subtitle_file_type_not_supported" = "Os tipos de arquivo compatíveis são .jpg, .png, .bmp";
 "onboarding_error_doc_country_not_supported" = "Este tipo de documento não é compatível com o país selecionado";
 "onboarding_error_title_challenge_timeout" = "Tempo esgotado";
-"onboarding_error_subtitle_challenge_timeout" = "O desafio não foi concluído. Por favor, tente novamente";
+"onboarding_error_subtitle_challenge_timeout" = "O desafio não foi vencido. Por favor, tente novamente";
 
 //Stages
 "onboarding_stages_title" = "Verificação de Identidade";
@@ -48,10 +48,10 @@
 "onboarding_stages_selfie_with_challenge" = "Selfie com desafio";
 "onboarding_stages_selfie_with_document_challenge" = "Selfie com desafio";
 "onboarding_stages_document" = "Documento";
-"onboarding_stages_id_card" = "Cartão de cidadão";
-"onboarding_stages_driver_license" = "Carta de conduçao";
+"onboarding_stages_id_card" = "Cédula de identidade";
+"onboarding_stages_driver_license" = "Carteira de motorista";
 "onboarding_stages_passport" = "Passaporte";
-"onboarding_stages_residence_permit" = "Cartão de residência";
+"onboarding_stages_residence_permit" = "Licença de residência";
 "onboarding_stages_health_insurance_card" = "Cartão de saúde";
 "onboarding_stages_already_completed" = "Passo já completado";
 "onboarding_stages_completed" = "Completado";
@@ -60,10 +60,10 @@
 "onboarding_stages_done_button" = "CONTINUAR";
 
 //Doc sides screen
-"onboarding_sides_title_id_card" = "Cartão de cidadão";
-"onboarding_sides_title_driver_license" = "Carta de conduçao";
+"onboarding_sides_title_id_card" = "Cédula de identidade";
+"onboarding_sides_title_driver_license" = "Carteira de motorista";
 "onboarding_sides_title_passport" = "Passaporte";
-"onboarding_sides_title_residence_permit" = "Cartão de residência";
+"onboarding_sides_title_residence_permit" = "Licença de residência";
 "onboarding_sides_title_health_insurance_card" = "Cartão de saúde";
 "onboarding_sides_subtitle" = "Prossiga com a captura de documentos";
 "onboarding_sides_front" = "PARTE DA FRENTE";
@@ -127,9 +127,9 @@
 "onboarding_doc_capturer_subtitle_try_again_or_manual_capture" = "O documento não pôde ser capturado. Por favor, tente novamente ou use a captura manual";
 "onboarding_doc_capturer_qr_message" = "Não se preocupe, você pode continuar o processo no seu smartphone. Digitalize o QR!";
 "onboarding_doc_capturer_qr_or_you_can" = "ou você pode";
-"onboarding_doc_capturer_check_position" = "Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.";
-"onboarding_doc_capturer_front_check_position" = "Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.";
-"onboarding_doc_capturer_back_check_position" = "Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.";
+"onboarding_doc_capturer_check_position" = "Ajustar o documento ao retângulo";
+"onboarding_doc_capturer_front_check_position" = "Ajustar o documento ao retângulo";
+"onboarding_doc_capturer_back_check_position" = "Ajustar o documento ao retângulo";
 "onboarding_doc_capturer_processing_stay_still" = "Capturando... Não mova o documento";
 "onboarding_error_max_number_of_documents" = "Você excedeu o número máximo de tentativas";
 
@@ -138,7 +138,7 @@
 "onboarding_nfc_doc_capturer_hold_your_doc_android" = "Coloque o seu documento na parte de trás do seu telefone";
 "onboarding_nfc_doc_capturer_finding_antenna" = "Alinhe o documento com a antena NFC do seu telefone. Se você não sabe onde está, deslize lentamente o documento até que o telefone vibre ou toque.";
 "onboarding_nfc_doc_capturer_finding_antenna_shortened" = "Deslize lentamente o documento até que o telefone vibre ou toque.";
-"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Mantenha o documento parado até que a leitura seja concluída";
+"onboarding_nfc_doc_capturer_keep_still_until_finished" = "Mantenha o documento parado até que a leitura remate";
 "onboarding_nfc_doc_capturer_tutorial" = "Tutorial";
 "onboarding_nfc_doc_capturer_start_reading" = "COMEÇAR";
 "onboarding_nfc_doc_capturer_expiry" = "Expiraçao";

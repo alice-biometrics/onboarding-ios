@@ -162,7 +162,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Selfie toevoegen met uitdaging ...";
 "onboarding_selfie_capturer_adding_with_document" = "Selfie toevoegen met document ...";
 "onboarding_selfie_capturer_authenticating" = "Authenticeren ...";
-"onboarding_selfie_capturer_stay_still" = "Blijf stil";
+"onboarding_selfie_capturer_stay_still" = "Niet bewegen";
 "onboarding_selfie_capturer_move_farther" = "Verplaats uw apparaat verder";
 "onboarding_selfie_capturer_get_closer" = "Kom dichterbij";
 "onboarding_selfie_capturer_no_face" = "Geen gezicht gedetecteerd";
@@ -174,7 +174,7 @@
 "onboarding_selfie_capturer_title_insufficient_faces" = "Geen gezicht gedetecteerd";
 "onboarding_selfie_capturer_subtitle_insufficient_faces" = "Zorg ervoor dat u tijdens het hele proces uw gezicht in het ovaal houdt onder goede lichtomstandigheden";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Klik hier om een ​​foto te maken!";
-"onboarding_selfie_capturer_subtitle" = "Ga alsjeblieft verder met de opname";
+"onboarding_selfie_capturer_subtitle" = "Centreer uw gezicht in het ovaal en plaats de camera op ooghoogte. Wanneer het ovaal groen wordt, beweeg dan niet totdat het proces is voltooid. ";
 "onboarding_selfie_capturer_subtitle_review" = "Zorg ervoor dat uw foto goed is";
 "onboarding_selfie_with_document_capturer_center_face" = "Richt alstublieft uw gezicht op het ovaal en het document op de rechthoek";
 "onboarding_selfie_capturer_button_tutorial" = "OK ik snap het!";
