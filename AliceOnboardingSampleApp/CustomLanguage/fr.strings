@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Désolé, ce type de document n'est pas pris en charge pour le pays sélectionné";
 "onboarding_error_title_challenge_timeout" = "Délai d'expiration";
 "onboarding_error_subtitle_challenge_timeout" = "Le défi n'est pas terminé. Veuillez réessayer, SVP";
+"onboarding_timeout_modal_description" = "Vous avez dépassé le temps maximum autorisé. Veuillez réessayer.";
+"onboarding_error_selfie_not_uploaded" = "Selfie non téléchargé";
 
 //Stages
 "onboarding_stages_title" = "Inscription en cours";
@@ -89,9 +91,9 @@
 
 //Doc capturer
 "onboarding_doc_capturer_retry_photo" = "Réessayant la photo";
-"onboarding_doc_capturer_send_photo" = "En cours d’envoi de photo";
+"onboarding_doc_capturer_send_photo" = "Envoyer la photo";
 "onboarding_doc_capturer_manual" = "Capture manuel";
-"onboarding_doc_capturer_retry" = "Reéssayez";
+"onboarding_doc_capturer_retry" = "Réessayez";
 "onboarding_doc_capturer_dismiss" = "Annuler";
 "onboarding_doc_capturer_add_sheet" = "Ajouter une feuille";
 "onboarding_doc_capturer_send" = "Envoyer";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Mauvaise position";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Couleur non naturelle";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Évitez l’éclairage coloré sur votre visage";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Faible éclairage";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Assurez-vous que l'éclairage sur votre visage est raisonnable et uniforme";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Allez dans un endroit plus lumineux";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Nous n'avons pas pu traiter votre selfie car vous vous trouvez dans un endroit trop sombre et votre visage n'est pas clairement visible. Trouvez un endroit avec un meilleur éclairage et réessayez. ";
 "onboarding_selfie_capturer_iqa_feedback_overexposed" = "Trop lumineux";
 "onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Trop lumineux";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Manque de netteté";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Assurez-vous que votre visage soit net et évitez de mettre de la saleté ou des protecteurs sur l'appareil photo.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Nettoyez l'objectif de votre appareil photo";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Nous n'avons pas pu traiter votre selfie car l'image est trop floue. Vérifiez que l'objectif de votre appareil photo est propre et exempt de rayures, puis réessayez. ";
 "onboarding_selfie_capturer_uploading_selfie" = "Téléchargement d'un selfie";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie téléchargé";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Vous ne portez rien qui couvre votre visage. Vous pouvez garder vos lunettes";
 "onboarding_tutorial_continue_button" = "Je suis prêt!";
 "onboarding_tutorial_back_button" = "Dos";
+
+//Permission view
+"onboarding_permission_title" = "Autoriser l'accès à la caméra";
+"onboarding_permission_description" = "Pour procéder à votre vérification, nous avons besoin d'accéder à votre caméra. Vous pouvez nous accorder l'accès en cliquant sur le bouton ci-dessous.";

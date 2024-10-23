@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "آسف ، هذا النوع من المستند غير مدعوم للبلد المحدد";
 "onboarding_error_title_challenge_timeout" = "نفذ الوقت";
 "onboarding_error_subtitle_challenge_timeout" = "لم يكتمل التحدي. حاول مرة اخرى";
+"onboarding_timeout_modal_description" = "لقد تجاوزت الحد الأقصى للوقت المسموح به. يرجى المحاولة مرة أخرى.";
+"onboarding_error_selfie_not_uploaded" = "لم يتم تحميل الصورة الذاتية";
 
 //Stages
 "onboarding_stages_title" = "التحقق من الهوية";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "موقف خاطئ";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "لون غير طبيعي";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "تجنب الإضاءة الملونة على وجهك";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "سطوع منخفض";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "تأكد من أن الإضاءة على وجهك معقولة وموحدة";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "مشرق جدا";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "تأكد من أن الإضاءة على وجهك معقولة ومتساوية، دون وهج";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "غير واضح";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "تأكد من أن وجهك يبدو حادًا وتجنب تعرض الكاميرا للأوساخ أو الواقيات";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "اذهب إلى مكان أكثر إشراقا";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "لم نتمكن من معالجة صورتك الشخصية لأنك في مكان مظلم جدًا ولا يمكن رؤية وجهك بوضوح. ابحث عن مكان به إضاءة أفضل وحاول مرة أخرى.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "انتقل إلى مكان به ضوء مباشر أقل";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "لم نتمكن من معالجة الصورة الذاتية الخاصة بك نظرًا لوجود قدر كبير جدًا من الضوء المباشر على وجهك ولا يظهر بوضوح. ابحث عن مكان أقل سطوعًا وحاول مرة أخرى.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "تنظيف عدسة الكاميرا الخاصة بك";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "لم نتمكن من معالجة الصورة الذاتية الخاصة بك لأن الصورة ضبابية للغاية. تأكد من أن عدسة الكاميرا نظيفة وخالية من الخدوش وحاول مرة أخرى.";
 "onboarding_selfie_capturer_uploading_selfie" = "تحميل صورة شخصية";
 "onboarding_selfie_capturer_selfie_uploaded" = "تم تحميل الصورة الذاتية";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "أنت لا ترتدي أي شيء يغطي وجهك. يمكنك الاحتفاظ بنظاراتك";
 "onboarding_tutorial_continue_button" = "أنا مستعد!";
 "onboarding_tutorial_back_button" = "خلف";
+
+//Permission view
+"onboarding_permission_title" = "السماح بالوصول إلى الكاميرا";
+"onboarding_permission_description" = "لمتابعة عملية التحقق، نحتاج إلى الوصول إلى الكاميرا الخاصة بك. يمكنك منحنا حق الوصول عن طريق النقر على الزر أدناه.";

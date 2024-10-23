@@ -40,6 +40,7 @@
 "onboarding_error_doc_country_not_supported" = "Ho sentim, aquest tipus de document no és compatible amb el país seleccionat";
 "onboarding_error_title_challenge_timeout" = "Temps exhaurit";
 "onboarding_error_subtitle_challenge_timeout" = "No has superat el repte. Si us plau, torna-ho a intentar.";
+"onboarding_timeout_modal_description" = "Heu superat el temps màxim permès. Si us plau, torna-ho a provar.";
 "onboarding_error_selfie_not_uploaded" = "Selfie no pujat";
 
 //Stages
@@ -186,15 +187,15 @@
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Massa a prop";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posició incorrecta";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Color antinatural";
-"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evita il·luminacions de colors sobre el teu rostre";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Il·luminació baixa";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Assegura't que la il·luminació del teu rostre sigui raonable i uniforme";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Sobreil·luminació";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Assegura't que la il·luminació del teu rostre sigui raonable i uniforme, sense reflexos";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidesa";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Assegura't que el teu rostre es vegi nítid i evita brutícia o protectors sobre la càmera";
-"onboarding_selfie_capturer_uploading_selfie" = "Pujant selfie";
-"onboarding_selfie_capturer_selfie_uploaded" = "Selfie pujat";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Eviteu la il·luminació de colors a la cara";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Anar a un lloc més lluminós";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "No hem pogut processar la teva selfie perquè estàs en un lloc massa fosc i la teva cara no és clarament visible. Busca un lloc amb millor il·luminació i torna-ho a provar.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Mou-te a un lloc amb menys llum directa";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "No hem pogut processar la teva selfie perquè hi ha massa llum directa a la teva cara i no es veu clarament. Troba un lloc amb menys llum i torna-ho a provar.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Netegeu la lent de la càmera";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "No hem pogut processar la teva selfie perquè la imatge és massa borrosa. Comproveu que la lent de la càmera estigui neta i sense rascades i torneu-ho a provar.";
+"onboarding_selfie_capturer_uploading_selfie" = "S'està penjant selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "S'ha penjat una selfie";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Si us plau, tria un PDF o una imatge";
@@ -227,3 +228,6 @@
 "onboarding_tutorial_continue_button" = "Estic llest!";
 "onboarding_tutorial_back_button" = "Tornar";
 
+//Permission view
+"onboarding_permission_title" = "Permet l'accés a la càmera";
+"onboarding_permission_description" = "Per continuar amb la verificació, necessitem accedir a la teva càmera. Podeu concedir-nos l'accés fent clic al botó següent.";

@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Λυπούμαστε, αυτός ο τύπος εγγράφου δεν υποστηρίζεται για την επιλεγμένη χώρα";
 "onboarding_error_title_challenge_timeout" = "Τέλος χρόνου";
 "onboarding_error_subtitle_challenge_timeout" = "Η πρόκληση δεν έχει ολοκληρωθεί. Παρακαλώ προσπαθήστε ξανά";
+"onboarding_timeout_modal_description" = "Έχετε υπερβεί τον μέγιστο επιτρεπόμενο χρόνο. Δοκιμάστε ξανά.";
+"onboarding_error_selfie_not_uploaded" = "Η selfie δεν ανέβηκε";
 
 //Stages
 "onboarding_stages_title" = "Επαλήθευση ταυτότητας";
@@ -162,9 +164,9 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Προσθήκη selfie με πρόκληση…";
 "onboarding_selfie_capturer_adding_with_document" = "Προσθήκη selfie με έγγραφο…";
 "onboarding_selfie_capturer_authenticating" = "Έλεγχος ταυτότητας…";
-"onboarding_selfie_capturer_stay_still" = "Μείνεται ακίνητοι";
+"onboarding_selfie_capturer_stay_still" = "Μείνε ακίνητος";
 "onboarding_selfie_capturer_move_farther" = "Μετακινήστε τη συσκευή σας πιο μακριά";
-"onboarding_selfie_capturer_get_closer" = "Ελάτε πιο κοντά";
+"onboarding_selfie_capturer_get_closer" = "Έλα πιο κοντά";
 "onboarding_selfie_capturer_no_face" = "Δεν εντοπίστηκε πρόσωπο";
 "onboarding_selfie_capturer_look_camera" = "Κοιτάξτε την κάμερα";
 "onboarding_selfie_capturer_center_face" = "Κεντράρετε το πρόσωπό σας στο οβάλ";
@@ -177,22 +179,22 @@
 "onboarding_selfie_capturer_subtitle" = "Κεντράρετε το πρόσωπό σας στο οβάλ και τοποθετήστε την κάμερα στο ύψος των ματιών σας. Όταν το οβάλ γίνει πράσινο, μην μετακινηθείτε μέχρι να ολοκληρωθεί η διαδικασία. ";
 "onboarding_selfie_capturer_subtitle_review" = "Παρακαλώ, βεβαιωθείτε ότι η εικόνα σας είναι καλή";
 "onboarding_selfie_with_document_capturer_center_face" = "Παρακαλούμε, κεντράρετε το πρόσωπό σας στο οβάλ και το έγγραφο στο ορθογώνιο";
-"onboarding_selfie_capturer_button_tutorial" = "Κατανοητό";
-"onboarding_selfie_capturer_subtitle_tutorial" = "Τώρα πρέπει να βγάλετε μια selfie. Ακολουθήστε τις σχετικές οδηγίες";
-"onboarding_selfie_capturer_challenge_document_info" = "Τοποθετήστε την μπροστινή πλευρά της ταυτότητας σας στο ορθογώνιο";
+"onboarding_selfie_capturer_button_tutorial" = "Εντάξει, κατάλαβα!";
+"onboarding_selfie_capturer_subtitle_tutorial" = "Τώρα πρέπει να βγάλεις selfie. Ακολουθήστε αυτές τις οδηγίες";
+"onboarding_selfie_capturer_challenge_document_info" = "Τοποθετήστε την μπροστινή πλευρά της ταυτότητάς σας στο ορθογώνιο";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Πολύ μακριά";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Πολύ κοντά";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Λάθος θέση";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Αφύσικο χρώμα";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Αποφύγετε τον έγχρωμο φωτισμό στο πρόσωπό σας";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Χαμηλή φωτεινότητα";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Βεβαιωθείτε ότι ο φωτισμός στο πρόσωπό σας είναι λογικός και ομοιόμορφος";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Υπεροβολικά φωτεινό";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Βεβαιωθείτε ότι ο φωτισμός στο πρόσωπό σας είναι λογικός και ομοιόμορφος, χωρίς λάμψη";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Θολή";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Βεβαιωθείτε ότι το πρόσωπό σας φαίνεται καθαρά και αποφύγετε τη βρωμιά ή τα προστατευτικά στην κάμερα";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Πηγαίνετε σε ένα πιο φωτεινό μέρος";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Δεν μπορέσαμε να επεξεργαστούμε τη selfie σας επειδή βρίσκεστε σε ένα μέρος που είναι πολύ σκοτεινό και το πρόσωπό σας δεν φαίνεται καθαρά. Βρείτε ένα μέρος με καλύτερο φωτισμό και δοκιμάστε ξανά.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Μετακινηθείτε σε μέρος με λιγότερο άμεσο φως";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Δεν μπορέσαμε να επεξεργαστούμε τη selfie σας επειδή υπάρχει πολύ άμεσο φως στο πρόσωπό σας και δεν εμφανίζεται καθαρά. Βρείτε ένα μέρος με λιγότερο έντονο φωτισμό και δοκιμάστε ξανά.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Καθαρίστε τον φακό της κάμερας";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Δεν μπορέσαμε να επεξεργαστούμε τη selfie σας επειδή η εικόνα είναι πολύ θολή. Ελέγξτε ότι ο φακός της φωτογραφικής μηχανής σας είναι καθαρός και χωρίς γρατσουνιές και δοκιμάστε ξανά.";
 "onboarding_selfie_capturer_uploading_selfie" = "Ανέβασμα selfie";
-"onboarding_selfie_capturer_selfie_uploaded" = "ανέβηκε η selfie";
+"onboarding_selfie_capturer_selfie_uploaded" = "Η selfie ανέβηκε";
 
 //OTD capturer
 "onboarding_other_trusted_docs_subtitle" = "Επιλέξτε ένα PDF ή μια εικόνα";
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Δεν φοράς τίποτα που να καλύπτει το πρόσωπό σου. Μπορείτε να κρατήσετε τα γυαλιά σας";
 "onboarding_tutorial_continue_button" = "Είμαι έτοιμος!";
 "onboarding_tutorial_back_button" = "πίσω";
+
+//Permission view
+"onboarding_permission_title" = "Επιτρέψτε την πρόσβαση στην κάμερα";
+"onboarding_permission_description" = "Για να προχωρήσουμε στην επαλήθευση σας, χρειαζόμαστε πρόσβαση στην κάμερά σας. Μπορείτε να μας παραχωρήσετε πρόσβαση κάνοντας κλικ στο παρακάτω κουμπί.";

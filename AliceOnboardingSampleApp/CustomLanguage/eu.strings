@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Sentitzen dugu, dokumentu mota hau ez da onartzen hautatutako herrialdean";
 "onboarding_error_title_challenge_timeout" = "Denboraz kanpo";
 "onboarding_error_subtitle_challenge_timeout" = "Erronka ez da bete. Saiatu berriro mesedez";
+"onboarding_timeout_modal_description" = "Onartutako gehienezko denbora gainditu duzu. Mesedez, saiatu berriro.";
+"onboarding_error_selfie_not_uploaded" = "Selfie ez da kargatu";
 
 //Stages
 "onboarding_stages_title" = "identitate egiaztatzea";
@@ -180,17 +182,17 @@
 "onboarding_selfie_capturer_button_tutorial" = "Ados, lortu!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Orain selfie bat egin behar duzu. Jarraitu argibide hauek";
 "onboarding_selfie_capturer_challenge_document_info" = "Jarri zure NANaren aurrealdea laukizuzenean";
-"onboarding_selfie_capturer_iqa_feedback_too_far" = "urrunegi";
-"onboarding_selfie_capturer_iqa_feedback_too_close" = "hurbilegi";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Urrunegi";
+"onboarding_selfie_capturer_iqa_feedback_too_close" = "Gertuegi";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posizio okerra";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Kolore ez naturala";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Saihestu aurpegian koloretako argiztapena";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Argiztapen baxua";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ziurtatu aurpegiko argiztapena arrazoizkoa eta berdina dela";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Gehiegizko argiztapena";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Zorroztasun falta";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Ziurtatu aurpegia zorrotza dela eta saihestu kameran zikinkeriarik edo babeslerik ez sartzea";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Zoaz leku argiago batera";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Ezin izan dugu zure selfie-a prozesatu, ilunegia den leku batean zaudelako eta zure aurpegia argi ikusten ez delako. Bilatu argiztapen hobea duen toki bat eta saiatu berriro. ";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Argi zuzen gutxiago duen toki batera joan";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Ezin izan dugu zure selfie prozesatu zure aurpegian argi zuzen gehiegi dagoelako eta argi ikusten ez delako. Bilatu argi gutxiko leku bat eta saiatu berriro. ";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Garbitu kameraren lentea";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Ezin izan dugu zure selfie-a prozesatu irudia lausoegia delako. Egiaztatu kameraren lentea garbi dagoela eta marrarik gabe dagoela eta saiatu berriro. ";
 "onboarding_selfie_capturer_uploading_selfie" = "Selfie-a kargatzen";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie kargatu da";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Ez duzu ezer jantzita aurpegia estaltzeko. Betaurrekoak gorde ditzakezu";
 "onboarding_tutorial_continue_button" = "Prest nago!";
 "onboarding_tutorial_back_button" = "Atera";
+
+//Permission view
+"onboarding_permission_title" = "Baimendu kamerarako sarbidea";
+"onboarding_permission_description" = "Egiaztapenarekin jarraitzeko, zure kamera atzitu behar dugu. Sarbidea eman diezagukezu beheko botoian klik eginez.";

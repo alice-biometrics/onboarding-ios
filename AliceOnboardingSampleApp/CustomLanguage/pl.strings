@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Przepraszamy, ten typ dokumentu nie jest obsługiwany w wybranym kraju";
 "onboarding_error_title_challenge_timeout" = "Koniec czasu";
 "onboarding_error_subtitle_challenge_timeout" = "Wyzwanie nie zostało ukończone. Proszę spróbuj ponownie";
+"onboarding_timeout_modal_description" = "Przekroczono maksymalny dozwolony czas. Spróbuj ponownie.";
+"onboarding_error_selfie_not_uploaded" = "Selfie nie zostało przesłane";
 
 //Stages
 "onboarding_stages_title" = "Weryfikacja tożsamości";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Zła pozycja";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Nienaturalny kolor";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Unikaj kolorowego oświetlenia twarzy";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Niska jasność";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Upewnij się, że oświetlenie twarzy jest rozsądne i jednolite";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Zbyt jasne";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Upewnij się, że oświetlenie twarzy jest rozsądne i równomierne, bez odblasków";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Zamazany";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Upewnij się, że Twoja twarz wygląda ostro i unikaj zabrudzeń lub ochraniaczy na aparacie";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Idź do jaśniejszego miejsca";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Nie mogliśmy przetworzyć Twojego selfie, ponieważ znajdujesz się w zbyt ciemnym miejscu i Twoja twarz jest słabo widoczna. Znajdź miejsce z lepszym oświetleniem i spróbuj ponownie.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Przenieś się do miejsca z mniej bezpośrednim światłem";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Nie mogliśmy przetworzyć Twojego selfie, ponieważ na Twoją twarz pada zbyt dużo bezpośredniego światła i jest ono niewyraźne. Znajdź mniej oświetlone miejsce i spróbuj ponownie.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Wyczyść obiektyw aparatu";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Nie mogliśmy przetworzyć Twojego selfie, ponieważ obraz jest zbyt niewyraźny. Sprawdź, czy obiektyw aparatu jest czysty i wolny od zadrapań, a następnie spróbuj ponownie.";
 "onboarding_selfie_capturer_uploading_selfie" = "Przesyłanie selfie";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie przesłane";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Nie masz na sobie niczego zakrywającego twarz. Możesz zatrzymać okulary";
 "onboarding_tutorial_continue_button" = "Jestem gotowy!";
 "onboarding_tutorial_back_button" = "Wychodzić";
+
+//Permission view
+"onboarding_permission_title" = "Zezwól na dostęp do aparatu";
+"onboarding_permission_description" = "Aby kontynuować weryfikację, potrzebujemy dostępu do Twojej kamery. Możesz udzielić nam dostępu, klikając przycisk poniżej.";

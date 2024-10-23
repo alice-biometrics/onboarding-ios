@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Maalesef bu belge türü seçilen ülke için desteklenmiyor";
 "onboarding_error_title_challenge_timeout" = "Zaman aşımı";
 "onboarding_error_subtitle_challenge_timeout" = "Meydan okuma karşılanmadı. lütfen tekrar deneyin";
+"onboarding_timeout_modal_description" = "İzin verilen maksimum süreyi aştınız. Lütfen tekrar deneyin.";
+"onboarding_error_selfie_not_uploaded" = "Selfie yüklenmedi";
 
 //Stages
 "onboarding_stages_title" = "Kimlik doğrulama";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Yanlış konum";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Doğal olmayan renk";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Yüzünüzde renkli aydınlatmadan kaçının";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Düşük parlaklık";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve tekdüze olduğundan emin olun";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Çok parlak";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Yüzünüzdeki aydınlatmanın makul ve eşit olduğundan, parlamadan emin olun";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Bulanık";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Yüzünüzün keskin göründüğünden emin olun ve kameranın üzerine kir veya koruyucu madde bulaşmasını önleyin";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Daha aydınlık bir yere gidin";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Çok karanlık bir yerde olduğunuz ve yüzünüz açıkça görülemediği için selfie'nizi işleyemedik. Daha iyi aydınlatmaya sahip bir yer bulun ve tekrar deneyin.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Daha az doğrudan ışık alan bir yere geçin";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Yüzünüze çok fazla doğrudan ışık geldiğinden ve net bir şekilde görünmediğinden selfienizi işleyemedik. Daha az aydınlatılmış bir yer bulun ve tekrar deneyin.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Kamera merceğinizi temizleyin";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Resim çok bulanık olduğu için selfie'nizi işleyemedik. Kamera merceğinizin temiz ve çiziksiz olduğundan emin olun ve tekrar deneyin.";
 "onboarding_selfie_capturer_uploading_selfie" = "Selfie yükleniyor";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie yüklendi";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Yüzünüzü kapatan hiçbir şey giymiyorsunuz. Gözlüklerini saklayabilirsin";
 "onboarding_tutorial_continue_button" = "Ben hazırım!";
 "onboarding_tutorial_back_button" = "dışarı çıkmak";
+
+//Permission view
+"onboarding_permission_title" = "Kamera erişimine izin ver";
+"onboarding_permission_description" = "Doğrulama işleminize devam etmek için kameranıza erişmemiz gerekiyor. Aşağıdaki butona tıklayarak bize erişim izni verebilirsiniz.";

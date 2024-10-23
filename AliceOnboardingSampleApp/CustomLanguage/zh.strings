@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "抱歉，所选国家/地区不支持此类文件";
 "onboarding_error_title_challenge_timeout" = "超时";
 "onboarding_error_subtitle_challenge_timeout" = "这一挑战没有得到满足。请再试一次";
+"onboarding_timeout_modal_description" = "您已超出允许的最长时间。请再试一次。";
+"onboarding_error_selfie_not_uploaded" = "自拍照未上传";
 
 //Stages
 "onboarding_stages_title" = "身份验证";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "位置错误";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "颜色不自然";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "避免彩色灯光打在脸上";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "低亮度";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "确保脸上的光线合理、均匀";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "太亮了";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "确保脸上的光线合理、均匀、无眩光";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "模糊";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "确保您的脸部看起来清晰，并避免相机上沾上灰尘或保护膜";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "去一个更明亮的地方";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "我们无法处理您的自拍照，因为您所在的地方太暗，并且您的脸部无法清晰可见。找一个光线更好的地方再试一次。";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "移至直射光较少的地方";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "我们无法处理您的自拍照，因为您脸上的直射光线过多，导致照片显示不清晰。找一个光线较暗的地方再试一次。";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "清洁相机镜头";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "我们无法处理您的自拍照，因为图像太模糊。检查您的相机镜头是否干净且没有划痕，然后重试。";
 "onboarding_selfie_capturer_uploading_selfie" = "上传自拍照";
 "onboarding_selfie_capturer_selfie_uploaded" = "自拍照已上传";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "您没有戴任何遮盖脸部的东西。 你可以保留你的眼镜";
 "onboarding_tutorial_continue_button" = "我准备好了！";
 "onboarding_tutorial_back_button" = "出去";
+
+//Permission view
+"onboarding_permission_title" = "允许相机访问";
+"onboarding_permission_description" = "为了继续您的验证，我们需要访问您的相机。您可以通过单击下面的按钮授予我们访问权限。";

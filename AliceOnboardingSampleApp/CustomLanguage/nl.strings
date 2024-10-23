@@ -39,6 +39,7 @@
 "onboarding_error_doc_country_not_supported" = "Sorry, dit type document wordt niet ondersteund voor het geselecteerde land";
 "onboarding_error_title_challenge_timeout" = "Time-out";
 "onboarding_error_subtitle_challenge_timeout" = "De aanmelding is niet voltooid. Probeer het opnieuw";
+"onboarding_timeout_modal_description" = "U heeft de maximaal toegestane tijd overschreden. Probeer het opnieuw.";
 "onboarding_error_selfie_not_uploaded" = "Selfie niet geüpload";
 
 //Stages
@@ -225,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Je draagt niets dat je gezicht bedekt. Je bril mag je ophouden";
 "onboarding_tutorial_continue_button" = "Ik ben klaar!";
 "onboarding_tutorial_back_button" = "Uitgaan";
+
+//Permission view
+"onboarding_permission_title" = "Cameratoegang toestaan";
+"onboarding_permission_description" = "Om door te gaan met uw verificatie hebben we toegang tot uw camera nodig. U kunt ons toegang verlenen door op onderstaande knop te klikken.";

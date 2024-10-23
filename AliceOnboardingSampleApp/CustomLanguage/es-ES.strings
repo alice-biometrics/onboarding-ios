@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Lo sentimos, este tipo de documento no es compatible con el país seleccionado";
 "onboarding_error_title_challenge_timeout" = "Tiempo agotado";
 "onboarding_error_subtitle_challenge_timeout" = "No has superado el reto. Por favor, inténtalo de nuevo";
+"onboarding_timeout_modal_description" = "Has excedido el tiempo máximo permitido. Por favor inténtalo de nuevo.";
+"onboarding_error_selfie_not_uploaded" = "Selfie no subido";
 
 //Stages
 "onboarding_stages_title" = "Verificación de identidad";
@@ -162,35 +164,35 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Añadiendo selfie con retos…";
 "onboarding_selfie_capturer_adding_with_document" = "Añadiendo selfie con documento…";
 "onboarding_selfie_capturer_authenticating" = "Autenticando…";
-"onboarding_selfie_capturer_stay_still" = "Quédate quieto";
-"onboarding_selfie_capturer_move_farther" = "Aleja el dispositivo";
-"onboarding_selfie_capturer_get_closer" = "Acércate al dispositivo";
+"onboarding_selfie_capturer_stay_still" = "Quédese quieto";
+"onboarding_selfie_capturer_move_farther" = "Aleje el dispositivo";
+"onboarding_selfie_capturer_get_closer" = "Acérquese al dispositivo";
 "onboarding_selfie_capturer_no_face" = "Cara no detectada";
-"onboarding_selfie_capturer_look_camera" = "Mira a la cámara";
-"onboarding_selfie_capturer_center_face" = "Centra tu cara en el óvalo";
-"onboarding_selfie_capturer_device_elevation" = "Coloca el dispositivo a la altura de los ojos";
+"onboarding_selfie_capturer_look_camera" = "Mire a la cámara";
+"onboarding_selfie_capturer_center_face" = "Centre su cara en el óvalo";
+"onboarding_selfie_capturer_device_elevation" = "Coloque el dispositivo a la altura de los ojos";
 "onboarding_selfie_cancel" = "Cancelar";
-"onboarding_selfie_capturer_wrong_yaw_angle" = "Centra tu cara en el óvalo";
+"onboarding_selfie_capturer_wrong_yaw_angle" = "Centre su cara en el óvalo";
 "onboarding_selfie_capturer_title_insufficient_faces" = "Cara no detectada";
-"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Asegúrate de mantener tu rostro en el óvalo en buenas condiciones de iluminación durante todo el proceso";
+"onboarding_selfie_capturer_subtitle_insufficient_faces" = "Asegúrese de mantener su rostro en el óvalo en buenas condiciones de iluminación durante todo el proceso";
 "onboarding_selfie_capturer_face_detected_tooltip" = "Pulse aquí para sacar una foto!";
 "onboarding_selfie_capturer_subtitle" = "Centra tu rostro en el óvalo y coloca la cámara a la altura de tus ojos. Cuando el óvalo se ponga verde, no te muevas hasta que se complete el proceso. ";
-"onboarding_selfie_capturer_subtitle_review" = "Por favor, comprueba que la foto es buena";
+"onboarding_selfie_capturer_subtitle_review" = "Por favor, compruebe que la foto es buena";
 "onboarding_selfie_with_document_capturer_center_face" = "Por favor, centra tu cara en el óvalo y el documento en el rectángulo";
 "onboarding_selfie_capturer_button_tutorial" = "Vale, ¡entendido!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Ahora tienes que hacerte un selfie. Sigue estas instrucciones";
-"onboarding_selfie_capturer_challenge_document_info" = "Coloca la parte frontal de tu documento en el rectángulo";
+"onboarding_selfie_capturer_challenge_document_info" = "Coloque la parte frontal de su documento en el rectángulo";
 "onboarding_selfie_capturer_iqa_feedback_too_far" = "Demasiado lejos";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Demasiado cerca";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Color antinatural";
-"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evita iluminaciones de colores sobre tu rostro";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Baja iluminación";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Asegúrate de que la iluminación de tu cara sea razonable y uniforme";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Sobreiluminación";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Asegúrate de que la iluminación de tu cara sea razonable y uniforme, sin brillos";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Asegúrate de que tu cara se ve nítida y evita suciedad o protectores sobre la cámara";
+"onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite iluminaciones de colores sobre su rostro";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Ve a un lugar más iluminado";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "No hemos podido procesar tu selfie porque te encuentras en un lugar demasiado oscuro y tu rostro no se aprecia con claridad. Busca un lugar con mejor iluminación y vuelve a intentarlo. ";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Ve a un lugar con menos luz directa";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "No hemos podido procesar tu selfie porque hay demasiada luz directa en tu rostro y no se aprecia con claridad. Busca un lugar menos iluminado y vuelve a intentarlo. ";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Limpia la lente de tu cámara";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "No hemos podido procesar tu selfie porque la imagen se ve demasiado borrosa. Comprueba que la lente de tu cámara esté limpia y sin rayaduras y vuelve a intentarlo. ";
 "onboarding_selfie_capturer_uploading_selfie" = "Subiendo selfie";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie subido";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "No llevas nada que cubra tu cara. Puedes mantener tus gafas.";
 "onboarding_tutorial_continue_button" = "¡Estoy listo!";
 "onboarding_tutorial_back_button" = "Volver";
+
+//Permission view
+"onboarding_permission_title" = "Permitir acceso a la cámara";
+"onboarding_permission_description" = "Para continuar con su verificación, necesitamos acceso a su cámara. Puede otorgarnos acceso haciendo clic en el botón a continuación.";

@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Valitettavasti tämän tyyppistä asiakirjaa ei tueta valitussa maassa";
 "onboarding_error_title_challenge_timeout" = "Aikalisä";
 "onboarding_error_subtitle_challenge_timeout" = "Haastetta ei ole suoritettu. Yritä uudelleen";
+"onboarding_timeout_modal_description" = "Olet ylittänyt sallitun enimmäisajan. Yritä uudelleen.";
+"onboarding_error_selfie_not_uploaded" = "Selfieä ei ladattu";
 
 //Stages
 "onboarding_stages_title" = "Henkilöllisyyden vahvistaminen";
@@ -162,7 +164,7 @@
 "onboarding_selfie_capturer_adding_with_challenge" = "Lisätään selfietä haasteella…";
 "onboarding_selfie_capturer_adding_with_document" = "Lisätään selfietä dokumentin kanssa…";
 "onboarding_selfie_capturer_authenticating" = "Todennetaan…";
-"onboarding_selfie_capturer_stay_still" = "Pysyä paikallaan";
+"onboarding_selfie_capturer_stay_still" = "Pysy paikallasi";
 "onboarding_selfie_capturer_move_farther" = "Siirrä laitetta kauemmas";
 "onboarding_selfie_capturer_get_closer" = "Tule lähemmäs";
 "onboarding_selfie_capturer_no_face" = "Kasvoja ei havaittu";
@@ -177,20 +179,20 @@
 "onboarding_selfie_capturer_subtitle" = "Keskitä kasvosi soikeaan ja aseta kamera silmiesi tasolle. Kun soikea muuttuu vihreäksi, älä liiku ennen kuin prosessi on valmis. ";
 "onboarding_selfie_capturer_subtitle_review" = "Ole hyvä ja varmista, että kuvasi on hyvä";
 "onboarding_selfie_with_document_capturer_center_face" = "Keskitä kasvosi soikeaan ja asiakirja suorakulmioon";
-"onboarding_selfie_capturer_button_tutorial" = "OK tajusin!";
+"onboarding_selfie_capturer_button_tutorial" = "Ok, tajusin!";
 "onboarding_selfie_capturer_subtitle_tutorial" = "Nyt sinun on otettava selfie. Noudata näitä ohjeita";
-"onboarding_selfie_capturer_challenge_document_info" = "Sovita henkilökorttisi etupuoli suorakulmioon";
-"onboarding_selfie_capturer_iqa_feedback_too_far" = "Liian kaukana";
+"onboarding_selfie_capturer_challenge_document_info" = "Sovita henkilötodistuksesi etupuoli suorakulmioon";
+"onboarding_selfie_capturer_iqa_feedback_too_far" = "Liian pitkälle";
 "onboarding_selfie_capturer_iqa_feedback_too_close" = "Liian lähellä";
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Väärä asento";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Epäluonnollinen väri";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Vältä värillistä valaistusta kasvoillasi";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Matala kirkkaus";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Varmista, että kasvosi valaistus on kohtuullinen ja tasainen";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Liian kirkas";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Varmista, että kasvosi valaistus on kohtuullinen ja tasainen ilman häikäisyä";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Epäselvä";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Varmista, että kasvosi näyttävät teräviltä, ​​ja vältä likaa tai suojia pääsemästä kameraan";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Mene valoisampaan paikkaan";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Emme voineet käsitellä selfietäsi, koska olet paikassa, joka on liian pimeä ja kasvosi eivät ole selvästi näkyvissä. Etsi paikka, jossa on parempi valaistus, ja yritä uudelleen.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Siirrä paikkaan, jossa on vähemmän suoraa valoa";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Emme voineet käsitellä selfietäsi, koska kasvoillasi on liikaa suoraa valoa, eikä se näy selvästi. Etsi vähemmän kirkkaasti valaistu paikka ja yritä uudelleen.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Puhdista kameran linssi";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Emme voineet käsitellä selfietäsi, koska kuva on liian sumea. Tarkista, että kameran linssi on puhdas ja naarmuton, ja yritä uudelleen.";
 "onboarding_selfie_capturer_uploading_selfie" = "Ladataan selfietä";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie ladattu";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Sinulla ei ole päälläsi mitään, mikä peittää kasvosi. Voit pitää silmälasit";
 "onboarding_tutorial_continue_button" = "Olen valmis!";
 "onboarding_tutorial_back_button" = "Takaisin";
+
+//Permission view
+"onboarding_permission_title" = "Salli kameran käyttö";
+"onboarding_permission_description" = "Tarvitsemme pääsyn kameraasi, jotta voimme jatkaa vahvistusta. Voit myöntää meille käyttöoikeuden napsauttamalla alla olevaa painiketta.";

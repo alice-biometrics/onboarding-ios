@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Dieser Dokumenttyp wird für das ausgewählte Land leider nicht unterstützt";
 "onboarding_error_title_challenge_timeout" = "Auszeit";
 "onboarding_error_subtitle_challenge_timeout" = "Die Herausforderung ist nicht abgeschlossen. Versuche es bitte nochmals.";
+"onboarding_timeout_modal_description" = "Sie haben die maximal zulässige Zeit überschritten. Bitte versuchen Sie es erneut.";
+"onboarding_error_selfie_not_uploaded" = "Selfie nicht hochgeladen";
 
 //Stages
 "onboarding_stages_title" = "Identitätsprüfung";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Falsche Position";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Unnatürliche Farbe";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Vermeiden Sie farbiges Licht im Gesicht";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Geringe Helligkeit";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Stellen Sie sicher, dass die Beleuchtung Ihres Gesichts angemessen und gleichmäßig ist";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Zu hell";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Stellen Sie sicher, dass die Beleuchtung Ihres Gesichts angemessen und gleichmäßig ist, ohne zu blenden";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Verschwommen";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Stellen Sie sicher, dass Ihr Gesicht scharf aussieht und vermeiden Sie, dass Schmutz oder Schutzfolien auf die Kamera gelangen";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Gehen Sie an einen helleren Ort";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Wir konnten Ihr Selfie nicht verarbeiten, da Sie sich an einem zu dunklen Ort befinden und Ihr Gesicht nicht deutlich sichtbar ist. Suchen Sie sich einen Ort mit besserer Beleuchtung und versuchen Sie es erneut.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Gehen Sie an einen Ort mit weniger direktem Licht";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Wir konnten Ihr Selfie nicht verarbeiten, da zu viel direktes Licht auf Ihr Gesicht fällt und es nicht deutlich zu sehen ist. Suchen Sie sich einen weniger hell beleuchteten Ort und versuchen Sie es erneut.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Reinigen Sie Ihr Kameraobjektiv";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Wir konnten Ihr Selfie nicht verarbeiten, da das Bild zu unscharf ist. Überprüfen Sie, ob das Objektiv Ihrer Kamera sauber und frei von Kratzern ist, und versuchen Sie es erneut.";
 "onboarding_selfie_capturer_uploading_selfie" = "Selfie hochladen";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie hochgeladen";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Sie tragen nichts, was Ihr Gesicht bedeckt. Sie können Ihre Brille behalten";
 "onboarding_tutorial_continue_button" = "Ich bin bereit!";
 "onboarding_tutorial_back_button" = "Zurück";
+
+//Permission view
+"onboarding_permission_title" = "Erlauben Sie den Kamerazugriff";
+"onboarding_permission_description" = "Um mit Ihrer Verifizierung fortfahren zu können, benötigen wir Zugriff auf Ihre Kamera. Sie können uns Zugriff gewähren, indem Sie auf die Schaltfläche unten klicken.";

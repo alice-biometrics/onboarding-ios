@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "申し訳ありませんが、このタイプのドキュメントは選択された国ではサポートされていません";
 "onboarding_error_title_challenge_timeout" = "タイムアウト";
 "onboarding_error_subtitle_challenge_timeout" = "課題は完了していません。もう一度やり直してください";
+"onboarding_timeout_modal_description" = "許可されている最大時間を超えました。もう一度試してください。";
+"onboarding_error_selfie_not_uploaded" = "セルフィーはアップロードされていません";
 
 //Stages
 "onboarding_stages_title" = "ID検証";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "間違った位置";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "不自然な色";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "色付きの照明が顔に当たらないようにする";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "低輝度";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "顔に当たる照明が適切かつ均一であることを確認してください";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "明るすぎる";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "顔に当たる照明が適度で均一で、ぎらつきのないことを確認してください。";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "ぼやけた";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "顔がシャープに見えるようにし、カメラに汚れやプロテクターが付かないようにしてください。";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "明るい場所に行きましょう";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "暗すぎる場所にいて顔がはっきりと見えないため、セルフィーを処理できませんでした。より明るい場所を見つけて、もう一度試してください。";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "直射日光の当たらない場所に移動する";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "あなたの顔に直接光が多すぎてはっきりと写っていないため、あなたの自撮り写真を処理できませんでした。明るさの低い場所を見つけて、もう一度試してください。";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "カメラのレンズを掃除する";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "画像がぼやけているため、セルフィーを処理できませんでした。カメラのレンズがきれいで傷がないことを確認して、もう一度試してください。";
 "onboarding_selfie_capturer_uploading_selfie" = "自撮り写真をアップロードしています";
 "onboarding_selfie_capturer_selfie_uploaded" = "自撮り写真をアップロードしました";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "顔を覆うものは何も着ていません。 メガネを保管できる";
 "onboarding_tutorial_continue_button" = "準備できました！";
 "onboarding_tutorial_back_button" = "外出";
+
+//Permission view
+"onboarding_permission_title" = "カメラへのアクセスを許可する";
+"onboarding_permission_description" = "認証を続行するには、カメラにアクセスする必要があります。下のボタンをクリックしてアクセスを許可してください。";

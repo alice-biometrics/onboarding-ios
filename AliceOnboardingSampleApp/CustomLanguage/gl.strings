@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Este tipo de documento non é compatible co país seleccionado";
 "onboarding_error_title_challenge_timeout" = "Tempo agotado";
 "onboarding_error_subtitle_challenge_timeout" = "O reto non se completou. Por favor, inténtao de novo";
+"onboarding_timeout_modal_description" = "Superou o tempo máximo permitido. Téntao de novo.";
+"onboarding_error_selfie_not_uploaded" = "Non se cargou a selfie";
 
 //Stages
 "onboarding_stages_title" = "Verificación de identidade";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posición incorrecta";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Cor non natural";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite a iluminación de cores no seu rostro";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Iluminación baixa";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Asegúrate de que a iluminación do teu rostro sexa razoable e uniforme";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Sobreiluminación";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Asegúrate de que a iluminación do teu rostro sexa razoable e uniforme, sen brillos";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Asegúrate de que o teu rostro estea nítido e evita que a cámara se ensucie ou teña protectores";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Vaia a un lugar máis luminoso";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Non puidemos procesar a túa selfie porque estás nun lugar demasiado escuro e non se pode ver con claridade a túa cara. Busca un lugar con mellor iluminación e téntao de novo. ";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Vaia a un lugar con menos luz directa";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Non puidemos procesar a túa selfie porque hai demasiada luz directa na túa cara e non se ve claramente. Busca un lugar menos iluminado e téntao de novo. ";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Limpe a lente da cámara";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Non puidemos procesar a túa selfie porque a imaxe está demasiado borrosa. Comproba que a lente da túa cámara estea limpa e sen arañazos e téntao de novo. ";
 "onboarding_selfie_capturer_uploading_selfie" = "Subindo selfie";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie subido";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Non levas nada que cobre a cara. Podes manter os teus lentes";
 "onboarding_tutorial_continue_button" = "Estou listo!";
 "onboarding_tutorial_back_button" = "Voltar";
+
+//Permission view
+"onboarding_permission_title" = "Permitir o acceso á cámara";
+"onboarding_permission_description" = "Para continuar coa túa verificación, necesitamos acceder á túa cámara. Podes concedernos acceso premendo no botón de abaixo.";

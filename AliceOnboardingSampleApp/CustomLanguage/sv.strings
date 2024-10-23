@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Tyvärr, den här typen av dokument stöds inte för det valda landet";
 "onboarding_error_title_challenge_timeout" = "Paus";
 "onboarding_error_subtitle_challenge_timeout" = "Utmaningen har inte slutförts. Var god försök igen";
+"onboarding_timeout_modal_description" = "Du har överskridit den maximala tillåtna tiden. Försök igen.";
+"onboarding_error_selfie_not_uploaded" = "Selfie har inte laddats upp";
 
 //Stages
 "onboarding_stages_title" = "Identitetsverifiering";
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Du har inte på dig något som täcker ditt ansikte. Du kan behålla dina glasögon";
 "onboarding_tutorial_continue_button" = "Jag är redo!";
 "onboarding_tutorial_back_button" = "Gå ut";
+
+//Permission view
+"onboarding_permission_title" = "Tillåt kameraåtkomst";
+"onboarding_permission_description" = "För att fortsätta med din verifiering behöver vi tillgång till din kamera. Du kan ge oss åtkomst genom att klicka på knappen nedan.";

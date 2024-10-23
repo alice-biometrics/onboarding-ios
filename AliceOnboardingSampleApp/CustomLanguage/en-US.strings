@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Sorry, this type of document is not supported for the selected country";
 "onboarding_error_title_challenge_timeout" = "Timeout";
 "onboarding_error_subtitle_challenge_timeout" = "The challenge has not been completed. Please, try again";
+"onboarding_timeout_modal_description" = "You have exceeded the maximum time allowed. Please try again.";
+"onboarding_error_selfie_not_uploaded" = "Selfie not uploaded";
 
 //Stages
 "onboarding_stages_title" = "Identity verification";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Wrong position";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Unnatural color";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Avoid colored lighting on your face";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Low brightness";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Make sure the lighting on your face is reasonable and uniform";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Too bright";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Make sure the lighting on your face is reasonable and even, without glare";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Blurred";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Make sure your face looks sharp and avoid getting dirt or protectors on the camera";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Go to a brighter place";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "We were unable to process your selfie because you are in a place that is too dark and your face is not clearly visible. Find a place with better lighting and try again.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Move to a place with less direct light";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "We couldn't process your selfie because there's too much direct light on your face and it doesn't show up clearly. Find a less brightly lit place and try again.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Clean your camera lens";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "We were unable to process your selfie because the image is too blurry. Check that your camera lens is clean and free of scratches and try again.";
 "onboarding_selfie_capturer_uploading_selfie" = "Uploading selfie";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie uploaded";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "You are not wearing anything covering your face. You can keep your eyeglasses";
 "onboarding_tutorial_continue_button" = "I’m ready!";
 "onboarding_tutorial_back_button" = "Back";
+
+//Permission view
+"onboarding_permission_title" = "Allow camera access";
+"onboarding_permission_description" = "To proceed with your verification, we need access to your camera. You can grant us access by clicking the button below.";

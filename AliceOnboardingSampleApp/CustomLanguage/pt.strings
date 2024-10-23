@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "Este tipo de documento não é compatível com o país selecionado";
 "onboarding_error_title_challenge_timeout" = "Tempo esgotado";
 "onboarding_error_subtitle_challenge_timeout" = "O desafio não foi concluído. Por favor, tente novamente";
+"onboarding_timeout_modal_description" = "Você excedeu o tempo máximo permitido. Por favor, tente novamente.";
+"onboarding_error_selfie_not_uploaded" = "Selfie não carregada";
 
 //Stages
 "onboarding_stages_title" = "Verificação de Identidade";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Posição errada";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Cor não natural";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Evite iluminação colorida em seu rosto";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Baixa iluminação";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Certifique-se de que a iluminação em seu rosto seja razoável e uniforme";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Iluminação excessiva";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem brilho";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "Falta de nitidez";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Certifique-se de que seu rosto esteja nítido e evite sujeira ou protetores na câmera";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Vá para um lugar mais iluminado";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Não conseguimos processar sua selfie porque você está em um local muito escuro e seu rosto não pode ser visto com clareza. Encontre um local com melhor iluminação e tente novamente. ";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Vá para um local com menos luz direta";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Não conseguimos processar sua selfie porque há muita luz direta em seu rosto e ela não é claramente visível. Encontre um local menos iluminado e tente novamente. ";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Limpe a lente da sua câmera";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Não foi possível processar sua selfie porque a imagem está muito desfocada. Verifique se a lente da sua câmera está limpa e sem riscos e tente novamente. ";
 "onboarding_selfie_capturer_uploading_selfie" = "Enviando selfie";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie enviada";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "Você não está usando nada cobrindo seu rosto. Você pode ficar com seus óculos";
 "onboarding_tutorial_continue_button" = "Estou pronto!";
 "onboarding_tutorial_back_button" = "Voltar";
+
+//Permission view
+"onboarding_permission_title" = "Permitir acesso à câmera";
+"onboarding_permission_description" = "Para prosseguir com sua verificação, precisamos de acesso à sua câmera. Você pode nos conceder acesso clicando no botão abaixo.";

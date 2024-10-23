@@ -39,6 +39,8 @@
 "onboarding_error_doc_country_not_supported" = "К сожалению, этот тип документа не поддерживается для выбранной страны";
 "onboarding_error_title_challenge_timeout" = "Таймаут";
 "onboarding_error_subtitle_challenge_timeout" = "Задача не выполнена. Пожалуйста, попробуйте еще раз";
+"onboarding_timeout_modal_description" = "Вы превысили максимально допустимое время. Пожалуйста, попробуйте еще раз.";
+"onboarding_error_selfie_not_uploaded" = "Селфи не загружено";
 
 //Stages
 "onboarding_stages_title" = "Проверка личности";
@@ -185,12 +187,12 @@
 "onboarding_selfie_capturer_iqa_feedback_wrong_position" = "Неправильная позиция";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color" = "Неестественный цвет";
 "onboarding_selfie_capturer_iqa_feedback_unnatural_color_description" = "Избегайте цветного освещения на лице";
-"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Низкая яркость";
-"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Убедитесь, что освещение вашего лица разумное и равномерное.";
-"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Слишком яркий";
-"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.";
-"onboarding_selfie_capturer_iqa_feedback_blurry" = "размытый";
-"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.";
+"onboarding_selfie_capturer_iqa_feedback_underexposed" = "Иди в более светлое место";
+"onboarding_selfie_capturer_iqa_feedback_underexposed_description" = "Нам не удалось обработать ваше селфи, поскольку вы находитесь в слишком темном месте и ваше лицо плохо видно. Найдите место с лучшим освещением и повторите попытку.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed" = "Переместитесь в место с меньшим количеством прямого света.";
+"onboarding_selfie_capturer_iqa_feedback_overexposed_description" = "Нам не удалось обработать ваше селфи, поскольку на ваше лицо слишком много прямого света, и оно не видно четко. Найдите менее ярко освещенное место и повторите попытку.";
+"onboarding_selfie_capturer_iqa_feedback_blurry" = "Очистите объектив камеры";
+"onboarding_selfie_capturer_iqa_feedback_blurry_description" = "Нам не удалось обработать ваше селфи, поскольку изображение слишком размыто. Убедитесь, что объектив камеры чист и не имеет царапин, и повторите попытку.";
 "onboarding_selfie_capturer_uploading_selfie" = "Загрузка селфи";
 "onboarding_selfie_capturer_selfie_uploaded" = "Selfie enviada";
 
@@ -224,3 +226,7 @@
 "onboarding_tutorial_third_instruction" = "На вас нет ничего, закрывающего лицо. Вы можете оставить свои очки";
 "onboarding_tutorial_continue_button" = "Я готов!";
 "onboarding_tutorial_back_button" = "выходить";
+
+//Permission view
+"onboarding_permission_title" = "Разрешить доступ к камере";
+"onboarding_permission_description" = "Чтобы продолжить проверку, нам нужен доступ к вашей камере. Вы можете предоставить нам доступ, нажав кнопку ниже.";
